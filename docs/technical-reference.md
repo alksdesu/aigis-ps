@@ -10,14 +10,13 @@
 
 ## 本机启动
 
-所有命令在 `E:\SillyTavern\111\aigis_ps` 下执行。当前 Python 环境已经装好；重新部署需要 Python 3.12 或更新版本，桌面窗口另需 Windows WebView2 Runtime。
+所有命令在项目根目录下执行。需要 Python 3.12，桌面窗口另需 Windows WebView2 Runtime；`install.cmd` 会自动装齐，见 [README](../README.md)。
 
 日常使用可双击项目根目录的 `AigisConsole.exe`，或运行 `.\open-console.ps1`。它在独立的 WebView2 应用窗口中显示控制台，打开窗口时默认不开服。先在「启动与存档」选择存档，点击「启动服务」，等状态变成「运行中」后再点「启动游戏」。原有的存档编辑、配置、备份和恢复页面在服务启动后继续使用。
 
 首次安装桌面依赖或重新生成启动器：
 
 ```powershell
-Set-Location 'E:\SillyTavern\111\aigis_ps'
 .\setup.ps1 -IncludeDesktop
 .\build-console.ps1
 .\start-console.ps1 -Check
@@ -29,7 +28,6 @@ Set-Location 'E:\SillyTavern\111\aigis_ps'
 需要在终端单独管理服务时，保留原有入口：
 
 ```powershell
-Set-Location 'E:\SillyTavern\111\aigis_ps'
 .\setup.ps1
 .\start-server.ps1 -Check
 .\start-server.ps1

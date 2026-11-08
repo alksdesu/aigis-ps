@@ -6,7 +6,7 @@
 
 ## 启动与结束
 
-在 `E:\SillyTavern\111\aigis_ps` 运行：
+在项目根目录运行：
 
 ```powershell
 .\setup.ps1 -IncludeCapture

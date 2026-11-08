@@ -121,7 +121,7 @@ class ClientPreparationTests(unittest.TestCase):
             (capture / (name + '.xml')).write_bytes(raw)
             manifest['tables'][name] = {'path': name + '.xml', 'bytes': len(raw), 'sha256': client.digest(raw)}
         (capture / 'manifest.json').write_text(json.dumps(manifest), encoding='utf-8')
-        master_root = master_root or self.workspace / 'aigis_ps/runtime/server/masterdata'
+        master_root = master_root or self.workspace / client.MASTER_RELATIVE
         MasterDataStore(master_root, expected_hash=self.profile.sha256).import_capture(capture)
         return master_root, identifiers
 
@@ -510,10 +510,14 @@ class ClientPreparationTests(unittest.TestCase):
     def test_explicit_public_master_directory_is_used(self):
         directory = self.workspace / 'separate-public-masters'
         self.activate_present_templates(directory)
-        self.assertFalse((self.workspace / 'aigis_ps/runtime/server/masterdata').exists())
+        self.assertFalse((self.workspace / client.MASTER_RELATIVE).exists())
         result = self.prepare(master_root=directory)
         self.assertEqual(parse_table((self.runtime / '.cache' / self.resource_key).read_bytes())['record_count'], 5)
         self.assertNotEqual(result['manifest']['resource_snapshot']['version'], '1' * 40)
+
+    def test_default_master_directory_follows_the_project_folder_name(self):
+        self.assertEqual(client.WORKSPACE_ROOT / client.MASTER_RELATIVE,
+                         client.PROJECT_ROOT / 'runtime' / 'server' / 'masterdata')
 
     def test_explicit_master_directory_must_remain_in_workspace(self):
         with self.assertRaisesRegex(client.ClientError, 'inside'):

@@ -50,6 +50,7 @@ LOCAL_PREFIX = b"http://127.0.0.1:18103/api/"
 CDN_PREFIX = b"https://drc1bk94f7rq8.cloudfront.net/"
 LOCAL_CDN_PREFIX = b"http://127.0.0.1:18103/client-assets/"
 RESOURCE_ROOT = PROJECT_ROOT / "runtime" / "resources"
+MASTER_RELATIVE = Path(PROJECT_ROOT.name, "runtime", "server", "masterdata")
 HEALTH_URL = "http://127.0.0.1:18103/health"
 MAX_MANIFEST_BYTES = 64 * 1024 * 1024
 SHOP_CLOSURE_RECORD = "shop_window_closure"
@@ -627,7 +628,7 @@ def _resource_view(resource_root, source, workspace, profile, master_root, reviv
         master_root = checked_path(master_root, workspace)
 
     def master_provider(name):
-        directory = master_root if master_root is not None else workspace / "aigis_ps/runtime/server/masterdata"
+        directory = master_root if master_root is not None else workspace / MASTER_RELATIVE
         return MasterDataStore(checked_path(directory, workspace), expected_hash=profile.sha256).get_xml(name)
 
     return load_resource_view(resource_root, source, profile.sha256, master_provider=master_provider,
