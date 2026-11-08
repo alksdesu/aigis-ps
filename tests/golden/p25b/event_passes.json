@@ -1,0 +1,3601 @@
+{
+  "bases": {
+    "empty": {
+      "bootstrap_schema": 1,
+      "business_calendar": {
+        "origin": "new_local",
+        "schema_version": 1,
+        "utc_offset_minutes": 540
+      },
+      "created_local": "2026/11/01 12:00:00",
+      "crystal_spending": {
+        "baseline_source": "new_local",
+        "current_spent": 0,
+        "last_time": 1793502000000,
+        "period": "2026-11",
+        "previous_spent": 0,
+        "schema_version": 1
+      },
+      "energy_clock": {
+        "encoding": "native_day_fraction_f32_seconds_v1",
+        "origin": "new_local",
+        "schema_version": 1,
+        "utc_offset_minutes": 540
+      },
+      "event_pass_state": {
+        "passes": {},
+        "schema_version": 1
+      },
+      "evolution_rewards": {
+        "claimed": [],
+        "reward_scope": "card",
+        "schema_version": 1
+      },
+      "login_cooking": {
+        "baseline_source": "new_local",
+        "border": 250,
+        "issued": 0,
+        "last_civil_day": null,
+        "last_claim_day": null,
+        "last_time": 1793502000000,
+        "period": "2026-11",
+        "quota": 0,
+        "schema_version": 1
+      },
+      "login_rewards": {
+        "baseline_source": "new_local",
+        "beginner_claimed": 0,
+        "beginner_eligible": true,
+        "beginner_total": 7,
+        "last_claim_day": null,
+        "last_time": 1793502000000,
+        "schema_version": 1,
+        "stamp_count": 0,
+        "stamp_month": null
+      },
+      "mission_ep_bindings": {
+        "bindings": {
+          "1607": {
+            "base_version": "402826847527b9785a381204b773185d6f441699c895727e9680d5d300b2f825",
+            "item_id": "event_pass_20261015",
+            "point": 4
+          },
+          "1608": {
+            "base_version": "c9e833faf8a9c1568a65abded1382dbe3fa356a78bf51409b6627d5627575457",
+            "item_id": "event_pass_20261015",
+            "point": 4
+          },
+          "1609": {
+            "base_version": "48cf38691e9ce65fdb7a6f3f3d2fe69409b3e88acf0b02afec00e27065b0eae2",
+            "item_id": "event_pass_20261015",
+            "point": 4
+          },
+          "1610": {
+            "base_version": "993b47055997e224282d0f9a2c10cbc3bf1695832eeca615d593bd87a6309edf",
+            "item_id": "event_pass_20261015",
+            "point": 6
+          },
+          "1611": {
+            "base_version": "f87456312a707a02afcf708a2298b29cdcef47e40d0ec8205b01c681d8514b29",
+            "item_id": "event_pass_20261015",
+            "point": 2
+          }
+        },
+        "schema_version": 1
+      },
+      "mission_state": {
+        "entries": [],
+        "last_login_day": null,
+        "last_time": null,
+        "schema_version": 1
+      },
+      "monthly_capacity": {
+        "current": 0,
+        "last_time": 1793502000000,
+        "next": 0,
+        "period": "2026-11",
+        "schema_version": 1
+      },
+      "package_purchases": {
+        "entries": {},
+        "schema_version": 1
+      },
+      "player_state": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "legacy_squad_imported": false,
+        "schema_version": 1,
+        "squads": [],
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      },
+      "rank_rewards": {
+        "baseline_rank": 0,
+        "entries": {},
+        "observed_rank": 0,
+        "schema_version": 1
+      },
+      "startup_collections_schema": 1,
+      "sugoroku": {
+        "last_time": 1793502000000,
+        "periods": {
+          "2026-11": {
+            "baseline_spent": 0,
+            "records": {}
+          }
+        },
+        "schema_version": 1
+      },
+      "tables": {
+        "backgrounds": [],
+        "card_status": [],
+        "config": [
+          {
+            "AutoSelectConfig": 0,
+            "BattleAcceleratorFlag": 0,
+            "BattleDClickSkillDisableFlag": 0,
+            "BattlePlaceMagnetFlag": 0,
+            "CostUpCloseDateTime": "",
+            "DamageDispEnable": 0,
+            "EventViewRequest": "",
+            "ExperienceUpCloseDateTime": "",
+            "HaveUnitMaxSizeBuy": 0,
+            "IntegrationAutoSelectConfig": 0,
+            "MenuTutorialFlags": 0,
+            "MissionRewardFlags2": 0,
+            "MoneyUpCloseDateTime": "",
+            "PurposeSettingFlags": 0,
+            "SpecialEffectsFlags": 0,
+            "SpecialEffectsFlags2": 0,
+            "TypeOfSortOrder": "",
+            "UseBgm": true,
+            "UseSe": true,
+            "UserName": "Local Player",
+            "_BattleGodBlessFilter": 0,
+            "_BlsDT_BoostAtk_F": "",
+            "_BlsDT_BoostAtk_R": "",
+            "_BlsDT_DamageCut": "",
+            "_FlagFilter": "",
+            "_FlagMissionFilter": "",
+            "_FlagSort": "",
+            "_GuideUnitIndex": 0,
+            "_VolumeBgm": 0,
+            "_VolumeSe": 0
+          }
+        ],
+        "crystals": [],
+        "event_pass_status": [],
+        "exchange_history": [],
+        "fame_depository": [],
+        "filter_settings": [],
+        "game_param": [
+          {
+            "ActionPointChangeDate": 739920,
+            "ActionPointChangeTime": 0.5,
+            "CharismaChangeDate": 739920,
+            "CharismaChangeTime": 0.5,
+            "EventParam": 0,
+            "Experience": 0,
+            "ExtendedMaxCharisma": 0,
+            "ExtendedMaxCharismaNextMonth": 0,
+            "ExtendedMaxStamina": 0,
+            "ExtendedMaxStaminaNextMonth": 0,
+            "GiftItem1": 0,
+            "GiftItem2": 0,
+            "GiftItem3": 0,
+            "GiftItem4": 0,
+            "GiftItem5": 0,
+            "GiftItem6": 0,
+            "Money": 1000,
+            "NowActionPoint": 0,
+            "NowCharisma": 60,
+            "Rank": 1,
+            "RedCrystal": 0,
+            "_PointSystem": 0
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "menu_blocks": [],
+        "perused_events": [],
+        "possessions": [],
+        "presents": [],
+        "quest_records": [],
+        "recommendations": [],
+        "reproduction": [
+          {
+            "EI": 0,
+            "F0": 0,
+            "F0RT": 0,
+            "I0": 0,
+            "I1": 0
+          }
+        ],
+        "universal_flags": [],
+        "vote_history": []
+      }
+    },
+    "full": {
+      "bootstrap_schema": 1,
+      "business_calendar": {
+        "origin": "new_local",
+        "schema_version": 1,
+        "utc_offset_minutes": 540
+      },
+      "created_local": "2026/11/01 12:00:00",
+      "crystal_spending": {
+        "baseline_source": "new_local",
+        "current_spent": 0,
+        "last_time": 1793502000000,
+        "period": "2026-11",
+        "previous_spent": 0,
+        "schema_version": 1
+      },
+      "energy_clock": {
+        "encoding": "native_day_fraction_f32_seconds_v1",
+        "origin": "new_local",
+        "schema_version": 1,
+        "utc_offset_minutes": 540
+      },
+      "event_pass_state": {
+        "passes": {},
+        "schema_version": 1
+      },
+      "evolution_rewards": {
+        "claimed": [],
+        "reward_scope": "card",
+        "schema_version": 1
+      },
+      "login_cooking": {
+        "baseline_source": "new_local",
+        "border": 250,
+        "issued": 0,
+        "last_civil_day": null,
+        "last_claim_day": null,
+        "last_time": 1793502000000,
+        "period": "2026-11",
+        "quota": 0,
+        "schema_version": 1
+      },
+      "login_rewards": {
+        "baseline_source": "new_local",
+        "beginner_claimed": 0,
+        "beginner_eligible": true,
+        "beginner_total": 7,
+        "last_claim_day": null,
+        "last_time": 1793502000000,
+        "schema_version": 1,
+        "stamp_count": 0,
+        "stamp_month": null
+      },
+      "mission_ep_bindings": {
+        "bindings": {
+          "1607": {
+            "base_version": "402826847527b9785a381204b773185d6f441699c895727e9680d5d300b2f825",
+            "item_id": "event_pass_20261015",
+            "point": 4
+          },
+          "1608": {
+            "base_version": "c9e833faf8a9c1568a65abded1382dbe3fa356a78bf51409b6627d5627575457",
+            "item_id": "event_pass_20261015",
+            "point": 4
+          },
+          "1609": {
+            "base_version": "48cf38691e9ce65fdb7a6f3f3d2fe69409b3e88acf0b02afec00e27065b0eae2",
+            "item_id": "event_pass_20261015",
+            "point": 4
+          },
+          "1610": {
+            "base_version": "993b47055997e224282d0f9a2c10cbc3bf1695832eeca615d593bd87a6309edf",
+            "item_id": "event_pass_20261015",
+            "point": 6
+          },
+          "1611": {
+            "base_version": "f87456312a707a02afcf708a2298b29cdcef47e40d0ec8205b01c681d8514b29",
+            "item_id": "event_pass_20261015",
+            "point": 2
+          }
+        },
+        "schema_version": 1
+      },
+      "mission_state": {
+        "entries": [],
+        "last_login_day": null,
+        "last_time": null,
+        "schema_version": 1
+      },
+      "monthly_capacity": {
+        "current": 0,
+        "last_time": 1793502000000,
+        "next": 0,
+        "period": "2026-11",
+        "schema_version": 1
+      },
+      "package_purchases": {
+        "entries": {},
+        "schema_version": 1
+      },
+      "player_state": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "legacy_squad_imported": false,
+        "schema_version": 1,
+        "squads": [],
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      },
+      "rank_rewards": {
+        "baseline_rank": 0,
+        "entries": {},
+        "observed_rank": 0,
+        "schema_version": 1
+      },
+      "startup_collections_schema": 1,
+      "sugoroku": {
+        "last_time": 1793502000000,
+        "periods": {
+          "2026-11": {
+            "baseline_spent": 0,
+            "records": {}
+          }
+        },
+        "schema_version": 1
+      },
+      "tables": {
+        "backgrounds": [],
+        "card_status": [],
+        "config": [
+          {
+            "AutoSelectConfig": 0,
+            "BattleAcceleratorFlag": 0,
+            "BattleDClickSkillDisableFlag": 0,
+            "BattlePlaceMagnetFlag": 0,
+            "CostUpCloseDateTime": "",
+            "DamageDispEnable": 0,
+            "EventViewRequest": "",
+            "ExperienceUpCloseDateTime": "",
+            "HaveUnitMaxSizeBuy": 0,
+            "IntegrationAutoSelectConfig": 0,
+            "MenuTutorialFlags": 0,
+            "MissionRewardFlags2": 0,
+            "MoneyUpCloseDateTime": "",
+            "PurposeSettingFlags": 0,
+            "SpecialEffectsFlags": 0,
+            "SpecialEffectsFlags2": 0,
+            "TypeOfSortOrder": "",
+            "UseBgm": true,
+            "UseSe": true,
+            "UserName": "Local Player",
+            "_BattleGodBlessFilter": 0,
+            "_BlsDT_BoostAtk_F": "",
+            "_BlsDT_BoostAtk_R": "",
+            "_BlsDT_DamageCut": "",
+            "_FlagFilter": "",
+            "_FlagMissionFilter": "",
+            "_FlagSort": "",
+            "_GuideUnitIndex": 0,
+            "_VolumeBgm": 0,
+            "_VolumeSe": 0
+          }
+        ],
+        "crystals": [],
+        "event_pass_status": [],
+        "exchange_history": [],
+        "fame_depository": [],
+        "filter_settings": [],
+        "game_param": [
+          {
+            "ActionPointChangeDate": 739920,
+            "ActionPointChangeTime": 0.5,
+            "CharismaChangeDate": 739920,
+            "CharismaChangeTime": 0.5,
+            "EventParam": 0,
+            "Experience": 0,
+            "ExtendedMaxCharisma": 0,
+            "ExtendedMaxCharismaNextMonth": 0,
+            "ExtendedMaxStamina": 0,
+            "ExtendedMaxStaminaNextMonth": 0,
+            "GiftItem1": 0,
+            "GiftItem2": 0,
+            "GiftItem3": 0,
+            "GiftItem4": 0,
+            "GiftItem5": 0,
+            "GiftItem6": 0,
+            "Money": 1000,
+            "NowActionPoint": 0,
+            "NowCharisma": 60,
+            "Rank": 1,
+            "RedCrystal": 0,
+            "_PointSystem": 0
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "menu_blocks": [],
+        "perused_events": [],
+        "possessions": [
+          {
+            "Count": 200,
+            "ItemID": "event_pass_20261015"
+          },
+          {
+            "Count": 1,
+            "ItemID": "event_pass_premium_20261015"
+          }
+        ],
+        "presents": [],
+        "quest_records": [],
+        "recommendations": [],
+        "reproduction": [
+          {
+            "EI": 0,
+            "F0": 0,
+            "F0RT": 0,
+            "I0": 0,
+            "I1": 0
+          }
+        ],
+        "universal_flags": [],
+        "vote_history": []
+      }
+    },
+    "normal": {
+      "bootstrap_schema": 1,
+      "business_calendar": {
+        "origin": "new_local",
+        "schema_version": 1,
+        "utc_offset_minutes": 540
+      },
+      "created_local": "2026/11/01 12:00:00",
+      "crystal_spending": {
+        "baseline_source": "new_local",
+        "current_spent": 0,
+        "last_time": 1793502000000,
+        "period": "2026-11",
+        "previous_spent": 0,
+        "schema_version": 1
+      },
+      "energy_clock": {
+        "encoding": "native_day_fraction_f32_seconds_v1",
+        "origin": "new_local",
+        "schema_version": 1,
+        "utc_offset_minutes": 540
+      },
+      "event_pass_state": {
+        "passes": {},
+        "schema_version": 1
+      },
+      "evolution_rewards": {
+        "claimed": [],
+        "reward_scope": "card",
+        "schema_version": 1
+      },
+      "login_cooking": {
+        "baseline_source": "new_local",
+        "border": 250,
+        "issued": 0,
+        "last_civil_day": null,
+        "last_claim_day": null,
+        "last_time": 1793502000000,
+        "period": "2026-11",
+        "quota": 0,
+        "schema_version": 1
+      },
+      "login_rewards": {
+        "baseline_source": "new_local",
+        "beginner_claimed": 0,
+        "beginner_eligible": true,
+        "beginner_total": 7,
+        "last_claim_day": null,
+        "last_time": 1793502000000,
+        "schema_version": 1,
+        "stamp_count": 0,
+        "stamp_month": null
+      },
+      "mission_ep_bindings": {
+        "bindings": {
+          "1607": {
+            "base_version": "402826847527b9785a381204b773185d6f441699c895727e9680d5d300b2f825",
+            "item_id": "event_pass_20261015",
+            "point": 4
+          },
+          "1608": {
+            "base_version": "c9e833faf8a9c1568a65abded1382dbe3fa356a78bf51409b6627d5627575457",
+            "item_id": "event_pass_20261015",
+            "point": 4
+          },
+          "1609": {
+            "base_version": "48cf38691e9ce65fdb7a6f3f3d2fe69409b3e88acf0b02afec00e27065b0eae2",
+            "item_id": "event_pass_20261015",
+            "point": 4
+          },
+          "1610": {
+            "base_version": "993b47055997e224282d0f9a2c10cbc3bf1695832eeca615d593bd87a6309edf",
+            "item_id": "event_pass_20261015",
+            "point": 6
+          },
+          "1611": {
+            "base_version": "f87456312a707a02afcf708a2298b29cdcef47e40d0ec8205b01c681d8514b29",
+            "item_id": "event_pass_20261015",
+            "point": 2
+          }
+        },
+        "schema_version": 1
+      },
+      "mission_state": {
+        "entries": [],
+        "last_login_day": null,
+        "last_time": null,
+        "schema_version": 1
+      },
+      "monthly_capacity": {
+        "current": 0,
+        "last_time": 1793502000000,
+        "next": 0,
+        "period": "2026-11",
+        "schema_version": 1
+      },
+      "package_purchases": {
+        "entries": {},
+        "schema_version": 1
+      },
+      "player_state": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "legacy_squad_imported": false,
+        "schema_version": 1,
+        "squads": [],
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      },
+      "rank_rewards": {
+        "baseline_rank": 0,
+        "entries": {},
+        "observed_rank": 0,
+        "schema_version": 1
+      },
+      "startup_collections_schema": 1,
+      "sugoroku": {
+        "last_time": 1793502000000,
+        "periods": {
+          "2026-11": {
+            "baseline_spent": 0,
+            "records": {}
+          }
+        },
+        "schema_version": 1
+      },
+      "tables": {
+        "backgrounds": [],
+        "card_status": [],
+        "config": [
+          {
+            "AutoSelectConfig": 0,
+            "BattleAcceleratorFlag": 0,
+            "BattleDClickSkillDisableFlag": 0,
+            "BattlePlaceMagnetFlag": 0,
+            "CostUpCloseDateTime": "",
+            "DamageDispEnable": 0,
+            "EventViewRequest": "",
+            "ExperienceUpCloseDateTime": "",
+            "HaveUnitMaxSizeBuy": 0,
+            "IntegrationAutoSelectConfig": 0,
+            "MenuTutorialFlags": 0,
+            "MissionRewardFlags2": 0,
+            "MoneyUpCloseDateTime": "",
+            "PurposeSettingFlags": 0,
+            "SpecialEffectsFlags": 0,
+            "SpecialEffectsFlags2": 0,
+            "TypeOfSortOrder": "",
+            "UseBgm": true,
+            "UseSe": true,
+            "UserName": "Local Player",
+            "_BattleGodBlessFilter": 0,
+            "_BlsDT_BoostAtk_F": "",
+            "_BlsDT_BoostAtk_R": "",
+            "_BlsDT_DamageCut": "",
+            "_FlagFilter": "",
+            "_FlagMissionFilter": "",
+            "_FlagSort": "",
+            "_GuideUnitIndex": 0,
+            "_VolumeBgm": 0,
+            "_VolumeSe": 0
+          }
+        ],
+        "crystals": [],
+        "event_pass_status": [],
+        "exchange_history": [],
+        "fame_depository": [],
+        "filter_settings": [],
+        "game_param": [
+          {
+            "ActionPointChangeDate": 739920,
+            "ActionPointChangeTime": 0.5,
+            "CharismaChangeDate": 739920,
+            "CharismaChangeTime": 0.5,
+            "EventParam": 0,
+            "Experience": 0,
+            "ExtendedMaxCharisma": 0,
+            "ExtendedMaxCharismaNextMonth": 0,
+            "ExtendedMaxStamina": 0,
+            "ExtendedMaxStaminaNextMonth": 0,
+            "GiftItem1": 0,
+            "GiftItem2": 0,
+            "GiftItem3": 0,
+            "GiftItem4": 0,
+            "GiftItem5": 0,
+            "GiftItem6": 0,
+            "Money": 1000,
+            "NowActionPoint": 0,
+            "NowCharisma": 60,
+            "Rank": 1,
+            "RedCrystal": 0,
+            "_PointSystem": 0
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "menu_blocks": [],
+        "perused_events": [],
+        "possessions": [
+          {
+            "Count": 30,
+            "ItemID": "event_pass_20261015"
+          }
+        ],
+        "presents": [],
+        "quest_records": [],
+        "recommendations": [],
+        "reproduction": [
+          {
+            "EI": 0,
+            "F0": 0,
+            "F0RT": 0,
+            "I0": 0,
+            "I1": 0
+          }
+        ],
+        "universal_flags": [],
+        "vote_history": []
+      }
+    }
+  },
+  "cases": {
+    "claim_both_tracks": {
+      "state": {
+        "keys": {
+          "event_pass_delivery": {
+            "mail_ids": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ],
+            "pass_id": "event_pass_20261015",
+            "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+            "schema_version": 1
+          },
+          "event_pass_history": {
+            "processed_keys": [
+              "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827"
+            ],
+            "receipts": [
+              {
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V><V>5</V><V>6</V><V>7</V><V>8</V><V>9</V><V>10</V><V>11</V><V>12</V><V>13</V><V>14</V><V>15</V><V>16</V><V>17</V><V>18</V><V>19</V><V>20</V><V>21</V><V>22</V><V>23</V><V>24</V><V>25</V><V>26</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V><V>1</V><V>1</V><V>22</V><V>1</V><V>1</V><V>1</V><V>1</V><V>0</V><V>22</V><V>0</V><V>22</V><V>22</V><V>1</V><V>1</V><V>0</V><V>22</V><V>22</V><V>1</V><V>1</V><V>22</V><V>1</V><V>22</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V><V>61</V><V>512</V><V>10</V><V>61</V><V>6</V><V>61</V><V>62</V><V>1</V><V>1</V><V>2</V><V>1</V><V>4</V><V>173</V><V>448</V><V>3</V><V>1</V><V>4</V><V>173</V><V>448</V><V>200</V><V>289</V><V>1</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V><V></V><V></V><V>gift_0003_diamond</V><V></V><V></V><V></V><V></V><V></V><V>item_smn_ticket_85142</V><V></V><V>item_smn_ticket_50029</V><V>trade_item_005000</V><V></V><V></V><V></V><V>item_smn_ticket_85142</V><V>trade_item_005000</V><V></V><V></V><V>trade_item_001000</V><V></V><V>item_smn_ticket_85142</V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>100</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>100</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 1,
+                "state": "ffb51d8109d418d1166cdf50dba394ea59133b8a86ae9bf211fe1fcd26f81c40"
+              }
+            ],
+            "schema_version": 2
+          },
+          "event_pass_state": {
+            "passes": {
+              "event_pass_20261015": {
+                "baseline_normal": 0,
+                "baseline_premium": 0,
+                "definition": "2e0712f7ecb404271ce328bf6e31a36559b3cc2f0f6576c88cde6104c1eeb7a8",
+                "deliveries": {
+                  "normal": {
+                    "10": {
+                      "definition": "07ccecd6f718da8c7dd9df67acc8e0467e371e2e7082ff0e39319797375c972a",
+                      "mail_ids": [
+                        1,
+                        2
+                      ],
+                      "reward_ids": [
+                        239,
+                        240
+                      ]
+                    },
+                    "100": {
+                      "definition": "5bd4576e72aff93035e676681a932d8cf46b615e6922dedb38d41a16b29bc5dd",
+                      "mail_ids": [
+                        12,
+                        13
+                      ],
+                      "reward_ids": [
+                        261,
+                        262
+                      ]
+                    },
+                    "20": {
+                      "definition": "424c060deeea97bada9719f7b59c29043780edd9e4e4f89c78c12cdc74263a21",
+                      "mail_ids": [
+                        3
+                      ],
+                      "reward_ids": [
+                        243
+                      ]
+                    },
+                    "30": {
+                      "definition": "25a6a1e165560e330f4b8982275db1cdefb95cbc5a5253cf2fc56f525574780b",
+                      "mail_ids": [
+                        4
+                      ],
+                      "reward_ids": [
+                        245
+                      ]
+                    },
+                    "40": {
+                      "definition": "99f671482756c9b9bdc8b276009054cda11c12e18dc3a31eca6c58a8403fb50f",
+                      "mail_ids": [
+                        5
+                      ],
+                      "reward_ids": [
+                        247
+                      ]
+                    },
+                    "50": {
+                      "definition": "7dc745fa811b85dfb0c5abdd8dd23374251a51b541caec7b72ef2190969c6e3f",
+                      "mail_ids": [
+                        6,
+                        7
+                      ],
+                      "reward_ids": [
+                        249,
+                        250
+                      ]
+                    },
+                    "60": {
+                      "definition": "79f8c771e4375dc688739e85b314b80f4f35766f253334cecdc7ca1268a15a7d",
+                      "mail_ids": [
+                        8
+                      ],
+                      "reward_ids": [
+                        253
+                      ]
+                    },
+                    "70": {
+                      "definition": "8cbea0d3ae55bc9250b7b846d920ef8427eb44e00253b238b6d91b63f7f61cf0",
+                      "mail_ids": [
+                        9
+                      ],
+                      "reward_ids": [
+                        255
+                      ]
+                    },
+                    "80": {
+                      "definition": "5b7981150e29c81daf13b71e378ceaa83c186e2780fd01222cce71998d0ab174",
+                      "mail_ids": [
+                        10
+                      ],
+                      "reward_ids": [
+                        257
+                      ]
+                    },
+                    "90": {
+                      "definition": "45e64b5ff861c4ea8d8eae60629d969fbca73e99202d724ad55c0ef1d2ae6d00",
+                      "mail_ids": [
+                        11
+                      ],
+                      "reward_ids": [
+                        259
+                      ]
+                    }
+                  },
+                  "premium": {
+                    "10": {
+                      "definition": "94193ec0ee6631a6e0053bec9437092ca43e04378dd373dd3fd3c1683a707a1d",
+                      "mail_ids": [
+                        14,
+                        15
+                      ],
+                      "reward_ids": [
+                        241,
+                        242
+                      ]
+                    },
+                    "100": {
+                      "definition": "a42b4fa0f7ad7f973835f503824a1a47e4823c76e1cd06c0cc8f07702bf93206",
+                      "mail_ids": [
+                        25,
+                        26
+                      ],
+                      "reward_ids": [
+                        263,
+                        264
+                      ]
+                    },
+                    "20": {
+                      "definition": "65b491ff30a900b8d8e7e46449a30233fb07934e46c84018472352fd75f9f58f",
+                      "mail_ids": [
+                        16
+                      ],
+                      "reward_ids": [
+                        244
+                      ]
+                    },
+                    "30": {
+                      "definition": "f63366f219d1f14bac44499e44f75ff524c21258da200275a92f0064c6621971",
+                      "mail_ids": [
+                        17
+                      ],
+                      "reward_ids": [
+                        246
+                      ]
+                    },
+                    "40": {
+                      "definition": "a2712458de8dd273861dae6332422d8d4fca3a56f9490556661e7f134c078733",
+                      "mail_ids": [
+                        18
+                      ],
+                      "reward_ids": [
+                        248
+                      ]
+                    },
+                    "50": {
+                      "definition": "933d93124073e803435473a20a6e76f8d9a7503d5824200bba08548b8a9c6891",
+                      "mail_ids": [
+                        19,
+                        20
+                      ],
+                      "reward_ids": [
+                        251,
+                        252
+                      ]
+                    },
+                    "60": {
+                      "definition": "3a6fe7bde429415f9c39e6d011c430a98e5db03f2d8f4d0e52ace488efe17d87",
+                      "mail_ids": [
+                        21
+                      ],
+                      "reward_ids": [
+                        254
+                      ]
+                    },
+                    "70": {
+                      "definition": "ad43539a71e3dc9d0d88c4d0a269b78468f191d7a735560306eab88217b12828",
+                      "mail_ids": [
+                        22
+                      ],
+                      "reward_ids": [
+                        256
+                      ]
+                    },
+                    "80": {
+                      "definition": "35148d6eccd09ecdc1d2db6c27cb4d8730034352b2ef2fa8edd6dcc728749184",
+                      "mail_ids": [
+                        23
+                      ],
+                      "reward_ids": [
+                        258
+                      ]
+                    },
+                    "90": {
+                      "definition": "d5b01b7308922706f813f6324fc9f3b93a62446b11774c2b368d8311388d6ace",
+                      "mail_ids": [
+                        24
+                      ],
+                      "reward_ids": [
+                        260
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "schema_version": 1
+          },
+          "last_present_id": 26,
+          "presents_schema": 1
+        },
+        "presents": {
+          "added": [
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 1,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_cook_logbo_00004",
+              "PresentID": 2,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 3,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 4,
+              "Type": 1
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 5,
+              "Type": 1
+            },
+            {
+              "Content": 512,
+              "Description": "イベントパス報酬",
+              "PresentID": 6,
+              "Type": 1
+            },
+            {
+              "Content": 10,
+              "Description": "イベントパス報酬",
+              "ItemID": "gift_0003_diamond",
+              "PresentID": 7,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 8,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 9,
+              "Type": 1
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 10,
+              "Type": 1
+            },
+            {
+              "Content": 62,
+              "Description": "イベントパス報酬",
+              "PresentID": 11,
+              "Type": 1
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 12,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_smn_ticket_85142",
+              "PresentID": 13,
+              "Type": 22
+            },
+            {
+              "Content": 2,
+              "Description": "イベントパス報酬",
+              "PresentID": 14,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_smn_ticket_50029",
+              "PresentID": 15,
+              "Type": 22
+            },
+            {
+              "Content": 4,
+              "Description": "イベントパス報酬",
+              "ItemID": "trade_item_005000",
+              "PresentID": 16,
+              "Type": 22
+            },
+            {
+              "Content": 173,
+              "Description": "イベントパス報酬",
+              "PresentID": 17,
+              "Type": 1
+            },
+            {
+              "Content": 448,
+              "Description": "イベントパス報酬",
+              "PresentID": 18,
+              "Type": 1
+            },
+            {
+              "Content": 3,
+              "Description": "イベントパス報酬",
+              "PresentID": 19,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_smn_ticket_85142",
+              "PresentID": 20,
+              "Type": 22
+            },
+            {
+              "Content": 4,
+              "Description": "イベントパス報酬",
+              "ItemID": "trade_item_005000",
+              "PresentID": 21,
+              "Type": 22
+            },
+            {
+              "Content": 173,
+              "Description": "イベントパス報酬",
+              "PresentID": 22,
+              "Type": 1
+            },
+            {
+              "Content": 448,
+              "Description": "イベントパス報酬",
+              "PresentID": 23,
+              "Type": 1
+            },
+            {
+              "Content": 200,
+              "Description": "イベントパス報酬",
+              "ItemID": "trade_item_001000",
+              "PresentID": 24,
+              "Type": 22
+            },
+            {
+              "Content": 289,
+              "Description": "イベントパス報酬",
+              "PresentID": 25,
+              "Type": 1
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_smn_ticket_85142",
+              "PresentID": 26,
+              "Type": 22
+            }
+          ],
+          "count": 26,
+          "sha256": "7ab7528448513bcb295b5c82a944bb1e36217d5618309d43fb209d91ad47d013"
+        },
+        "removed": [],
+        "tables": {
+          "event_pass_status": [
+            {
+              "ID": "event_pass_20261015",
+              "ReceivedNormalPoint": 100,
+              "ReceivedPremiumPoint": 100
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V><V>5</V><V>6</V><V>7</V><V>8</V><V>9</V><V>10</V><V>11</V><V>12</V><V>13</V><V>14</V><V>15</V><V>16</V><V>17</V><V>18</V><V>19</V><V>20</V><V>21</V><V>22</V><V>23</V><V>24</V><V>25</V><V>26</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V><V>1</V><V>1</V><V>22</V><V>1</V><V>1</V><V>1</V><V>1</V><V>0</V><V>22</V><V>0</V><V>22</V><V>22</V><V>1</V><V>1</V><V>0</V><V>22</V><V>22</V><V>1</V><V>1</V><V>22</V><V>1</V><V>22</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V><V>61</V><V>512</V><V>10</V><V>61</V><V>6</V><V>61</V><V>62</V><V>1</V><V>1</V><V>2</V><V>1</V><V>4</V><V>173</V><V>448</V><V>3</V><V>1</V><V>4</V><V>173</V><V>448</V><V>200</V><V>289</V><V>1</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V><V></V><V></V><V>gift_0003_diamond</V><V></V><V></V><V></V><V></V><V></V><V>item_smn_ticket_85142</V><V></V><V>item_smn_ticket_50029</V><V>trade_item_005000</V><V></V><V></V><V></V><V>item_smn_ticket_85142</V><V>trade_item_005000</V><V></V><V></V><V>trade_item_001000</V><V></V><V>item_smn_ticket_85142</V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>100</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>100</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_closed_pass": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "event_pass_inactive",
+            "message": "Event pass is outside its active reward window",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20260611</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799229</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_delivery_without_receipt": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "event_pass_history_invalid",
+            "message": "Stored event pass receipts are invalid",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_empty_identity": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "event_pass_unknown",
+            "message": "Event pass is not in the current catalog",
+            "status": 501
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V></V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7802018</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_history_invalid": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "event_pass_history_invalid",
+            "message": "Stored event pass receipts are invalid",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_identity_exhausted": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "present_identity_exhausted",
+            "message": "Present identities exceed int32",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_journal_invalid": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "event_pass_state_invalid",
+            "message": "Event pass journal does not match native identities",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_legacy_receipt_replay": {
+      "state": {
+        "keys": {
+          "event_pass_delivery": {
+            "mail_ids": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "pass_id": "event_pass_20261015",
+            "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+            "schema_version": 1
+          },
+          "event_pass_history": {
+            "last_client_time": 1000,
+            "receipts": [
+              {
+                "client_time": 1000,
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 1,
+                "state": "3e58f4829987db805ab9e9caef6046c0cb1c1802da6c0e191bcc0ba6590b7064"
+              }
+            ],
+            "schema_version": 1,
+            "seen_keys": [
+              "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827"
+            ]
+          },
+          "event_pass_state": {
+            "passes": {
+              "event_pass_20261015": {
+                "baseline_normal": 0,
+                "baseline_premium": 0,
+                "definition": "2e0712f7ecb404271ce328bf6e31a36559b3cc2f0f6576c88cde6104c1eeb7a8",
+                "deliveries": {
+                  "normal": {
+                    "10": {
+                      "definition": "07ccecd6f718da8c7dd9df67acc8e0467e371e2e7082ff0e39319797375c972a",
+                      "mail_ids": [
+                        1,
+                        2
+                      ],
+                      "reward_ids": [
+                        239,
+                        240
+                      ]
+                    },
+                    "20": {
+                      "definition": "424c060deeea97bada9719f7b59c29043780edd9e4e4f89c78c12cdc74263a21",
+                      "mail_ids": [
+                        3
+                      ],
+                      "reward_ids": [
+                        243
+                      ]
+                    },
+                    "30": {
+                      "definition": "25a6a1e165560e330f4b8982275db1cdefb95cbc5a5253cf2fc56f525574780b",
+                      "mail_ids": [
+                        4
+                      ],
+                      "reward_ids": [
+                        245
+                      ]
+                    }
+                  },
+                  "premium": {}
+                }
+              }
+            },
+            "schema_version": 1
+          },
+          "last_present_id": 4,
+          "presents_schema": 1
+        },
+        "presents": {
+          "added": [
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 1,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_cook_logbo_00004",
+              "PresentID": 2,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 3,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 4,
+              "Type": 1
+            }
+          ],
+          "count": 4,
+          "sha256": "907004acdf1d2b4aadb32e7783cde0e7da9560bf64171948e1d66ad865ca26bb"
+        },
+        "removed": [],
+        "tables": {
+          "event_pass_status": [
+            {
+              "ID": "event_pass_20261015",
+              "ReceivedNormalPoint": 30,
+              "ReceivedPremiumPoint": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_mailbox_full": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 500,
+          "sha256": "8115e8afe3546222fb26c9bc423762b45c5828d553100967a70b4ff5ee04f3e5"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "present_capacity",
+            "message": "Present rewards exceed the local mailbox capacity",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_more_points_later": {
+      "state": {
+        "keys": {
+          "event_pass_delivery": {
+            "mail_ids": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "pass_id": "event_pass_20261015",
+            "request": "752f603f38fc405490a07dbede69964ce71d08c80ceb474fdd29656b875c4932",
+            "schema_version": 1
+          },
+          "event_pass_history": {
+            "processed_keys": [
+              "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+              "752f603f38fc405490a07dbede69964ce71d08c80ceb474fdd29656b875c4932"
+            ],
+            "receipts": [
+              {
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 1,
+                "state": "3e58f4829987db805ab9e9caef6046c0cb1c1802da6c0e191bcc0ba6590b7064"
+              },
+              {
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "752f603f38fc405490a07dbede69964ce71d08c80ceb474fdd29656b875c4932",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>5</V><V>6</V><V>7</V><V>8</V></PresentID><A1 T=\"I\"><V>1</V><V>1</V><V>22</V><V>1</V></A1><A2 T=\"I\"><V>61</V><V>512</V><V>10</V><V>61</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V></V><V>gift_0003_diamond</V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>60</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 3,
+                "state": "1c258daf3eb21c5edb4a71b37fd138e2bc8b352a8c9860d9ff34ee5c3beb1972"
+              }
+            ],
+            "schema_version": 2
+          },
+          "event_pass_state": {
+            "passes": {
+              "event_pass_20261015": {
+                "baseline_normal": 0,
+                "baseline_premium": 0,
+                "definition": "2e0712f7ecb404271ce328bf6e31a36559b3cc2f0f6576c88cde6104c1eeb7a8",
+                "deliveries": {
+                  "normal": {
+                    "10": {
+                      "definition": "07ccecd6f718da8c7dd9df67acc8e0467e371e2e7082ff0e39319797375c972a",
+                      "mail_ids": [
+                        1,
+                        2
+                      ],
+                      "reward_ids": [
+                        239,
+                        240
+                      ]
+                    },
+                    "20": {
+                      "definition": "424c060deeea97bada9719f7b59c29043780edd9e4e4f89c78c12cdc74263a21",
+                      "mail_ids": [
+                        3
+                      ],
+                      "reward_ids": [
+                        243
+                      ]
+                    },
+                    "30": {
+                      "definition": "25a6a1e165560e330f4b8982275db1cdefb95cbc5a5253cf2fc56f525574780b",
+                      "mail_ids": [
+                        4
+                      ],
+                      "reward_ids": [
+                        245
+                      ]
+                    },
+                    "40": {
+                      "definition": "99f671482756c9b9bdc8b276009054cda11c12e18dc3a31eca6c58a8403fb50f",
+                      "mail_ids": [
+                        5
+                      ],
+                      "reward_ids": [
+                        247
+                      ]
+                    },
+                    "50": {
+                      "definition": "7dc745fa811b85dfb0c5abdd8dd23374251a51b541caec7b72ef2190969c6e3f",
+                      "mail_ids": [
+                        6,
+                        7
+                      ],
+                      "reward_ids": [
+                        249,
+                        250
+                      ]
+                    },
+                    "60": {
+                      "definition": "79f8c771e4375dc688739e85b314b80f4f35766f253334cecdc7ca1268a15a7d",
+                      "mail_ids": [
+                        8
+                      ],
+                      "reward_ids": [
+                        253
+                      ]
+                    }
+                  },
+                  "premium": {}
+                }
+              }
+            },
+            "schema_version": 1
+          },
+          "last_present_id": 8,
+          "presents_schema": 1
+        },
+        "presents": {
+          "added": [
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 1,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_cook_logbo_00004",
+              "PresentID": 2,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 3,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 4,
+              "Type": 1
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 5,
+              "Type": 1
+            },
+            {
+              "Content": 512,
+              "Description": "イベントパス報酬",
+              "PresentID": 6,
+              "Type": 1
+            },
+            {
+              "Content": 10,
+              "Description": "イベントパス報酬",
+              "ItemID": "gift_0003_diamond",
+              "PresentID": 7,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 8,
+              "Type": 1
+            }
+          ],
+          "count": 8,
+          "sha256": "a5f73ade21682761f76f706fe06d25ee1b4b218c4de07eb8b55ddf87c95e4e44"
+        },
+        "removed": [],
+        "tables": {
+          "event_pass_status": [
+            {
+              "ID": "event_pass_20261015",
+              "ReceivedNormalPoint": 60,
+              "ReceivedPremiumPoint": 0
+            }
+          ],
+          "possessions": [
+            {
+              "Count": 60,
+              "ItemID": "event_pass_20261015"
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>5</V><V>6</V><V>7</V><V>8</V></PresentID><A1 T=\"I\"><V>1</V><V>1</V><V>22</V><V>1</V></A1><A2 T=\"I\"><V>61</V><V>512</V><V>10</V><V>61</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V></V><V>gift_0003_diamond</V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>60</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_normal_track": {
+      "state": {
+        "keys": {
+          "event_pass_delivery": {
+            "mail_ids": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "pass_id": "event_pass_20261015",
+            "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+            "schema_version": 1
+          },
+          "event_pass_history": {
+            "processed_keys": [
+              "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827"
+            ],
+            "receipts": [
+              {
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 1,
+                "state": "3e58f4829987db805ab9e9caef6046c0cb1c1802da6c0e191bcc0ba6590b7064"
+              }
+            ],
+            "schema_version": 2
+          },
+          "event_pass_state": {
+            "passes": {
+              "event_pass_20261015": {
+                "baseline_normal": 0,
+                "baseline_premium": 0,
+                "definition": "2e0712f7ecb404271ce328bf6e31a36559b3cc2f0f6576c88cde6104c1eeb7a8",
+                "deliveries": {
+                  "normal": {
+                    "10": {
+                      "definition": "07ccecd6f718da8c7dd9df67acc8e0467e371e2e7082ff0e39319797375c972a",
+                      "mail_ids": [
+                        1,
+                        2
+                      ],
+                      "reward_ids": [
+                        239,
+                        240
+                      ]
+                    },
+                    "20": {
+                      "definition": "424c060deeea97bada9719f7b59c29043780edd9e4e4f89c78c12cdc74263a21",
+                      "mail_ids": [
+                        3
+                      ],
+                      "reward_ids": [
+                        243
+                      ]
+                    },
+                    "30": {
+                      "definition": "25a6a1e165560e330f4b8982275db1cdefb95cbc5a5253cf2fc56f525574780b",
+                      "mail_ids": [
+                        4
+                      ],
+                      "reward_ids": [
+                        245
+                      ]
+                    }
+                  },
+                  "premium": {}
+                }
+              }
+            },
+            "schema_version": 1
+          },
+          "last_present_id": 4,
+          "presents_schema": 1
+        },
+        "presents": {
+          "added": [
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 1,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_cook_logbo_00004",
+              "PresentID": 2,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 3,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 4,
+              "Type": 1
+            }
+          ],
+          "count": 4,
+          "sha256": "907004acdf1d2b4aadb32e7783cde0e7da9560bf64171948e1d66ad865ca26bb"
+        },
+        "removed": [],
+        "tables": {
+          "event_pass_status": [
+            {
+              "ID": "event_pass_20261015",
+              "ReceivedNormalPoint": 30,
+              "ReceivedPremiumPoint": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_nothing_reached": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><EventPassStatus><ID T=\"S\"></ID><ReceivedNormalPoint T=\"I\"></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 0,
+          "warnings": [
+            "Event pass event_pass_20261015 has no claimable rewards; replying with its saved status"
+          ]
+        }
+      ]
+    },
+    "claim_oversized_identity": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "String exceeds the request field limit",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7815746</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_premium_identity": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "event_pass_unknown",
+            "message": "Event pass is not in the current catalog",
+            "status": 501
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_premium_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7800657</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_premium_later": {
+      "state": {
+        "keys": {
+          "event_pass_delivery": {
+            "mail_ids": [
+              5,
+              6,
+              7,
+              8
+            ],
+            "pass_id": "event_pass_20261015",
+            "request": "752f603f38fc405490a07dbede69964ce71d08c80ceb474fdd29656b875c4932",
+            "schema_version": 1
+          },
+          "event_pass_history": {
+            "processed_keys": [
+              "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+              "752f603f38fc405490a07dbede69964ce71d08c80ceb474fdd29656b875c4932"
+            ],
+            "receipts": [
+              {
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 1,
+                "state": "3e58f4829987db805ab9e9caef6046c0cb1c1802da6c0e191bcc0ba6590b7064"
+              },
+              {
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "752f603f38fc405490a07dbede69964ce71d08c80ceb474fdd29656b875c4932",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>5</V><V>6</V><V>7</V><V>8</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>22</V><V>1</V></A1><A2 T=\"I\"><V>2</V><V>1</V><V>4</V><V>173</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_smn_ticket_50029</V><V>trade_item_005000</V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>30</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 3,
+                "state": "5ec50106224813488f1d11a7a7a19e047ef18b87bfcc6966f79bae565934f047"
+              }
+            ],
+            "schema_version": 2
+          },
+          "event_pass_state": {
+            "passes": {
+              "event_pass_20261015": {
+                "baseline_normal": 0,
+                "baseline_premium": 0,
+                "definition": "2e0712f7ecb404271ce328bf6e31a36559b3cc2f0f6576c88cde6104c1eeb7a8",
+                "deliveries": {
+                  "normal": {
+                    "10": {
+                      "definition": "07ccecd6f718da8c7dd9df67acc8e0467e371e2e7082ff0e39319797375c972a",
+                      "mail_ids": [
+                        1,
+                        2
+                      ],
+                      "reward_ids": [
+                        239,
+                        240
+                      ]
+                    },
+                    "20": {
+                      "definition": "424c060deeea97bada9719f7b59c29043780edd9e4e4f89c78c12cdc74263a21",
+                      "mail_ids": [
+                        3
+                      ],
+                      "reward_ids": [
+                        243
+                      ]
+                    },
+                    "30": {
+                      "definition": "25a6a1e165560e330f4b8982275db1cdefb95cbc5a5253cf2fc56f525574780b",
+                      "mail_ids": [
+                        4
+                      ],
+                      "reward_ids": [
+                        245
+                      ]
+                    }
+                  },
+                  "premium": {
+                    "10": {
+                      "definition": "94193ec0ee6631a6e0053bec9437092ca43e04378dd373dd3fd3c1683a707a1d",
+                      "mail_ids": [
+                        5,
+                        6
+                      ],
+                      "reward_ids": [
+                        241,
+                        242
+                      ]
+                    },
+                    "20": {
+                      "definition": "65b491ff30a900b8d8e7e46449a30233fb07934e46c84018472352fd75f9f58f",
+                      "mail_ids": [
+                        7
+                      ],
+                      "reward_ids": [
+                        244
+                      ]
+                    },
+                    "30": {
+                      "definition": "f63366f219d1f14bac44499e44f75ff524c21258da200275a92f0064c6621971",
+                      "mail_ids": [
+                        8
+                      ],
+                      "reward_ids": [
+                        246
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "schema_version": 1
+          },
+          "last_present_id": 8,
+          "presents_schema": 1
+        },
+        "presents": {
+          "added": [
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 1,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_cook_logbo_00004",
+              "PresentID": 2,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 3,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 4,
+              "Type": 1
+            },
+            {
+              "Content": 2,
+              "Description": "イベントパス報酬",
+              "PresentID": 5,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_smn_ticket_50029",
+              "PresentID": 6,
+              "Type": 22
+            },
+            {
+              "Content": 4,
+              "Description": "イベントパス報酬",
+              "ItemID": "trade_item_005000",
+              "PresentID": 7,
+              "Type": 22
+            },
+            {
+              "Content": 173,
+              "Description": "イベントパス報酬",
+              "PresentID": 8,
+              "Type": 1
+            }
+          ],
+          "count": 8,
+          "sha256": "37eef21c20403d1eedbe6142542a70c256fbaa459ecd05ce480cd38ed8567034"
+        },
+        "removed": [],
+        "tables": {
+          "event_pass_status": [
+            {
+              "ID": "event_pass_20261015",
+              "ReceivedNormalPoint": 30,
+              "ReceivedPremiumPoint": 30
+            }
+          ],
+          "possessions": [
+            {
+              "Count": 30,
+              "ItemID": "event_pass_20261015"
+            },
+            {
+              "Count": 1,
+              "ItemID": "event_pass_premium_20261015"
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>5</V><V>6</V><V>7</V><V>8</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>22</V><V>1</V></A1><A2 T=\"I\"><V>2</V><V>1</V><V>4</V><V>173</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_smn_ticket_50029</V><V>trade_item_005000</V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>30</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_processed_without_receipt": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "event_pass_request_stale",
+            "message": "Event pass request was already processed",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "revisions": 0,
+          "warnings": [
+            "Refused request 159: it repeats a processed request whose receipt was evicted"
+          ]
+        }
+      ]
+    },
+    "claim_replay": {
+      "state": {
+        "keys": {
+          "event_pass_delivery": {
+            "mail_ids": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "pass_id": "event_pass_20261015",
+            "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+            "schema_version": 1
+          },
+          "event_pass_history": {
+            "processed_keys": [
+              "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827"
+            ],
+            "receipts": [
+              {
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 1,
+                "state": "3e58f4829987db805ab9e9caef6046c0cb1c1802da6c0e191bcc0ba6590b7064"
+              }
+            ],
+            "schema_version": 2
+          },
+          "event_pass_state": {
+            "passes": {
+              "event_pass_20261015": {
+                "baseline_normal": 0,
+                "baseline_premium": 0,
+                "definition": "2e0712f7ecb404271ce328bf6e31a36559b3cc2f0f6576c88cde6104c1eeb7a8",
+                "deliveries": {
+                  "normal": {
+                    "10": {
+                      "definition": "07ccecd6f718da8c7dd9df67acc8e0467e371e2e7082ff0e39319797375c972a",
+                      "mail_ids": [
+                        1,
+                        2
+                      ],
+                      "reward_ids": [
+                        239,
+                        240
+                      ]
+                    },
+                    "20": {
+                      "definition": "424c060deeea97bada9719f7b59c29043780edd9e4e4f89c78c12cdc74263a21",
+                      "mail_ids": [
+                        3
+                      ],
+                      "reward_ids": [
+                        243
+                      ]
+                    },
+                    "30": {
+                      "definition": "25a6a1e165560e330f4b8982275db1cdefb95cbc5a5253cf2fc56f525574780b",
+                      "mail_ids": [
+                        4
+                      ],
+                      "reward_ids": [
+                        245
+                      ]
+                    }
+                  },
+                  "premium": {}
+                }
+              }
+            },
+            "schema_version": 1
+          },
+          "last_present_id": 4,
+          "presents_schema": 1
+        },
+        "presents": {
+          "added": [
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 1,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_cook_logbo_00004",
+              "PresentID": 2,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 3,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 4,
+              "Type": 1
+            }
+          ],
+          "count": 4,
+          "sha256": "907004acdf1d2b4aadb32e7783cde0e7da9560bf64171948e1d66ad865ca26bb"
+        },
+        "removed": [],
+        "tables": {
+          "event_pass_status": [
+            {
+              "ID": "event_pass_20261015",
+              "ReceivedNormalPoint": 30,
+              "ReceivedPremiumPoint": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_replay_after_change": {
+      "state": {
+        "keys": {
+          "event_pass_delivery": {
+            "mail_ids": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "pass_id": "event_pass_20261015",
+            "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+            "schema_version": 1
+          },
+          "event_pass_history": {
+            "processed_keys": [
+              "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827"
+            ],
+            "receipts": [
+              {
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 1,
+                "state": "3e58f4829987db805ab9e9caef6046c0cb1c1802da6c0e191bcc0ba6590b7064"
+              }
+            ],
+            "schema_version": 2
+          },
+          "event_pass_state": {
+            "passes": {
+              "event_pass_20261015": {
+                "baseline_normal": 0,
+                "baseline_premium": 0,
+                "definition": "2e0712f7ecb404271ce328bf6e31a36559b3cc2f0f6576c88cde6104c1eeb7a8",
+                "deliveries": {
+                  "normal": {
+                    "10": {
+                      "definition": "07ccecd6f718da8c7dd9df67acc8e0467e371e2e7082ff0e39319797375c972a",
+                      "mail_ids": [
+                        1,
+                        2
+                      ],
+                      "reward_ids": [
+                        239,
+                        240
+                      ]
+                    },
+                    "20": {
+                      "definition": "424c060deeea97bada9719f7b59c29043780edd9e4e4f89c78c12cdc74263a21",
+                      "mail_ids": [
+                        3
+                      ],
+                      "reward_ids": [
+                        243
+                      ]
+                    },
+                    "30": {
+                      "definition": "25a6a1e165560e330f4b8982275db1cdefb95cbc5a5253cf2fc56f525574780b",
+                      "mail_ids": [
+                        4
+                      ],
+                      "reward_ids": [
+                        245
+                      ]
+                    }
+                  },
+                  "premium": {}
+                }
+              }
+            },
+            "schema_version": 1
+          },
+          "last_present_id": 4,
+          "presents_schema": 1,
+          "sentinel": 1
+        },
+        "presents": {
+          "added": [
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 1,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_cook_logbo_00004",
+              "PresentID": 2,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 3,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 4,
+              "Type": 1
+            }
+          ],
+          "count": 4,
+          "sha256": "907004acdf1d2b4aadb32e7783cde0e7da9560bf64171948e1d66ad865ca26bb"
+        },
+        "removed": [],
+        "tables": {
+          "event_pass_status": [
+            {
+              "ID": "event_pass_20261015",
+              "ReceivedNormalPoint": 30,
+              "ReceivedPremiumPoint": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "event_pass_retry_stale",
+            "message": "Event pass state changed after this request",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_replay_after_read": {
+      "state": {
+        "keys": {
+          "event_pass_delivery": {
+            "mail_ids": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "pass_id": "event_pass_20261015",
+            "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+            "schema_version": 1
+          },
+          "event_pass_history": {
+            "processed_keys": [
+              "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827"
+            ],
+            "receipts": [
+              {
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 1,
+                "state": "3e58f4829987db805ab9e9caef6046c0cb1c1802da6c0e191bcc0ba6590b7064"
+              }
+            ],
+            "schema_version": 2
+          },
+          "event_pass_state": {
+            "passes": {
+              "event_pass_20261015": {
+                "baseline_normal": 0,
+                "baseline_premium": 0,
+                "definition": "2e0712f7ecb404271ce328bf6e31a36559b3cc2f0f6576c88cde6104c1eeb7a8",
+                "deliveries": {
+                  "normal": {
+                    "10": {
+                      "definition": "07ccecd6f718da8c7dd9df67acc8e0467e371e2e7082ff0e39319797375c972a",
+                      "mail_ids": [
+                        1,
+                        2
+                      ],
+                      "reward_ids": [
+                        239,
+                        240
+                      ]
+                    },
+                    "20": {
+                      "definition": "424c060deeea97bada9719f7b59c29043780edd9e4e4f89c78c12cdc74263a21",
+                      "mail_ids": [
+                        3
+                      ],
+                      "reward_ids": [
+                        243
+                      ]
+                    },
+                    "30": {
+                      "definition": "25a6a1e165560e330f4b8982275db1cdefb95cbc5a5253cf2fc56f525574780b",
+                      "mail_ids": [
+                        4
+                      ],
+                      "reward_ids": [
+                        245
+                      ]
+                    }
+                  },
+                  "premium": {}
+                }
+              }
+            },
+            "schema_version": 1
+          },
+          "last_present_id": 4,
+          "presents_schema": 1
+        },
+        "presents": {
+          "added": [
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 1,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_cook_logbo_00004",
+              "PresentID": 2,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 3,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 4,
+              "Type": 1
+            }
+          ],
+          "count": 4,
+          "sha256": "907004acdf1d2b4aadb32e7783cde0e7da9560bf64171948e1d66ad865ca26bb"
+        },
+        "removed": [],
+        "tables": {
+          "event_pass_status": [
+            {
+              "ID": "event_pass_20261015",
+              "ReceivedNormalPoint": 30,
+              "ReceivedPremiumPoint": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><VN>5.0.0</VN><ST>3055</ST><HS>7802863</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_then_read": {
+      "state": {
+        "keys": {
+          "event_pass_delivery": {
+            "mail_ids": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26
+            ],
+            "pass_id": "event_pass_20261015",
+            "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+            "schema_version": 1
+          },
+          "event_pass_history": {
+            "processed_keys": [
+              "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827"
+            ],
+            "receipts": [
+              {
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V><V>5</V><V>6</V><V>7</V><V>8</V><V>9</V><V>10</V><V>11</V><V>12</V><V>13</V><V>14</V><V>15</V><V>16</V><V>17</V><V>18</V><V>19</V><V>20</V><V>21</V><V>22</V><V>23</V><V>24</V><V>25</V><V>26</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V><V>1</V><V>1</V><V>22</V><V>1</V><V>1</V><V>1</V><V>1</V><V>0</V><V>22</V><V>0</V><V>22</V><V>22</V><V>1</V><V>1</V><V>0</V><V>22</V><V>22</V><V>1</V><V>1</V><V>22</V><V>1</V><V>22</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V><V>61</V><V>512</V><V>10</V><V>61</V><V>6</V><V>61</V><V>62</V><V>1</V><V>1</V><V>2</V><V>1</V><V>4</V><V>173</V><V>448</V><V>3</V><V>1</V><V>4</V><V>173</V><V>448</V><V>200</V><V>289</V><V>1</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V><V></V><V></V><V>gift_0003_diamond</V><V></V><V></V><V></V><V></V><V></V><V>item_smn_ticket_85142</V><V></V><V>item_smn_ticket_50029</V><V>trade_item_005000</V><V></V><V></V><V></V><V>item_smn_ticket_85142</V><V>trade_item_005000</V><V></V><V></V><V>trade_item_001000</V><V></V><V>item_smn_ticket_85142</V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>100</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>100</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 1,
+                "state": "ffb51d8109d418d1166cdf50dba394ea59133b8a86ae9bf211fe1fcd26f81c40"
+              }
+            ],
+            "schema_version": 2
+          },
+          "event_pass_state": {
+            "passes": {
+              "event_pass_20261015": {
+                "baseline_normal": 0,
+                "baseline_premium": 0,
+                "definition": "2e0712f7ecb404271ce328bf6e31a36559b3cc2f0f6576c88cde6104c1eeb7a8",
+                "deliveries": {
+                  "normal": {
+                    "10": {
+                      "definition": "07ccecd6f718da8c7dd9df67acc8e0467e371e2e7082ff0e39319797375c972a",
+                      "mail_ids": [
+                        1,
+                        2
+                      ],
+                      "reward_ids": [
+                        239,
+                        240
+                      ]
+                    },
+                    "100": {
+                      "definition": "5bd4576e72aff93035e676681a932d8cf46b615e6922dedb38d41a16b29bc5dd",
+                      "mail_ids": [
+                        12,
+                        13
+                      ],
+                      "reward_ids": [
+                        261,
+                        262
+                      ]
+                    },
+                    "20": {
+                      "definition": "424c060deeea97bada9719f7b59c29043780edd9e4e4f89c78c12cdc74263a21",
+                      "mail_ids": [
+                        3
+                      ],
+                      "reward_ids": [
+                        243
+                      ]
+                    },
+                    "30": {
+                      "definition": "25a6a1e165560e330f4b8982275db1cdefb95cbc5a5253cf2fc56f525574780b",
+                      "mail_ids": [
+                        4
+                      ],
+                      "reward_ids": [
+                        245
+                      ]
+                    },
+                    "40": {
+                      "definition": "99f671482756c9b9bdc8b276009054cda11c12e18dc3a31eca6c58a8403fb50f",
+                      "mail_ids": [
+                        5
+                      ],
+                      "reward_ids": [
+                        247
+                      ]
+                    },
+                    "50": {
+                      "definition": "7dc745fa811b85dfb0c5abdd8dd23374251a51b541caec7b72ef2190969c6e3f",
+                      "mail_ids": [
+                        6,
+                        7
+                      ],
+                      "reward_ids": [
+                        249,
+                        250
+                      ]
+                    },
+                    "60": {
+                      "definition": "79f8c771e4375dc688739e85b314b80f4f35766f253334cecdc7ca1268a15a7d",
+                      "mail_ids": [
+                        8
+                      ],
+                      "reward_ids": [
+                        253
+                      ]
+                    },
+                    "70": {
+                      "definition": "8cbea0d3ae55bc9250b7b846d920ef8427eb44e00253b238b6d91b63f7f61cf0",
+                      "mail_ids": [
+                        9
+                      ],
+                      "reward_ids": [
+                        255
+                      ]
+                    },
+                    "80": {
+                      "definition": "5b7981150e29c81daf13b71e378ceaa83c186e2780fd01222cce71998d0ab174",
+                      "mail_ids": [
+                        10
+                      ],
+                      "reward_ids": [
+                        257
+                      ]
+                    },
+                    "90": {
+                      "definition": "45e64b5ff861c4ea8d8eae60629d969fbca73e99202d724ad55c0ef1d2ae6d00",
+                      "mail_ids": [
+                        11
+                      ],
+                      "reward_ids": [
+                        259
+                      ]
+                    }
+                  },
+                  "premium": {
+                    "10": {
+                      "definition": "94193ec0ee6631a6e0053bec9437092ca43e04378dd373dd3fd3c1683a707a1d",
+                      "mail_ids": [
+                        14,
+                        15
+                      ],
+                      "reward_ids": [
+                        241,
+                        242
+                      ]
+                    },
+                    "100": {
+                      "definition": "a42b4fa0f7ad7f973835f503824a1a47e4823c76e1cd06c0cc8f07702bf93206",
+                      "mail_ids": [
+                        25,
+                        26
+                      ],
+                      "reward_ids": [
+                        263,
+                        264
+                      ]
+                    },
+                    "20": {
+                      "definition": "65b491ff30a900b8d8e7e46449a30233fb07934e46c84018472352fd75f9f58f",
+                      "mail_ids": [
+                        16
+                      ],
+                      "reward_ids": [
+                        244
+                      ]
+                    },
+                    "30": {
+                      "definition": "f63366f219d1f14bac44499e44f75ff524c21258da200275a92f0064c6621971",
+                      "mail_ids": [
+                        17
+                      ],
+                      "reward_ids": [
+                        246
+                      ]
+                    },
+                    "40": {
+                      "definition": "a2712458de8dd273861dae6332422d8d4fca3a56f9490556661e7f134c078733",
+                      "mail_ids": [
+                        18
+                      ],
+                      "reward_ids": [
+                        248
+                      ]
+                    },
+                    "50": {
+                      "definition": "933d93124073e803435473a20a6e76f8d9a7503d5824200bba08548b8a9c6891",
+                      "mail_ids": [
+                        19,
+                        20
+                      ],
+                      "reward_ids": [
+                        251,
+                        252
+                      ]
+                    },
+                    "60": {
+                      "definition": "3a6fe7bde429415f9c39e6d011c430a98e5db03f2d8f4d0e52ace488efe17d87",
+                      "mail_ids": [
+                        21
+                      ],
+                      "reward_ids": [
+                        254
+                      ]
+                    },
+                    "70": {
+                      "definition": "ad43539a71e3dc9d0d88c4d0a269b78468f191d7a735560306eab88217b12828",
+                      "mail_ids": [
+                        22
+                      ],
+                      "reward_ids": [
+                        256
+                      ]
+                    },
+                    "80": {
+                      "definition": "35148d6eccd09ecdc1d2db6c27cb4d8730034352b2ef2fa8edd6dcc728749184",
+                      "mail_ids": [
+                        23
+                      ],
+                      "reward_ids": [
+                        258
+                      ]
+                    },
+                    "90": {
+                      "definition": "d5b01b7308922706f813f6324fc9f3b93a62446b11774c2b368d8311388d6ace",
+                      "mail_ids": [
+                        24
+                      ],
+                      "reward_ids": [
+                        260
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            "schema_version": 1
+          },
+          "last_present_id": 26,
+          "presents_schema": 1
+        },
+        "presents": {
+          "added": [
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 1,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_cook_logbo_00004",
+              "PresentID": 2,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 3,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 4,
+              "Type": 1
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 5,
+              "Type": 1
+            },
+            {
+              "Content": 512,
+              "Description": "イベントパス報酬",
+              "PresentID": 6,
+              "Type": 1
+            },
+            {
+              "Content": 10,
+              "Description": "イベントパス報酬",
+              "ItemID": "gift_0003_diamond",
+              "PresentID": 7,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 8,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 9,
+              "Type": 1
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 10,
+              "Type": 1
+            },
+            {
+              "Content": 62,
+              "Description": "イベントパス報酬",
+              "PresentID": 11,
+              "Type": 1
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 12,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_smn_ticket_85142",
+              "PresentID": 13,
+              "Type": 22
+            },
+            {
+              "Content": 2,
+              "Description": "イベントパス報酬",
+              "PresentID": 14,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_smn_ticket_50029",
+              "PresentID": 15,
+              "Type": 22
+            },
+            {
+              "Content": 4,
+              "Description": "イベントパス報酬",
+              "ItemID": "trade_item_005000",
+              "PresentID": 16,
+              "Type": 22
+            },
+            {
+              "Content": 173,
+              "Description": "イベントパス報酬",
+              "PresentID": 17,
+              "Type": 1
+            },
+            {
+              "Content": 448,
+              "Description": "イベントパス報酬",
+              "PresentID": 18,
+              "Type": 1
+            },
+            {
+              "Content": 3,
+              "Description": "イベントパス報酬",
+              "PresentID": 19,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_smn_ticket_85142",
+              "PresentID": 20,
+              "Type": 22
+            },
+            {
+              "Content": 4,
+              "Description": "イベントパス報酬",
+              "ItemID": "trade_item_005000",
+              "PresentID": 21,
+              "Type": 22
+            },
+            {
+              "Content": 173,
+              "Description": "イベントパス報酬",
+              "PresentID": 22,
+              "Type": 1
+            },
+            {
+              "Content": 448,
+              "Description": "イベントパス報酬",
+              "PresentID": 23,
+              "Type": 1
+            },
+            {
+              "Content": 200,
+              "Description": "イベントパス報酬",
+              "ItemID": "trade_item_001000",
+              "PresentID": 24,
+              "Type": 22
+            },
+            {
+              "Content": 289,
+              "Description": "イベントパス報酬",
+              "PresentID": 25,
+              "Type": 1
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_smn_ticket_85142",
+              "PresentID": 26,
+              "Type": 22
+            }
+          ],
+          "count": 26,
+          "sha256": "7ab7528448513bcb295b5c82a944bb1e36217d5618309d43fb209d91ad47d013"
+        },
+        "removed": [],
+        "tables": {
+          "event_pass_status": [
+            {
+              "ID": "event_pass_20261015",
+              "ReceivedNormalPoint": 100,
+              "ReceivedPremiumPoint": 100
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V><V>5</V><V>6</V><V>7</V><V>8</V><V>9</V><V>10</V><V>11</V><V>12</V><V>13</V><V>14</V><V>15</V><V>16</V><V>17</V><V>18</V><V>19</V><V>20</V><V>21</V><V>22</V><V>23</V><V>24</V><V>25</V><V>26</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V><V>1</V><V>1</V><V>22</V><V>1</V><V>1</V><V>1</V><V>1</V><V>0</V><V>22</V><V>0</V><V>22</V><V>22</V><V>1</V><V>1</V><V>0</V><V>22</V><V>22</V><V>1</V><V>1</V><V>22</V><V>1</V><V>22</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V><V>61</V><V>512</V><V>10</V><V>61</V><V>6</V><V>61</V><V>62</V><V>1</V><V>1</V><V>2</V><V>1</V><V>4</V><V>173</V><V>448</V><V>3</V><V>1</V><V>4</V><V>173</V><V>448</V><V>200</V><V>289</V><V>1</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V><V></V><V></V><V>gift_0003_diamond</V><V></V><V></V><V></V><V></V><V></V><V>item_smn_ticket_85142</V><V></V><V>item_smn_ticket_50029</V><V>trade_item_005000</V><V></V><V></V><V></V><V>item_smn_ticket_85142</V><V>trade_item_005000</V><V></V><V></V><V>trade_item_001000</V><V></V><V>item_smn_ticket_85142</V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>100</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>100</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><VN>5.0.0</VN><ST>3055</ST><HS>7802863</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>100</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>100</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_twice": {
+      "state": {
+        "keys": {
+          "event_pass_delivery": {
+            "mail_ids": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "pass_id": "event_pass_20261015",
+            "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+            "schema_version": 1
+          },
+          "event_pass_history": {
+            "processed_keys": [
+              "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827"
+            ],
+            "receipts": [
+              {
+                "content": "02002e9fb76c26d2c262190111bd106cd8581b65a8e4ffaa294cca3ddc7e51c9",
+                "mail_ids": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "pass_id": "event_pass_20261015",
+                "request": "96b0d2a5066336b5141c7a395347a77971125a251431770d4080bb4ceb326827",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+                "revision": 1,
+                "state": "3e58f4829987db805ab9e9caef6046c0cb1c1802da6c0e191bcc0ba6590b7064"
+              }
+            ],
+            "schema_version": 2
+          },
+          "event_pass_state": {
+            "passes": {
+              "event_pass_20261015": {
+                "baseline_normal": 0,
+                "baseline_premium": 0,
+                "definition": "2e0712f7ecb404271ce328bf6e31a36559b3cc2f0f6576c88cde6104c1eeb7a8",
+                "deliveries": {
+                  "normal": {
+                    "10": {
+                      "definition": "07ccecd6f718da8c7dd9df67acc8e0467e371e2e7082ff0e39319797375c972a",
+                      "mail_ids": [
+                        1,
+                        2
+                      ],
+                      "reward_ids": [
+                        239,
+                        240
+                      ]
+                    },
+                    "20": {
+                      "definition": "424c060deeea97bada9719f7b59c29043780edd9e4e4f89c78c12cdc74263a21",
+                      "mail_ids": [
+                        3
+                      ],
+                      "reward_ids": [
+                        243
+                      ]
+                    },
+                    "30": {
+                      "definition": "25a6a1e165560e330f4b8982275db1cdefb95cbc5a5253cf2fc56f525574780b",
+                      "mail_ids": [
+                        4
+                      ],
+                      "reward_ids": [
+                        245
+                      ]
+                    }
+                  },
+                  "premium": {}
+                }
+              }
+            },
+            "schema_version": 1
+          },
+          "last_present_id": 4,
+          "presents_schema": 1
+        },
+        "presents": {
+          "added": [
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "PresentID": 1,
+              "Type": 0
+            },
+            {
+              "Content": 1,
+              "Description": "イベントパス報酬",
+              "ItemID": "item_cook_logbo_00004",
+              "PresentID": 2,
+              "Type": 22
+            },
+            {
+              "Content": 61,
+              "Description": "イベントパス報酬",
+              "PresentID": 3,
+              "Type": 1
+            },
+            {
+              "Content": 6,
+              "Description": "イベントパス報酬",
+              "PresentID": 4,
+              "Type": 1
+            }
+          ],
+          "count": 4,
+          "sha256": "907004acdf1d2b4aadb32e7783cde0e7da9560bf64171948e1d66ad865ca26bb"
+        },
+        "removed": [],
+        "tables": {
+          "event_pass_status": [
+            {
+              "ID": "event_pass_20261015",
+              "ReceivedNormalPoint": 30,
+              "ReceivedPremiumPoint": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPT><PresentID T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></PresentID><A1 T=\"I\"><V>0</V><V>22</V><V>1</V><V>1</V></A1><A2 T=\"I\"><V>1</V><V>1</V><V>61</V><V>6</V></A2><A3 T=\"S\"><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V><V>イベントパス報酬</V></A3><A6 T=\"S\"><V></V><V>item_cook_logbo_00004</V><V></V><V></V></A6></PPT><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799226</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><EventPassStatus><ID T=\"S\"><V>event_pass_20261015</V></ID><ReceivedNormalPoint T=\"I\"><V>30</V></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"><V>0</V></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 0,
+          "warnings": [
+            "Event pass event_pass_20261015 has no claimable rewards; replying with its saved status"
+          ]
+        }
+      ]
+    },
+    "claim_two_passes": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request field type or value count is invalid",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V><V>event_pass_20260611</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7800210</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_unknown_pass": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "event_pass_unknown",
+            "message": "Event pass is not in the current catalog",
+            "status": 501
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_missing</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7798941</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_without_identity": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request is missing required fields",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><VN>5.0.0</VN><ST>3056</ST><HS>7802860</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_wrong_method_key": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_method_key",
+            "message": "Request method key does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799210</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "claim_wrong_user_key": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799258</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "priority_history_before_window": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "event_pass_history_invalid",
+            "message": "Stored event pass receipts are invalid",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20260611</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799229</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "priority_identity_before_history": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_20261015</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7799258</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "priority_unknown_before_identity": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "event_pass_unknown",
+            "message": "Event pass is not in the current catalog",
+            "status": 501
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><EPI T=\"S\"><V>event_pass_missing</V></EPI><VN>5.0.0</VN><ST>3056</ST><HS>7798973</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "read_full": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><VN>5.0.0</VN><ST>3055</ST><HS>7802863</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><EventPassStatus><ID T=\"S\"></ID><ReceivedNormalPoint T=\"I\"></ReceivedNormalPoint><ReceivedPremiumPoint T=\"I\"></ReceivedPremiumPoint></EventPassStatus></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "read_wrong_user_key": {
+      "state": {
+        "keys": {},
+        "presents": {
+          "added": [],
+          "count": 0,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "removed": [],
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><VN>5.0.0</VN><ST>3055</ST><HS>7802383</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    }
+  },
+  "registrations": [
+    158,
+    159
+  ]
+}

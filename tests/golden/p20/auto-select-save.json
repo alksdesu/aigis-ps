@@ -1,0 +1,318 @@
+{
+  "cases": {
+    "boolean_field": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request field type or value count is invalid",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"B\"><V>1</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7798927</HS></DA>",
+      "revisions": 0
+    },
+    "configuration_reply_too_large": {
+      "calls": [
+        {
+          "error": {
+            "code": "response_too_large",
+            "message": "Response exceeds the native receiver capacity",
+            "status": 500
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7798927</HS></DA>",
+      "revisions": 0
+    },
+    "conflict_then_commit": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>F6</V><V>FB</V></A1><A2 T=\"S\"><V>513</V><V>-2147483648</V></A2></PGC></DA>"
+        }
+      ],
+      "changed": {
+        "config": [
+          {
+            "AutoSelectConfig": 513,
+            "BattleAcceleratorFlag": 0,
+            "BattleDClickSkillDisableFlag": 0,
+            "BattlePlaceMagnetFlag": 0,
+            "CostUpCloseDateTime": "",
+            "DamageDispEnable": 0,
+            "EventViewRequest": "",
+            "ExperienceUpCloseDateTime": "",
+            "HaveUnitMaxSizeBuy": 0,
+            "IntegrationAutoSelectConfig": -2147483648,
+            "MenuTutorialFlags": 1,
+            "MissionRewardFlags2": 0,
+            "MoneyUpCloseDateTime": "",
+            "PurposeSettingFlags": 0,
+            "SpecialEffectsFlags": 0,
+            "SpecialEffectsFlags2": 0,
+            "TypeOfSortOrder": "",
+            "UseBgm": true,
+            "UseSe": true,
+            "UserName": "Local Player",
+            "_BattleGodBlessFilter": 0,
+            "_BlsDT_BoostAtk_F": "",
+            "_BlsDT_BoostAtk_R": "",
+            "_BlsDT_DamageCut": "",
+            "_FlagFilter": "",
+            "_FlagMissionFilter": "",
+            "_FlagSort": "",
+            "_GuideUnitIndex": 0,
+            "_VolumeBgm": 0,
+            "_VolumeSe": 0
+          }
+        ]
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7798927</HS></DA>",
+      "revisions": 1
+    },
+    "conflicts_exhausted": {
+      "calls": [
+        {
+          "error": {
+            "code": "profile_changed",
+            "message": "Configuration changed while saving automatic selection preferences",
+            "status": 409
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7798927</HS></DA>",
+      "revisions": 0
+    },
+    "extremes": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>F6</V><V>FB</V></A1><A2 T=\"S\"><V>2147483647</V><V>-1</V></A2></PGC></DA>"
+        }
+      ],
+      "changed": {
+        "config": [
+          {
+            "AutoSelectConfig": 2147483647,
+            "BattleAcceleratorFlag": 0,
+            "BattleDClickSkillDisableFlag": 0,
+            "BattlePlaceMagnetFlag": 0,
+            "CostUpCloseDateTime": "",
+            "DamageDispEnable": 0,
+            "EventViewRequest": "",
+            "ExperienceUpCloseDateTime": "",
+            "HaveUnitMaxSizeBuy": 0,
+            "IntegrationAutoSelectConfig": -1,
+            "MenuTutorialFlags": 1,
+            "MissionRewardFlags2": 0,
+            "MoneyUpCloseDateTime": "",
+            "PurposeSettingFlags": 0,
+            "SpecialEffectsFlags": 0,
+            "SpecialEffectsFlags2": 0,
+            "TypeOfSortOrder": "",
+            "UseBgm": true,
+            "UseSe": true,
+            "UserName": "Local Player",
+            "_BattleGodBlessFilter": 0,
+            "_BlsDT_BoostAtk_F": "",
+            "_BlsDT_BoostAtk_R": "",
+            "_BlsDT_DamageCut": "",
+            "_FlagFilter": "",
+            "_FlagMissionFilter": "",
+            "_FlagSort": "",
+            "_GuideUnitIndex": 0,
+            "_VolumeBgm": 0,
+            "_VolumeSe": 0
+          }
+        ]
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>2147483647</V></F6><FB T=\"I\"><V>-1</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7799000</HS></DA>",
+      "revisions": 1
+    },
+    "missing_field": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request is missing required fields",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><VN>5.0.0</VN><ST>3038</ST><HS>7798927</HS></DA>",
+      "revisions": 0
+    },
+    "overflow": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Integer exceeds the native int32 range",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>2147483648</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7798927</HS></DA>",
+      "revisions": 0
+    },
+    "priority_request_before_identity": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request is missing required fields",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><VN>5.0.0</VN><ST>3038</ST><HS>7798959</HS></DA>",
+      "revisions": 0
+    },
+    "priority_stored_value_before_reply_size": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_bootstrap_value",
+            "message": "Persisted config has an invalid typed value",
+            "status": 503
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7798927</HS></DA>",
+      "revisions": 0
+    },
+    "response_too_large": {
+      "calls": [
+        {
+          "error": {
+            "code": "response_too_large",
+            "message": "Response exceeds the native receiver capacity",
+            "status": 500
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7798927</HS></DA>",
+      "revisions": 0
+    },
+    "sort_registration": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Unexpected registered operation",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3024</ST><HS>7798931</HS></DA>",
+      "revisions": 0
+    },
+    "stored_value_boolean": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_bootstrap_value",
+            "message": "Persisted config has an invalid typed value",
+            "status": 503
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7798927</HS></DA>",
+      "revisions": 0
+    },
+    "unchanged": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>F6</V><V>FB</V></A1><A2 T=\"S\"><V>0</V><V>0</V></A2></PGC></DA>"
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>0</V></F6><FB T=\"I\"><V>0</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7799110</HS></DA>",
+      "revisions": 0
+    },
+    "unknown_field": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request contains duplicate or unknown fields",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7798927</HS><F5 T=\"I\"><V>99</V></F5></DA>",
+      "revisions": 0
+    },
+    "values": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>F6</V><V>FB</V></A1><A2 T=\"S\"><V>513</V><V>-2147483648</V></A2></PGC></DA>"
+        }
+      ],
+      "changed": {
+        "config": [
+          {
+            "AutoSelectConfig": 513,
+            "BattleAcceleratorFlag": 0,
+            "BattleDClickSkillDisableFlag": 0,
+            "BattlePlaceMagnetFlag": 0,
+            "CostUpCloseDateTime": "",
+            "DamageDispEnable": 0,
+            "EventViewRequest": "",
+            "ExperienceUpCloseDateTime": "",
+            "HaveUnitMaxSizeBuy": 0,
+            "IntegrationAutoSelectConfig": -2147483648,
+            "MenuTutorialFlags": 1,
+            "MissionRewardFlags2": 0,
+            "MoneyUpCloseDateTime": "",
+            "PurposeSettingFlags": 0,
+            "SpecialEffectsFlags": 0,
+            "SpecialEffectsFlags2": 0,
+            "TypeOfSortOrder": "",
+            "UseBgm": true,
+            "UseSe": true,
+            "UserName": "Local Player",
+            "_BattleGodBlessFilter": 0,
+            "_BlsDT_BoostAtk_F": "",
+            "_BlsDT_BoostAtk_R": "",
+            "_BlsDT_DamageCut": "",
+            "_FlagFilter": "",
+            "_FlagMissionFilter": "",
+            "_FlagSort": "",
+            "_GuideUnitIndex": 0,
+            "_VolumeBgm": 0,
+            "_VolumeSe": 0
+          }
+        ]
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7798927</HS></DA>",
+      "revisions": 1
+    },
+    "wrong_user_key": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F6 T=\"I\"><V>513</V></F6><FB T=\"I\"><V>-2147483648</V></FB><VN>5.0.0</VN><ST>3038</ST><HS>7798959</HS></DA>",
+      "revisions": 0
+    }
+  },
+  "registration": 27
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "input_sha256": "d0be510fb38b1d6dfe63c3562c97e45f49d318bf7e155dee309d88efe963f92b",
+  "created_at": "2026-10-31T17:33:56.347971+00:00",
+  "objects": [
+    {
+      "name": "LoadIcon.aar",
+      "group": "efeef6d163107f82bb078335d298db776c25cbf7",
+      "md5": "6d4b20dda8c9b0dc6a222203bb0467ed",
+      "path": "LoadIcon.aar",
+      "size": 18747,
+      "sha256": "d83f0b5005dff88162e2b1acf0fd1a081c7389b92863102892ea141bc95735ff",
+      "source_url": "https://drc1bk94f7rq8.cloudfront.net/efeef6d163107f82bb078335d298db776c25cbf7/6d4b20dda8c9b0dc6a222203bb0467ed",
+      "acquisition": "original-bootstrap"
+    },
+    {
+      "name": "MainFontFix.aft",
+      "group": "3f37fdea7c5a2d1adb451a4ae09d6f7f6818b348",
+      "md5": "6cee2e846addc35f7375d3049f7718eb",
+      "path": "MainFontFix.aft",
+      "size": 1647476,
+      "sha256": "6c28fb514c1c7be15d2a15ede3418019bfc5eb3b65ca527272d5d6e42c37c4b2",
+      "source_url": "https://drc1bk94f7rq8.cloudfront.net/3f37fdea7c5a2d1adb451a4ae09d6f7f6818b348/6cee2e846addc35f7375d3049f7718eb",
+      "acquisition": "public-cdn"
+    },
+    {
+      "name": "OverlayWindow.atx",
+      "group": "42f828a883b85d1c78c7a41c18901e4abb661de2",
+      "md5": "fef3ae381d93b4d30805c4d73a918a5a",
+      "path": "OverlayWindow.atx",
+      "size": 820640,
+      "sha256": "28a6f7c3b6248c058bfa3f15a9022041234819a35a0ddd811b3842e695063e68",
+      "source_url": "https://drc1bk94f7rq8.cloudfront.net/42f828a883b85d1c78c7a41c18901e4abb661de2/fef3ae381d93b4d30805c4d73a918a5a",
+      "acquisition": "original-bootstrap"
+    },
+    {
+      "name": "SoundSeFix.aar",
+      "group": "c8fe01ca7683d1d51634fc64c60b7272f32bce43",
+      "md5": "95766accf936d7e85dd0c231a97f33e1",
+      "path": "SoundSeFix.aar",
+      "size": 132,
+      "sha256": "7353cf960409db78cf2d93e8b21bde5b7d30760cdfd3359b3346f31743fb9771",
+      "source_url": "https://drc1bk94f7rq8.cloudfront.net/c8fe01ca7683d1d51634fc64c60b7272f32bce43/95766accf936d7e85dd0c231a97f33e1",
+      "acquisition": "public-cdn"
+    },
+    {
+      "name": "FixSeMenuOK.mp3",
+      "group": "45264fcd17a0a45d36b772af69c921541c65e3bc",
+      "md5": "90b91c19b2485d462fa3b32bf759c15a",
+      "path": "FixSeMenuOK.mp3",
+      "size": 17553,
+      "sha256": "9c8b5907bf4785b793752af21c12eeae01b86a4beee2269e0f4957044d29c401",
+      "source_url": "https://drc1bk94f7rq8.cloudfront.net/45264fcd17a0a45d36b772af69c921541c65e3bc/90b91c19b2485d462fa3b32bf759c15a",
+      "acquisition": "public-cdn"
+    },
+    {
+      "name": "FixSeMenuOK.ogg",
+      "group": "45264fcd17a0a45d36b772af69c921541c65e3bc",
+      "md5": "2c2d22f99147d042cfc4ba43b64f07bc",
+      "path": "FixSeMenuOK.ogg",
+      "size": 16086,
+      "sha256": "f63309cc9bb851eee024ee5da78d10adf28a7a7458d64912afbf15e2796887e2",
+      "source_url": "https://drc1bk94f7rq8.cloudfront.net/45264fcd17a0a45d36b772af69c921541c65e3bc/2c2d22f99147d042cfc4ba43b64f07bc",
+      "acquisition": "public-cdn"
+    }
+  ],
+  "game_info_text": {
+    "path": "GameInfoText.bin",
+    "size": 41736,
+    "sha256": "33320c466610a05dee856952ac9357f726919394102e5427ab714ea9a044ec4e",
+    "source_url": "https://drc1bk94f7rq8.cloudfront.net/000/_GameInfoText"
+  }
+}

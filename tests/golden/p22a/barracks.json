@@ -1,0 +1,3566 @@
+{
+  "cases": {
+    "purchase": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPC><UserID T=\"I\"><V>1</V><V>1</V></UserID><Date T=\"I\"><V>700000</V><V>700003</V></Date><Num T=\"I\"><V>40</V><V>20</V></Num></PPC><PFC><UserID T=\"I\"><V>1</V><V>1</V></UserID><Date T=\"I\"><V>700002</V><V>700001</V></Date><Num T=\"I\"><V>0</V><V>0</V></Num></PFC><PGC><A1 T=\"S\"><V>A5</V></A1><A2 T=\"S\"><V>65536</V></A2></PGC><PGP2><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>30</V></A2></PGP2></DA>",
+        "revisions": 0,
+        "save": {
+          "barracks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "crystals": [
+            {
+              "Date": 700000,
+              "FreeFlag": false,
+              "Num": 40
+            },
+            {
+              "Date": 700002,
+              "FreeFlag": true,
+              "Num": 0
+            },
+            {
+              "Date": 700003,
+              "FreeFlag": false,
+              "Num": 20
+            },
+            {
+              "Date": 700001,
+              "FreeFlag": true,
+              "Num": 0
+            }
+          ],
+          "game_param2": [
+            {
+              "BonusPremiumSummonCount": 0,
+              "BonusPremiumSummonDate": 0,
+              "ComebackLoginDateTime": "",
+              "GameStartDateTime": "2026/11/01 12:00:00",
+              "GloryPoint": 0,
+              "GoddessRevivalTotalStarCount": 0,
+              "HomeCookingReceivedAmount": 0,
+              "HomeCookingReceivedDate": 0,
+              "LastLoginDate": 0,
+              "LatestComebackLoginBonusDateTime": "",
+              "LatestComebackLoginBonusDays": 0,
+              "LatestComebackSummonBonusDateTime": "",
+              "LatestComebackSummonBonusDays": 0,
+              "LogInStampCount": 0,
+              "LookHarlemFlag00": 0,
+              "LookHarlemFlag01": 0,
+              "LookHarlemFlag02": 0,
+              "LookHarlemFlag03": 0,
+              "LookHarlemFlag10": 0,
+              "LookHarlemFlag11": 0,
+              "LookHarlemFlag12": 0,
+              "LookHarlemFlag13": 0,
+              "MaintenanceCheckDateTime": 0,
+              "NormalGachaFree": 0,
+              "StampCardGrade": 30,
+              "WatchEventFlag0": "",
+              "WatchEventFlag0_2": "",
+              "WatchEventFlag1": "",
+              "WatchEventFlag1_2": "",
+              "_EvCmb": 1
+            }
+          ],
+          "purchases": 65536,
+          "spending": {
+            "baseline_source": "new_local",
+            "current_spent": 30,
+            "last_time": 1793502000000,
+            "period": "2026-11",
+            "previous_spent": 0,
+            "schema_version": 1
+          }
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPC><UserID T=\"I\"><V>1</V><V>1</V></UserID><Date T=\"I\"><V>700000</V><V>700003</V></Date><Num T=\"I\"><V>40</V><V>20</V></Num></PPC><PFC><UserID T=\"I\"><V>1</V><V>1</V></UserID><Date T=\"I\"><V>700002</V><V>700001</V></Date><Num T=\"I\"><V>0</V><V>0</V></Num></PFC><PGC><A1 T=\"S\"><V>A5</V></A1><A2 T=\"S\"><V>65536</V></A2></PGC><PGP2><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>30</V></A2></PGP2></DA>",
+      "revisions": 1,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 40
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 0
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 0
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 30,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 65536,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 30,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "purchase_crystals_insufficient": {
+      "error": {
+        "code": "crystal_insufficient",
+        "message": "Crystal debit exceeds the eligible saved balance",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 1,
+            "FreeFlag": true,
+            "Num": 29
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 0,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "purchase_flags_textual": {
+      "error": {
+        "code": "unit_capacity_state_invalid",
+        "message": "Rank or barracks purchase flags are invalid",
+        "status": 503
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": "0",
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "purchase_keeps_low_bits": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPC><UserID T=\"I\"><V>1</V><V>1</V></UserID><Date T=\"I\"><V>700000</V><V>700003</V></Date><Num T=\"I\"><V>40</V><V>20</V></Num></PPC><PFC><UserID T=\"I\"><V>1</V><V>1</V></UserID><Date T=\"I\"><V>700002</V><V>700001</V></Date><Num T=\"I\"><V>0</V><V>0</V></Num></PFC><PGC><A1 T=\"S\"><V>A5</V></A1><A2 T=\"S\"><V>131071</V></A2></PGC><PGP2><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>30</V></A2></PGP2></DA>",
+      "revisions": 1,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 40
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 0
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 0
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 30,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131071,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 30,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "purchase_limit": {
+      "error": {
+        "code": "barracks_purchase_limit",
+        "message": "All verified extra barracks are already available",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "purchase_limit_before_rank": {
+      "error": {
+        "code": "barracks_purchase_limit",
+        "message": "All verified extra barracks are already available",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "purchase_parameters": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Request contains duplicate or unknown fields",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 0,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "purchase_rank_required": {
+      "error": {
+        "code": "barracks_rank_required",
+        "message": "The first extra barracks requires player rank 25",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 0,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "purchase_second": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPC><UserID T=\"I\"><V>1</V><V>1</V></UserID><Date T=\"I\"><V>700000</V><V>700003</V></Date><Num T=\"I\"><V>40</V><V>20</V></Num></PPC><PFC><UserID T=\"I\"><V>1</V><V>1</V></UserID><Date T=\"I\"><V>700002</V><V>700001</V></Date><Num T=\"I\"><V>0</V><V>0</V></Num></PFC><PGC><A1 T=\"S\"><V>A5</V></A1><A2 T=\"S\"><V>131072</V></A2></PGC><PGP2><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>30</V></A2></PGP2></DA>",
+      "revisions": 1,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 40
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 0
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 0
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 30,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 30,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "purchase_second_without_rank": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPC><UserID T=\"I\"><V>1</V><V>1</V></UserID><Date T=\"I\"><V>700000</V><V>700003</V></Date><Num T=\"I\"><V>40</V><V>20</V></Num></PPC><PFC><UserID T=\"I\"><V>1</V><V>1</V></UserID><Date T=\"I\"><V>700002</V><V>700001</V></Date><Num T=\"I\"><V>0</V><V>0</V></Num></PFC><PGC><A1 T=\"S\"><V>A5</V></A1><A2 T=\"S\"><V>131072</V></A2></PGC><PGP2><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>30</V></A2></PGP2></DA>",
+      "revisions": 1,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 40
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 0
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 0
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 30,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 30,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+        "revisions": 0,
+        "save": {
+          "barracks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              17
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "crystals": [
+            {
+              "Date": 700000,
+              "FreeFlag": false,
+              "Num": 50
+            },
+            {
+              "Date": 700002,
+              "FreeFlag": true,
+              "Num": 15
+            },
+            {
+              "Date": 700003,
+              "FreeFlag": false,
+              "Num": 20
+            },
+            {
+              "Date": 700001,
+              "FreeFlag": true,
+              "Num": 5
+            }
+          ],
+          "game_param2": [
+            {
+              "BonusPremiumSummonCount": 0,
+              "BonusPremiumSummonDate": 0,
+              "ComebackLoginDateTime": "",
+              "GameStartDateTime": "2026/11/01 12:00:00",
+              "GloryPoint": 0,
+              "GoddessRevivalTotalStarCount": 0,
+              "HomeCookingReceivedAmount": 0,
+              "HomeCookingReceivedDate": 0,
+              "LastLoginDate": 0,
+              "LatestComebackLoginBonusDateTime": "",
+              "LatestComebackLoginBonusDays": 0,
+              "LatestComebackSummonBonusDateTime": "",
+              "LatestComebackSummonBonusDays": 0,
+              "LogInStampCount": 0,
+              "LookHarlemFlag00": 0,
+              "LookHarlemFlag01": 0,
+              "LookHarlemFlag02": 0,
+              "LookHarlemFlag03": 0,
+              "LookHarlemFlag10": 0,
+              "LookHarlemFlag11": 0,
+              "LookHarlemFlag12": 0,
+              "LookHarlemFlag13": 0,
+              "MaintenanceCheckDateTime": 0,
+              "NormalGachaFree": 0,
+              "StampCardGrade": 0,
+              "WatchEventFlag0": "",
+              "WatchEventFlag0_2": "",
+              "WatchEventFlag1": "",
+              "WatchEventFlag1_2": "",
+              "_EvCmb": 1
+            }
+          ],
+          "purchases": 131072,
+          "spending": {
+            "baseline_source": "new_local",
+            "current_spent": 0,
+            "last_time": 1793502000000,
+            "period": "2026-11",
+            "previous_spent": 0,
+            "schema_version": 1
+          }
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_back": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>7</V></A1><A2 T=\"I\"><V>100</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>41</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_back_organized_legacy": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>7</V></A1><A2 T=\"I\"><V>100</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>41</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_battle_without_reservations": {
+      "error": {
+        "code": "quest_reservation_unavailable",
+        "message": "Settle, exit or restart the legacy battle before receiving other units",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_capacity": {
+      "error": {
+        "code": "barracks_capacity_exceeded",
+        "message": "The destination cannot hold the complete transfer",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_destination_range": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Transfer destination is outside the verified barracks range",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_extra_to_extra": {
+      "error": {
+        "code": "barracks_direction_unsupported",
+        "message": "This direct barracks transfer is not supported",
+        "status": 501
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_locked": {
+      "error": {
+        "code": "barracks_locked",
+        "message": "The destination barracks has not been purchased",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 0,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_locked_before_identity": {
+      "error": {
+        "code": "barracks_locked",
+        "message": "The destination barracks has not been purchased",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 0,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_mismatched_identity": {
+      "error": {
+        "code": "barracks_unit_missing",
+        "message": "Transfer identity does not match an owned unit",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_mixed_sources": {
+      "error": {
+        "code": "barracks_mixed_sources",
+        "message": "Transfer selection must belong to one source barracks",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_noop": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+        "revisions": 0,
+        "save": {
+          "barracks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              17
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              9,
+              1
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "crystals": [
+            {
+              "Date": 700000,
+              "FreeFlag": false,
+              "Num": 50
+            },
+            {
+              "Date": 700002,
+              "FreeFlag": true,
+              "Num": 15
+            },
+            {
+              "Date": 700003,
+              "FreeFlag": false,
+              "Num": 20
+            },
+            {
+              "Date": 700001,
+              "FreeFlag": true,
+              "Num": 5
+            }
+          ],
+          "game_param2": [
+            {
+              "BonusPremiumSummonCount": 0,
+              "BonusPremiumSummonDate": 0,
+              "ComebackLoginDateTime": "",
+              "GameStartDateTime": "2026/11/01 12:00:00",
+              "GloryPoint": 0,
+              "GoddessRevivalTotalStarCount": 0,
+              "HomeCookingReceivedAmount": 0,
+              "HomeCookingReceivedDate": 0,
+              "LastLoginDate": 0,
+              "LatestComebackLoginBonusDateTime": "",
+              "LatestComebackLoginBonusDays": 0,
+              "LatestComebackSummonBonusDateTime": "",
+              "LatestComebackSummonBonusDays": 0,
+              "LogInStampCount": 0,
+              "LookHarlemFlag00": 0,
+              "LookHarlemFlag01": 0,
+              "LookHarlemFlag02": 0,
+              "LookHarlemFlag03": 0,
+              "LookHarlemFlag10": 0,
+              "LookHarlemFlag11": 0,
+              "LookHarlemFlag12": 0,
+              "LookHarlemFlag13": 0,
+              "MaintenanceCheckDateTime": 0,
+              "NormalGachaFree": 0,
+              "StampCardGrade": 0,
+              "WatchEventFlag0": "",
+              "WatchEventFlag0_2": "",
+              "WatchEventFlag1": "",
+              "WatchEventFlag1_2": "",
+              "_EvCmb": 1
+            }
+          ],
+          "purchases": 131072,
+          "spending": {
+            "baseline_source": "new_local",
+            "current_spent": 0,
+            "last_time": 1793502000000,
+            "period": "2026-11",
+            "previous_spent": 0,
+            "schema_version": 1
+          }
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_organized": {
+      "error": {
+        "code": "barracks_organized",
+        "message": "Organized units cannot leave the primary barracks",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_prince": {
+      "error": {
+        "code": "barracks_prince_protected",
+        "message": "The Prince cannot leave the primary barracks",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_repeated_identity": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Transfer requires aligned distinct unit identities",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    },
+    "transfer_ten": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "barracks": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            33
+          ],
+          [
+            2,
+            33
+          ],
+          [
+            3,
+            33
+          ],
+          [
+            4,
+            33
+          ],
+          [
+            5,
+            33
+          ],
+          [
+            6,
+            33
+          ],
+          [
+            7,
+            33
+          ],
+          [
+            8,
+            33
+          ],
+          [
+            9,
+            33
+          ],
+          [
+            10,
+            33
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        "crystals": [
+          {
+            "Date": 700000,
+            "FreeFlag": false,
+            "Num": 50
+          },
+          {
+            "Date": 700002,
+            "FreeFlag": true,
+            "Num": 15
+          },
+          {
+            "Date": 700003,
+            "FreeFlag": false,
+            "Num": 20
+          },
+          {
+            "Date": 700001,
+            "FreeFlag": true,
+            "Num": 5
+          }
+        ],
+        "game_param2": [
+          {
+            "BonusPremiumSummonCount": 0,
+            "BonusPremiumSummonDate": 0,
+            "ComebackLoginDateTime": "",
+            "GameStartDateTime": "2026/11/01 12:00:00",
+            "GloryPoint": 0,
+            "GoddessRevivalTotalStarCount": 0,
+            "HomeCookingReceivedAmount": 0,
+            "HomeCookingReceivedDate": 0,
+            "LastLoginDate": 0,
+            "LatestComebackLoginBonusDateTime": "",
+            "LatestComebackLoginBonusDays": 0,
+            "LatestComebackSummonBonusDateTime": "",
+            "LatestComebackSummonBonusDays": 0,
+            "LogInStampCount": 0,
+            "LookHarlemFlag00": 0,
+            "LookHarlemFlag01": 0,
+            "LookHarlemFlag02": 0,
+            "LookHarlemFlag03": 0,
+            "LookHarlemFlag10": 0,
+            "LookHarlemFlag11": 0,
+            "LookHarlemFlag12": 0,
+            "LookHarlemFlag13": 0,
+            "MaintenanceCheckDateTime": 0,
+            "NormalGachaFree": 0,
+            "StampCardGrade": 0,
+            "WatchEventFlag0": "",
+            "WatchEventFlag0_2": "",
+            "WatchEventFlag1": "",
+            "WatchEventFlag1_2": "",
+            "_EvCmb": 1
+          }
+        ],
+        "purchases": 131072,
+        "spending": {
+          "baseline_source": "new_local",
+          "current_spent": 0,
+          "last_time": 1793502000000,
+          "period": "2026-11",
+          "previous_spent": 0,
+          "schema_version": 1
+        }
+      }
+    }
+  }
+}

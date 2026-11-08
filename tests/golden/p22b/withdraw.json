@@ -1,0 +1,1568 @@
+{
+  "cases": {
+    "withdraw": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>2</V></A2></PBP><PPU><A1 T=\"I\"><V>54</V><V>54</V></A1><A2 T=\"I\"><V>1</V><V>1</V></A2><A3 T=\"I\"><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V></AB><AC T=\"I\"><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V></AD><AE T=\"I\"><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V></B5></PPU><PFF><CardID T=\"I\"><V>54</V><V>55</V><V>56</V><V>57</V><V>58</V><V>59</V><V>60</V><V>97</V><V>133</V><V>136</V><V>166</V><V>194</V><V>234</V><V>250</V><V>270</V><V>303</V><V>321</V><V>333</V><V>334</V><V>335</V><V>383</V><V>384</V><V>397</V><V>415</V><V>433</V><V>460</V><V>491</V><V>570</V><V>660</V><V>762</V><V>800</V><V>841</V><V>892</V><V>893</V><V>894</V><V>895</V><V>896</V><V>897</V><V>898</V><V>899</V><V>900</V><V>901</V><V>952</V><V>1224</V><V>1236</V><V>1237</V><V>1238</V><V>1269</V><V>1408</V><V>1550</V><V>1654</V><V>1813</V><V>2400</V><V>2844</V></CardID><Count T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></Count></PFF></DA>",
+        "revisions": 0,
+        "save": {
+          "battle": {
+            "RTN": 64,
+            "TN": 0,
+            "UX": 2,
+            "VN": "1.0.1"
+          },
+          "fairy_farm": [
+            {
+              "CardID": 54,
+              "Count": 0
+            },
+            {
+              "CardID": 55,
+              "Count": 0
+            },
+            {
+              "CardID": 56,
+              "Count": 0
+            },
+            {
+              "CardID": 57,
+              "Count": 0
+            },
+            {
+              "CardID": 58,
+              "Count": 0
+            },
+            {
+              "CardID": 59,
+              "Count": 0
+            },
+            {
+              "CardID": 60,
+              "Count": 0
+            },
+            {
+              "CardID": 97,
+              "Count": 0
+            },
+            {
+              "CardID": 133,
+              "Count": 0
+            },
+            {
+              "CardID": 136,
+              "Count": 0
+            },
+            {
+              "CardID": 166,
+              "Count": 0
+            },
+            {
+              "CardID": 194,
+              "Count": 0
+            },
+            {
+              "CardID": 234,
+              "Count": 0
+            },
+            {
+              "CardID": 250,
+              "Count": 0
+            },
+            {
+              "CardID": 270,
+              "Count": 0
+            },
+            {
+              "CardID": 303,
+              "Count": 0
+            },
+            {
+              "CardID": 321,
+              "Count": 0
+            },
+            {
+              "CardID": 333,
+              "Count": 0
+            },
+            {
+              "CardID": 334,
+              "Count": 0
+            },
+            {
+              "CardID": 335,
+              "Count": 0
+            },
+            {
+              "CardID": 383,
+              "Count": 0
+            },
+            {
+              "CardID": 384,
+              "Count": 0
+            },
+            {
+              "CardID": 397,
+              "Count": 0
+            },
+            {
+              "CardID": 415,
+              "Count": 0
+            },
+            {
+              "CardID": 433,
+              "Count": 0
+            },
+            {
+              "CardID": 460,
+              "Count": 0
+            },
+            {
+              "CardID": 491,
+              "Count": 0
+            },
+            {
+              "CardID": 570,
+              "Count": 0
+            },
+            {
+              "CardID": 660,
+              "Count": 0
+            },
+            {
+              "CardID": 762,
+              "Count": 0
+            },
+            {
+              "CardID": 800,
+              "Count": 0
+            },
+            {
+              "CardID": 841,
+              "Count": 0
+            },
+            {
+              "CardID": 892,
+              "Count": 0
+            },
+            {
+              "CardID": 893,
+              "Count": 0
+            },
+            {
+              "CardID": 894,
+              "Count": 0
+            },
+            {
+              "CardID": 895,
+              "Count": 0
+            },
+            {
+              "CardID": 896,
+              "Count": 0
+            },
+            {
+              "CardID": 897,
+              "Count": 0
+            },
+            {
+              "CardID": 898,
+              "Count": 0
+            },
+            {
+              "CardID": 899,
+              "Count": 0
+            },
+            {
+              "CardID": 900,
+              "Count": 0
+            },
+            {
+              "CardID": 901,
+              "Count": 0
+            },
+            {
+              "CardID": 952,
+              "Count": 0
+            },
+            {
+              "CardID": 1224,
+              "Count": 0
+            },
+            {
+              "CardID": 1236,
+              "Count": 0
+            },
+            {
+              "CardID": 1237,
+              "Count": 0
+            },
+            {
+              "CardID": 1238,
+              "Count": 0
+            },
+            {
+              "CardID": 1269,
+              "Count": 0
+            },
+            {
+              "CardID": 1408,
+              "Count": 0
+            },
+            {
+              "CardID": 1550,
+              "Count": 0
+            },
+            {
+              "CardID": 1654,
+              "Count": 0
+            },
+            {
+              "CardID": 1813,
+              "Count": 0
+            },
+            {
+              "CardID": 2400,
+              "Count": 0
+            },
+            {
+              "CardID": 2844,
+              "Count": 0
+            }
+          ],
+          "fairy_farm_schema": 1,
+          "last_unique_id": 3,
+          "ledgers": {},
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 9900,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 54,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 1,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 0,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 54,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 1,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 0,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>2</V></A2></PBP><PPU><A1 T=\"I\"><V>54</V><V>54</V></A1><A2 T=\"I\"><V>1</V><V>1</V></A2><A3 T=\"I\"><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V></AB><AC T=\"I\"><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V></AD><AE T=\"I\"><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V></B5></PPU><PFF><CardID T=\"I\"><V>54</V><V>55</V><V>56</V><V>57</V><V>58</V><V>59</V><V>60</V><V>97</V><V>133</V><V>136</V><V>166</V><V>194</V><V>234</V><V>250</V><V>270</V><V>303</V><V>321</V><V>333</V><V>334</V><V>335</V><V>383</V><V>384</V><V>397</V><V>415</V><V>433</V><V>460</V><V>491</V><V>570</V><V>660</V><V>762</V><V>800</V><V>841</V><V>892</V><V>893</V><V>894</V><V>895</V><V>896</V><V>897</V><V>898</V><V>899</V><V>900</V><V>901</V><V>952</V><V>1224</V><V>1236</V><V>1237</V><V>1238</V><V>1269</V><V>1408</V><V>1550</V><V>1654</V><V>1813</V><V>2400</V><V>2844</V></CardID><Count T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></Count></PFF></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 2,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 0
+          },
+          {
+            "CardID": 55,
+            "Count": 0
+          },
+          {
+            "CardID": 56,
+            "Count": 0
+          },
+          {
+            "CardID": 57,
+            "Count": 0
+          },
+          {
+            "CardID": 58,
+            "Count": 0
+          },
+          {
+            "CardID": 59,
+            "Count": 0
+          },
+          {
+            "CardID": 60,
+            "Count": 0
+          },
+          {
+            "CardID": 97,
+            "Count": 0
+          },
+          {
+            "CardID": 133,
+            "Count": 0
+          },
+          {
+            "CardID": 136,
+            "Count": 0
+          },
+          {
+            "CardID": 166,
+            "Count": 0
+          },
+          {
+            "CardID": 194,
+            "Count": 0
+          },
+          {
+            "CardID": 234,
+            "Count": 0
+          },
+          {
+            "CardID": 250,
+            "Count": 0
+          },
+          {
+            "CardID": 270,
+            "Count": 0
+          },
+          {
+            "CardID": 303,
+            "Count": 0
+          },
+          {
+            "CardID": 321,
+            "Count": 0
+          },
+          {
+            "CardID": 333,
+            "Count": 0
+          },
+          {
+            "CardID": 334,
+            "Count": 0
+          },
+          {
+            "CardID": 335,
+            "Count": 0
+          },
+          {
+            "CardID": 383,
+            "Count": 0
+          },
+          {
+            "CardID": 384,
+            "Count": 0
+          },
+          {
+            "CardID": 397,
+            "Count": 0
+          },
+          {
+            "CardID": 415,
+            "Count": 0
+          },
+          {
+            "CardID": 433,
+            "Count": 0
+          },
+          {
+            "CardID": 460,
+            "Count": 0
+          },
+          {
+            "CardID": 491,
+            "Count": 0
+          },
+          {
+            "CardID": 570,
+            "Count": 0
+          },
+          {
+            "CardID": 660,
+            "Count": 0
+          },
+          {
+            "CardID": 762,
+            "Count": 0
+          },
+          {
+            "CardID": 800,
+            "Count": 0
+          },
+          {
+            "CardID": 841,
+            "Count": 0
+          },
+          {
+            "CardID": 892,
+            "Count": 0
+          },
+          {
+            "CardID": 893,
+            "Count": 0
+          },
+          {
+            "CardID": 894,
+            "Count": 0
+          },
+          {
+            "CardID": 895,
+            "Count": 0
+          },
+          {
+            "CardID": 896,
+            "Count": 0
+          },
+          {
+            "CardID": 897,
+            "Count": 0
+          },
+          {
+            "CardID": 898,
+            "Count": 0
+          },
+          {
+            "CardID": 899,
+            "Count": 0
+          },
+          {
+            "CardID": 900,
+            "Count": 0
+          },
+          {
+            "CardID": 901,
+            "Count": 0
+          },
+          {
+            "CardID": 952,
+            "Count": 0
+          },
+          {
+            "CardID": 1224,
+            "Count": 0
+          },
+          {
+            "CardID": 1236,
+            "Count": 0
+          },
+          {
+            "CardID": 1237,
+            "Count": 0
+          },
+          {
+            "CardID": 1238,
+            "Count": 0
+          },
+          {
+            "CardID": 1269,
+            "Count": 0
+          },
+          {
+            "CardID": 1408,
+            "Count": 0
+          },
+          {
+            "CardID": 1550,
+            "Count": 0
+          },
+          {
+            "CardID": 1654,
+            "Count": 0
+          },
+          {
+            "CardID": 1813,
+            "Count": 0
+          },
+          {
+            "CardID": 2400,
+            "Count": 0
+          },
+          {
+            "CardID": 2844,
+            "Count": 0
+          }
+        ],
+        "fairy_farm_schema": 1,
+        "last_unique_id": 3,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 54,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 1,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 54,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 1,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 2,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 3,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_beyond_capacity": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Withdrawal requires a known fairy and bounded positive count",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 600
+          }
+        ],
+        "fairy_farm_schema": 1,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_empty": {
+      "error": {
+        "code": "fairy_farm_quantity",
+        "message": "Fairy stock is insufficient or would exceed capacity",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": null,
+        "fairy_farm_schema": null,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_identity_before_stock": {
+      "error": {
+        "code": "invalid_identity",
+        "message": "Request does not match the local account",
+        "status": 403
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": null,
+        "fairy_farm_schema": null,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_identity_exhausted": {
+      "error": {
+        "code": "unit_roster_capacity",
+        "message": "Unit grant exceeds the available barracks capacity",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 1
+          }
+        ],
+        "fairy_farm_schema": 1,
+        "last_unique_id": 2147483647,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_keeps_remaining_stock": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>1</V></A2></PBP><PPU><A1 T=\"I\"><V>54</V></A1><A2 T=\"I\"><V>1</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>0</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU><PFF><CardID T=\"I\"><V>54</V><V>55</V><V>56</V><V>57</V><V>58</V><V>59</V><V>60</V><V>97</V><V>133</V><V>136</V><V>166</V><V>194</V><V>234</V><V>250</V><V>270</V><V>303</V><V>321</V><V>333</V><V>334</V><V>335</V><V>383</V><V>384</V><V>397</V><V>415</V><V>433</V><V>460</V><V>491</V><V>570</V><V>660</V><V>762</V><V>800</V><V>841</V><V>892</V><V>893</V><V>894</V><V>895</V><V>896</V><V>897</V><V>898</V><V>899</V><V>900</V><V>901</V><V>952</V><V>1224</V><V>1236</V><V>1237</V><V>1238</V><V>1269</V><V>1408</V><V>1550</V><V>1654</V><V>1813</V><V>2400</V><V>2844</V></CardID><Count T=\"I\"><V>2</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></Count></PFF></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 2
+          },
+          {
+            "CardID": 55,
+            "Count": 0
+          },
+          {
+            "CardID": 56,
+            "Count": 0
+          },
+          {
+            "CardID": 57,
+            "Count": 0
+          },
+          {
+            "CardID": 58,
+            "Count": 0
+          },
+          {
+            "CardID": 59,
+            "Count": 0
+          },
+          {
+            "CardID": 60,
+            "Count": 0
+          },
+          {
+            "CardID": 97,
+            "Count": 0
+          },
+          {
+            "CardID": 133,
+            "Count": 0
+          },
+          {
+            "CardID": 136,
+            "Count": 0
+          },
+          {
+            "CardID": 166,
+            "Count": 0
+          },
+          {
+            "CardID": 194,
+            "Count": 0
+          },
+          {
+            "CardID": 234,
+            "Count": 0
+          },
+          {
+            "CardID": 250,
+            "Count": 0
+          },
+          {
+            "CardID": 270,
+            "Count": 0
+          },
+          {
+            "CardID": 303,
+            "Count": 0
+          },
+          {
+            "CardID": 321,
+            "Count": 0
+          },
+          {
+            "CardID": 333,
+            "Count": 0
+          },
+          {
+            "CardID": 334,
+            "Count": 0
+          },
+          {
+            "CardID": 335,
+            "Count": 0
+          },
+          {
+            "CardID": 383,
+            "Count": 0
+          },
+          {
+            "CardID": 384,
+            "Count": 0
+          },
+          {
+            "CardID": 397,
+            "Count": 0
+          },
+          {
+            "CardID": 415,
+            "Count": 0
+          },
+          {
+            "CardID": 433,
+            "Count": 0
+          },
+          {
+            "CardID": 460,
+            "Count": 0
+          },
+          {
+            "CardID": 491,
+            "Count": 0
+          },
+          {
+            "CardID": 570,
+            "Count": 0
+          },
+          {
+            "CardID": 660,
+            "Count": 0
+          },
+          {
+            "CardID": 762,
+            "Count": 0
+          },
+          {
+            "CardID": 800,
+            "Count": 0
+          },
+          {
+            "CardID": 841,
+            "Count": 0
+          },
+          {
+            "CardID": 892,
+            "Count": 0
+          },
+          {
+            "CardID": 893,
+            "Count": 0
+          },
+          {
+            "CardID": 894,
+            "Count": 0
+          },
+          {
+            "CardID": 895,
+            "Count": 0
+          },
+          {
+            "CardID": 896,
+            "Count": 0
+          },
+          {
+            "CardID": 897,
+            "Count": 0
+          },
+          {
+            "CardID": 898,
+            "Count": 0
+          },
+          {
+            "CardID": 899,
+            "Count": 0
+          },
+          {
+            "CardID": 900,
+            "Count": 0
+          },
+          {
+            "CardID": 901,
+            "Count": 0
+          },
+          {
+            "CardID": 952,
+            "Count": 0
+          },
+          {
+            "CardID": 1224,
+            "Count": 0
+          },
+          {
+            "CardID": 1236,
+            "Count": 0
+          },
+          {
+            "CardID": 1237,
+            "Count": 0
+          },
+          {
+            "CardID": 1238,
+            "Count": 0
+          },
+          {
+            "CardID": 1269,
+            "Count": 0
+          },
+          {
+            "CardID": 1408,
+            "Count": 0
+          },
+          {
+            "CardID": 1550,
+            "Count": 0
+          },
+          {
+            "CardID": 1654,
+            "Count": 0
+          },
+          {
+            "CardID": 1813,
+            "Count": 0
+          },
+          {
+            "CardID": 2400,
+            "Count": 0
+          },
+          {
+            "CardID": 2844,
+            "Count": 0
+          }
+        ],
+        "fairy_farm_schema": 1,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 54,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 1,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_legacy_battle": {
+      "error": {
+        "code": "quest_reservation_unavailable",
+        "message": "Settle, exit or restart the legacy battle before receiving other units",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 1
+          }
+        ],
+        "fairy_farm_schema": 1,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_ordinary_card": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Withdrawal requires a known fairy and bounded positive count",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 1
+          }
+        ],
+        "fairy_farm_schema": 1,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_request_before_identity": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Withdrawal requires a known fairy and bounded positive count",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": null,
+        "fairy_farm_schema": null,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_roster_before_stock": {
+      "error": {
+        "code": "unit_roster_capacity",
+        "message": "Unit grant exceeds the available barracks capacity",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": null,
+        "fairy_farm_schema": null,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_roster_full": {
+      "error": {
+        "code": "unit_roster_capacity",
+        "message": "Unit grant exceeds the available barracks capacity",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 1
+          }
+        ],
+        "fairy_farm_schema": 1,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_rule_change_before_identity": {
+      "error": {
+        "code": "fairy_farm_resources_changed",
+        "message": "Barracks rules changed after warehouse setup",
+        "status": 503
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 1
+          }
+        ],
+        "fairy_farm_schema": 1,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_short": {
+      "error": {
+        "code": "fairy_farm_quantity",
+        "message": "Fairy stock is insufficient or would exceed capacity",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 1
+          }
+        ],
+        "fairy_farm_schema": 1,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_textual_card": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Request field type or value count is invalid",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 1
+          }
+        ],
+        "fairy_farm_schema": 1,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_unknown_schema": {
+      "error": {
+        "code": "fairy_farm_state_invalid",
+        "message": "Warehouse schema is unsupported; existing data was preserved",
+        "status": 503
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": null,
+        "fairy_farm_schema": 2,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_zero": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Withdrawal requires a known fairy and bounded positive count",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 1
+          }
+        ],
+        "fairy_farm_schema": 1,
+        "last_unique_id": null,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    }
+  }
+}

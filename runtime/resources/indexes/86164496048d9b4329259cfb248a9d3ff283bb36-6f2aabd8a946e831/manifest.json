@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "version": "86164496048d9b4329259cfb248a9d3ff283bb36",
+  "snapshot": "86164496048d9b4329259cfb248a9d3ff283bb36-6f2aabd8a946e831",
+  "index_name": "5nhhyzpc90mlwd9i06s8nfz781im220y",
+  "origin": "https://drc1bk94f7rq8.cloudfront.net/",
+  "input_sha256": "d0be510fb38b1d6dfe63c3562c97e45f49d318bf7e155dee309d88efe963f92b",
+  "index_sha256": "6f2aabd8a946e8319e47a258df5ed6ba1ab28729759ad0f963a44b92b8e22947",
+  "index_bytes": 4127055,
+  "entries": 24019,
+  "total_bytes": 11519332162,
+  "captured_at": "2026-11-06T11:23:15.829188+00:00",
+  "activated_at": "2026-11-06T11:52:58+00:00",
+  "source_context": "E:\\SillyTavern\\111\\aigis_ps\\runtime\\captures\\content-20261106T112307Z-28240-824f6a7c\\resource-context.json"
+}

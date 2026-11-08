@@ -1,0 +1,165 @@
+{
+  "scope": "Static PE/Capstone analysis only; no IDA session, game execution, real account reads or network traffic.",
+  "heartbeat": {
+    "route": "jWbtv5NR",
+    "request_xor_key": 79,
+    "response_xor_key": 39,
+    "st": 0,
+    "checksum_required": true,
+    "response_limit": 4096,
+    "request_fields": [
+      "Platform",
+      "UI",
+      "UK",
+      "CT",
+      "PFN"
+    ],
+    "response_groups": {
+      "AssetPath": {
+        "shape": "first column, first value, string",
+        "consumer": "0x63a0a0",
+        "mandatory_for_callback_progress": true,
+        "value_contract": "40 lowercase hexadecimal resource-version directory; native code prepends its fixed CDN origin"
+      },
+      "GameInfo": {
+        "shape": "two parallel columns: string names and int32/string integer values",
+        "fields": [
+          "Major",
+          "Minor",
+          "Maintenance",
+          "LimitType",
+          "Priority"
+        ],
+        "consumer": "0x644130"
+      },
+      "SYSTEM": {
+        "shape": "existing CSystem key-value table",
+        "fields": [
+          "ExchangeKey",
+          "PaymentTransaction"
+        ],
+        "consumer": "0xa7e4e0 -> 0xa656c0"
+      },
+      "MBL": {
+        "shape": "CMenuBlock dynamic table; empty container clears menu blocks",
+        "consumer": "0xa7ee90 -> 0xa7f380 -> 0xa665f0 -> 0xa65660",
+        "table_getter": "0x9d1670"
+      }
+    },
+    "processing": "0x643b60 checks completion bit, parses response with request object+0x38 vtable+0x14, handles groups and sets global stage to 2; later invokes callback 0x698490.",
+    "local_policy_evidence": "Maintenance=0 and LimitType=0 bypass the maintenance/limit branches in 0x698490/0x6693c0. Major/Minor are stored but not checked by the heartbeat callback 0x698490."
+  },
+  "quest_record": {
+    "route": "foi6moes",
+    "request_xor_key": 0,
+    "response_xor_key": 0,
+    "st": null,
+    "checksum_required": false,
+    "request_root": "DA",
+    "request_fields": [
+      "UI",
+      "UK"
+    ],
+    "request_content_type": "text/xml",
+    "response_encoding": "plain ALContainer XML; no Snappy or XOR in this path",
+    "receiver": "0x65bc00",
+    "response_temporary_cap": null,
+    "response_columns": [
+      {
+        "wire": "QuestID",
+        "field": "QuestID",
+        "type": "I"
+      },
+      {
+        "wire": "A1",
+        "field": "MaxRank",
+        "type": "I"
+      },
+      {
+        "wire": "A2",
+        "field": "AchieveFlag",
+        "type": "I"
+      },
+      {
+        "wire": "A3",
+        "field": "RemainAssault",
+        "type": "I"
+      },
+      {
+        "wire": "A4",
+        "field": "FirstDefeatDate",
+        "type": "I"
+      },
+      {
+        "wire": "Shown",
+        "field": "Shown",
+        "type": "B"
+      }
+    ],
+    "shape": "flat DA columns; matching positions are rows. Semantic column names also work because rename only acts if alias exists.",
+    "schema": "QuestRecord.ard",
+    "post_load": "0xAFF860 imports table; 0x654be0 rebuilds QuestID -> row index map.",
+    "success": "post-import row_count != 0 OR (GameParam.Money == 0 AND GameParam.Experience == 0). Otherwise 0x65bc00 retries indefinitely.",
+    "missing_data": "With local Money=1000, an empty table never completes. Do not fabricate QuestID; source rows must use verified master IDs or explicit existing local quest records."
+  },
+  "additional_startup_endpoint": {
+    "route": "AekvKZk6",
+    "request_xor_key": 0,
+    "response_xor_key": 0,
+    "st": null,
+    "checksum_required": false,
+    "request_root": "DA",
+    "request_fields": [
+      "Platform"
+    ],
+    "response_limit": 1024,
+    "request_constructor": "0x6432e0",
+    "response_callback": "0x643830",
+    "response_parser": "0x644aa0 -> 0x643e80",
+    "response_shape": "flat two parallel columns. String column supplies names and INT column supplies values; both-string columns do not work for this parser.",
+    "recommended_column_names": [
+      "KEY",
+      "VALUE"
+    ],
+    "response_fields": [
+      "Major",
+      "Minor",
+      "Maintenance",
+      "LimitType",
+      "Priority"
+    ],
+    "key_evidence": "0x643830 reads 0x400 bytes and passes plaintext to 0x61d750. 0x644aa0 uses ALContainer type 3 as string key and type 1 as integer value; it does not compare column names.",
+    "shared_base": "0x6433ee uses E6E874; same existing client base patch applies.",
+    "version_gate": {
+      "consumer": "0x669480",
+      "major_max_inclusive": 2,
+      "minor_max_inclusive": 400,
+      "comparison": "unsigned, checked independently after maintenance/limit checks",
+      "action_above_limit": "0x669589 calls 0x643810 then 0x647210, then 0xC08611(0)"
+    },
+    "callers": [
+      "0x6693f2: callback 0x669480",
+      "0xa96386: callback 0xa96080"
+    ]
+  },
+  "minimal_ida_exports_for_confirmation": [
+    "0x65bc00",
+    "0x643b60",
+    "0x644130",
+    "0x63a0a0",
+    "0x6432e0",
+    "0x643830",
+    "0x644aa0",
+    "0x643e80",
+    "0x698490",
+    "0x9d1670",
+    "0x945970",
+    "0x669480",
+    "0xa96080"
+  ],
+  "asset_path_correction": {
+    "meaning": "40-character public resource-version directory, not a complete base URL",
+    "evidence": "0x618920 constructs CDN_ORIGIN + AssetPath + / + 5nhhyzpc90mlwd9i06s8nfz781im220y",
+    "report": "artifacts/cdn-contract-20261101/download-contract.md"
+  }
+}

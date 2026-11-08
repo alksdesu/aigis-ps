@@ -1,0 +1,1059 @@
+{
+  "base_state": {
+    "bootstrap_schema": 1,
+    "created_local": "2026/11/03 11:00:00",
+    "crystal_spending": {
+      "baseline_source": "new_local",
+      "current_spent": 0,
+      "last_time": 1793674800000,
+      "period": "2026-11",
+      "previous_spent": 0,
+      "schema_version": 1
+    },
+    "energy_clock": {
+      "encoding": "native_day_fraction_f32_seconds_v1",
+      "origin": "new_local",
+      "schema_version": 1,
+      "utc_offset_minutes": 540
+    },
+    "login_cooking": {
+      "baseline_source": "new_local",
+      "border": 250,
+      "issued": 0,
+      "last_civil_day": null,
+      "last_claim_day": null,
+      "last_time": 1793674800000,
+      "period": "2026-11",
+      "quota": 0,
+      "schema_version": 1
+    },
+    "login_rewards": {
+      "baseline_source": "new_local",
+      "beginner_claimed": 0,
+      "beginner_eligible": true,
+      "beginner_total": 7,
+      "last_claim_day": null,
+      "last_time": 1793674800000,
+      "schema_version": 1,
+      "stamp_count": 0,
+      "stamp_month": null
+    },
+    "player_state": {
+      "battle": {
+        "RTN": 64,
+        "TN": 0,
+        "UX": 0,
+        "VN": "1.0.1"
+      },
+      "legacy_squad_imported": false,
+      "schema_version": 1,
+      "squads": [],
+      "units": [
+        {
+          "CanFame": false,
+          "CardID": 1,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 9900,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 0,
+          "GetIndex": 0,
+          "Love": 0,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 59,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 1,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        }
+      ]
+    },
+    "rank_rewards": {
+      "baseline_rank": 0,
+      "entries": {},
+      "observed_rank": 0,
+      "schema_version": 1
+    },
+    "startup_collections_schema": 1,
+    "tables": {
+      "backgrounds": [],
+      "card_status": [],
+      "config": [
+        {
+          "AutoSelectConfig": 0,
+          "BattleAcceleratorFlag": 0,
+          "BattleDClickSkillDisableFlag": 0,
+          "BattlePlaceMagnetFlag": 0,
+          "CostUpCloseDateTime": "",
+          "DamageDispEnable": 0,
+          "EventViewRequest": "",
+          "ExperienceUpCloseDateTime": "",
+          "HaveUnitMaxSizeBuy": 0,
+          "IntegrationAutoSelectConfig": 0,
+          "MenuTutorialFlags": 0,
+          "MissionRewardFlags2": 0,
+          "MoneyUpCloseDateTime": "",
+          "PurposeSettingFlags": 0,
+          "SpecialEffectsFlags": 0,
+          "SpecialEffectsFlags2": 0,
+          "TypeOfSortOrder": "",
+          "UseBgm": true,
+          "UseSe": true,
+          "UserName": "Local Player",
+          "_BattleGodBlessFilter": 0,
+          "_BlsDT_BoostAtk_F": "",
+          "_BlsDT_BoostAtk_R": "",
+          "_BlsDT_DamageCut": "",
+          "_FlagFilter": "",
+          "_FlagMissionFilter": "",
+          "_FlagSort": "",
+          "_GuideUnitIndex": 0,
+          "_VolumeBgm": 0,
+          "_VolumeSe": 0
+        }
+      ],
+      "crystals": [],
+      "event_pass_status": [],
+      "exchange_history": [],
+      "fame_depository": [],
+      "filter_settings": [],
+      "game_param": [
+        {
+          "ActionPointChangeDate": 739922,
+          "ActionPointChangeTime": 0.5,
+          "CharismaChangeDate": 739922,
+          "CharismaChangeTime": 0.5,
+          "EventParam": 0,
+          "Experience": 0,
+          "ExtendedMaxCharisma": 0,
+          "ExtendedMaxCharismaNextMonth": 0,
+          "ExtendedMaxStamina": 0,
+          "ExtendedMaxStaminaNextMonth": 0,
+          "GiftItem1": 0,
+          "GiftItem2": 0,
+          "GiftItem3": 0,
+          "GiftItem4": 0,
+          "GiftItem5": 0,
+          "GiftItem6": 0,
+          "Money": 1000,
+          "NowActionPoint": 0,
+          "NowCharisma": 60,
+          "Rank": 1,
+          "RedCrystal": 0,
+          "_PointSystem": 0
+        }
+      ],
+      "game_param2": [
+        {
+          "BonusPremiumSummonCount": 0,
+          "BonusPremiumSummonDate": 0,
+          "ComebackLoginDateTime": "",
+          "GameStartDateTime": "2026/11/03 11:00:00",
+          "GloryPoint": 0,
+          "GoddessRevivalTotalStarCount": 0,
+          "HomeCookingReceivedAmount": 0,
+          "HomeCookingReceivedDate": 0,
+          "LastLoginDate": 0,
+          "LatestComebackLoginBonusDateTime": "",
+          "LatestComebackLoginBonusDays": 0,
+          "LatestComebackSummonBonusDateTime": "",
+          "LatestComebackSummonBonusDays": 0,
+          "LogInStampCount": 0,
+          "LookHarlemFlag00": 0,
+          "LookHarlemFlag01": 0,
+          "LookHarlemFlag02": 0,
+          "LookHarlemFlag03": 0,
+          "LookHarlemFlag10": 0,
+          "LookHarlemFlag11": 0,
+          "LookHarlemFlag12": 0,
+          "LookHarlemFlag13": 0,
+          "MaintenanceCheckDateTime": 0,
+          "NormalGachaFree": 0,
+          "StampCardGrade": 0,
+          "WatchEventFlag0": "",
+          "WatchEventFlag0_2": "",
+          "WatchEventFlag1": "",
+          "WatchEventFlag1_2": "",
+          "_EvCmb": 1
+        }
+      ],
+      "menu_blocks": [],
+      "perused_events": [],
+      "possessions": [],
+      "presents": [],
+      "quest_records": [],
+      "recommendations": [],
+      "reproduction": [
+        {
+          "EI": 0,
+          "F0": 0,
+          "F0RT": 0,
+          "I0": 0,
+          "I1": 0
+        }
+      ],
+      "universal_flags": [],
+      "vote_history": []
+    }
+  },
+  "cases": {
+    "clear_empty": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": {
+          "processed_keys": [
+            "c4278d67c0020c6f23df7581f9e49ae4c60da5112a2217e63e826cdda66535fd"
+          ],
+          "receipts": [
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 24,
+              "request": "c4278d67c0020c6f23df7581f9e49ae4c60da5112a2217e63e826cdda66535fd",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 1,
+              "state": "e04b35ca57b7149d4fd301d4d5b85c2ad7c64d60fa69173948573643210b388c",
+              "value": ""
+            }
+          ],
+          "schema_version": 2
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V></V></F8><VN>5.0.0</VN><ST>3041</ST><HS>7802071</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "clear_saved": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": {
+          "processed_keys": [
+            "421c2b0441f6a37bd0c1eb270feaebc8fd8f0078e807f8d515a82635db57f4b7",
+            "be2d47d3366c65619996fd442e73e0f4d249c950f6511801a1f674112697247a"
+          ],
+          "receipts": [
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "421c2b0441f6a37bd0c1eb270feaebc8fd8f0078e807f8d515a82635db57f4b7",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 1,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 24,
+              "request": "be2d47d3366c65619996fd442e73e0f4d249c950f6511801a1f674112697247a",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 2,
+              "state": "e04b35ca57b7149d4fd301d4d5b85c2ad7c64d60fa69173948573643210b388c",
+              "value": ""
+            }
+          ],
+          "schema_version": 2
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V></V></F8><VN>5.0.0</VN><ST>3041</ST><HS>7802071</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "clear_with_value": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Event view clear requests require an empty F8",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3041</ST><HS>7799032</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "duplicate_value": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request contains duplicate or unknown fields",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7829952</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "empty_save": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "view_event_request_invalid",
+            "message": "Event view request does not match its native format",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V></V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7802070</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "history_invalid": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": {
+          "schema_version": 3
+        }
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "view_event_history_invalid",
+            "message": "Stored event view receipts are invalid",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "missing_value": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request is missing required fields",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><VN>5.0.0</VN><ST>3040</ST><HS>7802866</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "overlong_save": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "String exceeds the request field limit",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7817430</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "priority_identity_before_state": {
+      "state": {
+        "config": [],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7800603</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "priority_request_before_identity": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "view_event_request_invalid",
+            "message": "Event view request does not match its native format",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=4,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7800603</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "processed_after_eviction": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": "CardId=56,Id=1,Mode=0,Male=0"
+          }
+        ],
+        "view_event_history": {
+          "processed_keys": [
+            "421c2b0441f6a37bd0c1eb270feaebc8fd8f0078e807f8d515a82635db57f4b7",
+            "606fc657379dc0ab17825b805b7d3fd736e4aff587dca819c55fd39c118ed91a",
+            "c0aae837b65e2562695cb6a2cbc74485efce0a6d00a28385417ff0219997d161",
+            "da7829279b44c14013643abe3389aa84e67adcaee8cc475fff2b95097a85a83a",
+            "c1778f4b31083dc1dd56786e20b1d888271eca9402b56a8ee5de6146f6ae44e4",
+            "7ef372d1236ebc37c9d058524448d53a718c298116fb3aa8ace5c61d0503855f",
+            "305c567c29e2f3a1fdc87424557482d50a7c6aa145925d31ab6b411b6d084e5c",
+            "daf66e07eeedd1f4b6b25148e76383b46fde8277b2299694ced8cf1f3cbe331c",
+            "7d2eeee9d30e4d92f7a0acda64db46f8373b48d139d03ed2c5968c8200e937b8",
+            "9eb6cbd37b16d78319714f00869b3d02eb3b2443ab4fe28f648065da11925680",
+            "6313acb9df97e45790a7309cfa9432dfea5b4b48ecace021090e3ed13d6f90a7",
+            "de8e889dbb50d0513bb62d657a989a8321a790f8f6e06211b0efd0cae373b7c1",
+            "e3f778c0656072c0adeb77fd6acc195dcf0f216c6ddbb83e230ffbec54779927",
+            "5b4bab172c296d6ad19ded0f8f3783d958b14072c8ee34507dc32addb6a4a372",
+            "b4c1762bb51f13a5e954162c3e33592d8b645df75b653f2cbefc5ce0b6af86ab",
+            "57c108d956ae4425208a38eb2f164f5342f74bee585fb72bc12c804280d8e7bb",
+            "1905a65fba3b17e9ab8d1f198b0e58b6646fb6f177a6fdb40c2ed7d37c2146bc"
+          ],
+          "receipts": [
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "606fc657379dc0ab17825b805b7d3fd736e4aff587dca819c55fd39c118ed91a",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 2,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "c0aae837b65e2562695cb6a2cbc74485efce0a6d00a28385417ff0219997d161",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 3,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "da7829279b44c14013643abe3389aa84e67adcaee8cc475fff2b95097a85a83a",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 4,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "c1778f4b31083dc1dd56786e20b1d888271eca9402b56a8ee5de6146f6ae44e4",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 5,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "7ef372d1236ebc37c9d058524448d53a718c298116fb3aa8ace5c61d0503855f",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 6,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "305c567c29e2f3a1fdc87424557482d50a7c6aa145925d31ab6b411b6d084e5c",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 7,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "daf66e07eeedd1f4b6b25148e76383b46fde8277b2299694ced8cf1f3cbe331c",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 8,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "7d2eeee9d30e4d92f7a0acda64db46f8373b48d139d03ed2c5968c8200e937b8",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 9,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "9eb6cbd37b16d78319714f00869b3d02eb3b2443ab4fe28f648065da11925680",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 10,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "6313acb9df97e45790a7309cfa9432dfea5b4b48ecace021090e3ed13d6f90a7",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 11,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "de8e889dbb50d0513bb62d657a989a8321a790f8f6e06211b0efd0cae373b7c1",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 12,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "e3f778c0656072c0adeb77fd6acc195dcf0f216c6ddbb83e230ffbec54779927",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 13,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "5b4bab172c296d6ad19ded0f8f3783d958b14072c8ee34507dc32addb6a4a372",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 14,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "b4c1762bb51f13a5e954162c3e33592d8b645df75b653f2cbefc5ce0b6af86ab",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 15,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "57c108d956ae4425208a38eb2f164f5342f74bee585fb72bc12c804280d8e7bb",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 16,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "1905a65fba3b17e9ab8d1f198b0e58b6646fb6f177a6fdb40c2ed7d37c2146bc",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 17,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            }
+          ],
+          "schema_version": 2
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1002</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1003</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1004</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1005</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1006</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1007</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1008</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1009</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1010</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799032</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1011</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799032</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1012</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799032</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1013</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799032</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1014</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799032</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1015</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799032</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1016</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799032</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "error": {
+            "code": "view_event_request_stale",
+            "message": "Event view request was already processed",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "replay": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": "CardId=56,Id=1,Mode=0,Male=0"
+          }
+        ],
+        "view_event_history": {
+          "processed_keys": [
+            "421c2b0441f6a37bd0c1eb270feaebc8fd8f0078e807f8d515a82635db57f4b7"
+          ],
+          "receipts": [
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "421c2b0441f6a37bd0c1eb270feaebc8fd8f0078e807f8d515a82635db57f4b7",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 1,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            }
+          ],
+          "schema_version": 2
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "save": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": "CardId=56,Id=1,Mode=0,Male=0"
+          }
+        ],
+        "view_event_history": {
+          "processed_keys": [
+            "421c2b0441f6a37bd0c1eb270feaebc8fd8f0078e807f8d515a82635db57f4b7"
+          ],
+          "receipts": [
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "421c2b0441f6a37bd0c1eb270feaebc8fd8f0078e807f8d515a82635db57f4b7",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 1,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            }
+          ],
+          "schema_version": 2
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "save_any_field_order": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": "Male=0,Mode=0,Id=1,CardId=56"
+          }
+        ],
+        "view_event_history": {
+          "processed_keys": [
+            "524b8224be3809a3cd96f2c61ae843b5378ef27cb8291133d60d7caba740093b"
+          ],
+          "receipts": [
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "524b8224be3809a3cd96f2c61ae843b5378ef27cb8291133d60d7caba740093b",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 1,
+              "state": "f58133d91bbfbfb294ccd022cafabcf6b888bfd12b16a8c39fc228f016aa127e",
+              "value": "Male=0,Mode=0,Id=1,CardId=56"
+            }
+          ],
+          "schema_version": 2
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>Male=0,Mode=0,Id=1,CardId=56</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799008</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "save_same_value_twice": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": "CardId=56,Id=1,Mode=0,Male=0"
+          }
+        ],
+        "view_event_history": {
+          "processed_keys": [
+            "421c2b0441f6a37bd0c1eb270feaebc8fd8f0078e807f8d515a82635db57f4b7",
+            "606fc657379dc0ab17825b805b7d3fd736e4aff587dca819c55fd39c118ed91a"
+          ],
+          "receipts": [
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "421c2b0441f6a37bd0c1eb270feaebc8fd8f0078e807f8d515a82635db57f4b7",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 1,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            },
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "606fc657379dc0ab17825b805b7d3fd736e4aff587dca819c55fd39c118ed91a",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 2,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            }
+          ],
+          "schema_version": 2
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "save_third_episode_mode_one": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": "CardId=56,Id=3,Mode=1,Male=1"
+          }
+        ],
+        "view_event_history": {
+          "processed_keys": [
+            "86e55972485835726fc1226ae02b9c412c99eb99c21a816cb117f54da291b4f6"
+          ],
+          "receipts": [
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "86e55972485835726fc1226ae02b9c412c99eb99c21a816cb117f54da291b4f6",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 1,
+              "state": "69f9921115a2be179f49d74060504af9563b1ae042b2a9487e74ae72fe12d500",
+              "value": "CardId=56,Id=3,Mode=1,Male=1"
+            }
+          ],
+          "schema_version": 2
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=3,Mode=1,Male=1</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799032</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "stale_after_change": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": "CardId=56,Id=1,Mode=0,Male=0"
+          }
+        ],
+        "view_event_history": {
+          "processed_keys": [
+            "421c2b0441f6a37bd0c1eb270feaebc8fd8f0078e807f8d515a82635db57f4b7"
+          ],
+          "receipts": [
+            {
+              "content": "4f5dc71feea7cd64e760e4cbef2964808ebc5613f37ae7460b1f7f6f8f07c1ea",
+              "operation": 23,
+              "request": "421c2b0441f6a37bd0c1eb270feaebc8fd8f0078e807f8d515a82635db57f4b7",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+              "revision": 1,
+              "state": "94cb3ea80bdc810302c37cdc76d83dc4e12d3917438073fce525a8467116d53d",
+              "value": "CardId=56,Id=1,Mode=0,Male=0"
+            }
+          ],
+          "schema_version": 2
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1
+        },
+        {
+          "error": {
+            "code": "view_event_retry_stale",
+            "message": "Event view state changed after this request",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "stored_config_missing": {
+      "state": {
+        "config": [],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "bootstrap_state_unavailable",
+            "message": "Expected persisted local rows for config",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "stored_value_overlong": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+          }
+        ],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_bootstrap_value",
+            "message": "String exceeds native field EventViewRequest",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V></V></F8><VN>5.0.0</VN><ST>3041</ST><HS>7802071</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "unknown_episode": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "view_event_request_invalid",
+            "message": "Event view request does not match its native format",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=4,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799035</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "wrong_method_key": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_method_key",
+            "message": "Request method key does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7799019</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "wrong_user_key": {
+      "state": {
+        "config": [
+          {
+            "EventViewRequest": ""
+          }
+        ],
+        "view_event_history": null
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><F8 T=\"S\"><V>CardId=56,Id=1,Mode=0,Male=0</V></F8><VN>5.0.0</VN><ST>3040</ST><HS>7800603</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    }
+  },
+  "registrations": [
+    23,
+    24
+  ]
+}

@@ -1,0 +1,51 @@
+# 投票日票与料理通知交接
+
+115和116的新请求已接入共享投票日票服务；同一日的115、116、57和137不会各发一张票。当前默认保留历史活动窗口，需显式复刻配置才开放。原版客户端、正式存档及IDA数据库未修改，没有启动游戏或实际服务。
+
+## 日票库存
+
+115/116只调用日票纯状态结算，不夹带排名冻结、普通组票折算或额外金币邮件。更新与原签到、活动奖励和回执一次提交；任何邮件或库存响应失败均回滚。返回全量POSSESSION绝对库存，保留Enabled；过期日票留明确Count0行供客户端清除。非空POSSESSION恒带Enabled（缺省行为0）；存档中只有两列的旧回执重放时先按三列、再按旧两列规则重建比对，任一与存档字节相同即原样返回。
+
+`vote_tickets`仍为版本1，内容指纹不变。新增观察快照复用其严格字段校验，不另造第二套余额。领奖记录保存当次账本快照或None：活动外空库存不制造日票领域。保存的非空观察不能丢失、倒退日期或把同日已消耗/过期的票恢复为可用；精确重试还要求当前账本与原观察完全一致。
+
+原生115初始化A566A0、116初始化A56FE0均注册POSSESSION。日检6A12B0经6A0F60进入69FF70请求115，因此有现成跨日刷新路径。尚未证明所有界面都在JST04瞬间主动请求，不能把它描述成后台推送或任意界面实时刷新。
+
+## 料理发件与通知
+
+料理发件资格、Type21邮件及真实恢复保持原实现。115和116都可调用同一发件器，每次最多发一组，永久发件记录防重复。首次结算不早于该组冻结的结果开始时间；旧票仍不追补。
+
+明确的通知消费者6996B0在116响应后读取VoteGiftParam；115仅注册并填充表，不能据此认定已显示。投票料理服务已构造而通知器构造失败时拒绝启动（readiness.vote_cooking_notifications报错且startup_ready为false）：115会继续下发VoteGiftParam而116无法清除它，两者必须一起启动或一起缺席。独立`vote_cooking_notifications`版本1按票种保存已发grant、通知提交时间和来源摘要。116取最早已发未通知的一组，包含此前115已发的组；已领走的邮件也能补一次通知，通知不再把旧邮件加入本次PPT。
+
+通知记录只证明服务器已在116响应中提交，不证明用户已经看到弹窗。网络精确重试仍返回原字节；后续新116没有新通知时发送三列空表，清除旧缓存。通知域必须引用可验证的永久发件证明。最后一份116标记保留累计通知数量，即使本次为空，也能发现整个通知域或部分记录被删除。
+
+## 到期折金提示
+
+普通组票到期折金仍只在137或57的观察中结算并写入金币邮件，115/116不折算。原生116的A56FE0注册`ItemExchange`接收器并在每次请求前清零，A73AF0只读取可选的`Gold`整数；6996B0在116之后仅当Gold大于0时弹出SystemText 4651，说明未使用的闘兵券已换成金币并加入礼物箱。文案不显示金额，也不是领取确认，其他接口没有这个接收器。
+
+折算提交后的第一次新116下发一次`ItemExchange(Gold:I)`，值为全部尚未提示的已结算折算金币之和；没有新折算时省略该组，不发空表。独立`vote_expiry_notifications`版本1按票种保存金币、邮件ID和提示时间，每条都必须对应`vote_expiry`中settled的永久结算记录。pending与closed不提示，满箱的折算等邮件实际写入后再提示；已领走的邮件仍提示一次；接入前已结算的折算在下一次新116补提示一次。新提示早于结算时间或已有提示时间时返回409，不写入。
+
+提示只证明服务器已在116响应中提交，不证明用户已看到弹窗。网络精确重试返回原字节；最后一份116标记保存本次提示和累计提示数量，删除提示域或篡改记录会被拒绝，不会重新弹出。强袭挑战权折金使用独立的RET提示，见下节，与此组无关。
+
+## 强袭挑战权折金提示
+
+强袭挑战权折金结算后的第一次新116下发一次`RET(msid:I)`，只有一行，值为该活动强袭任务在EmcMissionConfig中的ID_Mission。第16回为576：AssaultMissionConfig名称「第16回人気投票ミッション」经NFKC归一后唯一匹配410576，AssaultMissionQuestList中只有关卡25000，EmcMissionConfig中覆盖该关卡且Type_Quest为7的只有576。原生A56FE0把RET注册到697AC0，并在每次116请求前清空其列表；A73970只读取msid；6996B0按msid查EMC，对Type_Quest 7弹出SystemText 4585（SystemTextAssaultTicketExchange），说明未使用的挑战权已换成金币并加入礼物箱，同一响应内只弹一次。115/116不折算。
+
+独立`vote_assault_notifications`版本1按活动保存任务ID、金币、邮件ID和提示时间，每条都必须对应`vote_assault_expiry`中settled的永久记录。pending不提示，满箱的折算等邮件实际写入后再提示；已领走的邮件仍提示一次；接入前已结算的折算在下一次新116补提示一次；新提示早于结算时间或已有提示时间时返回409 `vote_assault_notification_clock_reversed`，不写入。网络精确重试返回原字节。
+
+## 回执与兼容
+
+115版本7在原来的六类奖励之后保存`vote_ticket_observation`；116版本7保存日票观察、料理新发grant、料理通知grant和累计通知数量。旧版本1至6的内容摘要独立保留，重试先于新时钟和新服务结算，保持旧响应字节。已发邮件、投票与料理资格不因接线升级而重置。cli默认装配LetsTD（开关全关），新写入的115/116标记因此是列表式版本8及以上，固定部分不变，`letstd_grants`为空列表，回包子项不变；只有LetsTD不可用时115才写版本7。
+
+启用折金提示后，116使用版本9标记：在固定section及可选的LetsTD之后追加`vote_expiry_notifications`，保存本次提示和累计提示数量。新内容摘要接在LetsTD之后，所以版本1至8的摘要与重放字节不变，旧包重放时不补发提示。提示步骤先于LetsTD执行，LetsTD的容量预检已计入`ItemExchange`组。启用强袭折金提示后使用版本10：在版本9的扩展之后追加`vote_assault_notifications`，RET排在ItemExchange之后；两种提示都先于LetsTD结算，LetsTD的容量预检已计入两组。
+
+cli在投票交易就绪时总是装配这两种提示服务，新116因此写版本10。此后每次启动都必须能构造它们：最近的116标记带提示section而服务缺失时，initialize分别回503 `rank_vote_expiry_unavailable`、`rank_vote_assault_unavailable`；存档已有提示账本而服务缺失时，启动回503 `vote_expiry_notifications_unavailable`或`vote_assault_notifications_unavailable`；投票服务整体缺失时，这两个账本连同`vote_assault_expiry`回503 `vote_service_unavailable`。版本8/9的旧回执照常重放。可选服务在回执提交之后才接入时，115/116都按提交时的服务配置精确重放，规则见`docs/rank-rewards.md`与`docs/login-rewards.md`。
+
+readiness的`vote_expiry_notifications`与`vote_assault_notifications`给出两种提示服务的status，不计入startup_ready；投票事务不可用时为`{"ready": false, "error": "<条目名>_dependencies_unavailable"}`，构造被拒时error为拒绝码。votes状态的`assault_expiry`给出挑战权折算服务的status，没有投票事务时为null。
+
+缺少已启用服务、损坏观察、丢失领域、通知错列/错值、库存provider不一致、响应容量不足均返回明确错误，候选状态不提交。新父级响应同时预检129和137，保证登录返回与下一次启动读取一致。
+
+## 验证与后续
+
+`artifacts/vote-login-validation.json`汇总本轮实际JUnit结果，按测试标识去重。包括日票边界、旧回执、真实编码115/116→57→137交替、两接口并发、115发件到116通知、先领邮件再补通知、重开存档和失败回滚；没有运行全项目测试。
+
+普通关卡产票已接入83/76共用的战斗活动挂点：每次成功结算发floor(QuestTable魅力/15)×次数张，余数不累计，83按开战时刻、委任按执行时刻取发票窗口，默认历史窗口下不产票，规则见`vote-events.md`；强袭每150击杀一票留在强袭战斗实现时处理；当前公共QuestTable也缺少15个强袭关卡的地图与成本定义。资源审计见`aigis_research/events-20261101/vote-ticket-sources.md`。

@@ -1,0 +1,25 @@
+# 结晶恢复魅力
+
+注册85请求只有通用头，消耗1颗神圣结晶，增加一份当前最大魅力，即RankUp.CharismaMax加ExtendedMaxCharisma。先按现有计时规则结算自然恢复，随后增加该数量，允许超过自然恢复上限。默认总值上限2000已经用户确认，是可配置本地规则；2000的直接客户端证据来自恢复药预检，不冒充已知的官服85服务端阈值。
+
+`config/recovery-rules.example.json`提供`charisma_limit`。CLI使用`--recovery-rules`，启动脚本使用`-RecoveryRulesFile`，支持正int32上限。自然恢复间隔与`--quest-rules`中的`charisma_recovery_seconds`共用，默认180秒。规则在构建服务时冻结并参与内容指纹，调整后需重建服务；这不是已经完成的控制台热重载。
+
+免费结晶先扣，同类较早日期先扣；不足或恢复后超出配置上限时整笔拒绝，不扣晶、不部分恢复、不推进保存的自然恢复锚点。成功后锚点按当前真实瞬时编码为JST，时钟倒退早于旧锚点时拒绝。原生自然恢复的JST来源已独立核对并接入版本化能量时间；旧存档必须经过明确来源的计划迁移，详见`energy-clock.md`。
+
+响应为SYSTEM、PPC/PFC完整分类余额、PGP魅力状态及PGP2.C1月消费键值。34完整GameParam、35完整GameParam2及43/44分类余额在提交前预编码；43/44的数量别名为A2，与85响应内部PPC/PFC的Num列形状不同。1结晶实际扣款与月消费在同一事务累计，失败不提交任何候选状态。
+
+`recovery_history`为schema2，最多16条128KiB回执，另保留最近256个已处理请求摘要。客户端CT只是墙钟时间，不作排序，CT回拨或为负照常受理；旧版schema1的CT水位历史读取时自动升级，原回执照常逐字节重放。完全相同请求只在提交修订版和内容指纹一致时返回原响应；之后的游戏操作或规则变化会拒绝旧响应重放。回执已淘汰的已处理请求返回409 `recovery_request_stale`并记WARNING。无业务参数的同秒同包无法区分新意图，按重试处理；新操作需要新的CT。
+
+能量编码版本现已加入恢复内容指纹。迁移保留原回执和已处理请求摘要，旧请求过期而不再次收费；无时区测试时钟约定为JST，生产默认使用带时区真实瞬时。
+
+月消费使用独立purchase_content_version，原content_version继续描述免费恢复共用的能量规则。缓存不取新时钟或再次月切；新动作只捕获一次时间并沿用于CAS重试。旧付费回执保留但明确过期，不重新扣款。免费恢复药和料理只调用restore_state，不计结晶消费，详见login-rewards.md。
+
+57项恢复专项与20项可配置上限检查分别通过。`artifacts/recovery-config-integration-tests.xml`记录11项HTTP/配置联动，覆盖恢复后关卡消耗、撤退、重开读回、免费优先、重复请求及规则注入。相关聚合仓库6项回归也通过。`artifacts/recovery-doctor.json`确认服务就绪；未启动游戏、监听服务或修改正式存档。
+
+恢复药和料理邮件现已通过同一个`restore_state`候选计算接入，不扣结晶，见`present-recovery.md`。85缓存会校验完整回包与当前状态一致，避免回放损坏体力或结晶值。其他特殊消耗品仍待做，86见末尾两段。静态证据见`aigis_research/permanent-20261101/recovery-items-contract.md/json`及`present-recovery-contract.md`。
+
+棋盘Type5现可增加下月最大魅力。恢复共用`monthly_capacity`结转：先按旧容量恢复到月界，再替换容量；到期保留已有体力。34、85、恢复邮件和关卡计算使用同一恢复间隔。包含容量账本的PGP回包附带当前/下月扩容，清零也显式发送。该规则加入恢复依赖指纹，旧回执不会按新规则重新收费；见`sugoroku.md`。
+
+86旧体力恢复按原生一致保持501，不加占位响应。客户端只有三个86发送方，都与85共用CReactorRecovery初始化，请求只有通用头：关卡菜单（FCMenuQuestTypeList系与CMenuQuestRaid）经`IsShorageNowStamina`→`DoConfirmationRepairStamina`→`DoRepairStamina`发送，入口是开战预检77A690，只在QuestTable.ActionPoint乘QuestBoost大于0且当前体力不足时出现；旧对话入口638DA0靠关卡预检639440的0x100标志，同样要求所选关卡ActionPoint大于0；商店首页按被按下控件的WidgetTag执行`CMenuShopTop::OnDecision_Tag_<Tag>`，1001行经`CheckRemainStamina`→`ConfirmRecoveryOfStamina`→`CheckCostOfRecovery`（Cost=1）→`ExcuteRecoveryOfStamina`发送。当前QuestTable共3582行，ActionPoint全为0；商店首页布局`ShopMenu.aar/LyObjPage01.aod`只有WidgetTag 1000的「カリスマ 全回復」按钮（经`CheckRemainCharisma`走85），CMenuShopTop的布局列表794920只含ShopMenu.aar与ShopAppealIconMenu.aar，两者都没有WidgetTag 1001；全部22477个归档中WidgetTag 1001只出现在Home2Menu、TowerPortalMenu和UnitTopMenu。另外四个共用体力恢复虚表槽的商店类（CMenuShopBlessingShop、CMenuShopNewPackageShop、CMenuServantShop及其TabPage）没有调用`CheckRemainStamina`或`ExcuteRecoveryOfStamina`的命令行，命令查找也不会回退到CMenuShopTop的行。新版出击校验的失败分支也只有魅力。因此当前原生客户端不会发出86；status的`native_exclusions`写明这一排除。
+
+`tests/test_recovery_service.py`读取当前资源复核上述两个前提，并确认86经HTTP回501且不改存档。资源更新后若出现非零ActionPoint或商店首页的1001按钮，这两项守卫会失败，届时按以下静态结论实现86：体力上限为12加ExtendedMaxStamina，不读RankUp（65EDA0读Rank后丢弃，RankUp.atb只有CharismaMax与NextExp）；自然恢复65FAA0按JST墙钟每3600秒1点，读写ActionPointChangeDate/Time，封顶并保留不足一点的余量；MessageBoxText 104–107写明扣1颗神圣结晶、恢复一份最大值、超出上限照样恢复。服务端目前不结算体力自然恢复，也没有消耗体力的关卡，`energy_clock`只保存并迁移ActionPoint锚点。以上均为静态结论，未经实机验证。

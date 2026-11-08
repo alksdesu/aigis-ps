@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "gift_ids": [8, 319],
+  "revivals": {
+    "8": {"start_date": "2026-11-01", "end_date": "2026-11-07"},
+    "319": {"start_date": "2026-11-01", "end_date": "2026-11-07"}
+  }
+}

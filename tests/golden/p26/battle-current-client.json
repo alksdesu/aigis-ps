@@ -1,0 +1,2119 @@
+{
+  "base": {
+    "bootstrap_schema": 1,
+    "business_calendar": {
+      "origin": "new_local",
+      "schema_version": 1,
+      "utc_offset_minutes": 540
+    },
+    "created_local": "2026/11/01 12:00:00",
+    "crystal_spending": {
+      "baseline_source": "new_local",
+      "current_spent": 0,
+      "last_time": 1793502000000,
+      "period": "2026-11",
+      "previous_spent": 0,
+      "schema_version": 1
+    },
+    "energy_clock": {
+      "encoding": "native_day_fraction_f32_seconds_v1",
+      "origin": "new_local",
+      "schema_version": 1,
+      "utc_offset_minutes": 540
+    },
+    "login_cooking": {
+      "baseline_source": "new_local",
+      "border": 250,
+      "issued": 0,
+      "last_civil_day": null,
+      "last_claim_day": null,
+      "last_time": 1793502000000,
+      "period": "2026-11",
+      "quota": 0,
+      "schema_version": 1
+    },
+    "login_rewards": {
+      "baseline_source": "new_local",
+      "beginner_claimed": 0,
+      "beginner_eligible": true,
+      "beginner_total": 7,
+      "last_claim_day": null,
+      "last_time": 1793502000000,
+      "schema_version": 1,
+      "stamp_count": 0,
+      "stamp_month": null
+    },
+    "player_state": {
+      "battle": {
+        "RTN": 64,
+        "TN": 0,
+        "UX": 0,
+        "VN": "1.0.1"
+      },
+      "legacy_squad_imported": false,
+      "schema_version": 1,
+      "squads": [],
+      "units": [
+        {
+          "CanFame": false,
+          "CardID": 1,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 9900,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 0,
+          "GetIndex": 0,
+          "Love": 0,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 59,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 1,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        }
+      ]
+    },
+    "rank_rewards": {
+      "baseline_rank": 0,
+      "entries": {},
+      "observed_rank": 0,
+      "schema_version": 1
+    },
+    "startup_collections_schema": 1,
+    "tables": {
+      "backgrounds": [],
+      "card_status": [],
+      "config": [
+        {
+          "AutoSelectConfig": 0,
+          "BattleAcceleratorFlag": 0,
+          "BattleDClickSkillDisableFlag": 0,
+          "BattlePlaceMagnetFlag": 0,
+          "CostUpCloseDateTime": "",
+          "DamageDispEnable": 0,
+          "EventViewRequest": "",
+          "ExperienceUpCloseDateTime": "",
+          "HaveUnitMaxSizeBuy": 0,
+          "IntegrationAutoSelectConfig": 0,
+          "MenuTutorialFlags": 0,
+          "MissionRewardFlags2": 0,
+          "MoneyUpCloseDateTime": "",
+          "PurposeSettingFlags": 0,
+          "SpecialEffectsFlags": 0,
+          "SpecialEffectsFlags2": 0,
+          "TypeOfSortOrder": "",
+          "UseBgm": true,
+          "UseSe": true,
+          "UserName": "Local Player",
+          "_BattleGodBlessFilter": 0,
+          "_BlsDT_BoostAtk_F": "",
+          "_BlsDT_BoostAtk_R": "",
+          "_BlsDT_DamageCut": "",
+          "_FlagFilter": "",
+          "_FlagMissionFilter": "",
+          "_FlagSort": "",
+          "_GuideUnitIndex": 0,
+          "_VolumeBgm": 0,
+          "_VolumeSe": 0
+        }
+      ],
+      "crystals": [],
+      "event_pass_status": [],
+      "exchange_history": [],
+      "fame_depository": [],
+      "filter_settings": [],
+      "game_param": [
+        {
+          "ActionPointChangeDate": 739920,
+          "ActionPointChangeTime": 0.5,
+          "CharismaChangeDate": 739920,
+          "CharismaChangeTime": 0.5,
+          "EventParam": 0,
+          "Experience": 0,
+          "ExtendedMaxCharisma": 0,
+          "ExtendedMaxCharismaNextMonth": 0,
+          "ExtendedMaxStamina": 0,
+          "ExtendedMaxStaminaNextMonth": 0,
+          "GiftItem1": 0,
+          "GiftItem2": 0,
+          "GiftItem3": 0,
+          "GiftItem4": 0,
+          "GiftItem5": 0,
+          "GiftItem6": 0,
+          "Money": 1000,
+          "NowActionPoint": 0,
+          "NowCharisma": 60,
+          "Rank": 1,
+          "RedCrystal": 0,
+          "_PointSystem": 0
+        }
+      ],
+      "game_param2": [
+        {
+          "BonusPremiumSummonCount": 0,
+          "BonusPremiumSummonDate": 0,
+          "ComebackLoginDateTime": "",
+          "GameStartDateTime": "2026/11/01 12:00:00",
+          "GloryPoint": 0,
+          "GoddessRevivalTotalStarCount": 0,
+          "HomeCookingReceivedAmount": 0,
+          "HomeCookingReceivedDate": 0,
+          "LastLoginDate": 0,
+          "LatestComebackLoginBonusDateTime": "",
+          "LatestComebackLoginBonusDays": 0,
+          "LatestComebackSummonBonusDateTime": "",
+          "LatestComebackSummonBonusDays": 0,
+          "LogInStampCount": 0,
+          "LookHarlemFlag00": 0,
+          "LookHarlemFlag01": 0,
+          "LookHarlemFlag02": 0,
+          "LookHarlemFlag03": 0,
+          "LookHarlemFlag10": 0,
+          "LookHarlemFlag11": 0,
+          "LookHarlemFlag12": 0,
+          "LookHarlemFlag13": 0,
+          "MaintenanceCheckDateTime": 0,
+          "NormalGachaFree": 0,
+          "StampCardGrade": 0,
+          "WatchEventFlag0": "",
+          "WatchEventFlag0_2": "",
+          "WatchEventFlag1": "",
+          "WatchEventFlag1_2": "",
+          "_EvCmb": 1
+        }
+      ],
+      "menu_blocks": [],
+      "perused_events": [],
+      "possessions": [],
+      "presents": [],
+      "quest_records": [],
+      "recommendations": [],
+      "reproduction": [
+        {
+          "EI": 0,
+          "F0": 0,
+          "F0RT": 0,
+          "I0": 0,
+          "I1": 0
+        }
+      ],
+      "universal_flags": [],
+      "vote_history": []
+    }
+  },
+  "cases": {
+    "drained": {
+      "state": {
+        "removed": [],
+        "sections": {},
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "quest_energy_insufficient",
+            "message": "Quest costs exceed the available energy",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "quest_locked",
+            "message": "The prerequisite quest has not been cleared",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"><V>0</V><V>1</V><V>2</V></ID><TYPE T=\"I\"><V>1</V><V>2</V><V>3</V></TYPE><ATTR T=\"I\"><V>0</V><V>0</V><V>0</V></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7826088</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "drop_refusals": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "player_state": {
+            "battle": {
+              "RTN": 64,
+              "TN": 0,
+              "UX": 4,
+              "VN": "1.0.1"
+            },
+            "last_unique_id": 5,
+            "legacy_squad_imported": false,
+            "schema_version": 1,
+            "squads": [],
+            "units": [
+              {
+                "CanFame": false,
+                "CardID": 1,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 9900,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 0,
+                "GetIndex": 0,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 59,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 1,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 4,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 1,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 2,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 67,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 2,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 3,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 68,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 3,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 11,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 4,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 15,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 600,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 4,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 12,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 5,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              }
+            ]
+          },
+          "quest_state": {
+            "active": null,
+            "history": [
+              {
+                "boost": 1,
+                "candidate_stars": 0,
+                "charged": {
+                  "action_points": 0,
+                  "charisma": 6
+                },
+                "client_time": 1001,
+                "completed_at": 1793502000.0,
+                "crystal_presents": [],
+                "crystals": 1,
+                "crystals_pending": 0,
+                "delivered_presents": [],
+                "difficulty": "normal",
+                "discarded": {},
+                "drop_bonus": null,
+                "event_rewards": {
+                  "content_version": "1b0e361aee637f7f69f149ffb9c87e47e858da3dff5ef5d4de6a7f47b54c2027",
+                  "context": {
+                    "charisma_per_run": 6,
+                    "event_points": 0,
+                    "now": "2026-11-01T12:00:00+09:00",
+                    "quest_id": 1002,
+                    "quest_type": 0,
+                    "rewrite_event_param": true,
+                    "runs": 1,
+                    "source": "result"
+                  },
+                  "discarded": {
+                    "vote_tickets": {}
+                  },
+                  "event_param": {
+                    "changed": false,
+                    "points": 0,
+                    "previous": 0,
+                    "rewritten": true,
+                    "value": 0
+                  },
+                  "items": {},
+                  "schema": 1,
+                  "vote_tickets": {
+                    "count": 0,
+                    "error": "vote_quest_tickets_not_attached",
+                    "item_id": null,
+                    "reason": "unavailable"
+                  }
+                },
+                "finish_key": "EeLcL7hN:24d27d2aefdade8bc33617796f8fcf63143199f6a704740d8ad792f05d5c3c71",
+                "gold_events": 0,
+                "gold_rates": {
+                  "event_percent": 0,
+                  "money_up": false,
+                  "reward_percent": 0,
+                  "stars": 3
+                },
+                "kills_reported": 20,
+                "kind": "success",
+                "master_snapshot": "9159442edcc59db92d37856e",
+                "mission_id": 100001,
+                "mode_presents": [],
+                "mode_presents_pending": 0,
+                "obtained_mask": 7,
+                "quest_id": 1002,
+                "resource_version": "a24372f67fbf2dcd1132bdbadb635d30fdc031b8",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1720</V><V>28</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>4</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V><V>15</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V><V>600</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V><V>5</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V><V>12</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></B1></PPU><QR><QuestID T=\"I\"><V>1002</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17895681</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>720</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V><V>3</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V><V>15</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V><V>1</V></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+                "response_revision": 2,
+                "rewards": {
+                  "15": 1,
+                  "4": 1,
+                  "67": 1,
+                  "68": 1
+                },
+                "score": null,
+                "score_details": null,
+                "sequence": 1,
+                "star_rewards": [
+                  {
+                    "card_id": null,
+                    "count": 0,
+                    "item_id": null,
+                    "kind": "crystal",
+                    "reward_type": 0
+                  }
+                ],
+                "stars": 3,
+                "start_key": "uD69xeaG:fce91403061d90fa5950f4892d17bf1b54cf91735556e0a2334493c92cde0e9e"
+              }
+            ],
+            "next_sequence": 2,
+            "processed_keys": [
+              "uD69xeaG:fce91403061d90fa5950f4892d17bf1b54cf91735556e0a2334493c92cde0e9e",
+              "EeLcL7hN:24d27d2aefdade8bc33617796f8fcf63143199f6a704740d8ad792f05d5c3c71"
+            ],
+            "schema_version": 2
+          }
+        },
+        "tables": {
+          "crystals": [
+            {
+              "Date": 739920,
+              "FreeFlag": true,
+              "Num": 1
+            }
+          ],
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 28,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1720,
+              "NowActionPoint": 0,
+              "NowCharisma": 63,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ],
+          "quest_records": [
+            {
+              "AchieveFlag": 17825792,
+              "FirstDefeatDate": 0,
+              "MaxRank": 3,
+              "QuestID": 1001,
+              "RemainAssault": 0,
+              "Shown": false
+            },
+            {
+              "AchieveFlag": 17895681,
+              "FirstDefeatDate": 739920,
+              "MaxRank": 3,
+              "QuestID": 1002,
+              "RemainAssault": 0,
+              "Shown": false
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "quest_candidates_mismatch",
+            "message": "Client candidates do not match the saved quest and map",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"><V>0</V><V>1</V><V>2</V></ID><TYPE T=\"I\"><V>1</V><V>2</V><V>3</V></TYPE><ATTR T=\"I\"><V>0</V><V>0</V><V>0</V></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7826088</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><Item T=\"I\"><V>1</V><V>1</V><V>1</V></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "quest_drop_mismatch",
+            "message": "Result drops do not match the saved lottery",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1002 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>8</V></DP><DPLIST T=\"I\"><V>7</V></DPLIST><GoldGet T=\"I\"><V>0</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7826325</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1002 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>7</V></DP><DPLIST T=\"I\"><V>7</V></DPLIST><GoldGet T=\"I\"><V>0</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7826325</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1720</V><V>28</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>4</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V><V>15</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V><V>600</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V><V>5</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V><V>12</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V></B1></PPU><QR><QuestID T=\"I\"><V>1002</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17895681</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>720</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V><V>3</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V><V>15</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V><V>1</V></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "exit_window": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "quest_state": {
+            "active": null,
+            "history": [
+              {
+                "completed_at": 1793502000.0,
+                "exit_key": "ntwh57oy:488b6c18f69a42024498997fe15f314a0101b51a5c6ff21782213f028900fc5e",
+                "kind": "retreat",
+                "quest_id": 1001,
+                "sequence": 1,
+                "start_key": "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c"
+              },
+              {
+                "completed_at": 1793502006.0,
+                "exit_key": "ntwh57oy:488b6c18f69a42024498997fe15f314a0101b51a5c6ff21782213f028900fc5e",
+                "kind": "retreat",
+                "quest_id": 1001,
+                "sequence": 2,
+                "start_key": "uD69xeaG:78f706bdb36f0d1ad4942358d5e4e4d9dd71fd1e17bfa40c8cb4c92537251a2d"
+              }
+            ],
+            "next_sequence": 3,
+            "processed_keys": [
+              "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c",
+              "uD69xeaG:78f706bdb36f0d1ad4942358d5e4e4d9dd71fd1e17bfa40c8cb4c92537251a2d"
+            ],
+            "schema_version": 2
+          }
+        },
+        "tables": {}
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001,-1</V></TT></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1002</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001,-1</V></TT></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001,-1</V></TT></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "exits": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "quest_state": {
+            "active": null,
+            "history": [
+              {
+                "completed_at": 1793502000.0,
+                "exit_key": "ntwh57oy:488b6c18f69a42024498997fe15f314a0101b51a5c6ff21782213f028900fc5e",
+                "kind": "retreat",
+                "quest_id": 1001,
+                "sequence": 1,
+                "start_key": "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c"
+              },
+              {
+                "completed_at": 1793502000.0,
+                "exit_key": "ntwh57oy:ab13cb43c90e6cb2e84deb9dea854cb0940f230683ac9e63bdfebf998a0e8016",
+                "kind": "failure",
+                "quest_id": 1001,
+                "sequence": 2,
+                "start_key": "uD69xeaG:78f706bdb36f0d1ad4942358d5e4e4d9dd71fd1e17bfa40c8cb4c92537251a2d"
+              }
+            ],
+            "next_sequence": 3,
+            "processed_keys": [
+              "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c",
+              "uD69xeaG:78f706bdb36f0d1ad4942358d5e4e4d9dd71fd1e17bfa40c8cb4c92537251a2d"
+            ],
+            "schema_version": 2
+          }
+        },
+        "tables": {}
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001,-1</V></TT></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001,-1</V></TT></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "quest_attempt_missing",
+            "message": "Result does not match an active attempt",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>0</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7826333</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1002</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001,0</V></TT></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "four_star": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "quest_state": {
+            "active": null,
+            "history": [
+              {
+                "boost": 1,
+                "candidate_stars": 3,
+                "charged": {
+                  "action_points": 0,
+                  "charisma": 6
+                },
+                "client_time": 1001,
+                "completed_at": 1793502000.0,
+                "crystal_presents": [],
+                "crystals": 1,
+                "crystals_pending": 0,
+                "delivered_presents": [],
+                "difficulty": "hard",
+                "discarded": {},
+                "drop_bonus": null,
+                "event_rewards": {
+                  "content_version": "1b0e361aee637f7f69f149ffb9c87e47e858da3dff5ef5d4de6a7f47b54c2027",
+                  "context": {
+                    "charisma_per_run": 6,
+                    "event_points": 0,
+                    "now": "2026-11-01T12:00:00+09:00",
+                    "quest_id": 1002,
+                    "quest_type": 0,
+                    "rewrite_event_param": true,
+                    "runs": 1,
+                    "source": "result"
+                  },
+                  "discarded": {
+                    "vote_tickets": {}
+                  },
+                  "event_param": {
+                    "changed": false,
+                    "points": 0,
+                    "previous": 0,
+                    "rewritten": true,
+                    "value": 0
+                  },
+                  "items": {},
+                  "schema": 1,
+                  "vote_tickets": {
+                    "count": 0,
+                    "error": "vote_quest_tickets_not_attached",
+                    "item_id": null,
+                    "reason": "unavailable"
+                  }
+                },
+                "finish_key": "EeLcL7hN:4059772578b25d834cf331319ec20b99b8cd061e43a7d239f0ab0d5ffbbdfb26",
+                "gold_events": 0,
+                "gold_rates": {
+                  "event_percent": 0,
+                  "money_up": false,
+                  "reward_percent": 0,
+                  "stars": 3
+                },
+                "kills_reported": 20,
+                "kind": "success",
+                "master_snapshot": "9159442edcc59db92d37856e",
+                "mission_id": 100001,
+                "mode_presents": [],
+                "mode_presents_pending": 0,
+                "obtained_mask": 0,
+                "quest_id": 1002,
+                "resource_version": "a24372f67fbf2dcd1132bdbadb635d30fdc031b8",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1720</V><V>79038</V><V>50</V><V>54</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1002</V></QuestID><A1 T=\"I\"><V>4</V></A1><A2 T=\"I\"><V>19992833</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>720</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+                "response_revision": 2,
+                "rewards": {},
+                "score": null,
+                "score_details": null,
+                "sequence": 1,
+                "star_rewards": [
+                  {
+                    "card_id": null,
+                    "count": 1,
+                    "item_id": null,
+                    "kind": "crystal",
+                    "reward_type": 0
+                  }
+                ],
+                "stars": 4,
+                "start_key": "FERdQZfe:925dae3784b1519819cdc4bb46b73cd51ab823fba922fd64b1d22bd561056e9b"
+              }
+            ],
+            "next_sequence": 2,
+            "processed_keys": [
+              "FERdQZfe:925dae3784b1519819cdc4bb46b73cd51ab823fba922fd64b1d22bd561056e9b",
+              "EeLcL7hN:4059772578b25d834cf331319ec20b99b8cd061e43a7d239f0ab0d5ffbbdfb26"
+            ],
+            "schema_version": 2
+          }
+        },
+        "tables": {
+          "crystals": [
+            {
+              "Date": 739920,
+              "FreeFlag": true,
+              "Num": 1
+            }
+          ],
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 79038,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1720,
+              "NowActionPoint": 0,
+              "NowCharisma": 54,
+              "Rank": 50,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ],
+          "quest_records": [
+            {
+              "AchieveFlag": 17825792,
+              "FirstDefeatDate": 0,
+              "MaxRank": 3,
+              "QuestID": 1001,
+              "RemainAssault": 0,
+              "Shown": false
+            },
+            {
+              "AchieveFlag": 19992833,
+              "FirstDefeatDate": 0,
+              "MaxRank": 4,
+              "QuestID": 1002,
+              "RemainAssault": 0,
+              "Shown": false
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1306</ST><HS>7828478</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>79010</V><V>50</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1002 4 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>0</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7826331</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1720</V><V>79038</V><V>50</V><V>54</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1002</V></QuestID><A1 T=\"I\"><V>4</V></A1><A2 T=\"I\"><V>19992833</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>720</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "gold_team": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "quest_state": {
+            "active": null,
+            "history": [
+              {
+                "boost": 1,
+                "candidate_stars": 0,
+                "charged": {
+                  "action_points": 0,
+                  "charisma": 5
+                },
+                "client_time": 1001,
+                "completed_at": 1793502000.0,
+                "crystal_presents": [],
+                "crystals": 1,
+                "crystals_pending": 0,
+                "delivered_presents": [],
+                "difficulty": "normal",
+                "discarded": {},
+                "drop_bonus": null,
+                "event_rewards": {
+                  "content_version": "1b0e361aee637f7f69f149ffb9c87e47e858da3dff5ef5d4de6a7f47b54c2027",
+                  "context": {
+                    "charisma_per_run": 5,
+                    "event_points": 0,
+                    "now": "2026-11-01T12:00:00+09:00",
+                    "quest_id": 1001,
+                    "quest_type": 0,
+                    "rewrite_event_param": true,
+                    "runs": 1,
+                    "source": "result"
+                  },
+                  "discarded": {
+                    "vote_tickets": {}
+                  },
+                  "event_param": {
+                    "changed": false,
+                    "points": 0,
+                    "previous": 0,
+                    "rewritten": true,
+                    "value": 0
+                  },
+                  "items": {},
+                  "schema": 1,
+                  "vote_tickets": {
+                    "count": 0,
+                    "error": "vote_quest_tickets_not_attached",
+                    "item_id": null,
+                    "reason": "unavailable"
+                  }
+                },
+                "finish_key": "EeLcL7hN:07ab4dc9fd1e6b2d18c333d72355d7f825045c48d67358f8d0f81e6985c98565",
+                "gold_events": 2,
+                "gold_rates": {
+                  "event_percent": 30,
+                  "money_up": false,
+                  "reward_percent": 20,
+                  "stars": 3
+                },
+                "kills_reported": 20,
+                "kind": "success",
+                "master_snapshot": "9159442edcc59db92d37856e",
+                "mission_id": 100001,
+                "mode_presents": [],
+                "mode_presents_pending": 0,
+                "obtained_mask": 0,
+                "quest_id": 1001,
+                "resource_version": "a24372f67fbf2dcd1132bdbadb635d30fdc031b8",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>2278</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>2</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17825792</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>1278</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+                "response_revision": 2,
+                "rewards": {},
+                "score": null,
+                "score_details": null,
+                "sequence": 1,
+                "star_rewards": [
+                  {
+                    "card_id": null,
+                    "count": 0,
+                    "item_id": null,
+                    "kind": "crystal",
+                    "reward_type": 0
+                  }
+                ],
+                "stars": 3,
+                "start_key": "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c"
+              }
+            ],
+            "next_sequence": 2,
+            "processed_keys": [
+              "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c",
+              "EeLcL7hN:07ab4dc9fd1e6b2d18c333d72355d7f825045c48d67358f8d0f81e6985c98565"
+            ],
+            "schema_version": 2
+          }
+        },
+        "tables": {
+          "crystals": [
+            {
+              "Date": 739920,
+              "FreeFlag": true,
+              "Num": 1
+            }
+          ],
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 17,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 2278,
+              "NowActionPoint": 0,
+              "NowCharisma": 63,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ],
+          "quest_records": [
+            {
+              "AchieveFlag": 17825792,
+              "FirstDefeatDate": 739920,
+              "MaxRank": 3,
+              "QuestID": 1001,
+              "RemainAssault": 0,
+              "Shown": false
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>2</V></GoldGet></DropResult></RT><GG><I T=\"I\"><V>2</V></I></GG><BL><A1 T=\"I\"><V>538</V><V>316</V></A1><A7 T=\"I\"><V>1</V><V>2</V></A7><A8 T=\"I\"><V>0</V><V>1</V></A8><AB T=\"I\"><V>2</V><V>3</V></AB><AA T=\"I\"><V>0</V><V>0</V></AA></BL><VN>5.0.0</VN><ST>1305</ST><HS>7820049</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>2278</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>2</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17825792</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>1278</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "main_clear": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "quest_state": {
+            "active": null,
+            "history": [
+              {
+                "boost": 1,
+                "candidate_stars": 0,
+                "charged": {
+                  "action_points": 0,
+                  "charisma": 5
+                },
+                "client_time": 1001,
+                "completed_at": 1793502000.0,
+                "crystal_presents": [],
+                "crystals": 1,
+                "crystals_pending": 0,
+                "delivered_presents": [],
+                "difficulty": "normal",
+                "discarded": {},
+                "drop_bonus": null,
+                "event_rewards": {
+                  "content_version": "1b0e361aee637f7f69f149ffb9c87e47e858da3dff5ef5d4de6a7f47b54c2027",
+                  "context": {
+                    "charisma_per_run": 5,
+                    "event_points": 0,
+                    "now": "2026-11-01T12:00:00+09:00",
+                    "quest_id": 1001,
+                    "quest_type": 0,
+                    "rewrite_event_param": true,
+                    "runs": 1,
+                    "source": "result"
+                  },
+                  "discarded": {
+                    "vote_tickets": {}
+                  },
+                  "event_param": {
+                    "changed": false,
+                    "points": 0,
+                    "previous": 0,
+                    "rewritten": true,
+                    "value": 0
+                  },
+                  "items": {},
+                  "schema": 1,
+                  "vote_tickets": {
+                    "count": 0,
+                    "error": "vote_quest_tickets_not_attached",
+                    "item_id": null,
+                    "reason": "unavailable"
+                  }
+                },
+                "finish_key": "EeLcL7hN:60af451bed54f29cf583ac1dca449ad512e1fc13f24402037e5556787e75226a",
+                "gold_events": 0,
+                "gold_rates": {
+                  "event_percent": 0,
+                  "money_up": false,
+                  "reward_percent": 0,
+                  "stars": 3
+                },
+                "kills_reported": 20,
+                "kind": "success",
+                "master_snapshot": "9159442edcc59db92d37856e",
+                "mission_id": 100001,
+                "mode_presents": [],
+                "mode_presents_pending": 0,
+                "obtained_mask": 0,
+                "quest_id": 1001,
+                "resource_version": "a24372f67fbf2dcd1132bdbadb635d30fdc031b8",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1675</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17825792</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>675</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+                "response_revision": 2,
+                "rewards": {},
+                "score": null,
+                "score_details": null,
+                "sequence": 1,
+                "star_rewards": [
+                  {
+                    "card_id": null,
+                    "count": 0,
+                    "item_id": null,
+                    "kind": "crystal",
+                    "reward_type": 0
+                  }
+                ],
+                "stars": 3,
+                "start_key": "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c"
+              }
+            ],
+            "next_sequence": 2,
+            "processed_keys": [
+              "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c",
+              "EeLcL7hN:60af451bed54f29cf583ac1dca449ad512e1fc13f24402037e5556787e75226a"
+            ],
+            "schema_version": 2
+          }
+        },
+        "tables": {
+          "config": [
+            {
+              "AutoSelectConfig": 0,
+              "BattleAcceleratorFlag": 0,
+              "BattleDClickSkillDisableFlag": 0,
+              "BattlePlaceMagnetFlag": 0,
+              "CostUpCloseDateTime": "",
+              "DamageDispEnable": 0,
+              "EventViewRequest": "",
+              "ExperienceUpCloseDateTime": "",
+              "HaveUnitMaxSizeBuy": 0,
+              "IntegrationAutoSelectConfig": 0,
+              "MenuTutorialFlags": 1,
+              "MissionRewardFlags2": 0,
+              "MoneyUpCloseDateTime": "",
+              "PurposeSettingFlags": 0,
+              "SpecialEffectsFlags": 0,
+              "SpecialEffectsFlags2": 0,
+              "TypeOfSortOrder": "",
+              "UseBgm": true,
+              "UseSe": true,
+              "UserName": "Local Player",
+              "_BattleGodBlessFilter": 0,
+              "_BlsDT_BoostAtk_F": "",
+              "_BlsDT_BoostAtk_R": "",
+              "_BlsDT_DamageCut": "",
+              "_FlagFilter": "",
+              "_FlagMissionFilter": "",
+              "_FlagSort": "",
+              "_GuideUnitIndex": 0,
+              "_VolumeBgm": 0,
+              "_VolumeSe": 0
+            }
+          ],
+          "crystals": [
+            {
+              "Date": 739920,
+              "FreeFlag": true,
+              "Num": 1
+            }
+          ],
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 17,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1675,
+              "NowActionPoint": 0,
+              "NowCharisma": 63,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ],
+          "quest_records": [
+            {
+              "AchieveFlag": 17825792,
+              "FirstDefeatDate": 739920,
+              "MaxRank": 3,
+              "QuestID": 1001,
+              "RemainAssault": 0,
+              "Shown": false
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>2147483647</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7825946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1675</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17825792</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>675</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>2147483647</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7825946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1675</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17825792</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>675</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "quest_attempt_closed",
+            "message": "This start request belongs to a closed attempt",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "quest_response_stale",
+            "message": "The profile changed after this response; reload current player data",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>2147483647</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7825946</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "money_campaign": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "quest_state": {
+            "active": null,
+            "history": [
+              {
+                "boost": 1,
+                "candidate_stars": 0,
+                "charged": {
+                  "action_points": 0,
+                  "charisma": 5
+                },
+                "client_time": 1001,
+                "completed_at": 1793502000.0,
+                "crystal_presents": [],
+                "crystals": 1,
+                "crystals_pending": 0,
+                "delivered_presents": [],
+                "difficulty": "normal",
+                "discarded": {},
+                "drop_bonus": null,
+                "event_rewards": {
+                  "content_version": "1b0e361aee637f7f69f149ffb9c87e47e858da3dff5ef5d4de6a7f47b54c2027",
+                  "context": {
+                    "charisma_per_run": 5,
+                    "event_points": 0,
+                    "now": "2026-11-01T12:00:00+09:00",
+                    "quest_id": 1001,
+                    "quest_type": 0,
+                    "rewrite_event_param": true,
+                    "runs": 1,
+                    "source": "result"
+                  },
+                  "discarded": {
+                    "vote_tickets": {}
+                  },
+                  "event_param": {
+                    "changed": false,
+                    "points": 0,
+                    "previous": 0,
+                    "rewritten": true,
+                    "value": 0
+                  },
+                  "items": {},
+                  "schema": 1,
+                  "vote_tickets": {
+                    "count": 0,
+                    "error": "vote_quest_tickets_not_attached",
+                    "item_id": null,
+                    "reason": "unavailable"
+                  }
+                },
+                "finish_key": "EeLcL7hN:18af71c38c73a91d4c91ef1ec6c84a445a9d1113b8922287e40bb749c410fed8",
+                "gold_events": 3,
+                "gold_rates": {
+                  "event_percent": 0,
+                  "money_up": true,
+                  "reward_percent": 0,
+                  "stars": 3
+                },
+                "kills_reported": 20,
+                "kind": "success",
+                "master_snapshot": "9159442edcc59db92d37856e",
+                "mission_id": 100001,
+                "mode_presents": [],
+                "mode_presents_pending": 0,
+                "obtained_mask": 0,
+                "quest_id": 1001,
+                "resource_version": "a24372f67fbf2dcd1132bdbadb635d30fdc031b8",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>2687</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17825792</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>1687</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+                "response_revision": 2,
+                "rewards": {},
+                "score": null,
+                "score_details": null,
+                "sequence": 1,
+                "star_rewards": [
+                  {
+                    "card_id": null,
+                    "count": 0,
+                    "item_id": null,
+                    "kind": "crystal",
+                    "reward_type": 0
+                  }
+                ],
+                "stars": 3,
+                "start_key": "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c"
+              }
+            ],
+            "next_sequence": 2,
+            "processed_keys": [
+              "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c",
+              "EeLcL7hN:18af71c38c73a91d4c91ef1ec6c84a445a9d1113b8922287e40bb749c410fed8"
+            ],
+            "schema_version": 2
+          }
+        },
+        "tables": {
+          "crystals": [
+            {
+              "Date": 739920,
+              "FreeFlag": true,
+              "Num": 1
+            }
+          ],
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 17,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 2687,
+              "NowActionPoint": 0,
+              "NowCharisma": 63,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ],
+          "quest_records": [
+            {
+              "AchieveFlag": 17825792,
+              "FirstDefeatDate": 739920,
+              "MaxRank": 3,
+              "QuestID": 1001,
+              "RemainAssault": 0,
+              "Shown": false
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>3</V></GoldGet></DropResult></RT><GG><I T=\"I\"><V>3</V></I></GG><VN>5.0.0</VN><ST>1305</ST><HS>7827232</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>2687</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17825792</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>1687</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "one_star_gold_events": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "quest_state": {
+            "active": null,
+            "history": [
+              {
+                "boost": 1,
+                "candidate_stars": 0,
+                "charged": {
+                  "action_points": 0,
+                  "charisma": 5
+                },
+                "client_time": 1001,
+                "completed_at": 1793502000.0,
+                "crystal_presents": [],
+                "crystals": 0,
+                "crystals_pending": 0,
+                "delivered_presents": [],
+                "difficulty": "normal",
+                "discarded": {},
+                "drop_bonus": null,
+                "event_rewards": {
+                  "content_version": "1b0e361aee637f7f69f149ffb9c87e47e858da3dff5ef5d4de6a7f47b54c2027",
+                  "context": {
+                    "charisma_per_run": 5,
+                    "event_points": 0,
+                    "now": "2026-11-01T12:00:00+09:00",
+                    "quest_id": 1001,
+                    "quest_type": 0,
+                    "rewrite_event_param": true,
+                    "runs": 1,
+                    "source": "result"
+                  },
+                  "discarded": {
+                    "vote_tickets": {}
+                  },
+                  "event_param": {
+                    "changed": false,
+                    "points": 0,
+                    "previous": 0,
+                    "rewritten": true,
+                    "value": 0
+                  },
+                  "items": {},
+                  "schema": 1,
+                  "vote_tickets": {
+                    "count": 0,
+                    "error": "vote_quest_tickets_not_attached",
+                    "item_id": null,
+                    "reason": "unavailable"
+                  }
+                },
+                "finish_key": "EeLcL7hN:4691ddfb2f0cc469a9dfae6de7b473be7cd71de942ee6ae5470d97e2319f0dc8",
+                "gold_events": 2,
+                "gold_rates": {
+                  "event_percent": 0,
+                  "money_up": false,
+                  "reward_percent": 0,
+                  "stars": 1
+                },
+                "kills_reported": 20,
+                "kind": "success",
+                "master_snapshot": "9159442edcc59db92d37856e",
+                "mission_id": 100001,
+                "mode_presents": [],
+                "mode_presents_pending": 0,
+                "obtained_mask": 0,
+                "quest_id": 1001,
+                "resource_version": "a24372f67fbf2dcd1132bdbadb635d30fdc031b8",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1650</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>1</V></A1><A2 T=\"I\"><V>16777216</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>650</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo></DA>",
+                "response_revision": 2,
+                "rewards": {},
+                "score": null,
+                "score_details": null,
+                "sequence": 1,
+                "star_rewards": [],
+                "stars": 1,
+                "start_key": "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c"
+              }
+            ],
+            "next_sequence": 2,
+            "processed_keys": [
+              "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c",
+              "EeLcL7hN:4691ddfb2f0cc469a9dfae6de7b473be7cd71de942ee6ae5470d97e2319f0dc8"
+            ],
+            "schema_version": 2
+          }
+        },
+        "tables": {
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 17,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1650,
+              "NowActionPoint": 0,
+              "NowCharisma": 63,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ],
+          "quest_records": [
+            {
+              "AchieveFlag": 16777216,
+              "FirstDefeatDate": 739920,
+              "MaxRank": 1,
+              "QuestID": 1001,
+              "RemainAssault": 0,
+              "Shown": false
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 1 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>2</V></GoldGet></DropResult></RT><GG><I T=\"I\"><V>2</V></I></GG><VN>5.0.0</VN><ST>1305</ST><HS>7827237</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1650</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>1</V></A1><A2 T=\"I\"><V>16777216</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>650</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "paired_profiles": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "quest_state": {
+            "active": null,
+            "history": [
+              {
+                "boost": 1,
+                "candidate_stars": 0,
+                "charged": {
+                  "action_points": 0,
+                  "charisma": 5
+                },
+                "client_time": 1001,
+                "completed_at": 1793502000.0,
+                "crystal_presents": [],
+                "crystals": 0,
+                "crystals_pending": 0,
+                "delivered_presents": [],
+                "difficulty": "normal",
+                "discarded": {},
+                "drop_bonus": null,
+                "event_rewards": {
+                  "content_version": "1b0e361aee637f7f69f149ffb9c87e47e858da3dff5ef5d4de6a7f47b54c2027",
+                  "context": {
+                    "charisma_per_run": 5,
+                    "event_points": 0,
+                    "now": "2026-11-01T12:00:00+09:00",
+                    "quest_id": 1001,
+                    "quest_type": 0,
+                    "rewrite_event_param": true,
+                    "runs": 1,
+                    "source": "result"
+                  },
+                  "discarded": {
+                    "vote_tickets": {}
+                  },
+                  "event_param": {
+                    "changed": false,
+                    "points": 0,
+                    "previous": 0,
+                    "rewritten": true,
+                    "value": 0
+                  },
+                  "items": {},
+                  "schema": 1,
+                  "vote_tickets": {
+                    "count": 0,
+                    "error": "vote_quest_tickets_not_attached",
+                    "item_id": null,
+                    "reason": "unavailable"
+                  }
+                },
+                "finish_key": "GjqMPFL5:8c4474d6bf66ebbc956d6aae6916eb8cb3dffbaae8993f34a3ab21893b7d5b73",
+                "gold_events": 0,
+                "gold_rates": {
+                  "event_percent": 0,
+                  "money_up": false,
+                  "reward_percent": 0,
+                  "stars": 2
+                },
+                "kills_reported": 20,
+                "kind": "success",
+                "master_snapshot": "9159442edcc59db92d37856e",
+                "mission_id": 100001,
+                "mode_presents": [],
+                "mode_presents_pending": 0,
+                "obtained_mask": 0,
+                "quest_id": 1001,
+                "resource_version": "a24372f67fbf2dcd1132bdbadb635d30fdc031b8",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1540</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>2</V></A1><A2 T=\"I\"><V>16777216</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>540</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo></DA>",
+                "response_revision": 2,
+                "rewards": {},
+                "score": null,
+                "score_details": null,
+                "sequence": 1,
+                "star_rewards": [],
+                "stars": 2,
+                "start_key": "tN04P8Lf:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c"
+              }
+            ],
+            "next_sequence": 2,
+            "processed_keys": [
+              "tN04P8Lf:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c",
+              "GjqMPFL5:8c4474d6bf66ebbc956d6aae6916eb8cb3dffbaae8993f34a3ab21893b7d5b73"
+            ],
+            "schema_version": 2
+          }
+        },
+        "tables": {
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 17,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1540,
+              "NowActionPoint": 0,
+              "NowCharisma": 63,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ],
+          "quest_records": [
+            {
+              "AchieveFlag": 16777216,
+              "FirstDefeatDate": 739920,
+              "MaxRank": 2,
+              "QuestID": 1001,
+              "RemainAssault": 0,
+              "Shown": false
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 2 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>0</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7826332</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1540</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>2</V></A1><A2 T=\"I\"><V>16777216</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>540</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "restart": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "quest_state": {
+            "active": null,
+            "history": [
+              {
+                "kind": "superseded",
+                "quest_id": 1001,
+                "sequence": 1,
+                "start_key": "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c"
+              },
+              {
+                "boost": 1,
+                "candidate_stars": 0,
+                "charged": {
+                  "action_points": 0,
+                  "charisma": 5
+                },
+                "client_time": 1004,
+                "completed_at": 1793502000.0,
+                "crystal_presents": [],
+                "crystals": 1,
+                "crystals_pending": 0,
+                "delivered_presents": [],
+                "difficulty": "normal",
+                "discarded": {},
+                "drop_bonus": null,
+                "event_rewards": {
+                  "content_version": "1b0e361aee637f7f69f149ffb9c87e47e858da3dff5ef5d4de6a7f47b54c2027",
+                  "context": {
+                    "charisma_per_run": 5,
+                    "event_points": 0,
+                    "now": "2026-11-01T12:00:00+09:00",
+                    "quest_id": 1001,
+                    "quest_type": 0,
+                    "rewrite_event_param": true,
+                    "runs": 1,
+                    "source": "result"
+                  },
+                  "discarded": {
+                    "vote_tickets": {}
+                  },
+                  "event_param": {
+                    "changed": false,
+                    "points": 0,
+                    "previous": 0,
+                    "rewritten": true,
+                    "value": 0
+                  },
+                  "items": {},
+                  "schema": 1,
+                  "vote_tickets": {
+                    "count": 0,
+                    "error": "vote_quest_tickets_not_attached",
+                    "item_id": null,
+                    "reason": "unavailable"
+                  }
+                },
+                "finish_key": "EeLcL7hN:2897f77ec0ee3b707ed67fcbb25d11d7dd15a93faec2698044e003bf6c87bf36",
+                "gold_events": 0,
+                "gold_rates": {
+                  "event_percent": 0,
+                  "money_up": false,
+                  "reward_percent": 0,
+                  "stars": 3
+                },
+                "kills_reported": 20,
+                "kind": "success",
+                "master_snapshot": "9159442edcc59db92d37856e",
+                "mission_id": 100001,
+                "mode_presents": [],
+                "mode_presents_pending": 0,
+                "obtained_mask": 0,
+                "quest_id": 1001,
+                "resource_version": "a24372f67fbf2dcd1132bdbadb635d30fdc031b8",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1675</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17825792</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>675</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+                "response_revision": 3,
+                "rewards": {},
+                "score": null,
+                "score_details": null,
+                "sequence": 2,
+                "star_rewards": [
+                  {
+                    "card_id": null,
+                    "count": 0,
+                    "item_id": null,
+                    "kind": "crystal",
+                    "reward_type": 0
+                  }
+                ],
+                "stars": 3,
+                "start_key": "uD69xeaG:6a18e10cd8256982c4889e5975dfe951ccf77e08be98a6ea1893fa49f74a03d5"
+              }
+            ],
+            "next_sequence": 3,
+            "processed_keys": [
+              "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c",
+              "uD69xeaG:6a18e10cd8256982c4889e5975dfe951ccf77e08be98a6ea1893fa49f74a03d5",
+              "EeLcL7hN:2897f77ec0ee3b707ed67fcbb25d11d7dd15a93faec2698044e003bf6c87bf36"
+            ],
+            "schema_version": 2
+          }
+        },
+        "tables": {
+          "crystals": [
+            {
+              "Date": 739920,
+              "FreeFlag": true,
+              "Num": 1
+            }
+          ],
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 17,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1675,
+              "NowActionPoint": 0,
+              "NowCharisma": 63,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ],
+          "quest_records": [
+            {
+              "AchieveFlag": 17825792,
+              "FirstDefeatDate": 739920,
+              "MaxRank": 3,
+              "QuestID": 1001,
+              "RemainAssault": 0,
+              "Shown": false
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1003</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "quest_attempt_closed",
+            "message": "This start request belongs to a closed attempt",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1004</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>0</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7826333</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1675</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17825792</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>675</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "result_refusals": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "quest_state": {
+            "active": null,
+            "history": [
+              {
+                "boost": 1,
+                "candidate_stars": 0,
+                "charged": {
+                  "action_points": 0,
+                  "charisma": 5
+                },
+                "client_time": 1001,
+                "completed_at": 1793502000.0,
+                "crystal_presents": [],
+                "crystals": 1,
+                "crystals_pending": 0,
+                "delivered_presents": [],
+                "difficulty": "normal",
+                "discarded": {},
+                "drop_bonus": null,
+                "event_rewards": {
+                  "content_version": "1b0e361aee637f7f69f149ffb9c87e47e858da3dff5ef5d4de6a7f47b54c2027",
+                  "context": {
+                    "charisma_per_run": 5,
+                    "event_points": 0,
+                    "now": "2026-11-01T12:00:00+09:00",
+                    "quest_id": 1001,
+                    "quest_type": 0,
+                    "rewrite_event_param": true,
+                    "runs": 1,
+                    "source": "result"
+                  },
+                  "discarded": {
+                    "vote_tickets": {}
+                  },
+                  "event_param": {
+                    "changed": false,
+                    "points": 0,
+                    "previous": 0,
+                    "rewritten": true,
+                    "value": 0
+                  },
+                  "items": {},
+                  "schema": 1,
+                  "vote_tickets": {
+                    "count": 0,
+                    "error": "vote_quest_tickets_not_attached",
+                    "item_id": null,
+                    "reason": "unavailable"
+                  }
+                },
+                "finish_key": "EeLcL7hN:012ca998c26f76e6d08db5c8ab66cb290a6da5df0e709045d4f19bcc06cb93e5",
+                "gold_events": 0,
+                "gold_rates": {
+                  "event_percent": 0,
+                  "money_up": false,
+                  "reward_percent": 0,
+                  "stars": 3
+                },
+                "kills_reported": 20,
+                "kind": "success",
+                "master_snapshot": "9159442edcc59db92d37856e",
+                "mission_id": 100001,
+                "mode_presents": [],
+                "mode_presents_pending": 0,
+                "obtained_mask": 0,
+                "quest_id": 1001,
+                "resource_version": "a24372f67fbf2dcd1132bdbadb635d30fdc031b8",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1675</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17825792</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>675</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+                "response_revision": 2,
+                "rewards": {},
+                "score": null,
+                "score_details": null,
+                "sequence": 1,
+                "star_rewards": [
+                  {
+                    "card_id": null,
+                    "count": 0,
+                    "item_id": null,
+                    "kind": "crystal",
+                    "reward_type": 0
+                  }
+                ],
+                "stars": 3,
+                "start_key": "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c"
+              }
+            ],
+            "next_sequence": 2,
+            "processed_keys": [
+              "uD69xeaG:00e797c5d9a79e8ab0da7a88060f2e7468ba3061137a249a85fcc756670ef27c",
+              "EeLcL7hN:012ca998c26f76e6d08db5c8ab66cb290a6da5df0e709045d4f19bcc06cb93e5"
+            ],
+            "schema_version": 2
+          }
+        },
+        "tables": {
+          "config": [
+            {
+              "AutoSelectConfig": 0,
+              "BattleAcceleratorFlag": 0,
+              "BattleDClickSkillDisableFlag": 0,
+              "BattlePlaceMagnetFlag": 0,
+              "CostUpCloseDateTime": "",
+              "DamageDispEnable": 1,
+              "EventViewRequest": "",
+              "ExperienceUpCloseDateTime": "",
+              "HaveUnitMaxSizeBuy": 0,
+              "IntegrationAutoSelectConfig": 0,
+              "MenuTutorialFlags": 0,
+              "MissionRewardFlags2": 0,
+              "MoneyUpCloseDateTime": "",
+              "PurposeSettingFlags": 0,
+              "SpecialEffectsFlags": 0,
+              "SpecialEffectsFlags2": 0,
+              "TypeOfSortOrder": "",
+              "UseBgm": true,
+              "UseSe": true,
+              "UserName": "Local Player",
+              "_BattleGodBlessFilter": 0,
+              "_BlsDT_BoostAtk_F": "",
+              "_BlsDT_BoostAtk_R": "",
+              "_BlsDT_DamageCut": "",
+              "_FlagFilter": "",
+              "_FlagMissionFilter": "",
+              "_FlagSort": "",
+              "_GuideUnitIndex": 0,
+              "_VolumeBgm": 0,
+              "_VolumeSe": 0
+            }
+          ],
+          "crystals": [
+            {
+              "Date": 739920,
+              "FreeFlag": true,
+              "Num": 1
+            }
+          ],
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 17,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1675,
+              "NowActionPoint": 0,
+              "NowCharisma": 63,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ],
+          "quest_records": [
+            {
+              "AchieveFlag": 17825792,
+              "FirstDefeatDate": 739920,
+              "MaxRank": 3,
+              "QuestID": 1001,
+              "RemainAssault": 0,
+              "Shown": false
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "quest_attempt_missing",
+            "message": "Result does not match an active attempt",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>0</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7826333</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1001</V></QI><Rev T=\"S\"><V>a24372f67fbf2dcd1132bdbadb635d30fdc031b8</V></Rev><RT><ID T=\"I\"></ID><TYPE T=\"I\"></TYPE><ATTR T=\"I\"></ATTR></RT><VN>5.0.0</VN><ST>1303</ST><HS>7828419</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1000</V><V>0</V><V>1</V><V>60</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><LOTTERY><Index T=\"I\"></Index><Item T=\"I\"></Item></LOTTERY><REWARD><EXPERIENCE T=\"I\"><V>0</V></EXPERIENCE><GOLD T=\"I\"><V>0</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo></TreasureInfo><PPU></PPU></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "quest_result_profile_mismatch",
+            "message": "Result profile does not match the start profile",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>0</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7826333</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "quest_result_invalid",
+            "message": "Result stars are outside the native set for this difficulty",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 5 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>0</V></GoldGet></DropResult></RT><VN>5.0.0</VN><ST>1305</ST><HS>7826331</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "quest_request_invalid",
+            "message": "Damage display setting must be zero or one",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>0</V></GoldGet></DropResult></RT><GC><F7 T=\"I\"><V>2</V></F7></GC><VN>5.0.0</VN><ST>1305</ST><HS>7827280</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RT><LG><TG T=\"S\"><V>finishQuest</V></TG><TT T=\"S\"><V>1001 3 20</V></TT></LG><DropResult><DP T=\"I\"><V>0</V></DP><DPLIST T=\"I\"><V>0</V></DPLIST><GoldGet T=\"I\"><V>0</V></GoldGet></DropResult></RT><GC><F7 T=\"I\"><V>1</V></F7></GC><VN>5.0.0</VN><ST>1305</ST><HS>7827283</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1675</V><V>17</V><V>2</V><V>63</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>0</V></A2></PBP><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1></PPU><QR><QuestID T=\"I\"><V>1001</V></QuestID><A1 T=\"I\"><V>3</V></A1><A2 T=\"I\"><V>17825792</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>739920</V></A4><Shown T=\"B\"><V>false</V></Shown></QR><REWARD><EXPERIENCE T=\"I\"><V>17</V></EXPERIENCE><GOLD T=\"I\"><V>675</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"></Index><DropID T=\"I\"></DropID><Count T=\"I\"></Count></TreasureInfo><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>1</V></Num></PFC></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    }
+  }
+}

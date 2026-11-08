@@ -1,0 +1,1595 @@
+{
+  "input_sha256": "d0be510fb38b1d6dfe63c3562c97e45f49d318bf7e155dee309d88efe963f92b",
+  "tables": {
+    "CardData": {
+      "source_name": "CardData.ard",
+      "sha256": "4232ceb024940d63a30ca23fa406da25892448c5f5c81ed119c762d9e4e9badd",
+      "version": 1,
+      "flags": 0,
+      "record_size": 1128,
+      "fields": [
+        {
+          "name": "CardID",
+          "alias": "ＩＤ",
+          "offset": 0,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "InitClassID",
+          "alias": "初期クラス",
+          "offset": 4,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "ClassLV0SkillID",
+          "alias": "クラスLV0スキル",
+          "offset": 8,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "ClassLV1SkillID",
+          "alias": "クラスLV1スキル",
+          "offset": 12,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "EvoSkillID",
+          "alias": "進化スキル",
+          "offset": 16,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Kind",
+          "alias": "種別",
+          "offset": 20,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Rare",
+          "alias": "レアリティー",
+          "offset": 24,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "DotID0",
+          "alias": "外観０",
+          "offset": 28,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "DotID1",
+          "alias": "外観１",
+          "offset": 32,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "DotID2",
+          "alias": "外観２",
+          "offset": 36,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "SellPrice",
+          "alias": "売却価格",
+          "offset": 40,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "FreePrize",
+          "alias": "無料ガチャ",
+          "offset": 44,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "RarePrize",
+          "alias": "レアガチャ",
+          "offset": 48,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "PremiumPrize",
+          "alias": "プレミアムガチャ",
+          "offset": 52,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "TicketPrize",
+          "alias": "チケットガチャ",
+          "offset": 56,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "PremiumPrize2",
+          "alias": "プレミアムガチャ2",
+          "offset": 60,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "BuildExp",
+          "alias": "合成経験点",
+          "offset": 64,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "LoveEv1",
+          "alias": "必要好感度Ev1",
+          "offset": 68,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "BonusType",
+          "alias": "ボーナスパラメータ",
+          "offset": 72,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "BonusNum",
+          "alias": "ボーナス数値",
+          "offset": 76,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "BonusType2",
+          "alias": "ボーナスパラメータ2",
+          "offset": 80,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "BonusNum2",
+          "alias": "ボーナス数値2",
+          "offset": 84,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "BonusType3",
+          "alias": "ボーナスパラメータ3",
+          "offset": 88,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "BonusNum3",
+          "alias": "ボーナス数値3",
+          "offset": 92,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "DeadVoice",
+          "alias": "死亡ボイス",
+          "offset": 96,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "DotScale",
+          "alias": "ドット倍率",
+          "offset": 100,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "EffectHeight",
+          "alias": "エフェクト高さ",
+          "offset": 104,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "CostModValue",
+          "alias": "配置コスト修正",
+          "offset": 108,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "CostDecValue",
+          "alias": "配置コスト減少量",
+          "offset": 112,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "MaxHPMod",
+          "alias": "能力補正HP",
+          "offset": 116,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "AtkMod",
+          "alias": "能力補正攻撃",
+          "offset": 120,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "DefMod",
+          "alias": "能力補正防御",
+          "offset": 124,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "GachaPicture",
+          "alias": "ガチャ使用画像",
+          "offset": 128,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "GachaStartX",
+          "alias": "ガチャ画像開始X",
+          "offset": 132,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "GachaStartY",
+          "alias": "ガチャ画像開始Y",
+          "offset": 136,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "GachaEndX",
+          "alias": "ガチャ画像終了X",
+          "offset": 140,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "GachaEndY",
+          "alias": "ガチャ画像終了Y",
+          "offset": 144,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "GachaScale",
+          "alias": "ガチャ画像スケール",
+          "offset": 148,
+          "type_code": 4,
+          "flags": 12,
+          "type_name": "float32",
+          "size": 4,
+          "parameters": "070000000000000000000000"
+        },
+        {
+          "name": "Event1BGM",
+          "alias": "イベント１BGM",
+          "offset": 152,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Event2BGM",
+          "alias": "イベント２BGM",
+          "offset": 156,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Flavor",
+          "alias": "フレーバー",
+          "offset": 160,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Illust",
+          "alias": "イラスト",
+          "offset": 164,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "MagicResistance",
+          "alias": "魔耐",
+          "offset": 168,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Ability_Default",
+          "alias": "覚醒前アビリティ",
+          "offset": 172,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Ability",
+          "alias": "アビリティ",
+          "offset": 176,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "FullShot1",
+          "alias": "立ち絵１",
+          "offset": 180,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "Face1",
+          "alias": "フェイス１",
+          "offset": 181,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "PlatformType",
+          "alias": "プラットフォーム",
+          "offset": 184,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "PlatformTypeAwakening",
+          "alias": "プラットフォーム覚醒",
+          "offset": 188,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "PlatformTypeSkillAwakening",
+          "alias": "プラットフォームスキル覚醒",
+          "offset": 192,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "_TypeRace",
+          "alias": "種族",
+          "offset": 196,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "_TypeBigRace",
+          "alias": "大種族",
+          "offset": 200,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "_TradePoint",
+          "alias": "売却価格[虹]",
+          "offset": 204,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "_AppearAbilityLevel",
+          "alias": "覚醒後アビリティ開放レベル",
+          "offset": 208,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "_AwakePattern",
+          "alias": "覚醒タイプ",
+          "offset": 212,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "DotID3",
+          "alias": "外観３",
+          "offset": 216,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "DotID4",
+          "alias": "外観４",
+          "offset": 220,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "CharaImage3",
+          "alias": "立ち絵３",
+          "offset": 224,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "CharaFace3",
+          "alias": "フェイス３",
+          "offset": 225,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "CharaImage4",
+          "alias": "立ち絵４",
+          "offset": 226,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "CharaFace4",
+          "alias": "フェイス４",
+          "offset": 227,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "PlatformTypeAwakening2",
+          "alias": "プラットフォーム第２覚醒",
+          "offset": 228,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Assign",
+          "alias": "所属",
+          "offset": 232,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Genus",
+          "alias": "属名",
+          "offset": 236,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Identity",
+          "alias": "特性",
+          "offset": 240,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Identity2",
+          "alias": "特性2",
+          "offset": 244,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Identity3",
+          "alias": "特性3",
+          "offset": 248,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Identity4",
+          "alias": "特性4",
+          "offset": 252,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Identity5",
+          "alias": "特性5",
+          "offset": 256,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Identity6",
+          "alias": "特性6",
+          "offset": 260,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "IdentityEVT",
+          "alias": "EVT",
+          "offset": 264,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Blood",
+          "alias": "血筋",
+          "offset": 268,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "HomeCooking",
+          "alias": "手料理番号",
+          "offset": 272,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "ChildCardID",
+          "alias": "ちびID",
+          "offset": 276,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 256,
+          "parameters": "00010000"
+        },
+        {
+          "name": "OriginID",
+          "alias": "根源カードID",
+          "offset": 532,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "RootsID",
+          "alias": "ルーツ",
+          "offset": 536,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Flavor2",
+          "alias": "フレーバー2",
+          "offset": 540,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "CharaImage0",
+          "alias": "立ち絵0",
+          "offset": 544,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "CharaFace0",
+          "alias": "フェイス0",
+          "offset": 545,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "GeneralIllustID",
+          "alias": "一般版イラスト",
+          "offset": 548,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "VoteGroupID",
+          "alias": "投票部門グループID",
+          "offset": 552,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "DateOfImplementation",
+          "alias": "実装された年月日",
+          "offset": 560,
+          "type_code": 9,
+          "flags": 8,
+          "type_name": "datetime_raw",
+          "size": 8,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "SmartPhoneImageEvolve0",
+          "alias": "SP絵進化0",
+          "offset": 568,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "SmartPhoneImageEvolve2",
+          "alias": "SP絵進化2",
+          "offset": 569,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "SmartPhoneImageEvolve3",
+          "alias": "SP絵進化3",
+          "offset": 570,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "SmartPhoneImageEvolve4",
+          "alias": "SP絵進化4",
+          "offset": 571,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "BuildSkillExperience",
+          "alias": "合成スキル経験点",
+          "offset": 572,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "BuildSkillLevel",
+          "alias": "合成スキルレベル",
+          "offset": 576,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "ChildSkillExperience",
+          "alias": "ちび合成スキル経験点",
+          "offset": 580,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "ChildSkillLevel",
+          "alias": "ちび合成スキルレベル",
+          "offset": 584,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "SkillExperienceTableReferenceId",
+          "alias": "参照スキル経験値テーブル",
+          "offset": 588,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "BuildCostExperience",
+          "alias": "合成コスト経験点",
+          "offset": 592,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "BuildCostLevel",
+          "alias": "合成コストレベル",
+          "offset": 596,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "ChildCostExperience",
+          "alias": "ちび合成コスト経験点",
+          "offset": 600,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "ChildCostLevel",
+          "alias": "ちび合成コストレベル",
+          "offset": 604,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "CostExperienceTableReferenceId",
+          "alias": "参照コスト経験値テーブル",
+          "offset": 608,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "InLibrary",
+          "alias": "名鑑表示",
+          "offset": 612,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "InHallOfFamer",
+          "alias": "殿堂入り",
+          "offset": 613,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "ExcludeFameDisplayFirstClass",
+          "alias": "名鑑未CC除外",
+          "offset": 614,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff"
+        },
+        {
+          "name": "ExtendSkin01",
+          "alias": "スキン1",
+          "offset": 615,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 128,
+          "parameters": "80000000"
+        },
+        {
+          "name": "ExtendSkin02",
+          "alias": "スキン2",
+          "offset": 743,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 128,
+          "parameters": "80000000"
+        },
+        {
+          "name": "ExtendSkin03",
+          "alias": "スキン3",
+          "offset": 871,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 128,
+          "parameters": "80000000"
+        },
+        {
+          "name": "ExtendSkin04",
+          "alias": "スキン4",
+          "offset": 999,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 128,
+          "parameters": "80000000"
+        }
+      ],
+      "end_offset": 4736
+    },
+    "QuestTable": {
+      "source_name": "QuestTable.ard",
+      "sha256": "4ba5d1c50a214241380d50841dc082da23d4ad8e27c4a7778b250777c93861b7",
+      "version": 1,
+      "flags": 0,
+      "record_size": 452,
+      "fields": [
+        {
+          "name": "QuestID",
+          "alias": "クエストID",
+          "offset": 0,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Idx",
+          "alias": "インデックス",
+          "offset": 4,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "QuestTitle",
+          "alias": "タイトル",
+          "offset": 8,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Text",
+          "alias": "説明テキスト",
+          "offset": 12,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Type",
+          "alias": "種別",
+          "offset": 16,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Charisma",
+          "alias": "消費カリスマ",
+          "offset": 20,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "ActionPoint",
+          "alias": "消費行動力",
+          "offset": 24,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Rank",
+          "alias": "必要ランク",
+          "offset": 28,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Level",
+          "alias": "レベル",
+          "offset": 32,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Capacity",
+          "alias": "出撃人数",
+          "offset": 36,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "defHP",
+          "alias": "初期ライフ",
+          "offset": 40,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "defAP",
+          "alias": "初期AP",
+          "offset": 44,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "AppearCondition",
+          "alias": "出現条件",
+          "offset": 48,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "RankExp",
+          "alias": "ランク経験点",
+          "offset": 52,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Gold",
+          "alias": "入手G",
+          "offset": 56,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "MapNo",
+          "alias": "マップNo",
+          "offset": 60,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "EntryNo",
+          "alias": "エントリーNo",
+          "offset": 64,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Treasure1",
+          "alias": "宝1",
+          "offset": 68,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Treasure2",
+          "alias": "宝2",
+          "offset": 72,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Treasure3",
+          "alias": "宝3",
+          "offset": 76,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Treasure4",
+          "alias": "宝4",
+          "offset": 80,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "Treasure5",
+          "alias": "宝5",
+          "offset": 84,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "R1",
+          "alias": "確率1",
+          "offset": 88,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "R2",
+          "alias": "確率2",
+          "offset": 92,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "R3",
+          "alias": "確率3",
+          "offset": 96,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "R4",
+          "alias": "確率4",
+          "offset": 100,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "R5",
+          "alias": "確率5",
+          "offset": 104,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "UnitLevel",
+          "alias": "入手ユニットレベル",
+          "offset": 108,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "QuestTerms",
+          "alias": "修行条件",
+          "offset": 112,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "LocationNo",
+          "alias": "ロケーションNo",
+          "offset": 116,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "StartOpenDay",
+          "alias": "公開開始日",
+          "offset": 120,
+          "type_code": 7,
+          "flags": 8,
+          "type_name": "date_raw",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "EndOpenDay",
+          "alias": "公開終了日",
+          "offset": 124,
+          "type_code": 7,
+          "flags": 8,
+          "type_name": "date_raw",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "OpenWeek",
+          "alias": "公開曜日",
+          "offset": 128,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "_HoldingParam",
+          "alias": "開催曜日",
+          "offset": 132,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "BonusType",
+          "alias": "報酬の種類",
+          "offset": 136,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "BonusNum",
+          "alias": "報酬の数",
+          "offset": 140,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "ClearRewardItemID",
+          "alias": "クリア報酬ID",
+          "offset": 144,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 128,
+          "parameters": "80000000"
+        },
+        {
+          "name": "ClearRewardCount",
+          "alias": "クリア報酬数",
+          "offset": 272,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "UnitList",
+          "alias": "ユニットリスト",
+          "offset": 276,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "_HardLevel",
+          "alias": "[Hard]レベル",
+          "offset": 280,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "_HardCondition",
+          "alias": "[Hard]修行条件",
+          "offset": 284,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "_HardInfomation",
+          "alias": "[Hard]説明文",
+          "offset": 288,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "_DispIndex",
+          "alias": "表示番号",
+          "offset": 292,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "DangerArea",
+          "alias": "危険領域",
+          "offset": 296,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "NormalMode_RewardItemID",
+          "alias": "[Normal]★3報酬アイテムID",
+          "offset": 300,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 32,
+          "parameters": "20000000"
+        },
+        {
+          "name": "HardMode_RewardType",
+          "alias": "[Hard]★3報酬種別",
+          "offset": 332,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "HardMode_RewardCount",
+          "alias": "[Hard]★3報酬獲得数",
+          "offset": 336,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "HardMode_RewardCardID",
+          "alias": "[Hard]★3報酬カードID",
+          "offset": 340,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "HardMode_RewardItemID",
+          "alias": "[Hard]★3報酬アイテムID",
+          "offset": 344,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 32,
+          "parameters": "20000000"
+        },
+        {
+          "name": "SkinName",
+          "alias": "スキン名",
+          "offset": 376,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 32,
+          "parameters": "20000000"
+        },
+        {
+          "name": "ConsignmentTicketConsumptionCount",
+          "alias": "委任チケット消費数",
+          "offset": 408,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "ConsignmentTicketID",
+          "alias": "委任チケットID",
+          "offset": 412,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 32,
+          "parameters": "20000000"
+        },
+        {
+          "name": "IsUseRaidTeam",
+          "alias": "大総力戦チーム使用",
+          "offset": 444,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        },
+        {
+          "name": "DisableEntrust",
+          "alias": "委任無効",
+          "offset": 448,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000"
+        }
+      ],
+      "end_offset": 2276
+    }
+  }
+}

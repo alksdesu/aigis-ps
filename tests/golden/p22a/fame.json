@@ -1,0 +1,2781 @@
+{
+  "cases": {
+    "deposit": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU></PPU><FameDepository><CardId T=\"I\"><V>17</V></CardId><Count0 T=\"I\"><V>0</V></Count0><Count1 T=\"I\"><V>0</V></Count1><Count2 T=\"I\"><V>0</V></Count2><Count3 T=\"I\"><V>1</V></Count3><Count4 T=\"I\"><V>0</V></Count4></FameDepository></DA>",
+        "revisions": 0,
+        "save": {
+          "battle": {
+            "RTN": 64,
+            "TN": 0,
+            "UX": 1,
+            "VN": "1.0.1"
+          },
+          "card_status": [
+            {
+              "A1": 0,
+              "A3": 0,
+              "A5": 0,
+              "A7": 0,
+              "B0": 0,
+              "B1": 0,
+              "B2": 0,
+              "B3": 123456,
+              "B4": 0,
+              "CardID": 17
+            }
+          ],
+          "fame_depository": [
+            {
+              "CardId": 17,
+              "Count0": 0,
+              "Count1": 0,
+              "Count2": 0,
+              "Count3": 1,
+              "Count4": 0
+            }
+          ],
+          "fame_depository_schema": 1,
+          "last_unique_id": 2,
+          "ledgers": {
+            "evolution_rewards": "2b08b453ee7e573ddecf86a069e22a95e53011b2464ae86895d42bb43251ad08",
+            "gift_state": "2793a0660afabb67a9d50445c5a3ed5225fb3ee6e0906e9bd65a57e3f2dcd99c"
+          },
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 9900,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU></PPU><FameDepository><CardId T=\"I\"><V>17</V></CardId><Count0 T=\"I\"><V>0</V></Count0><Count1 T=\"I\"><V>0</V></Count1><Count2 T=\"I\"><V>0</V></Count2><Count3 T=\"I\"><V>1</V></Count3><Count4 T=\"I\"><V>0</V></Count4></FameDepository></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [
+          {
+            "CardId": 17,
+            "Count0": 0,
+            "Count1": 0,
+            "Count2": 0,
+            "Count3": 1,
+            "Count4": 0
+          }
+        ],
+        "fame_depository_schema": 1,
+        "last_unique_id": 2,
+        "ledgers": {
+          "evolution_rewards": "2b08b453ee7e573ddecf86a069e22a95e53011b2464ae86895d42bb43251ad08",
+          "gift_state": "2793a0660afabb67a9d50445c5a3ed5225fb3ee6e0906e9bd65a57e3f2dcd99c"
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_extra_barracks": {
+      "error": {
+        "code": "fame_deposit_barracks",
+        "message": "Fame deposit only accepts the verified first-barracks entry",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 21,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_full_bucket": {
+      "error": {
+        "code": "fame_stock_capacity",
+        "message": "Fame deposit exceeds the per-stage capacity",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [
+          {
+            "CardId": 17,
+            "Count0": 0,
+            "Count1": 0,
+            "Count2": 0,
+            "Count3": 99,
+            "Count4": 0
+          }
+        ],
+        "fame_depository_schema": 1,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_keeps_locks_allowed": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU></PPU><FameDepository><CardId T=\"I\"><V>17</V></CardId><Count0 T=\"I\"><V>0</V></Count0><Count1 T=\"I\"><V>0</V></Count1><Count2 T=\"I\"><V>0</V></Count2><Count3 T=\"I\"><V>1</V></Count3><Count4 T=\"I\"><V>0</V></Count4></FameDepository></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [
+          {
+            "CardId": 17,
+            "Count0": 0,
+            "Count1": 0,
+            "Count2": 0,
+            "Count3": 1,
+            "Count4": 0
+          }
+        ],
+        "fame_depository_schema": 1,
+        "last_unique_id": 2,
+        "ledgers": {
+          "evolution_rewards": "2b08b453ee7e573ddecf86a069e22a95e53011b2464ae86895d42bb43251ad08",
+          "gift_state": "2793a0660afabb67a9d50445c5a3ed5225fb3ee6e0906e9bd65a57e3f2dcd99c"
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_organized": {
+      "error": {
+        "code": "fame_unit_protected",
+        "message": "Organized instances cannot be deposited",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_prince": {
+      "error": {
+        "code": "fame_unit_protected",
+        "message": "Prince cannot be registered or deposited",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_rank_required": {
+      "error": {
+        "code": "fame_rank_required",
+        "message": "Player rank is below the verified fame requirement",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_two_instances": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU></PPU><FameDepository><CardId T=\"I\"><V>17</V></CardId><Count0 T=\"I\"><V>0</V></Count0><Count1 T=\"I\"><V>0</V></Count1><Count2 T=\"I\"><V>0</V></Count2><Count3 T=\"I\"><V>2</V></Count3><Count4 T=\"I\"><V>0</V></Count4></FameDepository></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 2,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [
+          {
+            "CardId": 17,
+            "Count0": 0,
+            "Count1": 0,
+            "Count2": 0,
+            "Count3": 2,
+            "Count4": 0
+          }
+        ],
+        "fame_depository_schema": 1,
+        "last_unique_id": 3,
+        "ledgers": {
+          "evolution_rewards": "2b08b453ee7e573ddecf86a069e22a95e53011b2464ae86895d42bb43251ad08",
+          "gift_state": "2793a0660afabb67a9d50445c5a3ed5225fb3ee6e0906e9bd65a57e3f2dcd99c"
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_unregistered": {
+      "error": {
+        "code": "fame_registration_required",
+        "message": "Deposit requires a registered card stage",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_untrained_before_registration": {
+      "error": {
+        "code": "fame_ineligible",
+        "message": "Unit has not reached the required fame growth state",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>17</V></A1><A2 T=\"I\"><V>10270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>145967</V></A4><A5 T=\"I\"><V>150</V></A5><A6 T=\"I\"><V>5</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>-3</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>152</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>true</V></B4><B5 T=\"I\"><V>1</V></B5></PPU><CardStatus><CardID T=\"I\"><V>17</V></CardID><A1 T=\"I\"><V>0</V></A1><A3 T=\"I\"><V>0</V></A3><A5 T=\"I\"><V>0</V></A5><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>1793502000</V></B3><B4 T=\"I\"><V>0</V></B4></CardStatus><FameRegister><InviteId T=\"I\"><V>1</V></InviteId><CardId T=\"I\"><V>17</V></CardId></FameRegister></DA>",
+        "revisions": 0,
+        "save": {
+          "battle": {
+            "RTN": 64,
+            "TN": 0,
+            "UX": 1,
+            "VN": "1.0.1"
+          },
+          "card_status": [
+            {
+              "A1": 0,
+              "A3": 0,
+              "A5": 0,
+              "A7": 0,
+              "B0": 0,
+              "B1": 0,
+              "B2": 0,
+              "B3": 1793502000,
+              "B4": 0,
+              "CardID": 17
+            }
+          ],
+          "fame_depository": [],
+          "fame_depository_schema": null,
+          "last_unique_id": 2,
+          "ledgers": {},
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 9900,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": true,
+              "CardID": 17,
+              "ClassChangeCount": 3,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10270,
+              "CostExperience": 0,
+              "CostModMixValue": -3,
+              "Exp": 145967,
+              "Famed": true,
+              "GeneralPurposeFlags": 5,
+              "GetIndex": 1,
+              "Love": 150,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 152,
+              "SkillEvolved": 1,
+              "SkillExperience": 0,
+              "SkillLevel": 5,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>17</V></A1><A2 T=\"I\"><V>10270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>145967</V></A4><A5 T=\"I\"><V>150</V></A5><A6 T=\"I\"><V>5</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>-3</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>152</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>true</V></B4><B5 T=\"I\"><V>1</V></B5></PPU><CardStatus><CardID T=\"I\"><V>17</V></CardID><A1 T=\"I\"><V>0</V></A1><A3 T=\"I\"><V>0</V></A3><A5 T=\"I\"><V>0</V></A5><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>1793502000</V></B3><B4 T=\"I\"><V>0</V></B4></CardStatus><FameRegister><InviteId T=\"I\"><V>1</V></InviteId><CardId T=\"I\"><V>17</V></CardId></FameRegister></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 1793502000,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register_extra_barracks": {
+      "error": {
+        "code": "fame_registration_barracks",
+        "message": "Fame registration only accepts the first barracks",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": false,
+            "GeneralPurposeFlags": 21,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register_fresh_instance_of_registered_stage": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>17</V><V>17</V></A1><A2 T=\"I\"><V>10270</V><V>10270</V></A2><A3 T=\"I\"><V>3</V><V>3</V></A3><A4 T=\"I\"><V>145967</V><V>145967</V></A4><A5 T=\"I\"><V>150</V><V>150</V></A5><A6 T=\"I\"><V>5</V><V>5</V></A6><A7 T=\"I\"><V>1</V><V>2</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V></A9><AA T=\"I\"><V>-3</V><V>-3</V></AA><AB T=\"I\"><V>2</V><V>3</V></AB><AC T=\"I\"><V>0</V><V>0</V></AC><AD T=\"I\"><V>152</V><V>152</V></AD><AE T=\"I\"><V>5</V><V>5</V></AE><AF T=\"I\"><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V></B0><B1 T=\"I\"><V>1</V><V>1</V></B1><B2 T=\"I\"><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V></B3><B4 T=\"B\"><V>true</V><V>true</V></B4><B5 T=\"I\"><V>1</V><V>1</V></B5></PPU><CardStatus><CardID T=\"I\"><V>17</V></CardID><A1 T=\"I\"><V>0</V></A1><A3 T=\"I\"><V>0</V></A3><A5 T=\"I\"><V>0</V></A5><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>123456</V></B3><B4 T=\"I\"><V>0</V></B4></CardStatus><FameRegister><InviteId T=\"I\"><V>1</V><V>2</V></InviteId><CardId T=\"I\"><V>17</V><V>17</V></CardId></FameRegister></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 2,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 3,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 2,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 3,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register_identity_before_rank": {
+      "error": {
+        "code": "invalid_identity",
+        "message": "Request does not match the local account",
+        "status": 403
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register_prince": {
+      "error": {
+        "code": "fame_unit_protected",
+        "message": "Prince cannot be registered or deposited",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register_rank_required": {
+      "error": {
+        "code": "fame_rank_required",
+        "message": "Player rank is below the verified fame requirement",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register_repeated_selection": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Fame unit selections must contain distinct nonnegative identities",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register_reports_famed_again": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>17</V></A1><A2 T=\"I\"><V>10270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>145967</V></A4><A5 T=\"I\"><V>150</V></A5><A6 T=\"I\"><V>5</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>-3</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>152</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>true</V></B4><B5 T=\"I\"><V>1</V></B5></PPU><CardStatus><CardID T=\"I\"><V>17</V></CardID><A1 T=\"I\"><V>0</V></A1><A3 T=\"I\"><V>0</V></A3><A5 T=\"I\"><V>0</V></A5><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>123456</V></B3><B4 T=\"I\"><V>0</V></B4></CardStatus><FameRegister><InviteId T=\"I\"><V>1</V></InviteId><CardId T=\"I\"><V>17</V></CardId></FameRegister></DA>",
+        "revisions": 0,
+        "save": {
+          "battle": {
+            "RTN": 64,
+            "TN": 0,
+            "UX": 1,
+            "VN": "1.0.1"
+          },
+          "card_status": [
+            {
+              "A1": 0,
+              "A3": 0,
+              "A5": 0,
+              "A7": 0,
+              "B0": 0,
+              "B1": 0,
+              "B2": 0,
+              "B3": 123456,
+              "B4": 0,
+              "CardID": 17
+            }
+          ],
+          "fame_depository": [],
+          "fame_depository_schema": null,
+          "last_unique_id": 2,
+          "ledgers": {},
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 9900,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": true,
+              "CardID": 17,
+              "ClassChangeCount": 3,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10270,
+              "CostExperience": 0,
+              "CostModMixValue": -3,
+              "Exp": 145967,
+              "Famed": true,
+              "GeneralPurposeFlags": 5,
+              "GetIndex": 1,
+              "Love": 150,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 152,
+              "SkillEvolved": 1,
+              "SkillExperience": 0,
+              "SkillLevel": 5,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>17</V></A1><A2 T=\"I\"><V>10270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>145967</V></A4><A5 T=\"I\"><V>150</V></A5><A6 T=\"I\"><V>5</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>-3</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>152</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>true</V></B4><B5 T=\"I\"><V>1</V></B5></PPU><CardStatus><CardID T=\"I\"><V>17</V></CardID><A1 T=\"I\"><V>0</V></A1><A3 T=\"I\"><V>0</V></A3><A5 T=\"I\"><V>0</V></A5><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>123456</V></B3><B4 T=\"I\"><V>0</V></B4></CardStatus><FameRegister><InviteId T=\"I\"><V>1</V></InviteId><CardId T=\"I\"><V>17</V></CardId></FameRegister></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register_skips_untrained": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>17</V></A1><A2 T=\"I\"><V>10270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>145967</V></A4><A5 T=\"I\"><V>150</V></A5><A6 T=\"I\"><V>5</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>-3</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>152</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>true</V></B4><B5 T=\"I\"><V>1</V></B5></PPU><CardStatus><CardID T=\"I\"><V>17</V></CardID><A1 T=\"I\"><V>0</V></A1><A3 T=\"I\"><V>0</V></A3><A5 T=\"I\"><V>0</V></A5><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>1793502000</V></B3><B4 T=\"I\"><V>0</V></B4></CardStatus><FameRegister><InviteId T=\"I\"><V>1</V></InviteId><CardId T=\"I\"><V>17</V></CardId></FameRegister></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 2,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 1793502000,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 3,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 2,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 3,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register_two_instances": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>17</V><V>17</V></A1><A2 T=\"I\"><V>10270</V><V>10270</V></A2><A3 T=\"I\"><V>3</V><V>3</V></A3><A4 T=\"I\"><V>145967</V><V>145967</V></A4><A5 T=\"I\"><V>150</V><V>150</V></A5><A6 T=\"I\"><V>5</V><V>5</V></A6><A7 T=\"I\"><V>1</V><V>2</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V></A9><AA T=\"I\"><V>-3</V><V>-3</V></AA><AB T=\"I\"><V>2</V><V>3</V></AB><AC T=\"I\"><V>0</V><V>0</V></AC><AD T=\"I\"><V>152</V><V>152</V></AD><AE T=\"I\"><V>5</V><V>5</V></AE><AF T=\"I\"><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V></B0><B1 T=\"I\"><V>1</V><V>1</V></B1><B2 T=\"I\"><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V></B3><B4 T=\"B\"><V>true</V><V>true</V></B4><B5 T=\"I\"><V>1</V><V>1</V></B5></PPU><CardStatus><CardID T=\"I\"><V>17</V></CardID><A1 T=\"I\"><V>0</V></A1><A3 T=\"I\"><V>0</V></A3><A5 T=\"I\"><V>0</V></A5><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>1793502000</V></B3><B4 T=\"I\"><V>0</V></B4></CardStatus><FameRegister><InviteId T=\"I\"><V>1</V><V>2</V></InviteId><CardId T=\"I\"><V>17</V><V>17</V></CardId></FameRegister></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 2,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 1793502000,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 3,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 2,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 3,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register_unowned": {
+      "error": {
+        "code": "fame_unit_missing",
+        "message": "Fame selection does not identify an owned instance",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "register_untrained": {
+      "error": {
+        "code": "fame_ineligible",
+        "message": "Unit has not reached the required fame growth state",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>17</V></A1><A2 T=\"I\"><V>10270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>145967</V></A4><A5 T=\"I\"><V>150</V></A5><A6 T=\"I\"><V>5</V></A6><A7 T=\"I\"><V>2</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>-3</V></AA><AB T=\"I\"><V>3</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>152</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>true</V></B4><B5 T=\"B\"><V>true</V></B5></PPU><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>2</V></A2></PBP><FameDepository><CardId T=\"I\"><V>17</V></CardId><Count0 T=\"I\"><V>0</V></Count0><Count1 T=\"I\"><V>0</V></Count1><Count2 T=\"I\"><V>0</V></Count2><Count3 T=\"I\"><V>0</V></Count3><Count4 T=\"I\"><V>0</V></Count4></FameDepository></DA>",
+        "revisions": 0,
+        "save": {
+          "battle": {
+            "RTN": 64,
+            "TN": 0,
+            "UX": 2,
+            "VN": "1.0.1"
+          },
+          "card_status": [
+            {
+              "A1": 0,
+              "A3": 0,
+              "A5": 0,
+              "A7": 0,
+              "B0": 0,
+              "B1": 0,
+              "B2": 0,
+              "B3": 123456,
+              "B4": 0,
+              "CardID": 17
+            }
+          ],
+          "fame_depository": [
+            {
+              "CardId": 17,
+              "Count0": 0,
+              "Count1": 0,
+              "Count2": 0,
+              "Count3": 0,
+              "Count4": 0
+            }
+          ],
+          "fame_depository_schema": 1,
+          "last_unique_id": 3,
+          "ledgers": {
+            "evolution_rewards": "2b08b453ee7e573ddecf86a069e22a95e53011b2464ae86895d42bb43251ad08",
+            "gift_state": "2793a0660afabb67a9d50445c5a3ed5225fb3ee6e0906e9bd65a57e3f2dcd99c"
+          },
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 9900,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": true,
+              "CardID": 17,
+              "ClassChangeCount": 3,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10270,
+              "CostExperience": 0,
+              "CostModMixValue": -3,
+              "Exp": 145967,
+              "Famed": true,
+              "GeneralPurposeFlags": 5,
+              "GetIndex": 1,
+              "Love": 150,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 152,
+              "SkillEvolved": 1,
+              "SkillExperience": 0,
+              "SkillLevel": 5,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": true,
+              "CardID": 17,
+              "ClassChangeCount": 3,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10270,
+              "CostExperience": 0,
+              "CostModMixValue": -3,
+              "Exp": 145967,
+              "Famed": true,
+              "GeneralPurposeFlags": 5,
+              "GetIndex": 2,
+              "Love": 150,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 152,
+              "SkillEvolved": 1,
+              "SkillExperience": 0,
+              "SkillLevel": 5,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>17</V></A1><A2 T=\"I\"><V>10270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>145967</V></A4><A5 T=\"I\"><V>150</V></A5><A6 T=\"I\"><V>5</V></A6><A7 T=\"I\"><V>2</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>-3</V></AA><AB T=\"I\"><V>3</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>152</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>true</V></B4><B5 T=\"B\"><V>true</V></B5></PPU><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>2</V></A2></PBP><FameDepository><CardId T=\"I\"><V>17</V></CardId><Count0 T=\"I\"><V>0</V></Count0><Count1 T=\"I\"><V>0</V></Count1><Count2 T=\"I\"><V>0</V></Count2><Count3 T=\"I\"><V>0</V></Count3><Count4 T=\"I\"><V>0</V></Count4></FameDepository></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 2,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [
+          {
+            "CardId": 17,
+            "Count0": 0,
+            "Count1": 0,
+            "Count2": 0,
+            "Count3": 0,
+            "Count4": 0
+          }
+        ],
+        "fame_depository_schema": 1,
+        "last_unique_id": 3,
+        "ledgers": {
+          "evolution_rewards": "2b08b453ee7e573ddecf86a069e22a95e53011b2464ae86895d42bb43251ad08",
+          "gift_state": "2793a0660afabb67a9d50445c5a3ed5225fb3ee6e0906e9bd65a57e3f2dcd99c"
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 2,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 3,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_empty": {
+      "error": {
+        "code": "fame_stock_insufficient",
+        "message": "Fame withdrawal exceeds the stored stage quantity",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_identity_exhausted": {
+      "error": {
+        "code": "unit_roster_capacity",
+        "message": "Unit grant exceeds the available barracks capacity",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [
+          {
+            "CardId": 17,
+            "Count0": 0,
+            "Count1": 0,
+            "Count2": 0,
+            "Count3": 1,
+            "Count4": 0
+          }
+        ],
+        "fame_depository_schema": 1,
+        "last_unique_id": 2147483647,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_keeps_remaining_stock": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>17</V></A1><A2 T=\"I\"><V>10270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>145967</V></A4><A5 T=\"I\"><V>150</V></A5><A6 T=\"I\"><V>5</V></A6><A7 T=\"I\"><V>2</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>-3</V></AA><AB T=\"I\"><V>3</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>152</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>true</V></B4><B5 T=\"B\"><V>true</V></B5></PPU><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>2</V></A2></PBP><FameDepository><CardId T=\"I\"><V>17</V></CardId><Count0 T=\"I\"><V>0</V></Count0><Count1 T=\"I\"><V>0</V></Count1><Count2 T=\"I\"><V>0</V></Count2><Count3 T=\"I\"><V>1</V></Count3><Count4 T=\"I\"><V>0</V></Count4></FameDepository></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 2,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [
+          {
+            "CardId": 17,
+            "Count0": 0,
+            "Count1": 0,
+            "Count2": 0,
+            "Count3": 1,
+            "Count4": 0
+          }
+        ],
+        "fame_depository_schema": 1,
+        "last_unique_id": 3,
+        "ledgers": {
+          "evolution_rewards": "2b08b453ee7e573ddecf86a069e22a95e53011b2464ae86895d42bb43251ad08",
+          "gift_state": "2793a0660afabb67a9d50445c5a3ed5225fb3ee6e0906e9bd65a57e3f2dcd99c"
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 2,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 3,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_legacy_battle": {
+      "error": {
+        "code": "quest_reservation_unavailable",
+        "message": "Settle, exit or restart the legacy battle before receiving other units",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [
+          {
+            "CardId": 17,
+            "Count0": 0,
+            "Count1": 0,
+            "Count2": 0,
+            "Count3": 1,
+            "Count4": 0
+          }
+        ],
+        "fame_depository_schema": 1,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_rank_before_stock": {
+      "error": {
+        "code": "fame_rank_required",
+        "message": "Player rank is below the verified fame requirement",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [],
+        "fame_depository_schema": null,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_stage_one": {
+      "error": {
+        "code": "fame_stage_unavailable",
+        "message": "Withdrawal stage is not supported for this card",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [
+          {
+            "A1": 0,
+            "A3": 0,
+            "A5": 0,
+            "A7": 0,
+            "B0": 0,
+            "B1": 0,
+            "B2": 0,
+            "B3": 123456,
+            "B4": 0,
+            "CardID": 17
+          }
+        ],
+        "fame_depository": [
+          {
+            "CardId": 17,
+            "Count0": 0,
+            "Count1": 0,
+            "Count2": 0,
+            "Count3": 1,
+            "Count4": 0
+          }
+        ],
+        "fame_depository_schema": 1,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": true,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_unregistered": {
+      "error": {
+        "code": "fame_registration_required",
+        "message": "Withdrawal requires existing card-stage registration",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "card_status": [],
+        "fame_depository": [
+          {
+            "CardId": 17,
+            "Count0": 0,
+            "Count1": 0,
+            "Count2": 0,
+            "Count3": 1,
+            "Count4": 0
+          }
+        ],
+        "fame_depository_schema": 1,
+        "last_unique_id": 2,
+        "ledgers": {},
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": true,
+            "CardID": 17,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10270,
+            "CostExperience": 0,
+            "CostModMixValue": -3,
+            "Exp": 145967,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 150,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 152,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 5,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    }
+  }
+}

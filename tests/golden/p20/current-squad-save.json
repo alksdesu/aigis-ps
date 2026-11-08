@@ -1,0 +1,3399 @@
+{
+  "cases": {
+    "both_selectors": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Current-squad save requires exactly one ordinary or raid group identifier",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>1</V></OI><A3 T=\"S\"><V>第二隊</V></A3><A4 T=\"I\"><V>1</V></A4><RTN T=\"I\"><V>64</V></RTN><VN>5.0.0</VN><ST>1112</ST><HS>7800268</HS></DA>",
+      "revisions": 0
+    },
+    "conflict_then_commit": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        }
+      ],
+      "changed": {
+        "current_squad_history": {
+          "processed_keys": [
+            "e472d2a138883a068d589cdacd49e15ef1ad6f9695295943e1a4f6c2e86b8b26"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "e472d2a138883a068d589cdacd49e15ef1ad6f9695295943e1a4f6c2e86b8b26",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "8c13e0415d14b841a0353dcb1f12eec6a2ec6e1c1a34863c8486d7ffb709dca5"
+            }
+          ],
+          "schema_version": 2
+        },
+        "player_state": {
+          "battle": {
+            "RTN": 64,
+            "TN": 4,
+            "UX": 6,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 7,
+          "legacy_squad_imported": true,
+          "schema_version": 1,
+          "squads": [
+            {
+              "Address": 1,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 2,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 3,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 16777217,
+              "Flags": 1,
+              "Name": "第二隊",
+              "UnitIndex": 4
+            },
+            {
+              "Address": 1073741825,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 1073807361,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 1073872897,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108865,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108866,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108867,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108868,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108869,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108870,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108871,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108872,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108873,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108874,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108875,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108876,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108877,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108878,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108879,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            }
+          ],
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 3,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 17,
+              "GetIndex": 3,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 4,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": -2147483391,
+              "GetIndex": 4,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 5,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798974</HS></DA>",
+      "revisions": 1
+    },
+    "conflicts_exhausted": {
+      "calls": [
+        {
+          "error": {
+            "code": "profile_changed",
+            "message": "Player state changed while saving the current squad",
+            "status": 409
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798974</HS></DA>",
+      "revisions": 0
+    },
+    "dependencies_changed": {
+      "calls": [
+        {
+          "error": {
+            "code": "current_squad_dependencies_changed",
+            "message": "Current-squad title definitions changed after setup",
+            "status": 503
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798974</HS></DA>",
+      "revisions": 0
+    },
+    "empty_name_new_group": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        }
+      ],
+      "changed": {
+        "current_squad_history": {
+          "processed_keys": [
+            "1178454521ea2e525f9d83ef1b7e2fe4a386a2c1f8e439a64c77e7b1a56e0348"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "1178454521ea2e525f9d83ef1b7e2fe4a386a2c1f8e439a64c77e7b1a56e0348",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "c2f89ea4593e7b1d8996bd9fc7036d356ef6ab55cb6395e0f9225ca06c07b373"
+            }
+          ],
+          "schema_version": 2
+        },
+        "player_state": {
+          "battle": {
+            "RTN": 64,
+            "TN": 7,
+            "UX": 6,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 7,
+          "legacy_squad_imported": true,
+          "schema_version": 1,
+          "squads": [
+            {
+              "Address": 1,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 2,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 3,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 16777217,
+              "Flags": 1,
+              "Name": "第二隊",
+              "UnitIndex": 4
+            },
+            {
+              "Address": 1073741825,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 1073807361,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 1073872897,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440513,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440514,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440515,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440516,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440517,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440518,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440519,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440520,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440521,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440522,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440523,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440524,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440525,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440526,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 117440527,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            }
+          ],
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 3,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 17,
+              "GetIndex": 3,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 4,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": -2147483391,
+              "GetIndex": 4,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 5,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>7</V></OI><A3 T=\"S\"><V /></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7800749</HS></DA>",
+      "revisions": 1
+    },
+    "exact_replay": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        },
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        }
+      ],
+      "changed": {
+        "current_squad_history": {
+          "processed_keys": [
+            "e472d2a138883a068d589cdacd49e15ef1ad6f9695295943e1a4f6c2e86b8b26"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "e472d2a138883a068d589cdacd49e15ef1ad6f9695295943e1a4f6c2e86b8b26",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "8c13e0415d14b841a0353dcb1f12eec6a2ec6e1c1a34863c8486d7ffb709dca5"
+            }
+          ],
+          "schema_version": 2
+        },
+        "player_state": {
+          "battle": {
+            "RTN": 64,
+            "TN": 4,
+            "UX": 6,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 7,
+          "legacy_squad_imported": true,
+          "schema_version": 1,
+          "squads": [
+            {
+              "Address": 1,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 2,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 3,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 16777217,
+              "Flags": 1,
+              "Name": "第二隊",
+              "UnitIndex": 4
+            },
+            {
+              "Address": 1073741825,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 1073807361,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 1073872897,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108865,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108866,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108867,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108868,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108869,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108870,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108871,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108872,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108873,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108874,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108875,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108876,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108877,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108878,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108879,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            }
+          ],
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 3,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 17,
+              "GetIndex": 3,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 4,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": -2147483391,
+              "GetIndex": 4,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 5,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798974</HS></DA>",
+      "revisions": 1
+    },
+    "existing_group": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        }
+      ],
+      "changed": {
+        "current_squad_history": {
+          "processed_keys": [
+            "1f20e05d4f330b4647d565b44da68c54bd2f406ce69d594c77501848d4e4fbd5"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "1f20e05d4f330b4647d565b44da68c54bd2f406ce69d594c77501848d4e4fbd5",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "14825184180965c3035cee4f0620334be81060fcb1ffeef108986bbc268aa2a4"
+            }
+          ],
+          "schema_version": 2
+        },
+        "player_state": {
+          "battle": {
+            "RTN": 64,
+            "TN": 1,
+            "UX": 6,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 7,
+          "legacy_squad_imported": true,
+          "schema_version": 1,
+          "squads": [
+            {
+              "Address": 1,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 2,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 3,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 16777217,
+              "Flags": 2,
+              "Name": "変更",
+              "UnitIndex": 4
+            },
+            {
+              "Address": 1073741825,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 1073807361,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 1073872897,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            }
+          ],
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 3,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 17,
+              "GetIndex": 3,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 4,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": -2147483391,
+              "GetIndex": 4,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 5,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>1</V></OI><A3 T=\"S\"><V>変更</V></A3><A4 T=\"I\"><V>2</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7799029</HS></DA>",
+      "revisions": 1
+    },
+    "existing_long_name": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        }
+      ],
+      "changed": {
+        "current_squad_history": {
+          "processed_keys": [
+            "0b3f4e1c1ab2cb28cda47c4f542667d90ae885556db8008a035c512d65323c38"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "0b3f4e1c1ab2cb28cda47c4f542667d90ae885556db8008a035c512d65323c38",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "f774440f5e5a9e422d17c778538a1fc0a99a2dee1ad75dd53b589e368ea324bd"
+            }
+          ],
+          "schema_version": 2
+        },
+        "player_state": {
+          "battle": {
+            "RTN": 64,
+            "TN": 2,
+            "UX": 6,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 7,
+          "legacy_squad_imported": true,
+          "schema_version": 1,
+          "squads": [
+            {
+              "Address": 1,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 2,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 3,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 16777217,
+              "Flags": 1,
+              "Name": "第二隊",
+              "UnitIndex": 4
+            },
+            {
+              "Address": 1073741825,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 1073807361,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 1073872897,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 33554433,
+              "Flags": 1,
+              "Name": "長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長",
+              "UnitIndex": -1
+            }
+          ],
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 3,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 17,
+              "GetIndex": 3,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 4,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": -2147483391,
+              "GetIndex": 4,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 5,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>2</V></OI><A3 T=\"S\"><V>長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長</V></A3><A4 T=\"I\"><V>1</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7804697</HS></DA>",
+      "revisions": 1
+    },
+    "existing_name": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        }
+      ],
+      "changed": {
+        "current_squad_history": {
+          "processed_keys": [
+            "171d814d717acda7d7cf65d46a9039ab72ed4739cc60207bb2bc1594a716aa2d"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "171d814d717acda7d7cf65d46a9039ab72ed4739cc60207bb2bc1594a716aa2d",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "3a73f617acef472349e3b8712a551aeb2cfe7001df4ae296570326a57c266331"
+            }
+          ],
+          "schema_version": 2
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>0</V></OI><A3 T=\"S\"><V>第一隊</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798856</HS></DA>",
+      "revisions": 1
+    },
+    "history_invalid": {
+      "calls": [
+        {
+          "error": {
+            "code": "current_squad_history_invalid",
+            "message": "Stored current-squad receipts are invalid",
+            "status": 503
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798974</HS></DA>",
+      "revisions": 0
+    },
+    "legacy_branch": {
+      "calls": [
+        {
+          "error": {
+            "code": "current_squad_branch_unsupported",
+            "message": "Legacy unit-update branches are not supported",
+            "status": 501
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>1</V></OI><A3 T=\"S\"><V>第二隊</V></A3><A4 T=\"I\"><V>1</V></A4><PU><A7 T=\"I\"><V>1</V></A7><AE T=\"I\"><V>0</V></AE></PU><VN>5.0.0</VN><ST>1112</ST><HS>7829849</HS></DA>",
+      "revisions": 0
+    },
+    "legacy_pending": {
+      "calls": [
+        {
+          "error": {
+            "code": "current_squad_legacy_pending",
+            "message": "Import the existing legacy squad members before saving metadata",
+            "status": 409
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>3</V></OI><A3 T=\"S\"><V>移行</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798996</HS></DA>",
+      "revisions": 0
+    },
+    "legacy_with_group_zero": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        }
+      ],
+      "changed": {
+        "current_squad_history": {
+          "processed_keys": [
+            "734921a5b478f9afb2e7c3a11c91442dca7c64c8c61d4fbb9794885a2122d249"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "734921a5b478f9afb2e7c3a11c91442dca7c64c8c61d4fbb9794885a2122d249",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "6fd79eab3f2613317e5c9dd12dc451588445681cd6344976d823fb86874ab5a6"
+            }
+          ],
+          "schema_version": 2
+        },
+        "player_state": {
+          "battle": {
+            "RTN": 64,
+            "TN": 3,
+            "UX": 6,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 7,
+          "legacy_squad_imported": true,
+          "schema_version": 1,
+          "squads": [
+            {
+              "Address": 1,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 2,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 3,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 16777217,
+              "Flags": 1,
+              "Name": "第二隊",
+              "UnitIndex": 4
+            },
+            {
+              "Address": 1073741825,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 1073807361,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 1073872897,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331649,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331650,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331651,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331652,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331653,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331654,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331655,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331656,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331657,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331658,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331659,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331660,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331661,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331662,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331663,
+              "Flags": 0,
+              "Name": "移行",
+              "UnitIndex": -1
+            }
+          ],
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 1,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 3,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 17,
+              "GetIndex": 3,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 4,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": -2147483391,
+              "GetIndex": 4,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 5,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>3</V></OI><A3 T=\"S\"><V>移行</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798996</HS></DA>",
+      "revisions": 1
+    },
+    "legacy_without_members": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        }
+      ],
+      "changed": {
+        "current_squad_history": {
+          "processed_keys": [
+            "6a8f71d5aecb8f34d6776255a836a250b0b5597a7f47d8d3700df838787c32bd"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "6a8f71d5aecb8f34d6776255a836a250b0b5597a7f47d8d3700df838787c32bd",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "50a439a6d9a745f0663f0a579d7eb594cd637de2a7a8451ccb190a623155c6b7"
+            }
+          ],
+          "schema_version": 2
+        },
+        "player_state": {
+          "battle": {
+            "RTN": 64,
+            "TN": 0,
+            "UX": 6,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 7,
+          "legacy_squad_imported": true,
+          "schema_version": 1,
+          "squads": [
+            {
+              "Address": 1,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 2,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 3,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 4,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 5,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 6,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 7,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 8,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 9,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 10,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 11,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 12,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 13,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 14,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 15,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            }
+          ],
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 3,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 17,
+              "GetIndex": 3,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 4,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": -2147483391,
+              "GetIndex": 4,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 5,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>0</V></OI><A3 T=\"S\"><V /></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7800754</HS></DA>",
+      "revisions": 1
+    },
+    "missing_selector": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Current-squad save requires exactly one ordinary or raid group identifier",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A3 T=\"S\"><V>第二隊</V></A3><A4 T=\"I\"><V>1</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798906</HS></DA>",
+      "revisions": 0
+    },
+    "missing_title": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request is missing required fields",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>8</V></OI><A3 T=\"S\"><V>称号</V></A3><VN>5.0.0</VN><ST>1112</ST><HS>7799017</HS></DA>",
+      "revisions": 0
+    },
+    "name_forbidden_quote": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "New squad names must contain at most twelve Unicode characters and no forbidden delimiters",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>8</V></OI><A3 T=\"S\"><V>can't</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7800354</HS></DA>",
+      "revisions": 0
+    },
+    "name_over_byte_limit": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "String exceeds the request field limit",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>8</V></OI><A3 T=\"S\"><V>長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長長</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7803068</HS></DA>",
+      "revisions": 0
+    },
+    "name_too_many_characters": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "New squad names must contain at most twelve Unicode characters and no forbidden delimiters",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>8</V></OI><A3 T=\"S\"><V>xxxxxxxxxxxxx</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7799962</HS></DA>",
+      "revisions": 0
+    },
+    "new_group": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        }
+      ],
+      "changed": {
+        "current_squad_history": {
+          "processed_keys": [
+            "596d8a0f3b096d2ee941fee78adebca514f23aec57cc0855feb2ae251e483014"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "596d8a0f3b096d2ee941fee78adebca514f23aec57cc0855feb2ae251e483014",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "81219011d86b67f7293c10ed6321e0877b2dee469e0d9815d943bdccab6111be"
+            }
+          ],
+          "schema_version": 2
+        },
+        "player_state": {
+          "battle": {
+            "RTN": 64,
+            "TN": 19,
+            "UX": 6,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 7,
+          "legacy_squad_imported": true,
+          "schema_version": 1,
+          "squads": [
+            {
+              "Address": 1,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 2,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 3,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 16777217,
+              "Flags": 1,
+              "Name": "第二隊",
+              "UnitIndex": 4
+            },
+            {
+              "Address": 1073741825,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 1073807361,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 1073872897,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767105,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767106,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767107,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767108,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767109,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767110,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767111,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767112,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767113,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767114,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767115,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767116,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767117,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767118,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 318767119,
+              "Flags": 0,
+              "Name": "最終隊",
+              "UnitIndex": -1
+            }
+          ],
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 3,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 17,
+              "GetIndex": 3,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 4,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": -2147483391,
+              "GetIndex": 4,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 5,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>19</V></OI><A3 T=\"S\"><V>最終隊</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798955</HS></DA>",
+      "revisions": 1
+    },
+    "ordinary_out_of_range": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Ordinary team identifier is outside the current client range",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>20</V></OI><A3 T=\"S\"><V>第二隊</V></A3><A4 T=\"I\"><V>1</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7799030</HS></DA>",
+      "revisions": 0
+    },
+    "priority_branch_before_selector": {
+      "calls": [
+        {
+          "error": {
+            "code": "current_squad_branch_unsupported",
+            "message": "Legacy unit-update branches are not supported",
+            "status": 501
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A3 T=\"S\"><V>第二隊</V></A3><A4 T=\"I\"><V>1</V></A4><PU><A7 T=\"I\"><V>1</V></A7><AE T=\"I\"><V>0</V></AE></PU><VN>5.0.0</VN><ST>1112</ST><HS>7829849</HS></DA>",
+      "revisions": 0
+    },
+    "priority_configuration_before_response_size": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_configuration_state",
+            "message": "Invalid configuration value: MenuTutorialFlags",
+            "status": 503
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>3</V></OI><A3 T=\"S\"><V>教程</V></A3><A4 T=\"I\"><V>0</V></A4><TL T=\"I\"><V>1</V></TL><VN>5.0.0</VN><ST>1112</ST><HS>7800109</HS></DA>",
+      "revisions": 0
+    },
+    "priority_dependencies_before_request": {
+      "calls": [
+        {
+          "error": {
+            "code": "current_squad_dependencies_changed",
+            "message": "Current-squad title definitions changed after setup",
+            "status": 503
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A3 T=\"S\"><V>第二隊</V></A3><A4 T=\"I\"><V>1</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798906</HS></DA>",
+      "revisions": 0
+    },
+    "priority_history_before_state": {
+      "calls": [
+        {
+          "error": {
+            "code": "current_squad_history_invalid",
+            "message": "Stored current-squad receipts are invalid",
+            "status": 503
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798974</HS></DA>",
+      "revisions": 0
+    },
+    "priority_identity_before_history": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7799006</HS></DA>",
+      "revisions": 0
+    },
+    "priority_legacy_before_title": {
+      "calls": [
+        {
+          "error": {
+            "code": "current_squad_legacy_pending",
+            "message": "Import the existing legacy squad members before saving metadata",
+            "status": 409
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>3</V></OI><A3 T=\"S\"><V>移行</V></A3><A4 T=\"I\"><V>4</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798996</HS></DA>",
+      "revisions": 0
+    },
+    "priority_name_before_legacy": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "New squad names must contain at most twelve Unicode characters and no forbidden delimiters",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>3</V></OI><A3 T=\"S\"><V>xxxxxxxxxxxxx</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7799905</HS></DA>",
+      "revisions": 0
+    },
+    "priority_request_before_identity": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Current-squad save requires exactly one ordinary or raid group identifier",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A3 T=\"S\"><V>第二隊</V></A3><A4 T=\"I\"><V>1</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798938</HS></DA>",
+      "revisions": 0
+    },
+    "priority_title_before_configuration": {
+      "calls": [
+        {
+          "error": {
+            "code": "emblem_locked",
+            "message": "Title acquisition condition is not satisfied",
+            "status": 409
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>1</V></OI><A3 T=\"S\"><V>第二隊</V></A3><A4 T=\"I\"><V>4</V></A4><TL T=\"I\"><V>1</V></TL><VN>5.0.0</VN><ST>1112</ST><HS>7800213</HS></DA>",
+      "revisions": 0
+    },
+    "processed_without_receipt": {
+      "calls": [
+        {
+          "error": {
+            "code": "current_squad_request_stale",
+            "message": "Current-squad request was already processed",
+            "status": 409
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798974</HS></DA>",
+      "revisions": 0
+    },
+    "raid_group": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        }
+      ],
+      "changed": {
+        "current_squad_history": {
+          "processed_keys": [
+            "f6e730d4cdc78ed1b681853733d43eb367cb3e32b2ffc68f0f09856a97e00fc4"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "f6e730d4cdc78ed1b681853733d43eb367cb3e32b2ffc68f0f09856a97e00fc4",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "1959ea4b3104389a16e06ecfa0388be33b58583f88087523a9c5c43fab2dd60a"
+            }
+          ],
+          "schema_version": 2
+        },
+        "player_state": {
+          "battle": {
+            "RTN": 64,
+            "TN": 0,
+            "UX": 6,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 7,
+          "legacy_squad_imported": true,
+          "schema_version": 1,
+          "squads": [
+            {
+              "Address": 1,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 2,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 3,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 16777217,
+              "Flags": 1,
+              "Name": "第二隊",
+              "UnitIndex": 4
+            },
+            {
+              "Address": 1073741825,
+              "Flags": 1,
+              "Name": "討伐",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 1073807361,
+              "Flags": 1,
+              "Name": "討伐",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 1073872897,
+              "Flags": 1,
+              "Name": "討伐",
+              "UnitIndex": -1
+            }
+          ],
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 3,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 17,
+              "GetIndex": 3,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 4,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": -2147483391,
+              "GetIndex": 4,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 5,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RTN T=\"I\"><V>64</V></RTN><A3 T=\"S\"><V>討伐</V></A3><A4 T=\"I\"><V>1</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7800647</HS></DA>",
+      "revisions": 1
+    },
+    "raid_group_differs": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Raid team identifier differs from the raid group of the current client",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><RTN T=\"I\"><V>65</V></RTN><A3 T=\"S\"><V>討伐</V></A3><A4 T=\"I\"><V>1</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7800644</HS></DA>",
+      "revisions": 0
+    },
+    "replay_after_change": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        },
+        {
+          "error": {
+            "code": "current_squad_retry_stale",
+            "message": "Current-squad state or content changed after this save",
+            "status": 409
+          }
+        }
+      ],
+      "changed": {
+        "current_squad_history": {
+          "processed_keys": [
+            "e472d2a138883a068d589cdacd49e15ef1ad6f9695295943e1a4f6c2e86b8b26"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "e472d2a138883a068d589cdacd49e15ef1ad6f9695295943e1a4f6c2e86b8b26",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "8c13e0415d14b841a0353dcb1f12eec6a2ec6e1c1a34863c8486d7ffb709dca5"
+            }
+          ],
+          "schema_version": 2
+        },
+        "player_state": {
+          "battle": {
+            "RTN": 64,
+            "TN": 4,
+            "UX": 6,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 7,
+          "legacy_squad_imported": true,
+          "schema_version": 1,
+          "squads": [
+            {
+              "Address": 1,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 2,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 3,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 16777217,
+              "Flags": 1,
+              "Name": "第二隊",
+              "UnitIndex": 4
+            },
+            {
+              "Address": 1073741825,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 1073807361,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 1073872897,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108865,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108866,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108867,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108868,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108869,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108870,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108871,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108872,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108873,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108874,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108875,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108876,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108877,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108878,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 67108879,
+              "Flags": 0,
+              "Name": "再送",
+              "UnitIndex": -1
+            }
+          ],
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 1,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 3,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 17,
+              "GetIndex": 3,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 4,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": -2147483391,
+              "GetIndex": 4,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 5,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798974</HS></DA>",
+      "revisions": 2
+    },
+    "response_too_large": {
+      "calls": [
+        {
+          "error": {
+            "code": "response_too_large",
+            "message": "Response exceeds the native receiver capacity",
+            "status": 500
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798974</HS></DA>",
+      "revisions": 0
+    },
+    "squad_rows_over_limit": {
+      "calls": [
+        {
+          "error": {
+            "code": "squad_rows_invalid",
+            "message": "Squad rows must be a bounded list",
+            "status": 503
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>19</V></OI><A3 T=\"S\"><V>最終隊</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798955</HS></DA>",
+      "revisions": 0
+    },
+    "stored_battle_invalid": {
+      "calls": [
+        {
+          "error": {
+            "code": "battle_param_invalid",
+            "message": "Battle parameters cannot satisfy the native startup contract",
+            "status": 503
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798974</HS></DA>",
+      "revisions": 0
+    },
+    "title_locked": {
+      "calls": [
+        {
+          "error": {
+            "code": "emblem_locked",
+            "message": "Title acquisition condition is not satisfied",
+            "status": 409
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>1</V></OI><A3 T=\"S\"><V>第二隊</V></A3><A4 T=\"I\"><V>4</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798905</HS></DA>",
+      "revisions": 0
+    },
+    "title_unknown": {
+      "calls": [
+        {
+          "error": {
+            "code": "emblem_unknown",
+            "message": "Title index is not in the verified catalog",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>1</V></OI><A3 T=\"S\"><V>第二隊</V></A3><A4 T=\"I\"><V>8</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798901</HS></DA>",
+      "revisions": 0
+    },
+    "title_unsupported": {
+      "calls": [
+        {
+          "error": {
+            "code": "emblem_unsupported",
+            "message": "Title expression or effect requires an additional verified rule",
+            "status": 501
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>1</V></OI><A3 T=\"S\"><V>第二隊</V></A3><A4 T=\"I\"><V>5</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798902</HS></DA>",
+      "revisions": 0
+    },
+    "tutorial_configuration_invalid": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_configuration_state",
+            "message": "Invalid configuration value: MenuTutorialFlags",
+            "status": 503
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>3</V></OI><A3 T=\"S\"><V>教程</V></A3><A4 T=\"I\"><V>0</V></A4><TL T=\"I\"><V>1</V></TL><VN>5.0.0</VN><ST>1112</ST><HS>7800109</HS></DA>",
+      "revisions": 0
+    },
+    "tutorial_two": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Current-squad tutorial marker must be one",
+            "status": 400
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>8</V></OI><A3 T=\"S\"><V>教程</V></A3><A4 T=\"I\"><V>0</V></A4><TL T=\"I\"><V>2</V></TL><VN>5.0.0</VN><ST>1112</ST><HS>7800103</HS></DA>",
+      "revisions": 0
+    },
+    "with_tutorial": {
+      "calls": [
+        {
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>"
+        }
+      ],
+      "changed": {
+        "config": [
+          {
+            "AutoSelectConfig": 0,
+            "BattleAcceleratorFlag": 0,
+            "BattleDClickSkillDisableFlag": 0,
+            "BattlePlaceMagnetFlag": 0,
+            "CostUpCloseDateTime": "",
+            "DamageDispEnable": 0,
+            "EventViewRequest": "",
+            "ExperienceUpCloseDateTime": "",
+            "HaveUnitMaxSizeBuy": 0,
+            "IntegrationAutoSelectConfig": 0,
+            "MenuTutorialFlags": 7,
+            "MissionRewardFlags2": 0,
+            "MoneyUpCloseDateTime": "",
+            "PurposeSettingFlags": 0,
+            "SpecialEffectsFlags": 0,
+            "SpecialEffectsFlags2": 0,
+            "TypeOfSortOrder": "",
+            "UseBgm": true,
+            "UseSe": true,
+            "UserName": "Local Player",
+            "_BattleGodBlessFilter": 0,
+            "_BlsDT_BoostAtk_F": "",
+            "_BlsDT_BoostAtk_R": "",
+            "_BlsDT_DamageCut": "",
+            "_FlagFilter": "",
+            "_FlagMissionFilter": "",
+            "_FlagSort": "",
+            "_GuideUnitIndex": 0,
+            "_VolumeBgm": 0,
+            "_VolumeSe": 0
+          }
+        ],
+        "current_squad_history": {
+          "processed_keys": [
+            "f324fbe79e365c0ffbad80f4954e06a61cdff636cc5104940ff792cec852762c"
+          ],
+          "receipts": [
+            {
+              "content": "d9590cdf2ff37ffdefb8640ae48dcf49a59b48650511a899665d7810d0a62f53",
+              "request": "f324fbe79e365c0ffbad80f4954e06a61cdff636cc5104940ff792cec852762c",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+              "revision": 1,
+              "state": "1ea04a0c0c8cbbde2f94c875ae814b3cbce28b26d93594fafdf661a3fe3d30c8"
+            }
+          ],
+          "schema_version": 2
+        },
+        "player_state": {
+          "battle": {
+            "RTN": 64,
+            "TN": 3,
+            "UX": 6,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 7,
+          "legacy_squad_imported": true,
+          "schema_version": 1,
+          "squads": [
+            {
+              "Address": 1,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 2,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 3,
+              "Flags": 0,
+              "Name": "第一隊",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 16777217,
+              "Flags": 1,
+              "Name": "第二隊",
+              "UnitIndex": 4
+            },
+            {
+              "Address": 1073741825,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 1
+            },
+            {
+              "Address": 1073807361,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": 2
+            },
+            {
+              "Address": 1073872897,
+              "Flags": 0,
+              "Name": "",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331649,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331650,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331651,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331652,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331653,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331654,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331655,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331656,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331657,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331658,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331659,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331660,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331661,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331662,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            },
+            {
+              "Address": 50331663,
+              "Flags": 0,
+              "Name": "教程",
+              "UnitIndex": -1
+            }
+          ],
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 3,
+              "GetIndex": 2,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 3,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 17,
+              "GetIndex": 3,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 4,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 20,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": -2147483391,
+              "GetIndex": 4,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 3,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 5,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>3</V></OI><A3 T=\"S\"><V>教程</V></A3><A4 T=\"I\"><V>0</V></A4><TL T=\"I\"><V>1</V></TL><VN>5.0.0</VN><ST>1112</ST><HS>7800109</HS></DA>",
+      "revisions": 1
+    },
+    "wrong_method_key": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_method_key",
+            "message": "Request method key does not match the local account",
+            "status": 403
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7798958</HS></DA>",
+      "revisions": 0
+    },
+    "wrong_user_key": {
+      "calls": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          }
+        }
+      ],
+      "changed": {},
+      "request": "<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><OI T=\"I\"><V>4</V></OI><A3 T=\"S\"><V>再送</V></A3><A4 T=\"I\"><V>0</V></A4><VN>5.0.0</VN><ST>1112</ST><HS>7799006</HS></DA>",
+      "revisions": 0
+    }
+  },
+  "registration": 120
+}

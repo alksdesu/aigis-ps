@@ -1,0 +1,959 @@
+{
+  "base_state": {
+    "bootstrap_schema": 1,
+    "created_local": "2026/11/03 11:00:00",
+    "crystal_spending": {
+      "baseline_source": "new_local",
+      "current_spent": 0,
+      "last_time": 1793674800000,
+      "period": "2026-11",
+      "previous_spent": 0,
+      "schema_version": 1
+    },
+    "energy_clock": {
+      "encoding": "native_day_fraction_f32_seconds_v1",
+      "origin": "new_local",
+      "schema_version": 1,
+      "utc_offset_minutes": 540
+    },
+    "login_cooking": {
+      "baseline_source": "new_local",
+      "border": 250,
+      "issued": 0,
+      "last_civil_day": null,
+      "last_claim_day": null,
+      "last_time": 1793674800000,
+      "period": "2026-11",
+      "quota": 0,
+      "schema_version": 1
+    },
+    "login_rewards": {
+      "baseline_source": "new_local",
+      "beginner_claimed": 0,
+      "beginner_eligible": true,
+      "beginner_total": 7,
+      "last_claim_day": null,
+      "last_time": 1793674800000,
+      "schema_version": 1,
+      "stamp_count": 0,
+      "stamp_month": null
+    },
+    "player_state": {
+      "battle": {
+        "RTN": 64,
+        "TN": 0,
+        "UX": 5,
+        "VN": "1.0.1"
+      },
+      "last_unique_id": 6,
+      "legacy_squad_imported": false,
+      "schema_version": 1,
+      "squads": [],
+      "units": [
+        {
+          "CanFame": false,
+          "CardID": 1,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 9900,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 0,
+          "GetIndex": 0,
+          "Love": 0,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 59,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 1,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        },
+        {
+          "CanFame": false,
+          "CardID": 17,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 10200,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 1,
+          "GetIndex": 1,
+          "Love": 100,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 2294,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 2,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        },
+        {
+          "CanFame": false,
+          "CardID": 17,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 10200,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 1,
+          "GetIndex": 2,
+          "Love": 99,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 2294,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 3,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        },
+        {
+          "CanFame": false,
+          "CardID": 3,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 201,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 1,
+          "GetIndex": 3,
+          "Love": 100,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 16,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 4,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        },
+        {
+          "CanFame": false,
+          "CardID": 22,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 200,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 1,
+          "GetIndex": 4,
+          "Love": 100,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 2295,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 5,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        },
+        {
+          "CanFame": false,
+          "CardID": 8,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 100,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 1,
+          "GetIndex": 5,
+          "Love": 100,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 2,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 6,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        }
+      ]
+    },
+    "rank_rewards": {
+      "baseline_rank": 0,
+      "entries": {},
+      "observed_rank": 0,
+      "schema_version": 1
+    },
+    "startup_collections_schema": 1,
+    "tables": {
+      "backgrounds": [],
+      "card_status": [],
+      "config": [
+        {
+          "AutoSelectConfig": 0,
+          "BattleAcceleratorFlag": 0,
+          "BattleDClickSkillDisableFlag": 0,
+          "BattlePlaceMagnetFlag": 0,
+          "CostUpCloseDateTime": "",
+          "DamageDispEnable": 0,
+          "EventViewRequest": "",
+          "ExperienceUpCloseDateTime": "",
+          "HaveUnitMaxSizeBuy": 0,
+          "IntegrationAutoSelectConfig": 0,
+          "MenuTutorialFlags": 0,
+          "MissionRewardFlags2": 0,
+          "MoneyUpCloseDateTime": "",
+          "PurposeSettingFlags": 0,
+          "SpecialEffectsFlags": 0,
+          "SpecialEffectsFlags2": 0,
+          "TypeOfSortOrder": "",
+          "UseBgm": true,
+          "UseSe": true,
+          "UserName": "Local Player",
+          "_BattleGodBlessFilter": 0,
+          "_BlsDT_BoostAtk_F": "",
+          "_BlsDT_BoostAtk_R": "",
+          "_BlsDT_DamageCut": "",
+          "_FlagFilter": "",
+          "_FlagMissionFilter": "",
+          "_FlagSort": "",
+          "_GuideUnitIndex": 0,
+          "_VolumeBgm": 0,
+          "_VolumeSe": 0
+        }
+      ],
+      "crystals": [],
+      "event_pass_status": [],
+      "exchange_history": [],
+      "fame_depository": [],
+      "filter_settings": [],
+      "game_param": [
+        {
+          "ActionPointChangeDate": 739922,
+          "ActionPointChangeTime": 0.5,
+          "CharismaChangeDate": 739922,
+          "CharismaChangeTime": 0.5,
+          "EventParam": 0,
+          "Experience": 0,
+          "ExtendedMaxCharisma": 0,
+          "ExtendedMaxCharismaNextMonth": 0,
+          "ExtendedMaxStamina": 0,
+          "ExtendedMaxStaminaNextMonth": 0,
+          "GiftItem1": 0,
+          "GiftItem2": 0,
+          "GiftItem3": 0,
+          "GiftItem4": 0,
+          "GiftItem5": 0,
+          "GiftItem6": 0,
+          "Money": 1000,
+          "NowActionPoint": 0,
+          "NowCharisma": 60,
+          "Rank": 1,
+          "RedCrystal": 0,
+          "_PointSystem": 0
+        }
+      ],
+      "game_param2": [
+        {
+          "BonusPremiumSummonCount": 0,
+          "BonusPremiumSummonDate": 0,
+          "ComebackLoginDateTime": "",
+          "GameStartDateTime": "2026/11/03 11:00:00",
+          "GloryPoint": 0,
+          "GoddessRevivalTotalStarCount": 0,
+          "HomeCookingReceivedAmount": 0,
+          "HomeCookingReceivedDate": 0,
+          "LastLoginDate": 0,
+          "LatestComebackLoginBonusDateTime": "",
+          "LatestComebackLoginBonusDays": 0,
+          "LatestComebackSummonBonusDateTime": "",
+          "LatestComebackSummonBonusDays": 0,
+          "LogInStampCount": 0,
+          "LookHarlemFlag00": 0,
+          "LookHarlemFlag01": 0,
+          "LookHarlemFlag02": 0,
+          "LookHarlemFlag03": 0,
+          "LookHarlemFlag10": 0,
+          "LookHarlemFlag11": 0,
+          "LookHarlemFlag12": 0,
+          "LookHarlemFlag13": 0,
+          "MaintenanceCheckDateTime": 0,
+          "NormalGachaFree": 0,
+          "StampCardGrade": 0,
+          "WatchEventFlag0": "",
+          "WatchEventFlag0_2": "",
+          "WatchEventFlag1": "",
+          "WatchEventFlag1_2": "",
+          "_EvCmb": 1
+        }
+      ],
+      "menu_blocks": [],
+      "perused_events": [],
+      "possessions": [],
+      "presents": [],
+      "quest_records": [],
+      "recommendations": [],
+      "reproduction": [
+        {
+          "EI": 0,
+          "F0": 0,
+          "F0RT": 0,
+          "I0": 0,
+          "I1": 0
+        }
+      ],
+      "universal_flags": [],
+      "vote_history": []
+    }
+  },
+  "cases": {
+    "below_threshold": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "guide_ineligible",
+            "message": "Guide selection requires a trust-enabled unit at 100 or more",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>2</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801947</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "clear_empty": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>0</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801949</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>0</V></A2></PGC></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "clear_missing_instance": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>0</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801949</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>0</V></A2></PGC></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "clear_negative_stored_value": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>0</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801949</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>0</V></A2></PGC></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "clear_selected": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>1</V></A2></PGC></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>0</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801949</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>0</V></A2></PGC></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "consumed_selection": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 1
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>1</V></A2></PGC></DA>",
+          "revisions": 1
+        },
+        {
+          "error": {
+            "code": "guide_not_owned",
+            "message": "Guide selection requires an owned instance",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "duplicate_value": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request contains duplicate or unknown fields",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7799131</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "keep_missing_instance_on_refusal": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 99
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "guide_ineligible",
+            "message": "Guide selection requires a trust-enabled unit at 100 or more",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>2</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801947</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "largest_index_not_owned": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "guide_not_owned",
+            "message": "Guide selection requires an owned instance",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>2147483647</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7799715</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "missing_value": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request is missing required fields",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><VN>5.0.0</VN><ST>1117</ST><HS>7802858</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "negative_index": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Guide selection requires a nonnegative instance index",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>-1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7802103</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "not_owned": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "guide_not_owned",
+            "message": "Guide selection requires an owned instance",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>99</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7802091</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "priority_config_before_ownership": {
+      "state": {
+        "config": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "bootstrap_state_unavailable",
+            "message": "Expected persisted local rows for config",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>99</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7802091</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "priority_identity_before_state": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801978</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "priority_player_before_config": {
+      "state": {
+        "config": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "player_state_schema",
+            "message": "Player-state schema is missing or unsupported",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>99</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7802091</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "priority_request_before_identity": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Guide selection requires a nonnegative instance index",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>-1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7799575</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "replay": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 1
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>1</V></A2></PGC></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>1</V></A2></PGC></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "reselect_missing_instance": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 99
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "guide_not_owned",
+            "message": "Guide selection requires an owned instance",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>99</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7802091</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "select": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 1
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>1</V></A2></PGC></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "select_above_threshold": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 1
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>1</V></A2></PGC></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "select_locked_squad_member": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 1
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>1</V></A2></PGC></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "select_same_twice": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 1
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>1</V></A2></PGC></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>1</V></A2></PGC></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "stored_config_missing": {
+      "state": {
+        "config": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "bootstrap_state_unavailable",
+            "message": "Expected persisted local rows for config",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>0</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801949</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "stored_guide_invalid": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": "1"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_bootstrap_value",
+            "message": "Persisted config has an invalid typed value",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>0</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801949</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "stored_player_invalid": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "player_state_schema",
+            "message": "Player-state schema is missing or unsupported",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>0</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801949</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "stored_switch_invalid": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_bootstrap_value",
+            "message": "Persisted config has an invalid typed value",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>0</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801949</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "switch": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 4
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>1</V></A2></PGC></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>4</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801945</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>C1</V></A1><A2 T=\"S\"><V>4</V></A2></PGC></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "unknown_field": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request contains duplicate or unknown fields",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>1</V></AB><VN>5.0.0</VN><ST>1117</ST><HS>7799118</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "untrusted_card": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "guide_ineligible",
+            "message": "Guide selection requires a trust-enabled unit at 100 or more",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>3</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801944</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "wrong_method_key": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_method_key",
+            "message": "Request does not match the local method key",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801930</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "wrong_type": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request field type or value count is invalid",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"S\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801936</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "wrong_user_key": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801978</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "zero_trust": {
+      "state": {
+        "config": [
+          {
+            "_GuideUnitIndex": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "guide_ineligible",
+            "message": "Guide selection requires a trust-enabled unit at 100 or more",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><A7 T=\"I\"><V>1</V></A7><VN>5.0.0</VN><ST>1117</ST><HS>7801946</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    }
+  },
+  "registrations": [
+    121
+  ]
+}

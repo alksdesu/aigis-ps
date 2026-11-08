@@ -1,0 +1,430 @@
+{
+  "cases": {
+    "coin_trade": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><ExchangeHistory><ShopItemID T=\"I\"><V>3</V></ShopItemID><ExchangeCount T=\"I\"><V>0</V></ExchangeCount></ExchangeHistory><POSSESSION><ItemID T=\"S\"><V>coin</V><V>reward</V></ItemID><Count T=\"I\"><V>950</V><V>1</V></Count><Enabled T=\"I\"><V>0</V><V>0</V></Enabled></POSSESSION><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+        "revisions": 0,
+        "save": {
+          "crystals": [],
+          "experience": 0,
+          "money": 100000,
+          "possessions": [
+            {
+              "Count": 950,
+              "ItemID": "coin"
+            },
+            {
+              "Count": 10,
+              "ItemID": "evolve_orb_100001"
+            },
+            {
+              "Count": 10,
+              "ItemID": "evolve_orb_100002"
+            },
+            {
+              "Count": 1,
+              "ItemID": "reward"
+            }
+          ],
+          "presents": [],
+          "units": 1
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><ExchangeHistory><ShopItemID T=\"I\"><V>3</V></ShopItemID><ExchangeCount T=\"I\"><V>0</V></ExchangeCount></ExchangeHistory><POSSESSION><ItemID T=\"S\"><V>coin</V><V>reward</V></ItemID><Count T=\"I\"><V>950</V><V>1</V></Count><Enabled T=\"I\"><V>0</V><V>0</V></Enabled></POSSESSION><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 100000,
+        "possessions": [
+          {
+            "Count": 950,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "reward"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "coin_trade_insufficient": {
+      "error": {
+        "code": "trade_currency_insufficient",
+        "message": "Trade price exceeds the available currency",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 100000,
+        "possessions": [
+          {
+            "Count": 49,
+            "ItemID": "coin"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "crystal_trade": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><ExchangeHistory><ShopItemID T=\"I\"><V>2</V></ShopItemID><ExchangeCount T=\"I\"><V>0</V></ExchangeCount></ExchangeHistory><PPC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>95</V></Num></PPC><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>0</V></Num></PFC><PGP2><C1 T=\"I\"><V>10</V></C1></PGP2><POSSESSION><ItemID T=\"S\"><V>reward</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+        "revisions": 0,
+        "save": {
+          "crystals": [
+            {
+              "Date": 739920,
+              "FreeFlag": true,
+              "Num": 0
+            },
+            {
+              "Date": 739920,
+              "FreeFlag": false,
+              "Num": 95
+            }
+          ],
+          "experience": 0,
+          "money": 100000,
+          "possessions": [
+            {
+              "Count": 1000,
+              "ItemID": "coin"
+            },
+            {
+              "Count": 10,
+              "ItemID": "evolve_orb_100001"
+            },
+            {
+              "Count": 10,
+              "ItemID": "evolve_orb_100002"
+            },
+            {
+              "Count": 1,
+              "ItemID": "reward"
+            }
+          ],
+          "presents": [],
+          "units": 1
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><ExchangeHistory><ShopItemID T=\"I\"><V>2</V></ShopItemID><ExchangeCount T=\"I\"><V>0</V></ExchangeCount></ExchangeHistory><PPC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>95</V></Num></PPC><PFC><UserID T=\"I\"><V>1</V></UserID><Date T=\"I\"><V>739920</V></Date><Num T=\"I\"><V>0</V></Num></PFC><PGP2><C1 T=\"I\"><V>10</V></C1></PGP2><POSSESSION><ItemID T=\"S\"><V>reward</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "crystals": [
+          {
+            "Date": 739920,
+            "FreeFlag": true,
+            "Num": 0
+          },
+          {
+            "Date": 739920,
+            "FreeFlag": false,
+            "Num": 95
+          }
+        ],
+        "experience": 0,
+        "money": 100000,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "reward"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "crystal_trade_insufficient": {
+      "error": {
+        "code": "trade_currency_insufficient",
+        "message": "Trade price exceeds the available currency",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [
+          {
+            "Date": 739920,
+            "FreeFlag": true,
+            "Num": 9
+          }
+        ],
+        "experience": 0,
+        "money": 100000,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "money_trade": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><ExchangeHistory><ShopItemID T=\"I\"><V>1</V></ShopItemID><ExchangeCount T=\"I\"><V>0</V></ExchangeCount></ExchangeHistory><PGP><A1 T=\"I\"><V>99900</V></A1></PGP><POSSESSION><ItemID T=\"S\"><V>reward</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+        "revisions": 0,
+        "save": {
+          "crystals": [],
+          "experience": 0,
+          "money": 99900,
+          "possessions": [
+            {
+              "Count": 1000,
+              "ItemID": "coin"
+            },
+            {
+              "Count": 10,
+              "ItemID": "evolve_orb_100001"
+            },
+            {
+              "Count": 10,
+              "ItemID": "evolve_orb_100002"
+            },
+            {
+              "Count": 1,
+              "ItemID": "reward"
+            }
+          ],
+          "presents": [],
+          "units": 1
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><ExchangeHistory><ShopItemID T=\"I\"><V>1</V></ShopItemID><ExchangeCount T=\"I\"><V>0</V></ExchangeCount></ExchangeHistory><PGP><A1 T=\"I\"><V>99900</V></A1></PGP><POSSESSION><ItemID T=\"S\"><V>reward</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 99900,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "reward"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "money_trade_insufficient": {
+      "error": {
+        "code": "trade_currency_insufficient",
+        "message": "Trade price exceeds the available currency",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 99,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "money_trade_native_balance": {
+      "error": {
+        "code": "trade_native_balance",
+        "message": "Native startup requires money or player experience to remain positive",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 100,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "money_trade_negative_money": {
+      "error": {
+        "code": "invalid_player_state",
+        "message": "Player progression is not a valid native GameParam state",
+        "status": 503
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": -1,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "money_trade_quantity": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><ExchangeHistory><ShopItemID T=\"I\"><V>1</V></ShopItemID><ExchangeCount T=\"I\"><V>0</V></ExchangeCount></ExchangeHistory><PGP><A1 T=\"I\"><V>99700</V></A1></PGP><POSSESSION><ItemID T=\"S\"><V>reward</V></ItemID><Count T=\"I\"><V>3</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 99700,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          },
+          {
+            "Count": 3,
+            "ItemID": "reward"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "money_trade_rank_mismatch": {
+      "error": {
+        "code": "invalid_player_rank",
+        "message": "Player rank and experience disagree with RankUp.atb",
+        "status": 503
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 100,
+        "money": 100000,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "money_trade_spends_all_money_with_experience": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><ExchangeHistory><ShopItemID T=\"I\"><V>1</V></ShopItemID><ExchangeCount T=\"I\"><V>0</V></ExchangeCount></ExchangeHistory><PGP><A1 T=\"I\"><V>0</V></A1></PGP><POSSESSION><ItemID T=\"S\"><V>reward</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "crystals": [],
+        "experience": 5,
+        "money": 0,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "reward"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    }
+  }
+}

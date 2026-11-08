@@ -1,0 +1,328 @@
+{
+  "cases": {
+    "exchange": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"I\"><V>85000</V></A1></PGP><POSSESSION><ItemID T=\"S\"><V>evolve_orb_100002</V><V>evolve_orb_100001</V></ItemID><Count T=\"I\"><V>5</V><V>11</V></Count><Enabled T=\"I\"><V>0</V><V>0</V></Enabled></POSSESSION></DA>",
+        "revisions": 0,
+        "save": {
+          "crystals": [],
+          "experience": 0,
+          "money": 85000,
+          "possessions": [
+            {
+              "Count": 1000,
+              "ItemID": "coin"
+            },
+            {
+              "Count": 11,
+              "ItemID": "evolve_orb_100001"
+            },
+            {
+              "Count": 5,
+              "ItemID": "evolve_orb_100002"
+            }
+          ],
+          "presents": [],
+          "units": 1
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"I\"><V>85000</V></A1></PGP><POSSESSION><ItemID T=\"S\"><V>evolve_orb_100002</V><V>evolve_orb_100001</V></ItemID><Count T=\"I\"><V>5</V><V>11</V></Count><Enabled T=\"I\"><V>0</V><V>0</V></Enabled></POSSESSION></DA>",
+      "revisions": 1,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 85000,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 11,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 5,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "exchange_material_insufficient": {
+      "error": {
+        "code": "orb_exchange_material_insufficient",
+        "message": "Exchange requires more source orbs",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 100000,
+        "possessions": [
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 4,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "exchange_money_before_material": {
+      "error": {
+        "code": "orb_exchange_money_insufficient",
+        "message": "Exchange costs exceed the money balance",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 14999,
+        "possessions": [
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 0,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "exchange_money_insufficient": {
+      "error": {
+        "code": "orb_exchange_money_insufficient",
+        "message": "Exchange costs exceed the money balance",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 14999,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "exchange_native_balance": {
+      "error": {
+        "code": "orb_exchange_native_balance",
+        "message": "Native startup requires money or player experience to remain positive",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 15000,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "exchange_negative_money": {
+      "error": {
+        "code": "invalid_player_state",
+        "message": "Player progression is not a valid native GameParam state",
+        "status": 503
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": -1,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "exchange_rank_mismatch": {
+      "error": {
+        "code": "invalid_player_rank",
+        "message": "Player rank and experience disagree with RankUp.atb",
+        "status": 503
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 100,
+        "money": 100000,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "exchange_same_item": {
+      "error": {
+        "code": "orb_exchange_same_item",
+        "message": "Exchange requires different source and target orbs",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 100000,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "exchange_spends_all_money_with_experience": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"I\"><V>0</V></A1></PGP><POSSESSION><ItemID T=\"S\"><V>evolve_orb_100002</V><V>evolve_orb_100001</V></ItemID><Count T=\"I\"><V>5</V><V>11</V></Count><Enabled T=\"I\"><V>0</V><V>0</V></Enabled></POSSESSION></DA>",
+      "revisions": 1,
+      "save": {
+        "crystals": [],
+        "experience": 5,
+        "money": 0,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 11,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 5,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "exchange_stack_exceeded": {
+      "error": {
+        "code": "orb_exchange_stack_exceeded",
+        "message": "Exchange would exceed the target orb stack",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 100000,
+        "possessions": [
+          {
+            "Count": 999,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    },
+    "exchange_unknown_item": {
+      "error": {
+        "code": "orb_exchange_item_unknown",
+        "message": "Exchange items must be verified orb definitions",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "crystals": [],
+        "experience": 0,
+        "money": 100000,
+        "possessions": [
+          {
+            "Count": 1000,
+            "ItemID": "coin"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100001"
+          },
+          {
+            "Count": 10,
+            "ItemID": "evolve_orb_100002"
+          }
+        ],
+        "presents": [],
+        "units": 1
+      }
+    }
+  }
+}

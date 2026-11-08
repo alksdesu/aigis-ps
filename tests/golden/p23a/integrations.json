@@ -1,0 +1,3627 @@
+{
+  "cases": {
+    "bonus_before_money": {
+      "error": {
+        "code": "training_bonus_changed",
+        "message": "Training bonus no longer matches the owned sources",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V></INVITEID><UNIQUEID T=\"I\"><V>3</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>2</V></A7><AB T=\"I\"><V>3</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7816833</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            416,
+            164800,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3490,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "dynamic_unit_overrides": {
+      "error": {
+        "code": "training_recipe_unsupported",
+        "message": "Temporary unit overrides require a verified state adapter",
+        "status": 501
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables",
+          "unit_dynamic_overrides"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "experience_capacity": {
+      "error": {
+        "code": "training_experience_capacity",
+        "message": "Accumulated experience exceeds the native field",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            2147483647,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "fairy_farm_materials": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V></A1><A2 T=\"S\"><V>999600</V></A2></PGP><PPU><A7 T=\"I\"><V>1</V></A7><A4 T=\"I\"><V>2500</V></A4><A6 T=\"I\"><V>1</V></A6><AA T=\"I\"><V>0</V></AA><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3></PPU><PFF><CardID T=\"I\"><V>56</V></CardID><Count T=\"I\"><V>0</V></Count></PFF></DA>",
+        "revisions": 0,
+        "save": {
+          "awakening_ledger": {
+            "claimed": [],
+            "reward_scope": "card",
+            "schema_version": 1
+          },
+          "awakening_receipts": null,
+          "card_status": [],
+          "experience": 0,
+          "fairy_farm": [
+            {
+              "CardID": 54,
+              "Count": 0
+            },
+            {
+              "CardID": 55,
+              "Count": 0
+            },
+            {
+              "CardID": 56,
+              "Count": 0
+            },
+            {
+              "CardID": 57,
+              "Count": 0
+            },
+            {
+              "CardID": 58,
+              "Count": 0
+            },
+            {
+              "CardID": 59,
+              "Count": 0
+            },
+            {
+              "CardID": 60,
+              "Count": 0
+            },
+            {
+              "CardID": 97,
+              "Count": 0
+            },
+            {
+              "CardID": 133,
+              "Count": 0
+            },
+            {
+              "CardID": 136,
+              "Count": 0
+            },
+            {
+              "CardID": 166,
+              "Count": 0
+            },
+            {
+              "CardID": 194,
+              "Count": 0
+            },
+            {
+              "CardID": 234,
+              "Count": 0
+            },
+            {
+              "CardID": 250,
+              "Count": 0
+            },
+            {
+              "CardID": 270,
+              "Count": 0
+            },
+            {
+              "CardID": 303,
+              "Count": 0
+            },
+            {
+              "CardID": 321,
+              "Count": 0
+            },
+            {
+              "CardID": 333,
+              "Count": 0
+            },
+            {
+              "CardID": 334,
+              "Count": 0
+            },
+            {
+              "CardID": 335,
+              "Count": 0
+            },
+            {
+              "CardID": 383,
+              "Count": 0
+            },
+            {
+              "CardID": 384,
+              "Count": 0
+            },
+            {
+              "CardID": 397,
+              "Count": 0
+            },
+            {
+              "CardID": 415,
+              "Count": 0
+            },
+            {
+              "CardID": 433,
+              "Count": 0
+            },
+            {
+              "CardID": 460,
+              "Count": 0
+            },
+            {
+              "CardID": 491,
+              "Count": 0
+            },
+            {
+              "CardID": 570,
+              "Count": 0
+            },
+            {
+              "CardID": 660,
+              "Count": 0
+            },
+            {
+              "CardID": 762,
+              "Count": 0
+            },
+            {
+              "CardID": 800,
+              "Count": 0
+            },
+            {
+              "CardID": 841,
+              "Count": 0
+            },
+            {
+              "CardID": 892,
+              "Count": 0
+            },
+            {
+              "CardID": 893,
+              "Count": 0
+            },
+            {
+              "CardID": 894,
+              "Count": 0
+            },
+            {
+              "CardID": 895,
+              "Count": 0
+            },
+            {
+              "CardID": 896,
+              "Count": 0
+            },
+            {
+              "CardID": 897,
+              "Count": 0
+            },
+            {
+              "CardID": 898,
+              "Count": 0
+            },
+            {
+              "CardID": 899,
+              "Count": 0
+            },
+            {
+              "CardID": 900,
+              "Count": 0
+            },
+            {
+              "CardID": 901,
+              "Count": 0
+            },
+            {
+              "CardID": 952,
+              "Count": 0
+            },
+            {
+              "CardID": 1224,
+              "Count": 0
+            },
+            {
+              "CardID": 1236,
+              "Count": 0
+            },
+            {
+              "CardID": 1237,
+              "Count": 0
+            },
+            {
+              "CardID": 1238,
+              "Count": 0
+            },
+            {
+              "CardID": 1269,
+              "Count": 0
+            },
+            {
+              "CardID": 1408,
+              "Count": 0
+            },
+            {
+              "CardID": 1550,
+              "Count": 0
+            },
+            {
+              "CardID": 1654,
+              "Count": 0
+            },
+            {
+              "CardID": 1813,
+              "Count": 0
+            },
+            {
+              "CardID": 2400,
+              "Count": 0
+            },
+            {
+              "CardID": 2844,
+              "Count": 0
+            }
+          ],
+          "integration_receipts": {
+            "processed": 1,
+            "receipts": [
+              [
+                1,
+                null
+              ]
+            ],
+            "schema_version": 2
+          },
+          "keys": [
+            "bootstrap_schema",
+            "business_calendar",
+            "created_local",
+            "crystal_spending",
+            "energy_clock",
+            "evolution_rewards",
+            "fairy_farm_schema",
+            "gift_state",
+            "login_cooking",
+            "login_rewards",
+            "mission_state",
+            "player_state",
+            "rank_rewards",
+            "startup_collections_schema",
+            "tables",
+            "training_history"
+          ],
+          "last_unique_id": 2,
+          "money": 999600,
+          "possessions": {},
+          "presents": [],
+          "silver_house": null,
+          "squads": [],
+          "trust_claims": {},
+          "units": [
+            [
+              0,
+              1,
+              1,
+              9900,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              59,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              2,
+              8,
+              100,
+              0,
+              2500,
+              0,
+              1,
+              0,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>8</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>2</V><V>2</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>0</V><V>0</V></INVITEID><UNIQUEID T=\"I\"><V>0</V><V>0</V></UNIQUEID><CARDID T=\"I\"><V>56</V><V>56</V></CARDID><A7 T=\"I\"><V>0</V><V>0</V></A7><AB T=\"I\"><V>0</V><V>0</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847911</HS></DA>",
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V></A1><A2 T=\"S\"><V>999600</V></A2></PGP><PPU><A7 T=\"I\"><V>1</V></A7><A4 T=\"I\"><V>2500</V></A4><A6 T=\"I\"><V>1</V></A6><AA T=\"I\"><V>0</V></AA><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3></PPU><PFF><CardID T=\"I\"><V>56</V></CardID><Count T=\"I\"><V>0</V></Count></PFF></DA>",
+      "revisions": 1,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": [
+          {
+            "CardID": 54,
+            "Count": 0
+          },
+          {
+            "CardID": 55,
+            "Count": 0
+          },
+          {
+            "CardID": 56,
+            "Count": 0
+          },
+          {
+            "CardID": 57,
+            "Count": 0
+          },
+          {
+            "CardID": 58,
+            "Count": 0
+          },
+          {
+            "CardID": 59,
+            "Count": 0
+          },
+          {
+            "CardID": 60,
+            "Count": 0
+          },
+          {
+            "CardID": 97,
+            "Count": 0
+          },
+          {
+            "CardID": 133,
+            "Count": 0
+          },
+          {
+            "CardID": 136,
+            "Count": 0
+          },
+          {
+            "CardID": 166,
+            "Count": 0
+          },
+          {
+            "CardID": 194,
+            "Count": 0
+          },
+          {
+            "CardID": 234,
+            "Count": 0
+          },
+          {
+            "CardID": 250,
+            "Count": 0
+          },
+          {
+            "CardID": 270,
+            "Count": 0
+          },
+          {
+            "CardID": 303,
+            "Count": 0
+          },
+          {
+            "CardID": 321,
+            "Count": 0
+          },
+          {
+            "CardID": 333,
+            "Count": 0
+          },
+          {
+            "CardID": 334,
+            "Count": 0
+          },
+          {
+            "CardID": 335,
+            "Count": 0
+          },
+          {
+            "CardID": 383,
+            "Count": 0
+          },
+          {
+            "CardID": 384,
+            "Count": 0
+          },
+          {
+            "CardID": 397,
+            "Count": 0
+          },
+          {
+            "CardID": 415,
+            "Count": 0
+          },
+          {
+            "CardID": 433,
+            "Count": 0
+          },
+          {
+            "CardID": 460,
+            "Count": 0
+          },
+          {
+            "CardID": 491,
+            "Count": 0
+          },
+          {
+            "CardID": 570,
+            "Count": 0
+          },
+          {
+            "CardID": 660,
+            "Count": 0
+          },
+          {
+            "CardID": 762,
+            "Count": 0
+          },
+          {
+            "CardID": 800,
+            "Count": 0
+          },
+          {
+            "CardID": 841,
+            "Count": 0
+          },
+          {
+            "CardID": 892,
+            "Count": 0
+          },
+          {
+            "CardID": 893,
+            "Count": 0
+          },
+          {
+            "CardID": 894,
+            "Count": 0
+          },
+          {
+            "CardID": 895,
+            "Count": 0
+          },
+          {
+            "CardID": 896,
+            "Count": 0
+          },
+          {
+            "CardID": 897,
+            "Count": 0
+          },
+          {
+            "CardID": 898,
+            "Count": 0
+          },
+          {
+            "CardID": 899,
+            "Count": 0
+          },
+          {
+            "CardID": 900,
+            "Count": 0
+          },
+          {
+            "CardID": 901,
+            "Count": 0
+          },
+          {
+            "CardID": 952,
+            "Count": 0
+          },
+          {
+            "CardID": 1224,
+            "Count": 0
+          },
+          {
+            "CardID": 1236,
+            "Count": 0
+          },
+          {
+            "CardID": 1237,
+            "Count": 0
+          },
+          {
+            "CardID": 1238,
+            "Count": 0
+          },
+          {
+            "CardID": 1269,
+            "Count": 0
+          },
+          {
+            "CardID": 1408,
+            "Count": 0
+          },
+          {
+            "CardID": 1550,
+            "Count": 0
+          },
+          {
+            "CardID": 1654,
+            "Count": 0
+          },
+          {
+            "CardID": 1813,
+            "Count": 0
+          },
+          {
+            "CardID": 2400,
+            "Count": 0
+          },
+          {
+            "CardID": 2844,
+            "Count": 0
+          }
+        ],
+        "integration_receipts": {
+          "processed": 1,
+          "receipts": [
+            [
+              1,
+              null
+            ]
+          ],
+          "schema_version": 2
+        },
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "fairy_farm_schema",
+          "gift_state",
+          "login_cooking",
+          "login_rewards",
+          "mission_state",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables",
+          "training_history"
+        ],
+        "last_unique_id": 2,
+        "money": 999600,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": {},
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            8,
+            100,
+            0,
+            2500,
+            0,
+            1,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "fairy_farm_shortage": {
+      "error": {
+        "code": "fairy_farm_quantity",
+        "message": "Fairy stock is insufficient or would exceed capacity",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>8</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>2</V><V>2</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>0</V><V>0</V></INVITEID><UNIQUEID T=\"I\"><V>0</V><V>0</V></UNIQUEID><CARDID T=\"I\"><V>56</V><V>56</V></CARDID><A7 T=\"I\"><V>0</V><V>0</V></A7><AB T=\"I\"><V>0</V><V>0</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847911</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": [
+          {
+            "CardID": 56,
+            "Count": 1
+          }
+        ],
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "fairy_farm_schema",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 2,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            8,
+            100,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "forged_material_card": {
+      "error": {
+        "code": "training_unit_missing",
+        "message": "Material identity does not match an owned unit",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>999999</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847459</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "forged_target_identity": {
+      "error": {
+        "code": "training_unit_missing",
+        "message": "Training identity does not match an owned unit",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>999999</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>999999</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847547</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "legacy_history_upgrades": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V></A1><A2 T=\"S\"><V>999600</V></A2></PGP><PPU><A7 T=\"I\"><V>1</V></A7><A4 T=\"I\"><V>200</V></A4><A6 T=\"I\"><V>2</V></A6><AA T=\"I\"><V>-1</V></AA><B2 T=\"I\"><V>2</V></B2><B3 T=\"I\"><V>0</V></B3></PPU></DA>",
+        "revisions": 0,
+        "save": {
+          "awakening_ledger": {
+            "claimed": [],
+            "reward_scope": "card",
+            "schema_version": 1
+          },
+          "awakening_receipts": null,
+          "card_status": [],
+          "experience": 0,
+          "fairy_farm": null,
+          "integration_receipts": {
+            "processed": 1,
+            "receipts": [
+              [
+                1,
+                null
+              ]
+            ],
+            "schema_version": 2
+          },
+          "keys": [
+            "bootstrap_schema",
+            "business_calendar",
+            "created_local",
+            "crystal_spending",
+            "energy_clock",
+            "evolution_rewards",
+            "gift_state",
+            "login_cooking",
+            "login_rewards",
+            "mission_state",
+            "player_state",
+            "rank_rewards",
+            "startup_collections_schema",
+            "tables",
+            "training_history"
+          ],
+          "last_unique_id": 4,
+          "money": 999600,
+          "possessions": {},
+          "presents": [],
+          "silver_house": null,
+          "squads": [],
+          "trust_claims": {},
+          "units": [
+            [
+              0,
+              1,
+              1,
+              9900,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              59,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              2,
+              3,
+              201,
+              0,
+              200,
+              0,
+              2,
+              2,
+              -1,
+              0,
+              16,
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V></A1><A2 T=\"S\"><V>999600</V></A2></PGP><PPU><A7 T=\"I\"><V>1</V></A7><A4 T=\"I\"><V>200</V></A4><A6 T=\"I\"><V>2</V></A6><AA T=\"I\"><V>-1</V></AA><B2 T=\"I\"><V>2</V></B2><B3 T=\"I\"><V>0</V></B3></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": {
+          "processed": 1,
+          "receipts": [
+            [
+              1,
+              null
+            ]
+          ],
+          "schema_version": 2
+        },
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "gift_state",
+          "login_cooking",
+          "login_rewards",
+          "mission_state",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables",
+          "training_history"
+        ],
+        "last_unique_id": 4,
+        "money": 999600,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": {},
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            200,
+            0,
+            2,
+            2,
+            -1,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "locked_material": {
+      "error": {
+        "code": "training_material_protected",
+        "message": "A selected material is protected from consumption",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "material_moved_from_its_barracks": {
+      "error": {
+        "code": "training_storage_mismatch",
+        "message": "The material moved from its requested barracks",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>1</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "money_insufficient": {
+      "error": {
+        "code": "training_money_insufficient",
+        "message": "Training costs exceed the saved money balance",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "money_native_balance": {
+      "error": {
+        "code": "training_native_balance",
+        "message": "Native startup requires money or player experience to remain positive",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 400,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "negative_money": {
+      "error": {
+        "code": "invalid_player_state",
+        "message": "Player progression is not a valid native GameParam state",
+        "status": 503
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": -1,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "ownership_bonus": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V></A1><A2 T=\"S\"><V>999800</V></A2></PGP><PPU><A7 T=\"I\"><V>1</V></A7><A4 T=\"I\"><V>110</V></A4><A6 T=\"I\"><V>2</V></A6><AA T=\"I\"><V>0</V></AA><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>2</V></B3></PPU></DA>",
+        "revisions": 0,
+        "save": {
+          "awakening_ledger": {
+            "claimed": [],
+            "reward_scope": "card",
+            "schema_version": 1
+          },
+          "awakening_receipts": null,
+          "card_status": [],
+          "experience": 0,
+          "fairy_farm": null,
+          "integration_receipts": {
+            "processed": 1,
+            "receipts": [
+              [
+                1,
+                null
+              ]
+            ],
+            "schema_version": 2
+          },
+          "keys": [
+            "bootstrap_schema",
+            "business_calendar",
+            "created_local",
+            "crystal_spending",
+            "energy_clock",
+            "evolution_rewards",
+            "gift_state",
+            "login_cooking",
+            "login_rewards",
+            "mission_state",
+            "player_state",
+            "rank_rewards",
+            "startup_collections_schema",
+            "tables",
+            "training_history"
+          ],
+          "last_unique_id": 4,
+          "money": 999800,
+          "possessions": {},
+          "presents": [],
+          "silver_house": null,
+          "squads": [],
+          "trust_claims": {},
+          "units": [
+            [
+              0,
+              1,
+              1,
+              9900,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              59,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              2,
+              3,
+              201,
+              0,
+              110,
+              0,
+              2,
+              0,
+              0,
+              2,
+              16,
+              1,
+              0,
+              0
+            ],
+            [
+              3,
+              4,
+              416,
+              164800,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              3490,
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V></INVITEID><UNIQUEID T=\"I\"><V>3</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>2</V></A7><AB T=\"I\"><V>3</V></AB></APPEND><CMB><A1 T=\"I\"><V>416</V></A1><A7 T=\"I\"><V>3</V></A7><B0 T=\"I\"><V>10</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7816768</HS></DA>",
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V></A1><A2 T=\"S\"><V>999800</V></A2></PGP><PPU><A7 T=\"I\"><V>1</V></A7><A4 T=\"I\"><V>110</V></A4><A6 T=\"I\"><V>2</V></A6><AA T=\"I\"><V>0</V></AA><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>2</V></B3></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": {
+          "processed": 1,
+          "receipts": [
+            [
+              1,
+              null
+            ]
+          ],
+          "schema_version": 2
+        },
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "gift_state",
+          "login_cooking",
+          "login_rewards",
+          "mission_state",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables",
+          "training_history"
+        ],
+        "last_unique_id": 4,
+        "money": 999800,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": {},
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            110,
+            0,
+            2,
+            0,
+            0,
+            2,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            416,
+            164800,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3490,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "ownership_bonus_changed": {
+      "error": {
+        "code": "training_bonus_changed",
+        "message": "Training bonus no longer matches the owned sources",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V></INVITEID><UNIQUEID T=\"I\"><V>3</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>2</V></A7><AB T=\"I\"><V>3</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7816833</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            416,
+            164800,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3490,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "prince_material": {
+      "error": {
+        "code": "training_material_protected",
+        "message": "A selected material is protected from consumption",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>0</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>1</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>1</V></CARDID><A7 T=\"I\"><V>2</V><V>0</V></A7><AB T=\"I\"><V>3</V><V>1</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847860</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "prince_target": {
+      "error": {
+        "code": "training_target_ineligible",
+        "message": "The prince cannot be a training target",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>0</V></INVITEID><UNIQUEID T=\"I\"><V>1</V></UNIQUEID><CARDID T=\"I\"><V>1</V></CARDID><A7 T=\"I\"><V>0</V></A7><AB T=\"I\"><V>1</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847856</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "protected_before_money": {
+      "error": {
+        "code": "training_material_protected",
+        "message": "A selected material is protected from consumption",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "repeated_material": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Training materials contain a repeated owned-unit identity",
+        "status": 400
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>2</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>3</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>2</V></A7><AB T=\"I\"><V>3</V><V>3</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847854</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "same_card": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V></A1><A2 T=\"S\"><V>999600</V></A2></PGP><PPU><A7 T=\"I\"><V>1</V></A7><A4 T=\"I\"><V>200</V></A4><A6 T=\"I\"><V>2</V></A6><AA T=\"I\"><V>-1</V></AA><B2 T=\"I\"><V>2</V></B2><B3 T=\"I\"><V>0</V></B3></PPU></DA>",
+        "revisions": 0,
+        "save": {
+          "awakening_ledger": {
+            "claimed": [],
+            "reward_scope": "card",
+            "schema_version": 1
+          },
+          "awakening_receipts": null,
+          "card_status": [],
+          "experience": 0,
+          "fairy_farm": null,
+          "integration_receipts": {
+            "processed": 1,
+            "receipts": [
+              [
+                1,
+                null
+              ]
+            ],
+            "schema_version": 2
+          },
+          "keys": [
+            "bootstrap_schema",
+            "business_calendar",
+            "created_local",
+            "crystal_spending",
+            "energy_clock",
+            "evolution_rewards",
+            "gift_state",
+            "login_cooking",
+            "login_rewards",
+            "mission_state",
+            "player_state",
+            "rank_rewards",
+            "startup_collections_schema",
+            "tables",
+            "training_history"
+          ],
+          "last_unique_id": 4,
+          "money": 999600,
+          "possessions": {},
+          "presents": [],
+          "silver_house": null,
+          "squads": [],
+          "trust_claims": {},
+          "units": [
+            [
+              0,
+              1,
+              1,
+              9900,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              59,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              2,
+              3,
+              201,
+              0,
+              200,
+              0,
+              2,
+              2,
+              -1,
+              0,
+              16,
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V></A1><A2 T=\"S\"><V>999600</V></A2></PGP><PPU><A7 T=\"I\"><V>1</V></A7><A4 T=\"I\"><V>200</V></A4><A6 T=\"I\"><V>2</V></A6><AA T=\"I\"><V>-1</V></AA><B2 T=\"I\"><V>2</V></B2><B3 T=\"I\"><V>0</V></B3></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": {
+          "processed": 1,
+          "receipts": [
+            [
+              1,
+              null
+            ]
+          ],
+          "schema_version": 2
+        },
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "gift_state",
+          "login_cooking",
+          "login_rewards",
+          "mission_state",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables",
+          "training_history"
+        ],
+        "last_unique_id": 4,
+        "money": 999600,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": {},
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            200,
+            0,
+            2,
+            2,
+            -1,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "stale": {
+        "error": {
+          "code": "training_retry_stale",
+          "message": "Training result changed since this request committed",
+          "status": 409
+        },
+        "revisions": 0,
+        "save": {
+          "awakening_ledger": {
+            "claimed": [],
+            "reward_scope": "card",
+            "schema_version": 1
+          },
+          "awakening_receipts": null,
+          "card_status": [],
+          "experience": 0,
+          "fairy_farm": null,
+          "integration_receipts": {
+            "processed": 1,
+            "receipts": [
+              [
+                1,
+                null
+              ]
+            ],
+            "schema_version": 2
+          },
+          "keys": [
+            "bootstrap_schema",
+            "business_calendar",
+            "created_local",
+            "crystal_spending",
+            "energy_clock",
+            "evolution_rewards",
+            "gift_state",
+            "login_cooking",
+            "login_rewards",
+            "mission_state",
+            "player_state",
+            "rank_rewards",
+            "startup_collections_schema",
+            "tables",
+            "training_history"
+          ],
+          "last_unique_id": 4,
+          "money": 999601,
+          "possessions": {},
+          "presents": [],
+          "silver_house": null,
+          "squads": [],
+          "trust_claims": {},
+          "units": [
+            [
+              0,
+              1,
+              1,
+              9900,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              59,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              2,
+              3,
+              201,
+              0,
+              200,
+              0,
+              2,
+              2,
+              -1,
+              0,
+              16,
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    },
+    "silver_house_material": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V></A1><A2 T=\"S\"><V>999800</V></A2></PGP><PPU><A7 T=\"I\"><V>1</V></A7><A4 T=\"I\"><V>3000</V></A4><A6 T=\"I\"><V>1</V></A6><AA T=\"I\"><V>0</V></AA><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3></PPU></DA>",
+        "revisions": 0,
+        "save": {
+          "awakening_ledger": {
+            "claimed": [],
+            "reward_scope": "card",
+            "schema_version": 1
+          },
+          "awakening_receipts": null,
+          "card_status": [],
+          "experience": 0,
+          "fairy_farm": null,
+          "integration_receipts": {
+            "processed": 1,
+            "receipts": [
+              [
+                1,
+                null
+              ]
+            ],
+            "schema_version": 2
+          },
+          "keys": [
+            "bootstrap_schema",
+            "business_calendar",
+            "created_local",
+            "crystal_spending",
+            "energy_clock",
+            "evolution_rewards",
+            "gift_state",
+            "login_cooking",
+            "login_rewards",
+            "mission_state",
+            "player_state",
+            "rank_rewards",
+            "silver_house_schema",
+            "startup_collections_schema",
+            "tables",
+            "training_history"
+          ],
+          "last_unique_id": 2,
+          "money": 999800,
+          "possessions": {},
+          "presents": [],
+          "silver_house": [
+            {
+              "CardID": 7,
+              "Count": 1
+            }
+          ],
+          "squads": [],
+          "trust_claims": {},
+          "units": [
+            [
+              0,
+              1,
+              1,
+              9900,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              59,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              2,
+              3,
+              201,
+              0,
+              3000,
+              0,
+              1,
+              0,
+              0,
+              0,
+              16,
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>1</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>0</V></INVITEID><UNIQUEID T=\"I\"><V>0</V></UNIQUEID><CARDID T=\"I\"><V>7</V></CARDID><A7 T=\"I\"><V>0</V></A7><AB T=\"I\"><V>0</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7816832</HS></DA>",
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V></A1><A2 T=\"S\"><V>999800</V></A2></PGP><PPU><A7 T=\"I\"><V>1</V></A7><A4 T=\"I\"><V>3000</V></A4><A6 T=\"I\"><V>1</V></A6><AA T=\"I\"><V>0</V></AA><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": {
+          "processed": 1,
+          "receipts": [
+            [
+              1,
+              null
+            ]
+          ],
+          "schema_version": 2
+        },
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "gift_state",
+          "login_cooking",
+          "login_rewards",
+          "mission_state",
+          "player_state",
+          "rank_rewards",
+          "silver_house_schema",
+          "startup_collections_schema",
+          "tables",
+          "training_history"
+        ],
+        "last_unique_id": 2,
+        "money": 999800,
+        "possessions": {},
+        "presents": [],
+        "silver_house": [
+          {
+            "CardID": 7,
+            "Count": 1
+          }
+        ],
+        "squads": [],
+        "trust_claims": {},
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            3000,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "spends_all_money_with_experience": {
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V></A1><A2 T=\"S\"><V>0</V></A2></PGP><PPU><A7 T=\"I\"><V>1</V></A7><A4 T=\"I\"><V>200</V></A4><A6 T=\"I\"><V>2</V></A6><AA T=\"I\"><V>-1</V></AA><B2 T=\"I\"><V>2</V></B2><B3 T=\"I\"><V>0</V></B3></PPU></DA>",
+      "revisions": 1,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 5,
+        "fairy_farm": null,
+        "integration_receipts": {
+          "processed": 1,
+          "receipts": [
+            [
+              1,
+              null
+            ]
+          ],
+          "schema_version": 2
+        },
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "gift_state",
+          "login_cooking",
+          "login_rewards",
+          "mission_state",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables",
+          "training_history"
+        ],
+        "last_unique_id": 4,
+        "money": 0,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": {},
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            200,
+            0,
+            2,
+            2,
+            -1,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "squad_material": {
+      "error": {
+        "code": "training_material_protected",
+        "message": "A selected material is protected from consumption",
+        "status": 409
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [
+          [
+            458752,
+            3
+          ]
+        ],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "target_in_the_second_barracks": {
+      "error": {
+        "code": "training_storage_unsupported",
+        "message": "Training only supports the first barracks",
+        "status": 501
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": null,
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            17,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "unsupported_history": {
+      "error": {
+        "code": "training_history_invalid",
+        "message": "Stored training receipts are invalid",
+        "status": 503
+      },
+      "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BASE><STORAGETYPE T=\"I\"><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>1</V></INVITEID><UNIQUEID T=\"I\"><V>2</V></UNIQUEID><CARDID T=\"I\"><V>3</V></CARDID><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></BASE><APPEND><STORAGETYPE T=\"I\"><V>0</V><V>0</V></STORAGETYPE><STORAGEINDEX T=\"I\"><V>0</V><V>0</V></STORAGEINDEX><INVITEID T=\"I\"><V>2</V><V>3</V></INVITEID><UNIQUEID T=\"I\"><V>3</V><V>4</V></UNIQUEID><CARDID T=\"I\"><V>3</V><V>3</V></CARDID><A7 T=\"I\"><V>2</V><V>3</V></A7><AB T=\"I\"><V>3</V><V>4</V></AB></APPEND><CMB><A1 T=\"I\"><V>0</V></A1><A7 T=\"I\"><V>0</V></A7><B0 T=\"I\"><V>0</V></B0></CMB><VN>5.0.0</VN><ST>1101</ST><HS>7847852</HS></DA>",
+      "revisions": 0,
+      "save": {
+        "awakening_ledger": {
+          "claimed": [],
+          "reward_scope": "card",
+          "schema_version": 1
+        },
+        "awakening_receipts": null,
+        "card_status": [],
+        "experience": 0,
+        "fairy_farm": null,
+        "integration_receipts": {
+          "processed": 0,
+          "receipts": [],
+          "schema_version": 99
+        },
+        "keys": [
+          "bootstrap_schema",
+          "business_calendar",
+          "created_local",
+          "crystal_spending",
+          "energy_clock",
+          "evolution_rewards",
+          "login_cooking",
+          "login_rewards",
+          "player_state",
+          "rank_rewards",
+          "startup_collections_schema",
+          "tables",
+          "training_history"
+        ],
+        "last_unique_id": 4,
+        "money": 1000000,
+        "possessions": {},
+        "presents": [],
+        "silver_house": null,
+        "squads": [],
+        "trust_claims": null,
+        "units": [
+          [
+            0,
+            1,
+            1,
+            9900,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            3,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ],
+          [
+            3,
+            4,
+            3,
+            201,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            16,
+            1,
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  }
+}

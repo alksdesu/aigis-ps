@@ -1,0 +1,1690 @@
+{
+  "base": {
+    "bootstrap_schema": 1,
+    "business_calendar": {
+      "origin": "new_local",
+      "schema_version": 1,
+      "utc_offset_minutes": 540
+    },
+    "created_local": "2026/11/01 12:00:00",
+    "crystal_spending": {
+      "baseline_source": "new_local",
+      "current_spent": 0,
+      "last_time": 1793502000000,
+      "period": "2026-11",
+      "previous_spent": 0,
+      "schema_version": 1
+    },
+    "energy_clock": {
+      "encoding": "native_day_fraction_f32_seconds_v1",
+      "origin": "new_local",
+      "schema_version": 1,
+      "utc_offset_minutes": 540
+    },
+    "login_cooking": {
+      "baseline_source": "new_local",
+      "border": 250,
+      "issued": 0,
+      "last_civil_day": null,
+      "last_claim_day": null,
+      "last_time": 1793502000000,
+      "period": "2026-11",
+      "quota": 0,
+      "schema_version": 1
+    },
+    "login_rewards": {
+      "baseline_source": "new_local",
+      "beginner_claimed": 0,
+      "beginner_eligible": true,
+      "beginner_total": 7,
+      "last_claim_day": null,
+      "last_time": 1793502000000,
+      "schema_version": 1,
+      "stamp_count": 0,
+      "stamp_month": null
+    },
+    "player_state": {
+      "battle": {
+        "RTN": 64,
+        "TN": 0,
+        "UX": 0,
+        "VN": "1.0.1"
+      },
+      "legacy_squad_imported": false,
+      "schema_version": 1,
+      "squads": [],
+      "units": [
+        {
+          "CanFame": false,
+          "CardID": 1,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 9900,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 0,
+          "GetIndex": 0,
+          "Love": 0,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 59,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 1,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        }
+      ]
+    },
+    "rank_rewards": {
+      "baseline_rank": 0,
+      "entries": {},
+      "observed_rank": 0,
+      "schema_version": 1
+    },
+    "startup_collections_schema": 1,
+    "tables": {
+      "backgrounds": [],
+      "card_status": [],
+      "config": [
+        {
+          "AutoSelectConfig": 0,
+          "BattleAcceleratorFlag": 0,
+          "BattleDClickSkillDisableFlag": 0,
+          "BattlePlaceMagnetFlag": 0,
+          "CostUpCloseDateTime": "",
+          "DamageDispEnable": 0,
+          "EventViewRequest": "",
+          "ExperienceUpCloseDateTime": "",
+          "HaveUnitMaxSizeBuy": 0,
+          "IntegrationAutoSelectConfig": 0,
+          "MenuTutorialFlags": 0,
+          "MissionRewardFlags2": 0,
+          "MoneyUpCloseDateTime": "",
+          "PurposeSettingFlags": 0,
+          "SpecialEffectsFlags": 0,
+          "SpecialEffectsFlags2": 0,
+          "TypeOfSortOrder": "",
+          "UseBgm": true,
+          "UseSe": true,
+          "UserName": "Local Player",
+          "_BattleGodBlessFilter": 0,
+          "_BlsDT_BoostAtk_F": "",
+          "_BlsDT_BoostAtk_R": "",
+          "_BlsDT_DamageCut": "",
+          "_FlagFilter": "",
+          "_FlagMissionFilter": "",
+          "_FlagSort": "",
+          "_GuideUnitIndex": 0,
+          "_VolumeBgm": 0,
+          "_VolumeSe": 0
+        }
+      ],
+      "crystals": [],
+      "event_pass_status": [],
+      "exchange_history": [],
+      "fame_depository": [],
+      "filter_settings": [],
+      "game_param": [
+        {
+          "ActionPointChangeDate": 739920,
+          "ActionPointChangeTime": 0.5,
+          "CharismaChangeDate": 739920,
+          "CharismaChangeTime": 0.5,
+          "EventParam": 0,
+          "Experience": 0,
+          "ExtendedMaxCharisma": 0,
+          "ExtendedMaxCharismaNextMonth": 0,
+          "ExtendedMaxStamina": 0,
+          "ExtendedMaxStaminaNextMonth": 0,
+          "GiftItem1": 0,
+          "GiftItem2": 0,
+          "GiftItem3": 0,
+          "GiftItem4": 0,
+          "GiftItem5": 0,
+          "GiftItem6": 0,
+          "Money": 1000,
+          "NowActionPoint": 0,
+          "NowCharisma": 10000,
+          "Rank": 1,
+          "RedCrystal": 0,
+          "_PointSystem": 0
+        }
+      ],
+      "game_param2": [
+        {
+          "BonusPremiumSummonCount": 0,
+          "BonusPremiumSummonDate": 0,
+          "ComebackLoginDateTime": "",
+          "GameStartDateTime": "2026/11/01 12:00:00",
+          "GloryPoint": 0,
+          "GoddessRevivalTotalStarCount": 0,
+          "HomeCookingReceivedAmount": 0,
+          "HomeCookingReceivedDate": 0,
+          "LastLoginDate": 0,
+          "LatestComebackLoginBonusDateTime": "",
+          "LatestComebackLoginBonusDays": 0,
+          "LatestComebackSummonBonusDateTime": "",
+          "LatestComebackSummonBonusDays": 0,
+          "LogInStampCount": 0,
+          "LookHarlemFlag00": 0,
+          "LookHarlemFlag01": 0,
+          "LookHarlemFlag02": 0,
+          "LookHarlemFlag03": 0,
+          "LookHarlemFlag10": 0,
+          "LookHarlemFlag11": 0,
+          "LookHarlemFlag12": 0,
+          "LookHarlemFlag13": 0,
+          "MaintenanceCheckDateTime": 0,
+          "NormalGachaFree": 0,
+          "StampCardGrade": 0,
+          "WatchEventFlag0": "",
+          "WatchEventFlag0_2": "",
+          "WatchEventFlag1": "",
+          "WatchEventFlag1_2": "",
+          "_EvCmb": 1
+        }
+      ],
+      "menu_blocks": [],
+      "perused_events": [],
+      "possessions": [],
+      "presents": [],
+      "quest_records": [
+        {
+          "AchieveFlag": 1091567616,
+          "FirstDefeatDate": 12345,
+          "MaxRank": 3,
+          "QuestID": 1001,
+          "RemainAssault": 0,
+          "Shown": true
+        },
+        {
+          "AchieveFlag": 1091637505,
+          "FirstDefeatDate": 12345,
+          "MaxRank": 3,
+          "QuestID": 1002,
+          "RemainAssault": 0,
+          "Shown": true
+        }
+      ],
+      "recommendations": [],
+      "reproduction": [
+        {
+          "EI": 0,
+          "F0": 0,
+          "F0RT": 0,
+          "I0": 0,
+          "I1": 0
+        }
+      ],
+      "universal_flags": [],
+      "vote_history": []
+    }
+  },
+  "cases": {
+    "drained": {
+      "state": {
+        "removed": [],
+        "sections": {},
+        "tables": {}
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "quest_energy_insufficient",
+            "message": "Quest costs exceed the available energy",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831108</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "forged_content": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "entrust_history": {
+            "processed_keys": [
+              "e06575461c851d927fe84849115f3ee945f4d996c955af3942722cc463a0ada4"
+            ],
+            "receipts": [
+              {
+                "content": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                "quantity": 1,
+                "quest_id": 1002,
+                "request": "e06575461c851d927fe84849115f3ee945f4d996c955af3942722cc463a0ada4",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1480</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>3</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>480</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+                "response_digest": "986c848191d905d34a90443f85010f8900827b3a625b11b7e548347d01d31a1e",
+                "revision": 1,
+                "state": "290c9e85d61982996f6b4a6e647d0ce6c83704e0cd28d00a5429a19b218faa2e"
+              }
+            ],
+            "schema_version": 2
+          },
+          "player_state": {
+            "battle": {
+              "RTN": 64,
+              "TN": 0,
+              "UX": 3,
+              "VN": "1.0.1"
+            },
+            "last_unique_id": 4,
+            "legacy_squad_imported": false,
+            "schema_version": 1,
+            "squads": [],
+            "units": [
+              {
+                "CanFame": false,
+                "CardID": 1,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 9900,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 0,
+                "GetIndex": 0,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 59,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 1,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 4,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 1,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 2,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 67,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 2,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 3,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 68,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 3,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 11,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 4,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              }
+            ]
+          }
+        },
+        "tables": {
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 28,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1480,
+              "NowActionPoint": 0,
+              "NowCharisma": 9994,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831108</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1480</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>3</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>480</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "entrust_retry_stale",
+            "message": "Entrust state or content changed after this request",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831108</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "gold_team": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "entrust_history": {
+            "processed_keys": [
+              "e06575461c851d927fe84849115f3ee945f4d996c955af3942722cc463a0ada4"
+            ],
+            "receipts": [
+              {
+                "content": "<content_version>",
+                "quantity": 1,
+                "quest_id": 1002,
+                "request": "e06575461c851d927fe84849115f3ee945f4d996c955af3942722cc463a0ada4",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1480</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>5</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>3</V><V>4</V><V>5</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>4</V><V>5</V><V>6</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>480</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+                "response_digest": "89b666deec946db0188225139b6cdcb0bb65f5764530e114ecc8a388b9d2d4f5",
+                "revision": 1,
+                "state": "760fb2abdff7ce5db1ea9a7bab1ba3b8cc70b6593c043e68a0b230ecd65247b4"
+              }
+            ],
+            "schema_version": 2
+          },
+          "player_state": {
+            "battle": {
+              "RTN": 64,
+              "TN": 0,
+              "UX": 5,
+              "VN": "1.0.1"
+            },
+            "last_unique_id": 6,
+            "legacy_squad_imported": false,
+            "schema_version": 1,
+            "squads": [],
+            "units": [
+              {
+                "CanFame": false,
+                "CardID": 1,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 9900,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 0,
+                "GetIndex": 0,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 59,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 1,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 538,
+                "ClassChangeCount": 2,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 12830,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 1,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 696,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 2,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 316,
+                "ClassChangeCount": 2,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 12830,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 2,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 356,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 3,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 4,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 3,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 4,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 67,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 4,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 5,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 68,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 5,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 11,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 6,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              }
+            ]
+          }
+        },
+        "tables": {
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 28,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1480,
+              "NowActionPoint": 0,
+              "NowCharisma": 9994,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831108</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1480</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>5</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>3</V><V>4</V><V>5</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>4</V><V>5</V><V>6</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>480</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "money_campaign": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "entrust_history": {
+            "processed_keys": [
+              "e06575461c851d927fe84849115f3ee945f4d996c955af3942722cc463a0ada4"
+            ],
+            "receipts": [
+              {
+                "content": "<content_version>",
+                "quantity": 1,
+                "quest_id": 1002,
+                "request": "e06575461c851d927fe84849115f3ee945f4d996c955af3942722cc463a0ada4",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1720</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>3</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>720</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+                "response_digest": "7402dcf114b0f0f98de30310777e5104e5f8f464baac879298f15082bc20306c",
+                "revision": 1,
+                "state": "f8f57d6a793bad33787800c2ef54c3fa0f1318bc9be4a4438653d870a4581d1b"
+              }
+            ],
+            "schema_version": 2
+          },
+          "player_state": {
+            "battle": {
+              "RTN": 64,
+              "TN": 0,
+              "UX": 3,
+              "VN": "1.0.1"
+            },
+            "last_unique_id": 4,
+            "legacy_squad_imported": false,
+            "schema_version": 1,
+            "squads": [],
+            "units": [
+              {
+                "CanFame": false,
+                "CardID": 1,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 9900,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 0,
+                "GetIndex": 0,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 59,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 1,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 4,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 1,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 2,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 67,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 2,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 3,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 68,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 3,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 11,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 4,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              }
+            ]
+          }
+        },
+        "tables": {
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 28,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1720,
+              "NowActionPoint": 0,
+              "NowCharisma": 9994,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831108</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1720</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>3</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>720</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "refusals": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "entrust_history": {
+            "processed_keys": [
+              "ce6e2e8e2432904edc2d8e536ea6aa85d56eb740a273b805bdbae40eeb85dd5e"
+            ],
+            "receipts": [
+              {
+                "content": "<content_version>",
+                "quantity": 1,
+                "quest_id": 1002,
+                "request": "ce6e2e8e2432904edc2d8e536ea6aa85d56eb740a273b805bdbae40eeb85dd5e",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1480</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>3</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>480</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+                "response_digest": "986c848191d905d34a90443f85010f8900827b3a625b11b7e548347d01d31a1e",
+                "revision": 1,
+                "state": "290c9e85d61982996f6b4a6e647d0ce6c83704e0cd28d00a5429a19b218faa2e"
+              }
+            ],
+            "schema_version": 2
+          },
+          "player_state": {
+            "battle": {
+              "RTN": 64,
+              "TN": 0,
+              "UX": 3,
+              "VN": "1.0.1"
+            },
+            "last_unique_id": 4,
+            "legacy_squad_imported": false,
+            "schema_version": 1,
+            "squads": [],
+            "units": [
+              {
+                "CanFame": false,
+                "CardID": 1,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 9900,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 0,
+                "GetIndex": 0,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 59,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 1,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 4,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 1,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 2,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 67,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 2,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 3,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 68,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 3,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 11,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 4,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              }
+            ]
+          }
+        },
+        "tables": {
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 28,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1480,
+              "NowActionPoint": 0,
+              "NowCharisma": 9994,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "entrust_resource_mismatch",
+            "message": "Entrust resource revision differs from the current catalog",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>stale-revision</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7829988</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "entrust_request_invalid",
+            "message": "Entrust requires a quest, resource revision and one to three runs",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>4</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831107</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "entrust_not_offered",
+            "message": "Entrust does not offer this quest type: 1",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>2001</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831109</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831108</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1480</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>3</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>480</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    },
+    "request_stale": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "entrust_history": {
+            "processed_keys": [
+              "e06575461c851d927fe84849115f3ee945f4d996c955af3942722cc463a0ada4"
+            ],
+            "receipts": [],
+            "schema_version": 2
+          },
+          "player_state": {
+            "battle": {
+              "RTN": 64,
+              "TN": 0,
+              "UX": 3,
+              "VN": "1.0.1"
+            },
+            "last_unique_id": 4,
+            "legacy_squad_imported": false,
+            "schema_version": 1,
+            "squads": [],
+            "units": [
+              {
+                "CanFame": false,
+                "CardID": 1,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 9900,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 0,
+                "GetIndex": 0,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 59,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 1,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 4,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 1,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 2,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 67,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 2,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 3,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 68,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 3,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 11,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 4,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              }
+            ]
+          }
+        },
+        "tables": {
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 28,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1480,
+              "NowActionPoint": 0,
+              "NowCharisma": 9994,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831108</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1480</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>3</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>480</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "entrust_request_stale",
+            "message": "Entrust request was already processed",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831108</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "single_run": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "entrust_history": {
+            "processed_keys": [
+              "e06575461c851d927fe84849115f3ee945f4d996c955af3942722cc463a0ada4"
+            ],
+            "receipts": [
+              {
+                "content": "<content_version>",
+                "quantity": 1,
+                "quest_id": 1002,
+                "request": "e06575461c851d927fe84849115f3ee945f4d996c955af3942722cc463a0ada4",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1480</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>3</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>480</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+                "response_digest": "986c848191d905d34a90443f85010f8900827b3a625b11b7e548347d01d31a1e",
+                "revision": 1,
+                "state": "290c9e85d61982996f6b4a6e647d0ce6c83704e0cd28d00a5429a19b218faa2e"
+              }
+            ],
+            "schema_version": 2
+          },
+          "player_state": {
+            "battle": {
+              "RTN": 64,
+              "TN": 0,
+              "UX": 3,
+              "VN": "1.0.1"
+            },
+            "last_unique_id": 4,
+            "legacy_squad_imported": false,
+            "schema_version": 1,
+            "squads": [],
+            "units": [
+              {
+                "CanFame": false,
+                "CardID": 1,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 9900,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 0,
+                "GetIndex": 0,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 59,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 1,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 4,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 1,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 2,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 67,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 2,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 3,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 68,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 3,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 11,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 4,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              }
+            ]
+          }
+        },
+        "tables": {
+          "config": [
+            {
+              "AutoSelectConfig": 0,
+              "BattleAcceleratorFlag": 0,
+              "BattleDClickSkillDisableFlag": 0,
+              "BattlePlaceMagnetFlag": 0,
+              "CostUpCloseDateTime": "",
+              "DamageDispEnable": 0,
+              "EventViewRequest": "",
+              "ExperienceUpCloseDateTime": "",
+              "HaveUnitMaxSizeBuy": 0,
+              "IntegrationAutoSelectConfig": 0,
+              "MenuTutorialFlags": 1,
+              "MissionRewardFlags2": 0,
+              "MoneyUpCloseDateTime": "",
+              "PurposeSettingFlags": 0,
+              "SpecialEffectsFlags": 0,
+              "SpecialEffectsFlags2": 0,
+              "TypeOfSortOrder": "",
+              "UseBgm": true,
+              "UseSe": true,
+              "UserName": "Local Player",
+              "_BattleGodBlessFilter": 0,
+              "_BlsDT_BoostAtk_F": "",
+              "_BlsDT_BoostAtk_R": "",
+              "_BlsDT_DamageCut": "",
+              "_FlagFilter": "",
+              "_FlagMissionFilter": "",
+              "_FlagSort": "",
+              "_GuideUnitIndex": 0,
+              "_VolumeBgm": 0,
+              "_VolumeSe": 0
+            }
+          ],
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 28,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 1480,
+              "NowActionPoint": 0,
+              "NowCharisma": 9994,
+              "Rank": 2,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831108</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1480</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>3</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>480</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+          "revisions": 1,
+          "warnings": []
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831108</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>1480</V><V>28</V><V>2</V><V>9994</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>3</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>67</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>28</V></EXPERIENCE><GOLD T=\"I\"><V>480</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count></TreasureInfo></DA>",
+          "revisions": 0,
+          "warnings": []
+        },
+        {
+          "error": {
+            "code": "entrust_retry_stale",
+            "message": "Entrust state or content changed after this request",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>1</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831108</HS></DA>",
+          "revisions": 0,
+          "warnings": []
+        }
+      ]
+    },
+    "three_runs": {
+      "state": {
+        "removed": [],
+        "sections": {
+          "entrust_history": {
+            "processed_keys": [
+              "57dcc8196dd913f5366dde3aed1280292088ceb9d642a44872bca0acf7aea084"
+            ],
+            "receipts": [
+              {
+                "content": "<content_version>",
+                "quantity": 3,
+                "quest_id": 1002,
+                "request": "57dcc8196dd913f5366dde3aed1280292088ceb9d642a44872bca0acf7aea084",
+                "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>2440</V><V>84</V><V>3</V><V>9982</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>9</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>4</V><V>4</V><V>67</V><V>67</V><V>67</V><V>68</V><V>68</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V><V>601</V><V>601</V><V>601</V><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V><V>5</V><V>6</V><V>7</V><V>8</V><V>9</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V><V>-1</V><V>-1</V><V>-1</V><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V><V>5</V><V>6</V><V>7</V><V>8</V><V>9</V><V>10</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>11</V><V>11</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>84</V></EXPERIENCE><GOLD T=\"I\"><V>1440</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>3</V><V>3</V><V>3</V></Count></TreasureInfo></DA>",
+                "response_digest": "1829f919619399efca7a727b76757e6b613e4d041b8a813ce5c0b7ea086ac7c0",
+                "revision": 1,
+                "state": "659eb04164312fbe2c06102afbf7922d0e314ae520acdf81a6451366c61202d7"
+              }
+            ],
+            "schema_version": 2
+          },
+          "player_state": {
+            "battle": {
+              "RTN": 64,
+              "TN": 0,
+              "UX": 9,
+              "VN": "1.0.1"
+            },
+            "last_unique_id": 10,
+            "legacy_squad_imported": false,
+            "schema_version": 1,
+            "squads": [],
+            "units": [
+              {
+                "CanFame": false,
+                "CardID": 1,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 9900,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 0,
+                "GetIndex": 0,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 59,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 1,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 4,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 1,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 2,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 4,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 2,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 3,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 4,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 3,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 4,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 67,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 4,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 5,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 67,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 5,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 6,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 67,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 6,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 0,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 7,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 68,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 7,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 11,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 8,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 68,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 8,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 11,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 9,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              },
+              {
+                "CanFame": false,
+                "CardID": 68,
+                "ClassChangeCount": 0,
+                "ClassChangeStatusMod": 0,
+                "ClassID": 601,
+                "CostExperience": 0,
+                "CostModMixValue": 0,
+                "Exp": 0,
+                "Famed": false,
+                "GeneralPurposeFlags": 1,
+                "GetIndex": 9,
+                "Love": 0,
+                "OrganizationIndex": -1,
+                "OrganizationIndex2": 0,
+                "SettingSkillID": 11,
+                "SkillEvolved": 0,
+                "SkillExperience": 0,
+                "SkillLevel": 1,
+                "UniqueID": 10,
+                "WatchLoveEv": 0,
+                "_DisplayType": 0
+              }
+            ]
+          }
+        },
+        "tables": {
+          "game_param": [
+            {
+              "ActionPointChangeDate": 739920,
+              "ActionPointChangeTime": 0.5,
+              "CharismaChangeDate": 739920,
+              "CharismaChangeTime": 0.5,
+              "EventParam": 0,
+              "Experience": 84,
+              "ExtendedMaxCharisma": 0,
+              "ExtendedMaxCharismaNextMonth": 0,
+              "ExtendedMaxStamina": 0,
+              "ExtendedMaxStaminaNextMonth": 0,
+              "GiftItem1": 0,
+              "GiftItem2": 0,
+              "GiftItem3": 0,
+              "GiftItem4": 0,
+              "GiftItem5": 0,
+              "GiftItem6": 0,
+              "Money": 2440,
+              "NowActionPoint": 0,
+              "NowCharisma": 9982,
+              "Rank": 3,
+              "RedCrystal": 0,
+              "_PointSystem": 0
+            }
+          ]
+        }
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><QI T=\"I\"><V>1002</V></QI><Rev T=\"S\"><V>fa42d5e7b63838d7b03e2f3b11a2f9f71ec9d177</V></Rev><Boost><V T=\"I\"><V>3</V></V></Boost><VN>5.0.0</VN><ST>1302</ST><HS>7831106</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGP><A1 T=\"S\"><V>A1</V><V>A2</V><V>A3</V><V>A4</V><V>A5</V><V>A6</V><V>A7</V><V>A8</V><V>A9</V></A1><A2 T=\"S\"><V>2440</V><V>84</V><V>3</V><V>9982</V><V>0</V><V>739920</V><V>0.5</V><V>739920</V><V>0.5</V></A2></PGP><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>9</V></A2></PBP><PPU><A1 T=\"I\"><V>4</V><V>4</V><V>4</V><V>67</V><V>67</V><V>67</V><V>68</V><V>68</V><V>68</V></A1><A2 T=\"I\"><V>601</V><V>601</V><V>601</V><V>601</V><V>601</V><V>601</V><V>601</V><V>601</V><V>601</V></A2><A3 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V></A6><A7 T=\"I\"><V>1</V><V>2</V><V>3</V><V>4</V><V>5</V><V>6</V><V>7</V><V>8</V><V>9</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V><V>-1</V><V>-1</V><V>-1</V><V>-1</V><V>-1</V><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></AA><AB T=\"I\"><V>2</V><V>3</V><V>4</V><V>5</V><V>6</V><V>7</V><V>8</V><V>9</V><V>10</V></AB><AC T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>11</V><V>11</V><V>11</V></AD><AE T=\"I\"><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V><V>false</V></B5></PPU><REWARD><EXPERIENCE T=\"I\"><V>84</V></EXPERIENCE><GOLD T=\"I\"><V>1440</V></GOLD></REWARD><TREASURE></TREASURE><TreasureInfo><Index T=\"I\"><V>0</V><V>1</V><V>2</V></Index><DropID T=\"I\"><V>4</V><V>67</V><V>68</V></DropID><Count T=\"I\"><V>3</V><V>3</V><V>3</V></Count></TreasureInfo></DA>",
+          "revisions": 1,
+          "warnings": []
+        }
+      ]
+    }
+  }
+}

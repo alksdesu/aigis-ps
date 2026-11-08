@@ -1,0 +1,1259 @@
+{
+  "scope": "Verified static native consumers and explicit local startup rules; native client end-to-end login is not yet verified.",
+  "xml": {
+    "root": "DA",
+    "recommended_declaration": "<?xml version=\"1.0\"?>",
+    "short_attributes": {
+      "T": "type",
+      "N": "name override for containers/Prop only",
+      "I": "index suffix for containers/Prop only"
+    },
+    "column_values": "Ordered child element text; writer uses V. Singleton remains array.",
+    "system": "Two or more parallel columns; column 0 supplies key names, later columns supply corresponding values. Use string columns when including ExchangeKey.",
+    "lgi": "13 ordered typed columns; field names are supplied by native consumer in the listed order.",
+    "datetime_prop": "DateTime numeric text 0 is the verified zero wire value. Empty DateTime V has no TinyXML text child and must not be emitted. Prop remains lexical-only."
+  },
+  "endpoints": [
+    {
+      "registration_key": 33,
+      "route_literal": "MsLMVTcN",
+      "request_xor_key": 109,
+      "response_xor_key": 10,
+      "st": 8001,
+      "response_flags": 1,
+      "route_storage_xor_key": 103
+    },
+    {
+      "registration_key": 31,
+      "route_literal": "PeMDvjps",
+      "request_xor_key": 73,
+      "response_xor_key": 36,
+      "st": 3000,
+      "response_flags": 1,
+      "route_storage_xor_key": 109
+    },
+    {
+      "registration_key": 34,
+      "route_literal": "shxnpXtj",
+      "request_xor_key": 95,
+      "response_xor_key": 14,
+      "st": 3002,
+      "response_flags": 1,
+      "route_storage_xor_key": 81
+    },
+    {
+      "registration_key": 35,
+      "route_literal": "TPCta1SK",
+      "request_xor_key": 13,
+      "response_xor_key": 111,
+      "st": 3003,
+      "response_flags": 1,
+      "route_storage_xor_key": 98
+    },
+    {
+      "registration_key": 36,
+      "route_literal": "R5FHPbQb",
+      "request_xor_key": 68,
+      "response_xor_key": 42,
+      "st": 3004,
+      "response_flags": 1,
+      "route_storage_xor_key": 110
+    },
+    {
+      "registration_key": 38,
+      "route_literal": "VI6mmDS6",
+      "request_xor_key": 81,
+      "response_xor_key": 60,
+      "st": 3006,
+      "response_flags": 1,
+      "route_storage_xor_key": 109
+    },
+    {
+      "registration_key": 42,
+      "route_literal": "iVyITBEl",
+      "request_xor_key": 45,
+      "response_xor_key": 41,
+      "st": 3010,
+      "response_flags": 1,
+      "route_storage_xor_key": 4
+    },
+    {
+      "registration_key": 43,
+      "route_literal": "MjouRVaD",
+      "request_xor_key": 39,
+      "response_xor_key": 109,
+      "st": 3011,
+      "response_flags": 1,
+      "route_storage_xor_key": 74
+    },
+    {
+      "registration_key": 44,
+      "route_literal": "aZoVsGPh",
+      "request_xor_key": 95,
+      "response_xor_key": 12,
+      "st": 3012,
+      "response_flags": 1,
+      "route_storage_xor_key": 83
+    },
+    {
+      "registration_key": 51,
+      "route_literal": "QadJuuFZ",
+      "request_xor_key": 26,
+      "response_xor_key": 3,
+      "st": 3017,
+      "response_flags": 1,
+      "route_storage_xor_key": 25
+    },
+    {
+      "registration_key": 114,
+      "route_literal": "qX5kSDt2",
+      "request_xor_key": 84,
+      "response_xor_key": 58,
+      "st": 3013,
+      "response_flags": 1,
+      "route_storage_xor_key": 110
+    },
+    {
+      "registration_key": 129,
+      "route_literal": "kG4fPanh",
+      "request_xor_key": 94,
+      "response_xor_key": 19,
+      "st": 6,
+      "response_flags": 1,
+      "route_storage_xor_key": 77
+    },
+    {
+      "registration_key": 137,
+      "route_literal": "v9srnwq3",
+      "request_xor_key": 83,
+      "response_xor_key": 50,
+      "st": 3035,
+      "response_flags": 1,
+      "route_storage_xor_key": 97
+    }
+  ],
+  "lgi_fields": [
+    {
+      "position": 0,
+      "suggested_column": "A1",
+      "name": "IsPlayed",
+      "type": "I"
+    },
+    {
+      "position": 1,
+      "suggested_column": "A2",
+      "name": "DmmId",
+      "type": "I"
+    },
+    {
+      "position": 2,
+      "suggested_column": "A3",
+      "name": "IsSucceeded",
+      "type": "I"
+    },
+    {
+      "position": 3,
+      "suggested_column": "A4",
+      "name": "RankA",
+      "type": "I"
+    },
+    {
+      "position": 4,
+      "suggested_column": "A5",
+      "name": "RankB",
+      "type": "I"
+    },
+    {
+      "position": 5,
+      "suggested_column": "A6",
+      "name": "SuccessionUserId",
+      "type": "I"
+    },
+    {
+      "position": 6,
+      "suggested_column": "A7",
+      "name": "UserKey",
+      "type": "S"
+    },
+    {
+      "position": 7,
+      "suggested_column": "A8",
+      "name": "LastLoginA",
+      "type": "I"
+    },
+    {
+      "position": 8,
+      "suggested_column": "A9",
+      "name": "LastLoginB",
+      "type": "I"
+    },
+    {
+      "position": 9,
+      "suggested_column": "A10",
+      "name": "SuccessionUiid",
+      "type": "S"
+    },
+    {
+      "position": 10,
+      "suggested_column": "A11",
+      "name": "PlayLimitA",
+      "type": "I"
+    },
+    {
+      "position": 11,
+      "suggested_column": "A12",
+      "name": "PlayLimitB",
+      "type": "I"
+    },
+    {
+      "position": 12,
+      "suggested_column": "A13",
+      "name": "IsRemovedData",
+      "type": "I"
+    }
+  ],
+  "schemas": {
+    "GameParam.ard": {
+      "schema_path": "aigis_ps\\artifacts\\asset-bootstrap-final\\e40ca688408c955630204fc05323d60cf7d7896b2442fe08f599d4fdc9b4247c\\schema.json",
+      "record_size": 88,
+      "fields": [
+        {
+          "name": "Money",
+          "alias": "お金",
+          "offset": 0,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A1",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "Experience",
+          "alias": "経験値",
+          "offset": 4,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A2",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "Rank",
+          "alias": "ランク",
+          "offset": 8,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A3",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "NowCharisma",
+          "alias": "カリスマ",
+          "offset": 12,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A4",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "NowActionPoint",
+          "alias": "現在スタミナ",
+          "offset": 16,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A5",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "CharismaChangeDate",
+          "alias": "カリスマ変化日",
+          "offset": 20,
+          "type_code": 7,
+          "flags": 8,
+          "type_name": "date_raw",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A6",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "CharismaChangeTime",
+          "alias": "カリスマ変化時間",
+          "offset": 24,
+          "type_code": 8,
+          "flags": 8,
+          "type_name": "time_raw",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A7",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "ActionPointChangeDate",
+          "alias": "スタミナ変化日",
+          "offset": 28,
+          "type_code": 7,
+          "flags": 8,
+          "type_name": "date_raw",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A8",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "ActionPointChangeTime",
+          "alias": "スタミナ変化時間",
+          "offset": 32,
+          "type_code": 8,
+          "flags": 8,
+          "type_name": "time_raw",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A9",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "GiftItem1",
+          "alias": "贈り物花束",
+          "offset": 36,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AA",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "GiftItem2",
+          "alias": "贈り物水晶",
+          "offset": 40,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AB",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "GiftItem3",
+          "alias": "贈り物ルビー",
+          "offset": 44,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AC",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "GiftItem4",
+          "alias": "贈り物ダイヤ",
+          "offset": 48,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AD",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "RedCrystal",
+          "alias": "赤魔水晶",
+          "offset": 52,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AE",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "EventParam",
+          "alias": "イベント用変数",
+          "offset": 56,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AF",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "GiftItem5",
+          "alias": "贈り物5",
+          "offset": 60,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AG",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "GiftItem6",
+          "alias": "贈り物6",
+          "offset": 64,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AH",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "_PointSystem",
+          "alias": "ポイントシステム用",
+          "offset": 68,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AI",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "ExtendedMaxCharisma",
+          "alias": "カリスマ最大値の増加分",
+          "offset": 72,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "ExtendedMaxCharisma",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "ExtendedMaxStamina",
+          "alias": "スタミナ最大値の増加分",
+          "offset": 76,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "ExtendedMaxStamina",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "ExtendedMaxCharismaNextMonth",
+          "alias": "翌月のカリスマ最大値の増加分",
+          "offset": 80,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "ExtendedMaxCharismaNextMonth",
+          "alias_evidence": "0x00656940"
+        },
+        {
+          "name": "ExtendedMaxStaminaNextMonth",
+          "alias": "翌月のスタミナ最大値の増加分",
+          "offset": 84,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "ExtendedMaxStaminaNextMonth",
+          "alias_evidence": "0x00656940"
+        }
+      ],
+      "additional_native_aliases": {}
+    },
+    "GameParam2.ard": {
+      "schema_path": "aigis_ps\\artifacts\\asset-bootstrap-final\\b1ef8c6979b1ff1b9bf0bcebe46957982c2aec39d7f1a834461759c14ef8865a\\schema.json",
+      "record_size": 1152,
+      "fields": [
+        {
+          "name": "LookHarlemFlag00",
+          "alias": "ハーレム閲覧フラグ00",
+          "offset": 0,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A1",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LookHarlemFlag01",
+          "alias": "ハーレム閲覧フラグ01",
+          "offset": 4,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A2",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LookHarlemFlag10",
+          "alias": "ハーレム閲覧フラグ10",
+          "offset": 8,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A3",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LookHarlemFlag11",
+          "alias": "ハーレム閲覧フラグ11",
+          "offset": 12,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A4",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LastLoginDate",
+          "alias": "最終ログイン日",
+          "offset": 16,
+          "type_code": 7,
+          "flags": 8,
+          "type_name": "date_raw",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A5",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LogInStampCount",
+          "alias": "現在のログインスタンプ",
+          "offset": 20,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A6",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "NormalGachaFree",
+          "alias": "ノーマルガチャ無料フラグ",
+          "offset": 24,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A7",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "MaintenanceCheckDateTime",
+          "alias": "メンテナンスのチェック日時",
+          "offset": 28,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A8",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LookHarlemFlag02",
+          "alias": "ハーレム閲覧フラグ02",
+          "offset": 32,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A9",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LookHarlemFlag12",
+          "alias": "ハーレム閲覧フラグ12",
+          "offset": 36,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AA",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LookHarlemFlag03",
+          "alias": "ハーレム閲覧フラグ03",
+          "offset": 40,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AB",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LookHarlemFlag13",
+          "alias": "ハーレム閲覧フラグ13",
+          "offset": 44,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AC",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "WatchEventFlag0",
+          "alias": "イベント視聴フラグ0",
+          "offset": 48,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 256,
+          "parameters": "00010000",
+          "wire_alias": "AD",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "WatchEventFlag1",
+          "alias": "イベント視聴フラグ1",
+          "offset": 304,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 256,
+          "parameters": "00010000",
+          "wire_alias": "AE",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "WatchEventFlag0_2",
+          "alias": "イベント視聴フラグ0_2",
+          "offset": 560,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 256,
+          "parameters": "00010000",
+          "wire_alias": "AF",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "WatchEventFlag1_2",
+          "alias": "イベント視聴フラグ1_2",
+          "offset": 816,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 256,
+          "parameters": "00010000",
+          "wire_alias": "B1",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "StampCardGrade",
+          "alias": "グレード",
+          "offset": 1072,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "C1",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "_EvCmb",
+          "alias": "イベント閲覧コンバートフラグ",
+          "offset": 1076,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "C7",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "GloryPoint",
+          "alias": "名声ポイント",
+          "offset": 1080,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "C8",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "HomeCookingReceivedAmount",
+          "alias": "手料理受取数",
+          "offset": 1084,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "CC",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "HomeCookingReceivedDate",
+          "alias": "手料理受取日",
+          "offset": 1088,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "CD",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "BonusPremiumSummonCount",
+          "alias": "無料プレミアム召喚回数",
+          "offset": 1092,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "CA",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "BonusPremiumSummonDate",
+          "alias": "無料プレミアム召喚日",
+          "offset": 1096,
+          "type_code": 7,
+          "flags": 8,
+          "type_name": "date_raw",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "CB",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "GameStartDateTime",
+          "alias": "ゲーム開始日時",
+          "offset": 1104,
+          "type_code": 9,
+          "flags": 8,
+          "type_name": "datetime_raw",
+          "size": 8,
+          "parameters": "0000000000000000",
+          "wire_alias": null,
+          "alias_evidence": null
+        },
+        {
+          "name": "ComebackLoginDateTime",
+          "alias": "カムバック日時",
+          "offset": 1112,
+          "type_code": 9,
+          "flags": 8,
+          "type_name": "datetime_raw",
+          "size": 8,
+          "parameters": "0000000000000000",
+          "wire_alias": "ComebackLoginDateTime",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LatestComebackLoginBonusDateTime",
+          "alias": "カムバックログボ日時",
+          "offset": 1120,
+          "type_code": 9,
+          "flags": 8,
+          "type_name": "datetime_raw",
+          "size": 8,
+          "parameters": "0000000000000000",
+          "wire_alias": "D0",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LatestComebackLoginBonusDays",
+          "alias": "カムバックログボ日数",
+          "offset": 1128,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "D1",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LatestComebackSummonBonusDateTime",
+          "alias": "カムバック召喚日時",
+          "offset": 1136,
+          "type_code": 9,
+          "flags": 8,
+          "type_name": "datetime_raw",
+          "size": 8,
+          "parameters": "0000000000000000",
+          "wire_alias": "E0",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "LatestComebackSummonBonusDays",
+          "alias": "カムバック召喚日数",
+          "offset": 1144,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "E1",
+          "alias_evidence": "0x00657480"
+        },
+        {
+          "name": "GoddessRevivalTotalStarCount",
+          "alias": "女神の復活クエストの獲得☆合計",
+          "offset": 1148,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": null,
+          "alias_evidence": null
+        }
+      ],
+      "additional_native_aliases": {}
+    },
+    "Config.ard": {
+      "schema_path": "aigis_ps\\artifacts\\asset-bootstrap-final\\a0cbacab2c045af439155e09a26f7d2a5c007e5fe93a7375ed0703445a1e3385\\schema.json",
+      "record_size": 832,
+      "fields": [
+        {
+          "name": "UserName",
+          "alias": "プレイヤー名",
+          "offset": 0,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 40,
+          "parameters": "28000000",
+          "wire_alias": "A1",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "UseBgm",
+          "alias": "曲再生",
+          "offset": 40,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff",
+          "wire_alias": "A2",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "UseSe",
+          "alias": "効果音再生",
+          "offset": 41,
+          "type_code": 5,
+          "flags": 1,
+          "type_name": "bool",
+          "size": 1,
+          "parameters": "ff",
+          "wire_alias": "A3",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "MenuTutorialFlags",
+          "alias": "メニューチュートリアルフラグ",
+          "offset": 44,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A4",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "HaveUnitMaxSizeBuy",
+          "alias": "所持ユニット枠購入回数",
+          "offset": 48,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "A5",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "ExperienceUpCloseDateTime",
+          "alias": "経験値アップ完了日時",
+          "offset": 56,
+          "type_code": 9,
+          "flags": 8,
+          "type_name": "datetime_raw",
+          "size": 8,
+          "parameters": "0000000000000000",
+          "wire_alias": "A6",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "MoneyUpCloseDateTime",
+          "alias": "お金アップ完了日時",
+          "offset": 64,
+          "type_code": 9,
+          "flags": 8,
+          "type_name": "datetime_raw",
+          "size": 8,
+          "parameters": "0000000000000000",
+          "wire_alias": "A7",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "CostUpCloseDateTime",
+          "alias": "出撃コストアップ完了日時",
+          "offset": 72,
+          "type_code": 9,
+          "flags": 8,
+          "type_name": "datetime_raw",
+          "size": 8,
+          "parameters": "0000000000000000",
+          "wire_alias": "A8",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "SpecialEffectsFlags",
+          "alias": "特殊効果フラグ",
+          "offset": 80,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AA",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "SpecialEffectsFlags2",
+          "alias": "特殊効果フラグ2",
+          "offset": 84,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AB",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "MissionRewardFlags2",
+          "alias": "ミッション報酬フラグ2",
+          "offset": 88,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AD",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "PurposeSettingFlags",
+          "alias": "汎用セッティングフラグ",
+          "offset": 92,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "AE",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "_BlsDT_DamageCut",
+          "alias": "ダメージ減少",
+          "offset": 96,
+          "type_code": 9,
+          "flags": 8,
+          "type_name": "datetime_raw",
+          "size": 8,
+          "parameters": "0000000000000000",
+          "wire_alias": "B1",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "_BlsDT_BoostAtk_F",
+          "alias": "前衛攻撃アップ",
+          "offset": 104,
+          "type_code": 9,
+          "flags": 8,
+          "type_name": "datetime_raw",
+          "size": 8,
+          "parameters": "0000000000000000",
+          "wire_alias": "B2",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "_BlsDT_BoostAtk_R",
+          "alias": "後衛攻撃アップ",
+          "offset": 112,
+          "type_code": 9,
+          "flags": 8,
+          "type_name": "datetime_raw",
+          "size": 8,
+          "parameters": "0000000000000000",
+          "wire_alias": "B3",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "_GuideUnitIndex",
+          "alias": "ガイドユニット",
+          "offset": 120,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "C1",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "_VolumeBgm",
+          "alias": "VolumeBgm",
+          "offset": 124,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "C2",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "_VolumeSe",
+          "alias": "VolumeSe",
+          "offset": 128,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "C3",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "_FlagSort",
+          "alias": "ソートデータ",
+          "offset": 132,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 128,
+          "parameters": "80000000",
+          "wire_alias": "F1",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "_FlagFilter",
+          "alias": "フィルタデータ",
+          "offset": 260,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 128,
+          "parameters": "80000000",
+          "wire_alias": "F2",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "_FlagMissionFilter",
+          "alias": "ミッションフィルタ",
+          "offset": 388,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 32,
+          "parameters": "20000000",
+          "wire_alias": "F4",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "TypeOfSortOrder",
+          "alias": "ソート昇降種別",
+          "offset": 420,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 128,
+          "parameters": "80000000",
+          "wire_alias": "F5",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "AutoSelectConfig",
+          "alias": "自動選択設定",
+          "offset": 548,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "F6",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "DamageDispEnable",
+          "alias": "ダメージ表示有効",
+          "offset": 552,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "F7",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "EventViewRequest",
+          "alias": "イベントの閲覧リクエスト",
+          "offset": 556,
+          "type_code": 33,
+          "flags": 4,
+          "type_name": "fixed_string",
+          "size": 256,
+          "parameters": "00010000",
+          "wire_alias": "F8",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "BattlePlaceMagnetFlag",
+          "alias": "配置マグネット機能フラグ",
+          "offset": 812,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "F9",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "BattleAcceleratorFlag",
+          "alias": "加速ボタン挙動フラグ",
+          "offset": 816,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "FA",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "IntegrationAutoSelectConfig",
+          "alias": "合成継承自動選択設定",
+          "offset": 820,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "FB",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "BattleDClickSkillDisableFlag",
+          "alias": "ダブルクリックでスキル発動フラグ",
+          "offset": 824,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "FD",
+          "alias_evidence": "0x006582b0"
+        },
+        {
+          "name": "_BattleGodBlessFilter",
+          "alias": "戦神の加護フィルター",
+          "offset": 828,
+          "type_code": 1,
+          "flags": 8,
+          "type_name": "int32",
+          "size": 4,
+          "parameters": "0000000000000000",
+          "wire_alias": "FE",
+          "alias_evidence": "0x006582b0"
+        }
+      ],
+      "additional_native_aliases": {
+        "UserTitleIndex": "A9",
+        "UnitMaxSizeByRank": "AC"
+      }
+    }
+  },
+  "unclosed": [
+    "Native client login and home UI transitions still require runtime verification",
+    "Nonempty 137 collection content and state transitions are not fully implemented",
+    "Nonempty 129 possession content and official starter rewards are not implemented",
+    "Complete gameplay and official account policies are outside this startup implementation"
+  ],
+  "startup_extensions": {
+    "implemented_registration_keys": [
+      31,
+      33,
+      34,
+      35,
+      36,
+      38,
+      42,
+      43,
+      44,
+      51,
+      114,
+      129,
+      137
+    ],
+    "additional_direct_handlers": [
+      "heartbeat",
+      "game_info",
+      "quest_record"
+    ],
+    "direct_contracts": "direct-response-contracts.json",
+    "consumer_evidence": "aigis_research/ida/aigis-r-babe8210/startup-consumers/findings.md",
+    "source_path_base": "workspace",
+    "collection_policy": "Only persisted empty collections; unsupported nonempty records fail explicitly",
+    "quest_policy": "Uncompleted rows for validated QuestTable IDs; preserve existing progress",
+    "datetime_zero": "Numeric text 0; empty V is not valid for the native datetime reader"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "campaign_ids": null,
+  "revivals": {
+    "55": {
+      "start_date": "2026-11-01",
+      "end_date": "2026-12-01"
+    }
+  }
+}

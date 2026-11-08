@@ -1,0 +1,1304 @@
+{
+  "cases": {
+    "deposit": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU><RML><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></RML><PSH><CardID T=\"I\"><V>2</V></CardID><Count T=\"I\"><V>1</V></Count></PSH></DA>",
+        "revisions": 0,
+        "save": {
+          "battle": {
+            "RTN": 64,
+            "TN": 0,
+            "UX": 1,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 2,
+          "ledgers": {
+            "gift_state": "37ababfde0ca01ee55e272e326227f7ddc8a8d8af4a5d67f096feab92d996480"
+          },
+          "silver_house": [
+            {
+              "CardID": 2,
+              "Count": 1
+            }
+          ],
+          "silver_house_schema": 1,
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 9900,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU><RML><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></RML><PSH><CardID T=\"I\"><V>2</V></CardID><Count T=\"I\"><V>1</V></Count></PSH></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 2,
+        "ledgers": {
+          "gift_state": "37ababfde0ca01ee55e272e326227f7ddc8a8d8af4a5d67f096feab92d996480"
+        },
+        "silver_house": [
+          {
+            "CardID": 2,
+            "Count": 1
+          }
+        ],
+        "silver_house_schema": 1,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_adds_to_stock": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU><RML><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></RML><PSH><CardID T=\"I\"><V>2</V></CardID><Count T=\"I\"><V>4</V></Count></PSH></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 2,
+        "ledgers": {
+          "gift_state": "37ababfde0ca01ee55e272e326227f7ddc8a8d8af4a5d67f096feab92d996480"
+        },
+        "silver_house": [
+          {
+            "CardID": 2,
+            "Count": 4
+          }
+        ],
+        "silver_house_schema": 1,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_below_reward_level": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"></A1><A2 T=\"I\"></A2><A3 T=\"I\"></A3><A4 T=\"I\"></A4><A5 T=\"I\"></A5><A6 T=\"I\"></A6><A7 T=\"I\"></A7><A8 T=\"I\"></A8><A9 T=\"I\"></A9><AA T=\"I\"></AA><AB T=\"I\"></AB><AC T=\"I\"></AC><AD T=\"I\"></AD><AE T=\"I\"></AE><AF T=\"I\"></AF><B0 T=\"I\"></B0><B1 T=\"I\"></B1><B2 T=\"I\"></B2><B3 T=\"I\"></B3><B4 T=\"B\"></B4><B5 T=\"B\"></B5></PPU><RML><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></RML><PSH><CardID T=\"I\"><V>8</V></CardID><Count T=\"I\"><V>1</V></Count></PSH></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 2,
+        "ledgers": {
+          "gift_state": "37ababfde0ca01ee55e272e326227f7ddc8a8d8af4a5d67f096feab92d996480"
+        },
+        "silver_house": [
+          {
+            "CardID": 8,
+            "Count": 1
+          }
+        ],
+        "silver_house_schema": 1,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_evolved": {
+      "error": {
+        "code": "silver_house_unit_ineligible",
+        "message": "Silver deposit requires an unevolved ordinary unit of rarity zero through three",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 2,
+        "ledgers": {},
+        "silver_house": null,
+        "silver_house_schema": null,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 2,
+            "ClassChangeCount": 1,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10001,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_full": {
+      "error": {
+        "code": "silver_house_quantity",
+        "message": "Silver stock is insufficient or this deposit would exceed capacity",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 2,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 3,
+        "ledgers": {},
+        "silver_house": [
+          {
+            "CardID": 8,
+            "Count": 199
+          }
+        ],
+        "silver_house_schema": 1,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 8,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 100,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 4000,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 2,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 8,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 100,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 4000,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 2,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 2,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 3,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_locked": {
+      "error": {
+        "code": "silver_house_unit_protected",
+        "message": "Prince, locked and organized units cannot be deposited",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 2,
+        "ledgers": {},
+        "silver_house": null,
+        "silver_house_schema": null,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 2,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10001,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 3,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_organized": {
+      "error": {
+        "code": "silver_house_unit_protected",
+        "message": "Prince, locked and organized units cannot be deposited",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 2,
+        "ledgers": {},
+        "silver_house": null,
+        "silver_house_schema": null,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 2,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10001,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_repeated": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Silver deposit requires parallel distinct positive identities",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 2,
+        "ledgers": {},
+        "silver_house": null,
+        "silver_house_schema": null,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 2,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10001,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_reward": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>2</V></A2></PBP><PPU><A1 T=\"I\"><V>460</V></A1><A2 T=\"I\"><V>17</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>2</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>3</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>0</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU><RML><A7 T=\"I\"><V>1</V></A7><AB T=\"I\"><V>2</V></AB></RML><PSH><CardID T=\"I\"><V>8</V></CardID><Count T=\"I\"><V>1</V></Count></PSH></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 2,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 3,
+        "ledgers": {
+          "gift_state": "37ababfde0ca01ee55e272e326227f7ddc8a8d8af4a5d67f096feab92d996480"
+        },
+        "silver_house": [
+          {
+            "CardID": 8,
+            "Count": 1
+          }
+        ],
+        "silver_house_schema": 1,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 460,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 17,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 2,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 3,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_two_rewards": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>4</V></A2></PBP><PPU><A1 T=\"I\"><V>660</V><V>660</V></A1><A2 T=\"I\"><V>17</V><V>17</V></A2><A3 T=\"I\"><V>0</V><V>0</V></A3><A4 T=\"I\"><V>0</V><V>0</V></A4><A5 T=\"I\"><V>0</V><V>0</V></A5><A6 T=\"I\"><V>1</V><V>1</V></A6><A7 T=\"I\"><V>3</V><V>4</V></A7><A8 T=\"I\"><V>-1</V><V>-1</V></A8><A9 T=\"I\"><V>0</V><V>0</V></A9><AA T=\"I\"><V>0</V><V>0</V></AA><AB T=\"I\"><V>4</V><V>5</V></AB><AC T=\"I\"><V>0</V><V>0</V></AC><AD T=\"I\"><V>0</V><V>0</V></AD><AE T=\"I\"><V>1</V><V>1</V></AE><AF T=\"I\"><V>0</V><V>0</V></AF><B0 T=\"I\"><V>0</V><V>0</V></B0><B1 T=\"I\"><V>0</V><V>0</V></B1><B2 T=\"I\"><V>0</V><V>0</V></B2><B3 T=\"I\"><V>0</V><V>0</V></B3><B4 T=\"B\"><V>false</V><V>false</V></B4><B5 T=\"B\"><V>false</V><V>false</V></B5></PPU><RML><A7 T=\"I\"><V>1</V><V>2</V></A7><AB T=\"I\"><V>2</V><V>3</V></AB></RML><PSH><CardID T=\"I\"><V>7</V></CardID><Count T=\"I\"><V>2</V></Count></PSH></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 4,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 5,
+        "ledgers": {
+          "gift_state": "37ababfde0ca01ee55e272e326227f7ddc8a8d8af4a5d67f096feab92d996480"
+        },
+        "silver_house": [
+          {
+            "CardID": 7,
+            "Count": 2
+          }
+        ],
+        "silver_house_schema": 1,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 660,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 17,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 3,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 4,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 660,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 17,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 4,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 5,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_unowned": {
+      "error": {
+        "code": "silver_house_unit_missing",
+        "message": "Silver deposit identity does not match an owned unit",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 2,
+        "ledgers": {},
+        "silver_house": null,
+        "silver_house_schema": null,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 2,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10001,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "deposit_unowned_before_locked": {
+      "error": {
+        "code": "silver_house_unit_missing",
+        "message": "Silver deposit identity does not match an owned unit",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 2,
+        "ledgers": {},
+        "silver_house": null,
+        "silver_house_schema": null,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 2,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10001,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 3,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "load_empty": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PSH><CardID T=\"I\"></CardID><Count T=\"I\"></Count></PSH></DA>",
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": null,
+        "ledgers": {},
+        "silver_house": null,
+        "silver_house_schema": null,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "load_stock": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PSH><CardID T=\"I\"><V>2</V></CardID><Count T=\"I\"><V>12</V></Count></PSH></DA>",
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": null,
+        "ledgers": {},
+        "silver_house": [
+          {
+            "CardID": 2,
+            "Count": 12
+          }
+        ],
+        "silver_house_schema": 1,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw": {
+      "replay": {
+        "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>1</V></A2></PBP><PPU><A1 T=\"I\"><V>2</V></A1><A2 T=\"I\"><V>10001</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>0</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU><PSH><CardID T=\"I\"><V>2</V></CardID><Count T=\"I\"><V>1</V></Count></PSH></DA>",
+        "revisions": 0,
+        "save": {
+          "battle": {
+            "RTN": 64,
+            "TN": 0,
+            "UX": 1,
+            "VN": "1.0.1"
+          },
+          "last_unique_id": 2,
+          "ledgers": {},
+          "silver_house": [
+            {
+              "CardID": 2,
+              "Count": 1
+            }
+          ],
+          "silver_house_schema": 1,
+          "units": [
+            {
+              "CanFame": false,
+              "CardID": 1,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 9900,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 0,
+              "GetIndex": 0,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 59,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 1,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            },
+            {
+              "CanFame": false,
+              "CardID": 2,
+              "ClassChangeCount": 0,
+              "ClassChangeStatusMod": 0,
+              "ClassID": 10001,
+              "CostExperience": 0,
+              "CostModMixValue": 0,
+              "Exp": 0,
+              "Famed": false,
+              "GeneralPurposeFlags": 1,
+              "GetIndex": 1,
+              "Love": 0,
+              "OrganizationIndex": -1,
+              "OrganizationIndex2": 0,
+              "SettingSkillID": 0,
+              "SkillEvolved": 0,
+              "SkillExperience": 0,
+              "SkillLevel": 1,
+              "UniqueID": 2,
+              "WatchLoveEv": 0,
+              "_DisplayType": 0
+            }
+          ]
+        }
+      },
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>1</V></A2></PBP><PPU><A1 T=\"I\"><V>2</V></A1><A2 T=\"I\"><V>10001</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>0</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU><PSH><CardID T=\"I\"><V>2</V></CardID><Count T=\"I\"><V>1</V></Count></PSH></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 2,
+        "ledgers": {},
+        "silver_house": [
+          {
+            "CardID": 2,
+            "Count": 1
+          }
+        ],
+        "silver_house_schema": 1,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 2,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10001,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_default_card": {
+      "error": {
+        "code": "invalid_request_fields",
+        "message": "Silver withdrawal requires a known non-default card",
+        "status": 400
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": null,
+        "ledgers": {},
+        "silver_house": [
+          {
+            "CardID": 2,
+            "Count": 1
+          }
+        ],
+        "silver_house_schema": 1,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_empty": {
+      "error": {
+        "code": "silver_house_quantity",
+        "message": "Silver stock is insufficient or this deposit would exceed capacity",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": null,
+        "ledgers": {},
+        "silver_house": null,
+        "silver_house_schema": null,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_last": {
+      "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PBP><A1 T=\"S\"><V>UX</V></A1><A2 T=\"I\"><V>1</V></A2></PBP><PPU><A1 T=\"I\"><V>2</V></A1><A2 T=\"I\"><V>10001</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>0</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU><PSH><CardID T=\"I\"><V>2</V></CardID><Count T=\"I\"><V>0</V></Count></PSH></DA>",
+      "revisions": 1,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 1,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": 2,
+        "ledgers": {},
+        "silver_house": [
+          {
+            "CardID": 2,
+            "Count": 0
+          }
+        ],
+        "silver_house_schema": 1,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          },
+          {
+            "CanFame": false,
+            "CardID": 2,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10001,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 0,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    },
+    "withdraw_roster_full": {
+      "error": {
+        "code": "unit_roster_capacity",
+        "message": "Unit grant exceeds the available barracks capacity",
+        "status": 409
+      },
+      "revisions": 0,
+      "save": {
+        "battle": {
+          "RTN": 64,
+          "TN": 0,
+          "UX": 0,
+          "VN": "1.0.1"
+        },
+        "last_unique_id": null,
+        "ledgers": {},
+        "silver_house": [
+          {
+            "CardID": 2,
+            "Count": 1
+          }
+        ],
+        "silver_house_schema": 1,
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 1,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 9900,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 0,
+            "GetIndex": 0,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 59,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 1,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      }
+    }
+  }
+}

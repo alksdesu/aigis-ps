@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aigis-local-server"
+version = "0.1.0"
+description = "Local protocol and resource service for the Aigis R PC client"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.30,<1",
+  "cramjam>=2.9,<3",
+  "lz4>=4.4,<5",
+  "defusedxml>=0.7,<1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9", "httpx>=0.27,<1"]
+capture = ["frida>=17,<18"]
+desktop = ["pywebview>=6,<7", "httpx>=0.27,<1"]
+
+[project.scripts]
+aigis-local = "aigis_ps.cli:main"
+aigis-console = "aigis_ps.desktop:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+aigis_ps = ["data/*.json", "admin_ui/*.html", "admin_ui/*.js", "admin_ui/*.css", "admin_ui/pages/*.js"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

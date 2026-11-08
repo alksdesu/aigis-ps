@@ -1,0 +1,4 @@
+{
+  "kills_policy": "clamp",
+  "boost_policy": "total_only"
+}

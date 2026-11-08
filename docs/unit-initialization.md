@@ -1,0 +1,21 @@
+# 统一默认发卡初始化
+
+`NativeUnitInitializer`冻结角色、职业、经验、稀有度与PlayerBloodType的相关字段，计算新单位的ClassID、ClassChangeCount、SettingSkillID和Exp。它独立于合成、商店或邮件服务。`PlayerStateService.initial_unit_values`提供同源预览，`experience_for_level`读取其经验，`credit_units`分配新GetIndex/UniqueID并统一使用该结果。
+
+默认阶段依据原CardID的Blood或ExcludeFameDisplayFirstClass低字节。英杰类型从血统资源解析；命中时要求至少阶段2，仍须初始职业JobChange非0且稀有度EvolutionConfig允许。当前112种候选中8种因JobChange为0保持阶段0，实际104种默认阶段2。请求阶段目前允许0和2；阶段0仍应用角色本身的强制规则，不表示强行取消觉醒。
+
+未技觉发卡保留ClassLV0SkillID，不能根据阶段2改用ClassLV1SkillID。等级0按1处理，先以最终职业和稀有度的对应阶段上限截断，再按累计经验表及逐步float32舍入换算经验。技能等级1、好感0等既有新卡字段保持。Prince1/309需要账号等级等专用逻辑，不进入普通发卡；现有启动Prince1专用路径不变。
+
+Card80请求阶段2时按原生顺序处理：4CA400把它的阶段1职业硬编码为710，4CB1F0检查710的JobChange与稀有度EvolutionConfig，4CE0C0再取同一职业的JobChange，结果是Class730/CC2。技能仍为ClassLV0SkillID（当前47），经验按Class730的MaxLevel与LevelCap02截断后换算，与Card99阶段2的经验一致。不会发成Class710，也不换成Card99；113成长商品的Card80→99是另一条原生转换。710缺失时明确失败；710的JobChange为0或稀有度不允许觉醒时，与普通卡一样保持阶段0。当前资源没有邮件、卡池、商店或签到条目请求Card80阶段2。初始化内容指纹不变，因为此前已接受的输入结果没有任何变化，旧回执照原样重放。该结论来自静态反编译，未经实机发卡验证。
+
+内部发卡参数保持原`card_id/level/count`形式，可选增加`evolution_count`指定已经验证的初始阶段。该字段不是新的存档列。`TradeUnitGrants(players)`仅校验商品元数据、业务兵营空位并调用此入口，不再维护另一套初始化公式。一般发卡仍由外层业务控制可用兵营空间，内部继续保护4096名册、身份范围、完整41编码及进行中战斗的奖励预留。
+
+初始化器使用完整内容指纹。PlayerState在源主表、经验/稀有度、职业相关字段或血统资源变化时重建对应缓存，缓存键取自本次构建实际读取的同一份CardData与成长表记录，构建期间另一请求切换主表或成长表时，旧结果不会记到新指纹下；商店适配器绑定实际使用的初始化版本，旧适配器遇到源变化会拒绝新交易，等待重建。原生读取与空发卡不要求新的发卡依赖可用，缺资源时不能默认为普通未觉醒卡。
+
+此次只修新发卡，不修改已拥有角色、不重发奖励。邮件旧成功回执仍在相同修订版返回原bytes，哪怕其中是旧阶段0角色；新领取另一封邮件才生成正确阶段2的新实例。默认阶段2也不会被二觉奖励台账当作已领取，只有既有阶段3/4或明确历史按原规则建立基线。
+
+当前96种受影响邮件模板已通过一次完整批量领取、21字段回包、重开读取和重复请求验证；1536个普通商店单位商品的117/1419阶段分布不变。当前圣灵54卡、银仓642资格卡/返还卡与主线95种奖励卡均不命中强制阶段，旧战斗结算和双仓库发卡结果保持。覆盖摘要位于`artifacts/default-unit-initialization-coverage.json`。
+
+仅运行相关定向验证：独立初始化63项、基础发卡/成长49项、邮件93项、补充边界8项、商店与双仓库联动22项、旧战斗和预留5项、商店适配器34项。没有启动游戏或服务，没有运行项目全量测试。原生界面仍等待用户恢复实机验证。
+
+原生证据：`aigis_research/permanent-20261101/default-unit-initialization-contract.md`、`default-grants-consumers.md`、`shop-grants-contract.md`。

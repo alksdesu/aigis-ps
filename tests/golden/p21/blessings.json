@@ -1,0 +1,1705 @@
+{
+  "base_state": {
+    "bootstrap_schema": 1,
+    "created_local": "2026/11/03 11:00:00",
+    "crystal_spending": {
+      "baseline_source": "new_local",
+      "current_spent": 0,
+      "last_time": 1793674800000,
+      "period": "2026-11",
+      "previous_spent": 0,
+      "schema_version": 1
+    },
+    "energy_clock": {
+      "encoding": "native_day_fraction_f32_seconds_v1",
+      "origin": "new_local",
+      "schema_version": 1,
+      "utc_offset_minutes": 540
+    },
+    "login_cooking": {
+      "baseline_source": "new_local",
+      "border": 250,
+      "issued": 0,
+      "last_civil_day": null,
+      "last_claim_day": null,
+      "last_time": 1793674800000,
+      "period": "2026-11",
+      "quota": 0,
+      "schema_version": 1
+    },
+    "login_rewards": {
+      "baseline_source": "new_local",
+      "beginner_claimed": 0,
+      "beginner_eligible": true,
+      "beginner_total": 7,
+      "last_claim_day": null,
+      "last_time": 1793674800000,
+      "schema_version": 1,
+      "stamp_count": 0,
+      "stamp_month": null
+    },
+    "player_state": {
+      "battle": {
+        "RTN": 64,
+        "TN": 0,
+        "UX": 0,
+        "VN": "1.0.1"
+      },
+      "legacy_squad_imported": false,
+      "schema_version": 1,
+      "squads": [],
+      "units": [
+        {
+          "CanFame": false,
+          "CardID": 1,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 9900,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 0,
+          "GetIndex": 0,
+          "Love": 0,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 59,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 1,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        }
+      ]
+    },
+    "rank_rewards": {
+      "baseline_rank": 0,
+      "entries": {},
+      "observed_rank": 0,
+      "schema_version": 1
+    },
+    "startup_collections_schema": 1,
+    "tables": {
+      "backgrounds": [],
+      "card_status": [],
+      "config": [
+        {
+          "AutoSelectConfig": 0,
+          "BattleAcceleratorFlag": 0,
+          "BattleDClickSkillDisableFlag": 0,
+          "BattlePlaceMagnetFlag": 0,
+          "CostUpCloseDateTime": "",
+          "DamageDispEnable": 0,
+          "EventViewRequest": "",
+          "ExperienceUpCloseDateTime": "",
+          "HaveUnitMaxSizeBuy": 0,
+          "IntegrationAutoSelectConfig": 0,
+          "MenuTutorialFlags": 0,
+          "MissionRewardFlags2": 0,
+          "MoneyUpCloseDateTime": "",
+          "PurposeSettingFlags": 0,
+          "SpecialEffectsFlags": 0,
+          "SpecialEffectsFlags2": 0,
+          "TypeOfSortOrder": "",
+          "UseBgm": true,
+          "UseSe": true,
+          "UserName": "Local Player",
+          "_BattleGodBlessFilter": 0,
+          "_BlsDT_BoostAtk_F": "",
+          "_BlsDT_BoostAtk_R": "",
+          "_BlsDT_DamageCut": "",
+          "_FlagFilter": "",
+          "_FlagMissionFilter": "",
+          "_FlagSort": "",
+          "_GuideUnitIndex": 0,
+          "_VolumeBgm": 0,
+          "_VolumeSe": 0
+        }
+      ],
+      "crystals": [],
+      "event_pass_status": [],
+      "exchange_history": [],
+      "fame_depository": [],
+      "filter_settings": [],
+      "game_param": [
+        {
+          "ActionPointChangeDate": 739922,
+          "ActionPointChangeTime": 0.5,
+          "CharismaChangeDate": 739922,
+          "CharismaChangeTime": 0.5,
+          "EventParam": 0,
+          "Experience": 0,
+          "ExtendedMaxCharisma": 0,
+          "ExtendedMaxCharismaNextMonth": 0,
+          "ExtendedMaxStamina": 0,
+          "ExtendedMaxStaminaNextMonth": 0,
+          "GiftItem1": 0,
+          "GiftItem2": 0,
+          "GiftItem3": 0,
+          "GiftItem4": 0,
+          "GiftItem5": 0,
+          "GiftItem6": 0,
+          "Money": 1000,
+          "NowActionPoint": 0,
+          "NowCharisma": 60,
+          "Rank": 1,
+          "RedCrystal": 0,
+          "_PointSystem": 0
+        }
+      ],
+      "game_param2": [
+        {
+          "BonusPremiumSummonCount": 0,
+          "BonusPremiumSummonDate": 0,
+          "ComebackLoginDateTime": "",
+          "GameStartDateTime": "2026/11/03 11:00:00",
+          "GloryPoint": 0,
+          "GoddessRevivalTotalStarCount": 0,
+          "HomeCookingReceivedAmount": 0,
+          "HomeCookingReceivedDate": 0,
+          "LastLoginDate": 0,
+          "LatestComebackLoginBonusDateTime": "",
+          "LatestComebackLoginBonusDays": 0,
+          "LatestComebackSummonBonusDateTime": "",
+          "LatestComebackSummonBonusDays": 0,
+          "LogInStampCount": 0,
+          "LookHarlemFlag00": 0,
+          "LookHarlemFlag01": 0,
+          "LookHarlemFlag02": 0,
+          "LookHarlemFlag03": 0,
+          "LookHarlemFlag10": 0,
+          "LookHarlemFlag11": 0,
+          "LookHarlemFlag12": 0,
+          "LookHarlemFlag13": 0,
+          "MaintenanceCheckDateTime": 0,
+          "NormalGachaFree": 0,
+          "StampCardGrade": 0,
+          "WatchEventFlag0": "",
+          "WatchEventFlag0_2": "",
+          "WatchEventFlag1": "",
+          "WatchEventFlag1_2": "",
+          "_EvCmb": 1
+        }
+      ],
+      "menu_blocks": [],
+      "perused_events": [],
+      "possessions": [
+        {
+          "Count": 1,
+          "ItemID": "battle_god_bless_001001"
+        },
+        {
+          "Count": 1,
+          "ItemID": "battle_god_bless_001002"
+        },
+        {
+          "Count": 1,
+          "ItemID": "battle_god_bless_001003"
+        },
+        {
+          "Count": 8,
+          "ItemID": "gift_0002_ruby"
+        }
+      ],
+      "presents": [],
+      "quest_records": [],
+      "recommendations": [],
+      "reproduction": [
+        {
+          "EI": 0,
+          "F0": 0,
+          "F0RT": 0,
+          "I0": 0,
+          "I1": 0
+        }
+      ],
+      "universal_flags": [],
+      "vote_history": []
+    }
+  },
+  "cases": {
+    "count_mismatch": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Blessing settings require distinct names and matching zero-or-one flags",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V><V>battle_god_bless_001002</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7830624</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "duplicate_names": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Blessing settings require distinct names and matching zero-or-one flags",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7828332</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "empty_name": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Blessing settings require distinct names and matching zero-or-one flags",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V></V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7799839</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "enable_with_filter": {
+      "state": {
+        "blessing_history": {
+          "processed_keys": [
+            "8f85ccfc926fb82333d0d80e628ba9f26dc6ed0452e9f99f27180bcaeef04984"
+          ],
+          "receipts": [
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "8f85ccfc926fb82333d0d80e628ba9f26dc6ed0452e9f99f27180bcaeef04984",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>3</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V><V>battle_god_bless_001002</V></ItemID><Count T=\"I\"><V>1</V><V>1</V></Count><Enabled T=\"I\"><V>1</V><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 1,
+              "state": "248cbeb3453905349f21857be4e8a4e0b8ebbf0634a8ac689e71ca57376ceea0"
+            }
+          ],
+          "schema_version": 2
+        },
+        "config": [
+          {
+            "_BattleGodBlessFilter": 3
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "Enabled": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "Enabled": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><FI T=\"I\"><V>3</V></FI><ItemID T=\"S\"><V>battle_god_bless_001001</V><V>battle_god_bless_001002</V></ItemID><Enable T=\"I\"><V>1</V><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7827680</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>3</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V><V>battle_god_bless_001002</V></ItemID><Count T=\"I\"><V>1</V><V>1</V></Count><Enabled T=\"I\"><V>1</V><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "every_owned_blessing": {
+      "state": {
+        "blessing_history": {
+          "processed_keys": [
+            "a44474f75dcf2282e30b0ce55704912f10328466c9a5026361c866c48512af1d"
+          ],
+          "receipts": [
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "a44474f75dcf2282e30b0ce55704912f10328466c9a5026361c866c48512af1d",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V><V>battle_god_bless_001002</V><V>battle_god_bless_001003</V></ItemID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count><Enabled T=\"I\"><V>1</V><V>1</V><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 1,
+              "state": "7f42b0e06f38b3f3996bf610f92da6e21565a6afb1414a54ae8327b7ff7aa84e"
+            }
+          ],
+          "schema_version": 2
+        },
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "Enabled": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "Enabled": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "Enabled": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V><V>battle_god_bless_001002</V><V>battle_god_bless_001003</V></ItemID><Enable T=\"I\"><V>1</V><V>1</V><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7828828</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V><V>battle_god_bless_001002</V><V>battle_god_bless_001003</V></ItemID><Count T=\"I\"><V>1</V><V>1</V><V>1</V></Count><Enabled T=\"I\"><V>1</V><V>1</V><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "filter_negative": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Blessing filter is outside the verified choices",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><FI T=\"I\"><V>-1</V></FI></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7799717</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "filter_only": {
+      "state": {
+        "blessing_history": {
+          "processed_keys": [
+            "5b6da8499c3063a7fe92603d27558c698fce0cb6d4b72a37da2b6e132d4becf6"
+          ],
+          "receipts": [
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "5b6da8499c3063a7fe92603d27558c698fce0cb6d4b72a37da2b6e132d4becf6",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>2</V></A2></PGC><POSSESSION></POSSESSION></DA>",
+              "revision": 1,
+              "state": "330216ed955dec723cbc797e0f73e1298379a636d9cb4f35eccc67c9f02db9e5"
+            }
+          ],
+          "schema_version": 2
+        },
+        "config": [
+          {
+            "_BattleGodBlessFilter": 2
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><FI T=\"I\"><V>2</V></FI></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7799307</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>2</V></A2></PGC><POSSESSION></POSSESSION></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "filter_out_of_range": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Blessing filter is outside the verified choices",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><FI T=\"I\"><V>4</V></FI></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7799307</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "flag_two": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Blessing settings require distinct names and matching zero-or-one flags",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>2</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829949</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "history_invalid": {
+      "state": {
+        "blessing_history": {
+          "schema_version": 3
+        },
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "blessing_history_invalid",
+            "message": "Stored blessing-setting receipts are invalid",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><FI T=\"I\"><V>1</V></FI></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7799307</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "missing_container": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request is missing required fields",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><VN>5.0.0</VN><ST>3048</ST><HS>7802858</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "mixed_settings": {
+      "state": {
+        "blessing_history": {
+          "processed_keys": [
+            "4c8359b99b1efa8fc48ac5ca91f7abb492fbdad9d54d32cd5dee8c9d06624f64"
+          ],
+          "receipts": [
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "4c8359b99b1efa8fc48ac5ca91f7abb492fbdad9d54d32cd5dee8c9d06624f64",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>1</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V><V>battle_god_bless_001002</V></ItemID><Count T=\"I\"><V>1</V><V>1</V></Count><Enabled T=\"I\"><V>1</V><V>0</V></Enabled></POSSESSION></DA>",
+              "revision": 1,
+              "state": "1ba41309fbf9b49ae53d8a023bf3efc32e1712751f43579e4035a36e6713baf2"
+            }
+          ],
+          "schema_version": 2
+        },
+        "config": [
+          {
+            "_BattleGodBlessFilter": 1
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "Enabled": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "Enabled": 0,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><FI T=\"I\"><V>1</V></FI><ItemID T=\"S\"><V>battle_god_bless_001001</V><V>battle_god_bless_001002</V></ItemID><Enable T=\"I\"><V>1</V><V>0</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7827680</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>1</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V><V>battle_god_bless_001002</V></ItemID><Count T=\"I\"><V>1</V><V>1</V></Count><Enabled T=\"I\"><V>1</V><V>0</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "names_without_flags": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Blessing item names and enabled flags must appear together",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7800172</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "noop_disable_unset": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>0</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829951</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "noop_empty": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7802128</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION></POSSESSION></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "noop_paired_empty": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"></ItemID><Enable T=\"I\"></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7800780</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION></POSSESSION></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "noop_repeat_after_change": {
+      "state": {
+        "blessing_history": {
+          "processed_keys": [
+            "ae19469077b37afe6df87b0eb18452bdd6cfb8bdd682527a378326eaf893b698"
+          ],
+          "receipts": [
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "ae19469077b37afe6df87b0eb18452bdd6cfb8bdd682527a378326eaf893b698",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 1,
+              "state": "6dd6c7deb00f25a29d31b9818bd6d69b779701073d49b41af9cdf170f8913814"
+            }
+          ],
+          "schema_version": 2
+        },
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "Enabled": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "noop_same_filter": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><FI T=\"I\"><V>0</V></FI></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7799307</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION></POSSESSION></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "not_owned": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "blessing_not_owned",
+            "message": "Only owned blessings can be enabled or disabled",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001005</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "priority_ownership_before_history": {
+      "state": {
+        "blessing_history": {
+          "schema_version": 3
+        },
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "blessing_not_owned",
+            "message": "Only owned blessings can be enabled or disabled",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001005</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "priority_request_before_identity": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Blessing filter is outside the verified choices",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><FI T=\"I\"><V>4</V></FI></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7799339</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "processed_after_eviction": {
+      "state": {
+        "blessing_history": {
+          "processed_keys": [
+            "ae19469077b37afe6df87b0eb18452bdd6cfb8bdd682527a378326eaf893b698",
+            "9a349ca7f35303eac9ec18207d2733422b5e6244fd8f7bf2beed97434f963ef4",
+            "c6a75847c9291fa7dbc729695b47b043543cdbb82feabc2c38a747937ee4f3f8",
+            "b86720b9889d72d8469715ded585523fb5818b4ab55534405fb5ed6783c2251e",
+            "07bd70a87d71db5ef669d7b6cc0832d4b2eba59d01b984f4189db5eec6f58d86",
+            "32cac811a49c1dfe74ff30c759636646ac19a541e618628432172fc0999a4317",
+            "eca28d47e2134bafa1419f4ab8c4eb0805b7db7af8198f2396b27b6514ea2576",
+            "4ee70119c183bc329c96bcad7dcd7564317a40f3d19091b28ce3e3503bdd74c7",
+            "43d645ff355b744ca0920be9e9781bd1990777dd98a6da50c734bf08091a9bdb",
+            "be4d78e7e6ddb7ab790d4e559924143a01df1d886922a1da852b2322580d94bf",
+            "de59d22f7288dc1348743b9d9698f58cad2ceef7e3d1ef3261168b8f5622d7b1",
+            "b44396bce6e2a58dd1b72baa6bf0d80b002e816a3909899751ce912e27ef49e1",
+            "4433c2fbd9423e93f2108a99c0b2e8bcc2e22e6ece8c1e8ffa421ce41630b397",
+            "fbcd34fd17b81c28221e43a6356b3407f49f3f3bb6805da1b88b23ee0a4d4e13",
+            "ee8e87e42a88c664afe0a526ee05da44998509e93cfa8b51db0dca4a5eb9752b",
+            "8d51f7cd013fa721e0391351a5fbdea78182c98d2f9f40ba27e0f865c3c6eedf",
+            "f88ee72f6b502737993767150aaa3104da4c6ab879b198b75f1a4fcbd0387777"
+          ],
+          "receipts": [
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "9a349ca7f35303eac9ec18207d2733422b5e6244fd8f7bf2beed97434f963ef4",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+              "revision": 2,
+              "state": "fbd7982f59a1b4a70b333bfe35abbd4a057f095421744a279aee9a9b6320f815"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "c6a75847c9291fa7dbc729695b47b043543cdbb82feabc2c38a747937ee4f3f8",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 3,
+              "state": "6dd6c7deb00f25a29d31b9818bd6d69b779701073d49b41af9cdf170f8913814"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "b86720b9889d72d8469715ded585523fb5818b4ab55534405fb5ed6783c2251e",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+              "revision": 4,
+              "state": "fbd7982f59a1b4a70b333bfe35abbd4a057f095421744a279aee9a9b6320f815"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "07bd70a87d71db5ef669d7b6cc0832d4b2eba59d01b984f4189db5eec6f58d86",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 5,
+              "state": "6dd6c7deb00f25a29d31b9818bd6d69b779701073d49b41af9cdf170f8913814"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "32cac811a49c1dfe74ff30c759636646ac19a541e618628432172fc0999a4317",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+              "revision": 6,
+              "state": "fbd7982f59a1b4a70b333bfe35abbd4a057f095421744a279aee9a9b6320f815"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "eca28d47e2134bafa1419f4ab8c4eb0805b7db7af8198f2396b27b6514ea2576",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 7,
+              "state": "6dd6c7deb00f25a29d31b9818bd6d69b779701073d49b41af9cdf170f8913814"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "4ee70119c183bc329c96bcad7dcd7564317a40f3d19091b28ce3e3503bdd74c7",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+              "revision": 8,
+              "state": "fbd7982f59a1b4a70b333bfe35abbd4a057f095421744a279aee9a9b6320f815"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "43d645ff355b744ca0920be9e9781bd1990777dd98a6da50c734bf08091a9bdb",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 9,
+              "state": "6dd6c7deb00f25a29d31b9818bd6d69b779701073d49b41af9cdf170f8913814"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "be4d78e7e6ddb7ab790d4e559924143a01df1d886922a1da852b2322580d94bf",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+              "revision": 10,
+              "state": "fbd7982f59a1b4a70b333bfe35abbd4a057f095421744a279aee9a9b6320f815"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "de59d22f7288dc1348743b9d9698f58cad2ceef7e3d1ef3261168b8f5622d7b1",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 11,
+              "state": "6dd6c7deb00f25a29d31b9818bd6d69b779701073d49b41af9cdf170f8913814"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "b44396bce6e2a58dd1b72baa6bf0d80b002e816a3909899751ce912e27ef49e1",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+              "revision": 12,
+              "state": "fbd7982f59a1b4a70b333bfe35abbd4a057f095421744a279aee9a9b6320f815"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "4433c2fbd9423e93f2108a99c0b2e8bcc2e22e6ece8c1e8ffa421ce41630b397",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 13,
+              "state": "6dd6c7deb00f25a29d31b9818bd6d69b779701073d49b41af9cdf170f8913814"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "fbcd34fd17b81c28221e43a6356b3407f49f3f3bb6805da1b88b23ee0a4d4e13",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+              "revision": 14,
+              "state": "fbd7982f59a1b4a70b333bfe35abbd4a057f095421744a279aee9a9b6320f815"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "ee8e87e42a88c664afe0a526ee05da44998509e93cfa8b51db0dca4a5eb9752b",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 15,
+              "state": "6dd6c7deb00f25a29d31b9818bd6d69b779701073d49b41af9cdf170f8913814"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "8d51f7cd013fa721e0391351a5fbdea78182c98d2f9f40ba27e0f865c3c6eedf",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+              "revision": 16,
+              "state": "fbd7982f59a1b4a70b333bfe35abbd4a057f095421744a279aee9a9b6320f815"
+            },
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "f88ee72f6b502737993767150aaa3104da4c6ab879b198b75f1a4fcbd0387777",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 17,
+              "state": "6dd6c7deb00f25a29d31b9818bd6d69b779701073d49b41af9cdf170f8913814"
+            }
+          ],
+          "schema_version": 2
+        },
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "Enabled": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>0</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829951</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1002</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1003</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>0</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829951</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1004</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1005</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>0</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829951</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1006</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1007</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>0</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829951</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1008</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1009</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>0</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829951</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1010</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829949</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1011</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>0</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1012</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829949</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1013</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>0</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1014</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829949</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1015</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>0</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>0</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1016</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829949</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "error": {
+            "code": "blessing_request_stale",
+            "message": "Blessing request was already processed",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "replay": {
+      "state": {
+        "blessing_history": {
+          "processed_keys": [
+            "ae19469077b37afe6df87b0eb18452bdd6cfb8bdd682527a378326eaf893b698"
+          ],
+          "receipts": [
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "ae19469077b37afe6df87b0eb18452bdd6cfb8bdd682527a378326eaf893b698",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 1,
+              "state": "6dd6c7deb00f25a29d31b9818bd6d69b779701073d49b41af9cdf170f8913814"
+            }
+          ],
+          "schema_version": 2
+        },
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "Enabled": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "stale_after_change": {
+      "state": {
+        "blessing_history": {
+          "processed_keys": [
+            "ae19469077b37afe6df87b0eb18452bdd6cfb8bdd682527a378326eaf893b698"
+          ],
+          "receipts": [
+            {
+              "content": "18168e58fee843dd0da2428fddbe0fe09a329b6eae0e66baed23fa5de2a18084",
+              "request": "ae19469077b37afe6df87b0eb18452bdd6cfb8bdd682527a378326eaf893b698",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+              "revision": 1,
+              "state": "6dd6c7deb00f25a29d31b9818bd6d69b779701073d49b41af9cdf170f8913814"
+            }
+          ],
+          "schema_version": 2
+        },
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "Enabled": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PGC><A1 T=\"S\"><V>FE</V></A1><A2 T=\"S\"><V>0</V></A2></PGC><POSSESSION><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Count T=\"I\"><V>1</V></Count><Enabled T=\"I\"><V>1</V></Enabled></POSSESSION></DA>",
+          "revisions": 1
+        },
+        {
+          "error": {
+            "code": "blessing_retry_stale",
+            "message": "Blessing state or content changed after this request",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001001</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "stored_filter_invalid": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 9
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "blessing_filter_state_invalid",
+            "message": "Saved blessing filter is invalid",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><FI T=\"I\"><V>1</V></FI></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7799307</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "unknown_field": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request contains duplicate or unknown fields",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><XX T=\"I\"><V>1</V></XX></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7799336</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "unknown_item": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "blessing_item_unknown",
+            "message": "Setting item is not a verified battle blessing",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>gift_0002_ruby</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7830165</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "wrong_method_key": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_method_key",
+            "message": "Request method key does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><FI T=\"I\"><V>1</V></FI></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7799355</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "wrong_user_key": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><FI T=\"I\"><V>1</V></FI></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7799339</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "zero_count": {
+      "state": {
+        "blessing_history": null,
+        "config": [
+          {
+            "_BattleGodBlessFilter": 0
+          }
+        ],
+        "possessions": [
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001001"
+          },
+          {
+            "Count": 1,
+            "ItemID": "battle_god_bless_001002"
+          },
+          {
+            "Count": 0,
+            "ItemID": "battle_god_bless_001003"
+          },
+          {
+            "Count": 8,
+            "ItemID": "gift_0002_ruby"
+          }
+        ]
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "blessing_not_owned",
+            "message": "Only owned blessings can be enabled or disabled",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><BGB><ItemID T=\"S\"><V>battle_god_bless_001003</V></ItemID><Enable T=\"I\"><V>1</V></Enable></BGB><VN>5.0.0</VN><ST>3048</ST><HS>7829948</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    }
+  },
+  "registrations": [
+    148
+  ]
+}

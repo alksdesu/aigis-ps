@@ -1,0 +1,1605 @@
+{
+  "base_state": {
+    "bootstrap_schema": 1,
+    "created_local": "2026/11/03 11:00:00",
+    "crystal_spending": {
+      "baseline_source": "new_local",
+      "current_spent": 0,
+      "last_time": 1793674800000,
+      "period": "2026-11",
+      "previous_spent": 0,
+      "schema_version": 1
+    },
+    "energy_clock": {
+      "encoding": "native_day_fraction_f32_seconds_v1",
+      "origin": "new_local",
+      "schema_version": 1,
+      "utc_offset_minutes": 540
+    },
+    "login_cooking": {
+      "baseline_source": "new_local",
+      "border": 250,
+      "issued": 0,
+      "last_civil_day": null,
+      "last_claim_day": null,
+      "last_time": 1793674800000,
+      "period": "2026-11",
+      "quota": 0,
+      "schema_version": 1
+    },
+    "login_rewards": {
+      "baseline_source": "new_local",
+      "beginner_claimed": 0,
+      "beginner_eligible": true,
+      "beginner_total": 7,
+      "last_claim_day": null,
+      "last_time": 1793674800000,
+      "schema_version": 1,
+      "stamp_count": 0,
+      "stamp_month": null
+    },
+    "player_state": {
+      "battle": {
+        "RTN": 64,
+        "TN": 0,
+        "UX": 3,
+        "VN": "1.0.1"
+      },
+      "last_unique_id": 4,
+      "legacy_squad_imported": false,
+      "schema_version": 1,
+      "squads": [],
+      "units": [
+        {
+          "CanFame": false,
+          "CardID": 1,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 9900,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 0,
+          "GetIndex": 0,
+          "Love": 0,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 59,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 1,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        },
+        {
+          "CanFame": false,
+          "CardID": 29,
+          "ClassChangeCount": 2,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 10020,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 1,
+          "GetIndex": 1,
+          "Love": 0,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 33,
+          "SkillEvolved": 1,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 2,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        },
+        {
+          "CanFame": false,
+          "CardID": 416,
+          "ClassChangeCount": 0,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 164800,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 1,
+          "GetIndex": 2,
+          "Love": 0,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 3490,
+          "SkillEvolved": 0,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 3,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        },
+        {
+          "CanFame": false,
+          "CardID": 22,
+          "ClassChangeCount": 3,
+          "ClassChangeStatusMod": 0,
+          "ClassID": 270,
+          "CostExperience": 0,
+          "CostModMixValue": 0,
+          "Exp": 0,
+          "Famed": false,
+          "GeneralPurposeFlags": 1,
+          "GetIndex": 3,
+          "Love": 0,
+          "OrganizationIndex": -1,
+          "OrganizationIndex2": 0,
+          "SettingSkillID": 2295,
+          "SkillEvolved": 1,
+          "SkillExperience": 0,
+          "SkillLevel": 1,
+          "UniqueID": 4,
+          "WatchLoveEv": 0,
+          "_DisplayType": 0
+        }
+      ]
+    },
+    "rank_rewards": {
+      "baseline_rank": 0,
+      "entries": {},
+      "observed_rank": 0,
+      "schema_version": 1
+    },
+    "startup_collections_schema": 1,
+    "tables": {
+      "backgrounds": [],
+      "card_status": [],
+      "config": [
+        {
+          "AutoSelectConfig": 0,
+          "BattleAcceleratorFlag": 0,
+          "BattleDClickSkillDisableFlag": 0,
+          "BattlePlaceMagnetFlag": 0,
+          "CostUpCloseDateTime": "",
+          "DamageDispEnable": 0,
+          "EventViewRequest": "",
+          "ExperienceUpCloseDateTime": "",
+          "HaveUnitMaxSizeBuy": 0,
+          "IntegrationAutoSelectConfig": 0,
+          "MenuTutorialFlags": 0,
+          "MissionRewardFlags2": 0,
+          "MoneyUpCloseDateTime": "",
+          "PurposeSettingFlags": 0,
+          "SpecialEffectsFlags": 0,
+          "SpecialEffectsFlags2": 0,
+          "TypeOfSortOrder": "",
+          "UseBgm": true,
+          "UseSe": true,
+          "UserName": "Local Player",
+          "_BattleGodBlessFilter": 0,
+          "_BlsDT_BoostAtk_F": "",
+          "_BlsDT_BoostAtk_R": "",
+          "_BlsDT_DamageCut": "",
+          "_FlagFilter": "",
+          "_FlagMissionFilter": "",
+          "_FlagSort": "",
+          "_GuideUnitIndex": 0,
+          "_VolumeBgm": 0,
+          "_VolumeSe": 0
+        }
+      ],
+      "crystals": [],
+      "event_pass_status": [],
+      "exchange_history": [],
+      "fame_depository": [],
+      "filter_settings": [],
+      "game_param": [
+        {
+          "ActionPointChangeDate": 739922,
+          "ActionPointChangeTime": 0.5,
+          "CharismaChangeDate": 739922,
+          "CharismaChangeTime": 0.5,
+          "EventParam": 0,
+          "Experience": 0,
+          "ExtendedMaxCharisma": 0,
+          "ExtendedMaxCharismaNextMonth": 0,
+          "ExtendedMaxStamina": 0,
+          "ExtendedMaxStaminaNextMonth": 0,
+          "GiftItem1": 0,
+          "GiftItem2": 0,
+          "GiftItem3": 0,
+          "GiftItem4": 0,
+          "GiftItem5": 0,
+          "GiftItem6": 0,
+          "Money": 1000,
+          "NowActionPoint": 0,
+          "NowCharisma": 60,
+          "Rank": 1,
+          "RedCrystal": 0,
+          "_PointSystem": 0
+        }
+      ],
+      "game_param2": [
+        {
+          "BonusPremiumSummonCount": 0,
+          "BonusPremiumSummonDate": 0,
+          "ComebackLoginDateTime": "",
+          "GameStartDateTime": "2026/11/03 11:00:00",
+          "GloryPoint": 0,
+          "GoddessRevivalTotalStarCount": 0,
+          "HomeCookingReceivedAmount": 0,
+          "HomeCookingReceivedDate": 0,
+          "LastLoginDate": 0,
+          "LatestComebackLoginBonusDateTime": "",
+          "LatestComebackLoginBonusDays": 0,
+          "LatestComebackSummonBonusDateTime": "",
+          "LatestComebackSummonBonusDays": 0,
+          "LogInStampCount": 0,
+          "LookHarlemFlag00": 0,
+          "LookHarlemFlag01": 0,
+          "LookHarlemFlag02": 0,
+          "LookHarlemFlag03": 0,
+          "LookHarlemFlag10": 0,
+          "LookHarlemFlag11": 0,
+          "LookHarlemFlag12": 0,
+          "LookHarlemFlag13": 0,
+          "MaintenanceCheckDateTime": 0,
+          "NormalGachaFree": 0,
+          "StampCardGrade": 0,
+          "WatchEventFlag0": "",
+          "WatchEventFlag0_2": "",
+          "WatchEventFlag1": "",
+          "WatchEventFlag1_2": "",
+          "_EvCmb": 1
+        }
+      ],
+      "menu_blocks": [],
+      "perused_events": [],
+      "possessions": [],
+      "presents": [],
+      "quest_records": [],
+      "recommendations": [],
+      "reproduction": [
+        {
+          "EI": 0,
+          "F0": 0,
+          "F0RT": 0,
+          "I0": 0,
+          "I1": 0
+        }
+      ],
+      "universal_flags": [],
+      "vote_history": []
+    }
+  },
+  "cases": {
+    "awakened_face": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "85f17f891901e16d0ad1d464e84d3a3b7297c7979803459f7256692a086cdcfa"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "85f17f891901e16d0ad1d464e84d3a3b7297c7979803459f7256692a086cdcfa",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>22</V></A1><A2 T=\"I\"><V>270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>3</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>4</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>2295</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>3</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 22,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 270,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 3,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 2295,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 4,
+            "WatchLoveEv": 0,
+            "_DisplayType": 3
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>3</V></A7><B0 T=\"I\"><V>3</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800105</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>22</V></A1><A2 T=\"I\"><V>270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>3</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>4</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>2295</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>3</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "awakened_face_before_awakening": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "unit_detail_display_unsupported",
+            "message": "This new display selection is not available",
+            "status": 501
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>3</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "default_display": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "17b3eaec7f1057f939a0861f044ff85aabf6181e26587755103d35c9e13494c7"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "17b3eaec7f1057f939a0861f044ff85aabf6181e26587755103d35c9e13494c7",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": []
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "evolved_face": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "849864a7e2e9fb9ed6f80689795e9d388ecfe615565383e0dcee33b398c0e072"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "849864a7e2e9fb9ed6f80689795e9d388ecfe615565383e0dcee33b398c0e072",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>2</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 29,
+            "ClassChangeCount": 2,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10020,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 33,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 2
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>2</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>2</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "first_face": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "95b11de2ccaff7029de1cd41f1c09642c8b621b885ff4cec564f588b73373a93"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "95b11de2ccaff7029de1cd41f1c09642c8b621b885ff4cec564f588b73373a93",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>1</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 29,
+            "ClassChangeCount": 2,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10020,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 33,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 1
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>1</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>1</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "free_skin": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "c7ec0e8062b47186d4141d508eef143271f0ab212cf7fad5b1b5b90fa9255935"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "c7ec0e8062b47186d4141d508eef143271f0ab212cf7fad5b1b5b90fa9255935",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>416</V></A1><A2 T=\"I\"><V>164800</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>2</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>3</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>3490</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>5</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 416,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 164800,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 2,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 3490,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 3,
+            "WatchLoveEv": 0,
+            "_DisplayType": 5
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>2</V></A7><B0 T=\"I\"><V>5</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>416</V></A1><A2 T=\"I\"><V>164800</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>2</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>3</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>3490</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>5</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "free_skin_smartphone_art": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "14db5e403c14ad2cb950a343ecb76c56efb6ceb247e13ee0b05f8995a7c11738"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "14db5e403c14ad2cb950a343ecb76c56efb6ceb247e13ee0b05f8995a7c11738",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>416</V></A1><A2 T=\"I\"><V>164800</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>2</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>3</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>3490</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>21</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 416,
+            "ClassChangeCount": 0,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 164800,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 2,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 3490,
+            "SkillEvolved": 0,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 3,
+            "WatchLoveEv": 0,
+            "_DisplayType": 21
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>2</V></A7><B0 T=\"I\"><V>21</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800540</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>416</V></A1><A2 T=\"I\"><V>164800</V></A2><A3 T=\"I\"><V>0</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>2</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>3</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>3490</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>21</V></B0><B1 T=\"I\"><V>0</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "history_invalid": {
+      "state": {
+        "unit_detail_history": {
+          "schema_version": 3
+        },
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "unit_detail_history_invalid",
+            "message": "Stored unit-detail receipts are invalid",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "kept_display": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "e68eee42ae7b27bf9886c9318072d4c33e5f2e0b241a78ed13a9633a3cc2cb49"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "e68eee42ae7b27bf9886c9318072d4c33e5f2e0b241a78ed13a9633a3cc2cb49",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>3</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": []
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>3</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>3</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "missing_switch": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Request is missing required fields",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0></PU><VN>5.0.0</VN><ST>1119</ST><HS>7798844</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "missing_unit": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "unit_detail_unit_missing",
+            "message": "Unit-detail selection does not match an owned unit",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>99</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800158</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "negative_display": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "unit_detail_display_unsupported",
+            "message": "This new display selection is not available",
+            "status": 501
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>-1</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800543</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "negative_index": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Unit-detail selection requires a nonnegative index and a zero-or-one switch",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>-1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800106</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "owned_skin": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "d14f9df5d772e40a88576c88eac44d7e9820e42c8ec0b9d737ded172d61bec74"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "d14f9df5d772e40a88576c88eac44d7e9820e42c8ec0b9d737ded172d61bec74",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>5</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 29,
+            "ClassChangeCount": 2,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10020,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 33,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 5
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>5</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>5</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "priority_history_before_missing_unit": {
+      "state": {
+        "unit_detail_history": {
+          "schema_version": 3
+        },
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "unit_detail_history_invalid",
+            "message": "Stored unit-detail receipts are invalid",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>99</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800158</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "priority_request_before_identity": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Unit-detail selection requires a nonnegative index and a zero-or-one switch",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>-1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800138</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "processed_after_eviction": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "ef0d2e9457b523e041c6b78c95e00754871a8cdf210aa904f6289bffdfb9c403",
+            "c5b3a724d767cb2a0177aa1adbced5d33845f65a164848f901019812fd171a35",
+            "4486e03977402b97931e85b8427096915ab743d41b20c14a3b5fbcf20d4a766a",
+            "8b48f648c1c3fb6fa9f253067feaf6da809fcf3a6fdeb5c63eade1a922f7f7bb",
+            "4ffa873f6c695da810167637842c00f5e26ceec07cd199f4059cead4bba91c58",
+            "ea170370402bcea361b43c10fe40f49fb37a69a4bb59a2435d1d71b853e0f2ef",
+            "e3fcb6522543d37990f01e38e2487524c7c1f0be4c5aeb73922d3328455fefe8",
+            "d52206eb163adc97836d344935401599c370af7226aa96a71531493a0088a5c4",
+            "4344b5469a2e4b16d9d9431e15b2b855466ad04f34a24987be1750acf6f1c3b3",
+            "940e217163fd5aaa3b8608d21fbf27d1cc6426e95af7f577d5e42243a80a1cd8",
+            "9bece4887e7281fda32d9622e466f22f95fb66558457cc9823d71032e696def5",
+            "9d59556023f9630f8ee3fa18a9c3c62052217b0441424f3ae21201cfc9f579d5",
+            "3710523159462a65712854b9d51c9a51e85adc7dfada9496ec462a9a2013ad00",
+            "7fd83bc7f6a4bfe71b822101049a3b73cb360759148f727804bace13869bcf86",
+            "4804accad792f77b18a787a025eef30cc308f19ac0468e7a9a23f411cc99108c",
+            "88807d2f1a8cb483e57c7c92d372887b61cb581f414dd0881b380b25f3ae93de",
+            "03208d86574b0161d7410b6c89e8e2c93053869a319c8da4feada3f6979c9ce5"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "c5b3a724d767cb2a0177aa1adbced5d33845f65a164848f901019812fd171a35",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 2
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "4486e03977402b97931e85b8427096915ab743d41b20c14a3b5fbcf20d4a766a",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 3
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "8b48f648c1c3fb6fa9f253067feaf6da809fcf3a6fdeb5c63eade1a922f7f7bb",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 4
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "4ffa873f6c695da810167637842c00f5e26ceec07cd199f4059cead4bba91c58",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 5
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "ea170370402bcea361b43c10fe40f49fb37a69a4bb59a2435d1d71b853e0f2ef",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 6
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "e3fcb6522543d37990f01e38e2487524c7c1f0be4c5aeb73922d3328455fefe8",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 7
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "d52206eb163adc97836d344935401599c370af7226aa96a71531493a0088a5c4",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 8
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "4344b5469a2e4b16d9d9431e15b2b855466ad04f34a24987be1750acf6f1c3b3",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 9
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "940e217163fd5aaa3b8608d21fbf27d1cc6426e95af7f577d5e42243a80a1cd8",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 10
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "9bece4887e7281fda32d9622e466f22f95fb66558457cc9823d71032e696def5",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 11
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "9d59556023f9630f8ee3fa18a9c3c62052217b0441424f3ae21201cfc9f579d5",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 12
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "3710523159462a65712854b9d51c9a51e85adc7dfada9496ec462a9a2013ad00",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 13
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "7fd83bc7f6a4bfe71b822101049a3b73cb360759148f727804bace13869bcf86",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 14
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "4804accad792f77b18a787a025eef30cc308f19ac0468e7a9a23f411cc99108c",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 15
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "88807d2f1a8cb483e57c7c92d372887b61cb581f414dd0881b380b25f3ae93de",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 16
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "03208d86574b0161d7410b6c89e8e2c93053869a319c8da4feada3f6979c9ce5",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 17
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 29,
+            "ClassChangeCount": 2,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10020,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 1458,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1002</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1003</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1004</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1005</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1006</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1007</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1008</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1009</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1010</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800105</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1011</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800105</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1012</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800105</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1013</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800105</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1014</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800105</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1015</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800105</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1016</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800105</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "error": {
+            "code": "unit_detail_request_stale",
+            "message": "Unit-detail request was already processed",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "replay": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "95b11de2ccaff7029de1cd41f1c09642c8b621b885ff4cec564f588b73373a93"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "95b11de2ccaff7029de1cd41f1c09642c8b621b885ff4cec564f588b73373a93",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>1</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 29,
+            "ClassChangeCount": 2,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10020,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 33,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 1
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>1</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>1</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>1</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>1</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "reset_display": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "17b3eaec7f1057f939a0861f044ff85aabf6181e26587755103d35c9e13494c7"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "17b3eaec7f1057f939a0861f044ff85aabf6181e26587755103d35c9e13494c7",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 29,
+            "ClassChangeCount": 2,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10020,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 33,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "skin_without_smartphone_art": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "unit_detail_display_unsupported",
+            "message": "This new display selection is not available",
+            "status": 501
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>21</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800543</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "smartphone_evolved_face": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "76caf405d3345d298fff46d615b2bb46cbc5c753cc192f1f40fdf07191f55389"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "76caf405d3345d298fff46d615b2bb46cbc5c753cc192f1f40fdf07191f55389",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>18</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 29,
+            "ClassChangeCount": 2,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10020,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 33,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 18
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>18</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800534</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>18</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "smartphone_face": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "9ec15802811c73bfe6ccbbf923d78c828cae8d96d17343a19453c183a205eccb"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "9ec15802811c73bfe6ccbbf923d78c828cae8d96d17343a19453c183a205eccb",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>17</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 29,
+            "ClassChangeCount": 2,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10020,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 33,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 17
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>17</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800537</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>17</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "stale_after_change": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "95b11de2ccaff7029de1cd41f1c09642c8b621b885ff4cec564f588b73373a93"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "95b11de2ccaff7029de1cd41f1c09642c8b621b885ff4cec564f588b73373a93",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>1</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 29,
+            "ClassChangeCount": 2,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10020,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 1,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 33,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 1
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>1</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>1</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "error": {
+            "code": "unit_detail_retry_stale",
+            "message": "Unit-detail state or content changed after this request",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>1</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "stored_player_invalid": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "player_state_schema",
+            "message": "Player-state schema is missing or unsupported",
+            "status": 503
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "switch_two": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_request_fields",
+            "message": "Unit-detail selection requires a nonnegative index and a zero-or-one switch",
+            "status": 400
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>2</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800105</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "toggle_awakened": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "65d1630eec34f2066e9bc2f56c8f073c31ce0a6d0eae8ad970a006cf08c6dbbd"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "65d1630eec34f2066e9bc2f56c8f073c31ce0a6d0eae8ad970a006cf08c6dbbd",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>22</V></A1><A2 T=\"I\"><V>270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>3</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>4</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>153</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 22,
+            "ClassChangeCount": 3,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 270,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 3,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 153,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 4,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>3</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800102</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>22</V></A1><A2 T=\"I\"><V>270</V></A2><A3 T=\"I\"><V>3</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>3</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>4</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>153</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "toggle_back": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "ef0d2e9457b523e041c6b78c95e00754871a8cdf210aa904f6289bffdfb9c403",
+            "c5b3a724d767cb2a0177aa1adbced5d33845f65a164848f901019812fd171a35"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "ef0d2e9457b523e041c6b78c95e00754871a8cdf210aa904f6289bffdfb9c403",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            },
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "c5b3a724d767cb2a0177aa1adbced5d33845f65a164848f901019812fd171a35",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 2
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": []
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        },
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1001</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>33</V></AD><AE T=\"I\"><V>1</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "toggle_skill": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "ef0d2e9457b523e041c6b78c95e00754871a8cdf210aa904f6289bffdfb9c403"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "ef0d2e9457b523e041c6b78c95e00754871a8cdf210aa904f6289bffdfb9c403",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 29,
+            "ClassChangeCount": 2,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10020,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 1458,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 0
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>0</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "toggle_unevolved": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "unit_detail_skill_ineligible",
+            "message": "This unit has not unlocked skill switching",
+            "status": 409
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>2</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800105</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "toggle_with_display": {
+      "state": {
+        "unit_detail_history": {
+          "processed_keys": [
+            "a99b6bffb05e03c340aaad3679448aa5c7341aea84a0ac183eed6a9efd7118a9"
+          ],
+          "receipts": [
+            {
+              "content": "c83fa48944b41eea61b67c187b57d8948d4644e7a88dc2859b700bc5365d0176",
+              "request": "a99b6bffb05e03c340aaad3679448aa5c7341aea84a0ac183eed6a9efd7118a9",
+              "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>1</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+              "revision": 1
+            }
+          ],
+          "schema_version": 2
+        },
+        "units": [
+          {
+            "CanFame": false,
+            "CardID": 29,
+            "ClassChangeCount": 2,
+            "ClassChangeStatusMod": 0,
+            "ClassID": 10020,
+            "CostExperience": 0,
+            "CostModMixValue": 0,
+            "Exp": 0,
+            "Famed": false,
+            "GeneralPurposeFlags": 5,
+            "GetIndex": 1,
+            "Love": 0,
+            "OrganizationIndex": -1,
+            "OrganizationIndex2": 0,
+            "SettingSkillID": 1458,
+            "SkillEvolved": 1,
+            "SkillExperience": 0,
+            "SkillLevel": 1,
+            "UniqueID": 2,
+            "WatchLoveEv": 0,
+            "_DisplayType": 1
+          }
+        ]
+      },
+      "steps": [
+        {
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>1</V></B0><SC T=\"I\"><V>1</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800104</HS></DA>",
+          "response": "<?xml version=\"1.0\"?>\n<DA><SYSTEM><A1 T=\"S\"><V>ExchangeKey</V><V>PaymentTransaction</V></A1><A2 T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V><V>0</V></A2></SYSTEM><PPU><A1 T=\"I\"><V>29</V></A1><A2 T=\"I\"><V>10020</V></A2><A3 T=\"I\"><V>2</V></A3><A4 T=\"I\"><V>0</V></A4><A5 T=\"I\"><V>0</V></A5><A6 T=\"I\"><V>1</V></A6><A7 T=\"I\"><V>1</V></A7><A8 T=\"I\"><V>-1</V></A8><A9 T=\"I\"><V>0</V></A9><AA T=\"I\"><V>0</V></AA><AB T=\"I\"><V>2</V></AB><AC T=\"I\"><V>0</V></AC><AD T=\"I\"><V>1458</V></AD><AE T=\"I\"><V>5</V></AE><AF T=\"I\"><V>0</V></AF><B0 T=\"I\"><V>1</V></B0><B1 T=\"I\"><V>1</V></B1><B2 T=\"I\"><V>0</V></B2><B3 T=\"I\"><V>0</V></B3><B4 T=\"B\"><V>false</V></B4><B5 T=\"B\"><V>false</V></B5></PPU></DA>",
+          "revisions": 1
+        }
+      ]
+    },
+    "unknown_display": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "unit_detail_display_unsupported",
+            "message": "This new display selection is not available",
+            "status": 501
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>9</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "unowned_skin": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "unit_detail_display_unsupported",
+            "message": "This new display selection is not available",
+            "status": 501
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>5</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800107</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "wrong_method_key": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_method_key",
+            "message": "Request does not match the local method key",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</V></UK><MK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800155</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    },
+    "wrong_user_key": {
+      "state": {
+        "unit_detail_history": null,
+        "units": []
+      },
+      "steps": [
+        {
+          "error": {
+            "code": "invalid_identity",
+            "message": "Request does not match the local account",
+            "status": 403
+          },
+          "request": "<?xml version=\"1.0\"?>\n<DA><UI T=\"S\"><V>1</V></UI><UK T=\"S\"><V>cccccccccccccccccccccccccccccccc</V></UK><MK T=\"S\"><V>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</V></MK><CT T=\"I\"><V>1000</V></CT><PFN T=\"S\"><V>dmm-r18</V></PFN><PlatformCode T=\"I\"><V>1</V></PlatformCode><GPVI T=\"S\"><V>unkown</V></GPVI><GPOT T=\"S\"><V>unkown</V></GPOT><PU><A7 T=\"I\"><V>1</V></A7><B0 T=\"I\"><V>0</V></B0><SC T=\"I\"><V>0</V></SC></PU><VN>5.0.0</VN><ST>1119</ST><HS>7800139</HS></DA>",
+          "revisions": 0
+        }
+      ]
+    }
+  },
+  "registrations": [
+    10
+  ]
+}

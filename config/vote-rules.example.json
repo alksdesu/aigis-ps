@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "revival_start": null,
+  "candidate_policy": "present_template",
+  "candidate_overrides": {},
+  "skill_fairy_template_id": 6,
+  "required_rank": 1,
+  "vote_limit_count": 999,
+  "earned_votes": 15,
+  "result_display_days": 7
+}

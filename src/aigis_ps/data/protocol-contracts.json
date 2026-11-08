@@ -1,0 +1,1426 @@
+{
+  "scope": "Common request pipeline 0xA802D0 / 0xA80530; direct callers can use separate fixed keys and paths.",
+  "input_sha256": "d0be510fb38b1d6dfe63c3562c97e45f49d318bf7e155dee309d88efe963f92b",
+  "metadata_source": "aigis_research/ida/targeted-probe/protocol-metadata.json",
+  "codec": {
+    "request": "Snappy raw compress, validate, XOR with request key",
+    "response": "XOR with response key, Snappy raw validate, decompress",
+    "plaintext_bypass": "Handled by outer wrapper when key is zero",
+    "legacy_player_repair_required": false
+  },
+  "business_hooks": {
+    "request_fill_vtable_offset": "0x50",
+    "response_consume_vtable_offset": "0x58"
+  },
+  "flag_evidence": {
+    "bit_0": "Calls AF95E0 before common response handling; helper meaning not fully named.",
+    "bit_1": "Skips common response parsing in A80530."
+  },
+  "records": [
+    {
+      "registration_key": 1,
+      "route_literal": "eZ5wrQTH",
+      "request_xor_key": 21,
+      "response_xor_key": 115,
+      "st": 1603,
+      "response_flags": 1,
+      "route_storage_xor_key": 102
+    },
+    {
+      "registration_key": 2,
+      "route_literal": "eZ5wrQTH",
+      "request_xor_key": 21,
+      "response_xor_key": 115,
+      "st": 1603,
+      "response_flags": 1,
+      "route_storage_xor_key": 102
+    },
+    {
+      "registration_key": 3,
+      "route_literal": "pP8JgbjO",
+      "request_xor_key": 41,
+      "response_xor_key": 5,
+      "st": 1102,
+      "response_flags": 1,
+      "route_storage_xor_key": 44
+    },
+    {
+      "registration_key": 4,
+      "route_literal": "G4uBbPjZ",
+      "request_xor_key": 18,
+      "response_xor_key": 65,
+      "st": 1126,
+      "response_flags": 1,
+      "route_storage_xor_key": 83
+    },
+    {
+      "registration_key": 5,
+      "route_literal": "7jzKZrvU",
+      "request_xor_key": 51,
+      "response_xor_key": 102,
+      "st": 1101,
+      "response_flags": 1,
+      "route_storage_xor_key": 85
+    },
+    {
+      "registration_key": 6,
+      "route_literal": "89b8NiGE",
+      "request_xor_key": 82,
+      "response_xor_key": 124,
+      "st": 1104,
+      "response_flags": 1,
+      "route_storage_xor_key": 46
+    },
+    {
+      "registration_key": 7,
+      "route_literal": "QGbFwDWV",
+      "request_xor_key": 113,
+      "response_xor_key": 95,
+      "st": 1105,
+      "response_flags": 1,
+      "route_storage_xor_key": 46
+    },
+    {
+      "registration_key": 8,
+      "route_literal": "Z9fYYWSS",
+      "request_xor_key": 68,
+      "response_xor_key": 44,
+      "st": 1109,
+      "response_flags": 1,
+      "route_storage_xor_key": 104
+    },
+    {
+      "registration_key": 9,
+      "route_literal": "E5bTYnSK",
+      "request_xor_key": 60,
+      "response_xor_key": 45,
+      "st": 1118,
+      "response_flags": 1,
+      "route_storage_xor_key": 17
+    },
+    {
+      "registration_key": 10,
+      "route_literal": "i6ZYUWnd",
+      "request_xor_key": 97,
+      "response_xor_key": 58,
+      "st": 1119,
+      "response_flags": 1,
+      "route_storage_xor_key": 91
+    },
+    {
+      "registration_key": 11,
+      "route_literal": "aB2hnQXL",
+      "request_xor_key": 81,
+      "response_xor_key": 106,
+      "st": 1200,
+      "response_flags": 1,
+      "route_storage_xor_key": 59
+    },
+    {
+      "registration_key": 12,
+      "route_literal": "fU9MTLuc",
+      "request_xor_key": 10,
+      "response_xor_key": 122,
+      "st": 1200,
+      "response_flags": 1,
+      "route_storage_xor_key": 112
+    },
+    {
+      "registration_key": 13,
+      "route_literal": "pB9cYPZQ",
+      "request_xor_key": 66,
+      "response_xor_key": 49,
+      "st": 1200,
+      "response_flags": 1,
+      "route_storage_xor_key": 115
+    },
+    {
+      "registration_key": 16,
+      "route_literal": "K4P4qSxF",
+      "request_xor_key": 32,
+      "response_xor_key": 73,
+      "st": 1401,
+      "response_flags": 1,
+      "route_storage_xor_key": 105
+    },
+    {
+      "registration_key": 17,
+      "route_literal": "QEeTc8Jz",
+      "request_xor_key": 15,
+      "response_xor_key": 85,
+      "st": 1407,
+      "response_flags": 1,
+      "route_storage_xor_key": 90
+    },
+    {
+      "registration_key": 18,
+      "route_literal": "3aYQFiZQ",
+      "request_xor_key": 125,
+      "response_xor_key": 57,
+      "st": 1402,
+      "response_flags": 1,
+      "route_storage_xor_key": 68
+    },
+    {
+      "registration_key": 19,
+      "route_literal": "ts1sFfRS",
+      "request_xor_key": 102,
+      "response_xor_key": 59,
+      "st": 1403,
+      "response_flags": 1,
+      "route_storage_xor_key": 93
+    },
+    {
+      "registration_key": 20,
+      "route_literal": "uIuch0WK",
+      "request_xor_key": 19,
+      "response_xor_key": 107,
+      "st": 1404,
+      "response_flags": 1,
+      "route_storage_xor_key": 120
+    },
+    {
+      "registration_key": 21,
+      "route_literal": "q5ZAHv8g",
+      "request_xor_key": 18,
+      "response_xor_key": 48,
+      "st": 3023,
+      "response_flags": 1,
+      "route_storage_xor_key": 34
+    },
+    {
+      "registration_key": 22,
+      "route_literal": "q5ZAHv8g",
+      "request_xor_key": 18,
+      "response_xor_key": 48,
+      "st": 3023,
+      "response_flags": 1,
+      "route_storage_xor_key": 34
+    },
+    {
+      "registration_key": 23,
+      "route_literal": "q5ZAHv8g",
+      "request_xor_key": 18,
+      "response_xor_key": 48,
+      "st": 3040,
+      "response_flags": 1,
+      "route_storage_xor_key": 34
+    },
+    {
+      "registration_key": 24,
+      "route_literal": "q5ZAHv8g",
+      "request_xor_key": 18,
+      "response_xor_key": 48,
+      "st": 3041,
+      "response_flags": 1,
+      "route_storage_xor_key": 34
+    },
+    {
+      "registration_key": 25,
+      "route_literal": "z2nPp7EF",
+      "request_xor_key": 81,
+      "response_xor_key": 68,
+      "st": 3024,
+      "response_flags": 1,
+      "route_storage_xor_key": 21
+    },
+    {
+      "registration_key": 26,
+      "route_literal": "WMPRCzSp",
+      "request_xor_key": 58,
+      "response_xor_key": 36,
+      "st": 3042,
+      "response_flags": 1,
+      "route_storage_xor_key": 30
+    },
+    {
+      "registration_key": 27,
+      "route_literal": "Cy8gXdPF",
+      "request_xor_key": 115,
+      "response_xor_key": 35,
+      "st": 3038,
+      "response_flags": 1,
+      "route_storage_xor_key": 80
+    },
+    {
+      "registration_key": 28,
+      "route_literal": "nQ4eSG6V",
+      "request_xor_key": 53,
+      "response_xor_key": 2,
+      "st": 4,
+      "response_flags": 1,
+      "route_storage_xor_key": 55
+    },
+    {
+      "registration_key": 33,
+      "route_literal": "MsLMVTcN",
+      "request_xor_key": 109,
+      "response_xor_key": 10,
+      "st": 8001,
+      "response_flags": 1,
+      "route_storage_xor_key": 103
+    },
+    {
+      "registration_key": 29,
+      "route_literal": "PeMDvjps",
+      "request_xor_key": 73,
+      "response_xor_key": 36,
+      "st": 3000,
+      "response_flags": 1,
+      "route_storage_xor_key": 109
+    },
+    {
+      "registration_key": 31,
+      "route_literal": "PeMDvjps",
+      "request_xor_key": 73,
+      "response_xor_key": 36,
+      "st": 3000,
+      "response_flags": 1,
+      "route_storage_xor_key": 109
+    },
+    {
+      "registration_key": 141,
+      "route_literal": "aC5xcZYp",
+      "request_xor_key": 78,
+      "response_xor_key": 11,
+      "st": 3039,
+      "response_flags": 1,
+      "route_storage_xor_key": 69
+    },
+    {
+      "registration_key": 142,
+      "route_literal": "Cc4te9YB",
+      "request_xor_key": 78,
+      "response_xor_key": 11,
+      "st": 3047,
+      "response_flags": 1,
+      "route_storage_xor_key": 69
+    },
+    {
+      "registration_key": 143,
+      "route_literal": "d33MkedE",
+      "request_xor_key": 18,
+      "response_xor_key": 47,
+      "st": 1308,
+      "response_flags": 1,
+      "route_storage_xor_key": 61
+    },
+    {
+      "registration_key": 147,
+      "route_literal": "k3P4tRSE",
+      "request_xor_key": 18,
+      "response_xor_key": 47,
+      "st": 1309,
+      "response_flags": 1,
+      "route_storage_xor_key": 61
+    },
+    {
+      "registration_key": 30,
+      "route_literal": "y5QeaNqG",
+      "request_xor_key": 76,
+      "response_xor_key": 30,
+      "st": 3020,
+      "response_flags": 1,
+      "route_storage_xor_key": 82
+    },
+    {
+      "registration_key": 32,
+      "route_literal": "4672tA0j",
+      "request_xor_key": 124,
+      "response_xor_key": 124,
+      "st": 1900,
+      "response_flags": 1,
+      "route_storage_xor_key": 0
+    },
+    {
+      "registration_key": 76,
+      "route_literal": "0kR1cNJJ",
+      "request_xor_key": 17,
+      "response_xor_key": 45,
+      "st": 1302,
+      "response_flags": 1,
+      "route_storage_xor_key": 60
+    },
+    {
+      "registration_key": 77,
+      "route_literal": "tN04P8Lf",
+      "request_xor_key": 85,
+      "response_xor_key": 118,
+      "st": 1303,
+      "response_flags": 1,
+      "route_storage_xor_key": 35
+    },
+    {
+      "registration_key": 78,
+      "route_literal": "4BFaVgZ0",
+      "request_xor_key": 31,
+      "response_xor_key": 76,
+      "st": 1306,
+      "response_flags": 1,
+      "route_storage_xor_key": 83
+    },
+    {
+      "registration_key": 80,
+      "route_literal": "GjqMPFL5",
+      "request_xor_key": 10,
+      "response_xor_key": 37,
+      "st": 1305,
+      "response_flags": 1,
+      "route_storage_xor_key": 47
+    },
+    {
+      "registration_key": 81,
+      "route_literal": "uD69xeaG",
+      "request_xor_key": 65,
+      "response_xor_key": 43,
+      "st": 1303,
+      "response_flags": 1,
+      "route_storage_xor_key": 106
+    },
+    {
+      "registration_key": 82,
+      "route_literal": "FERdQZfe",
+      "request_xor_key": 58,
+      "response_xor_key": 17,
+      "st": 1306,
+      "response_flags": 1,
+      "route_storage_xor_key": 43
+    },
+    {
+      "registration_key": 83,
+      "route_literal": "EeLcL7hN",
+      "request_xor_key": 82,
+      "response_xor_key": 96,
+      "st": 1305,
+      "response_flags": 1,
+      "route_storage_xor_key": 50
+    },
+    {
+      "registration_key": 84,
+      "route_literal": "Xi5jPfbB",
+      "request_xor_key": 66,
+      "response_xor_key": 58,
+      "st": 1307,
+      "response_flags": 1,
+      "route_storage_xor_key": 120
+    },
+    {
+      "registration_key": 34,
+      "route_literal": "shxnpXtj",
+      "request_xor_key": 95,
+      "response_xor_key": 14,
+      "st": 3002,
+      "response_flags": 1,
+      "route_storage_xor_key": 81
+    },
+    {
+      "registration_key": 35,
+      "route_literal": "TPCta1SK",
+      "request_xor_key": 13,
+      "response_xor_key": 111,
+      "st": 3003,
+      "response_flags": 1,
+      "route_storage_xor_key": 98
+    },
+    {
+      "registration_key": 36,
+      "route_literal": "R5FHPbQb",
+      "request_xor_key": 68,
+      "response_xor_key": 42,
+      "st": 3004,
+      "response_flags": 1,
+      "route_storage_xor_key": 110
+    },
+    {
+      "registration_key": 37,
+      "route_literal": "i4u2L2LJ",
+      "request_xor_key": 25,
+      "response_xor_key": 73,
+      "st": 3005,
+      "response_flags": 1,
+      "route_storage_xor_key": 80
+    },
+    {
+      "registration_key": 38,
+      "route_literal": "VI6mmDS6",
+      "request_xor_key": 81,
+      "response_xor_key": 60,
+      "st": 3006,
+      "response_flags": 1,
+      "route_storage_xor_key": 109
+    },
+    {
+      "registration_key": 39,
+      "route_literal": "T0EU9oDA",
+      "request_xor_key": 66,
+      "response_xor_key": 47,
+      "st": 3007,
+      "response_flags": 1,
+      "route_storage_xor_key": 109
+    },
+    {
+      "registration_key": 40,
+      "route_literal": "rnFDFcUQ",
+      "request_xor_key": 29,
+      "response_xor_key": 51,
+      "st": 3008,
+      "response_flags": 1,
+      "route_storage_xor_key": 46
+    },
+    {
+      "registration_key": 41,
+      "route_literal": "oS5aZ5ll",
+      "request_xor_key": 108,
+      "response_xor_key": 26,
+      "st": 3009,
+      "response_flags": 1,
+      "route_storage_xor_key": 118
+    },
+    {
+      "registration_key": 42,
+      "route_literal": "iVyITBEl",
+      "request_xor_key": 45,
+      "response_xor_key": 41,
+      "st": 3010,
+      "response_flags": 1,
+      "route_storage_xor_key": 4
+    },
+    {
+      "registration_key": 43,
+      "route_literal": "MjouRVaD",
+      "request_xor_key": 39,
+      "response_xor_key": 109,
+      "st": 3011,
+      "response_flags": 1,
+      "route_storage_xor_key": 74
+    },
+    {
+      "registration_key": 44,
+      "route_literal": "aZoVsGPh",
+      "request_xor_key": 95,
+      "response_xor_key": 12,
+      "st": 3012,
+      "response_flags": 1,
+      "route_storage_xor_key": 83
+    },
+    {
+      "registration_key": 45,
+      "route_literal": "syKab9H8",
+      "request_xor_key": 59,
+      "response_xor_key": 82,
+      "st": 3022,
+      "response_flags": 1,
+      "route_storage_xor_key": 105
+    },
+    {
+      "registration_key": 46,
+      "route_literal": "uE23SxBr",
+      "request_xor_key": 30,
+      "response_xor_key": 48,
+      "st": 3014,
+      "response_flags": 1,
+      "route_storage_xor_key": 46
+    },
+    {
+      "registration_key": 48,
+      "route_literal": "aX1b2jgL",
+      "request_xor_key": 56,
+      "response_xor_key": 92,
+      "st": 1427,
+      "response_flags": 1,
+      "route_storage_xor_key": 100
+    },
+    {
+      "registration_key": 49,
+      "route_literal": "XDSO5EWz",
+      "request_xor_key": 49,
+      "response_xor_key": 35,
+      "st": 1427,
+      "response_flags": 1,
+      "route_storage_xor_key": 18
+    },
+    {
+      "registration_key": 154,
+      "route_literal": "HnRrZAmG",
+      "request_xor_key": 12,
+      "response_xor_key": 103,
+      "st": 1428,
+      "response_flags": 1,
+      "route_storage_xor_key": 107
+    },
+    {
+      "registration_key": 155,
+      "route_literal": "efWVOtST",
+      "request_xor_key": 77,
+      "response_xor_key": 13,
+      "st": 1429,
+      "response_flags": 1,
+      "route_storage_xor_key": 64
+    },
+    {
+      "registration_key": 47,
+      "route_literal": "Sf9qkyRN",
+      "request_xor_key": 97,
+      "response_xor_key": 42,
+      "st": 3015,
+      "response_flags": 1,
+      "route_storage_xor_key": 75
+    },
+    {
+      "registration_key": 50,
+      "route_literal": "qK4uAyht",
+      "request_xor_key": 97,
+      "response_xor_key": 42,
+      "st": 3043,
+      "response_flags": 1,
+      "route_storage_xor_key": 75
+    },
+    {
+      "registration_key": 51,
+      "route_literal": "QadJuuFZ",
+      "request_xor_key": 26,
+      "response_xor_key": 3,
+      "st": 3017,
+      "response_flags": 1,
+      "route_storage_xor_key": 25
+    },
+    {
+      "registration_key": 52,
+      "route_literal": "Qm52NiKk",
+      "request_xor_key": 19,
+      "response_xor_key": 75,
+      "st": 3025,
+      "response_flags": 1,
+      "route_storage_xor_key": 88
+    },
+    {
+      "registration_key": 75,
+      "route_literal": "Ze73924k",
+      "request_xor_key": 44,
+      "response_xor_key": 85,
+      "st": 3026,
+      "response_flags": 1,
+      "route_storage_xor_key": 121
+    },
+    {
+      "registration_key": 53,
+      "route_literal": "j5ZpPCkr",
+      "request_xor_key": 42,
+      "response_xor_key": 44,
+      "st": 3027,
+      "response_flags": 1,
+      "route_storage_xor_key": 6
+    },
+    {
+      "registration_key": 54,
+      "route_literal": "fH6pb9Sk",
+      "request_xor_key": 6,
+      "response_xor_key": 36,
+      "st": 3021,
+      "response_flags": 1,
+      "route_storage_xor_key": 34
+    },
+    {
+      "registration_key": 58,
+      "route_literal": "rX5PT7JY",
+      "request_xor_key": 18,
+      "response_xor_key": 90,
+      "st": 2100,
+      "response_flags": 1,
+      "route_storage_xor_key": 72
+    },
+    {
+      "registration_key": 59,
+      "route_literal": "L9isX5z6",
+      "request_xor_key": 83,
+      "response_xor_key": 66,
+      "st": 2101,
+      "response_flags": 1,
+      "route_storage_xor_key": 17
+    },
+    {
+      "registration_key": 60,
+      "route_literal": "e7A9uKH2",
+      "request_xor_key": 68,
+      "response_xor_key": 19,
+      "st": 2102,
+      "response_flags": 1,
+      "route_storage_xor_key": 87
+    },
+    {
+      "registration_key": 61,
+      "route_literal": "Zm4xQHVP",
+      "request_xor_key": 38,
+      "response_xor_key": 49,
+      "st": 2103,
+      "response_flags": 1,
+      "route_storage_xor_key": 23
+    },
+    {
+      "registration_key": 62,
+      "route_literal": "hH596bwk",
+      "request_xor_key": 90,
+      "response_xor_key": 40,
+      "st": 2300,
+      "response_flags": 1,
+      "route_storage_xor_key": 114
+    },
+    {
+      "registration_key": 63,
+      "route_literal": "iC7gNBnK",
+      "request_xor_key": 52,
+      "response_xor_key": 91,
+      "st": 2301,
+      "response_flags": 1,
+      "route_storage_xor_key": 111
+    },
+    {
+      "registration_key": 64,
+      "route_literal": "jG5SMufn",
+      "request_xor_key": 114,
+      "response_xor_key": 110,
+      "st": 2302,
+      "response_flags": 1,
+      "route_storage_xor_key": 28
+    },
+    {
+      "registration_key": 70,
+      "route_literal": "Xr8z6JgC",
+      "request_xor_key": 63,
+      "response_xor_key": 69,
+      "st": 3018,
+      "response_flags": 1,
+      "route_storage_xor_key": 122
+    },
+    {
+      "registration_key": 71,
+      "route_literal": "Lz6tNS45",
+      "request_xor_key": 100,
+      "response_xor_key": 123,
+      "st": 3019,
+      "response_flags": 1,
+      "route_storage_xor_key": 31
+    },
+    {
+      "registration_key": 72,
+      "route_literal": "gT5Rzsma",
+      "request_xor_key": 59,
+      "response_xor_key": 66,
+      "st": 1123,
+      "response_flags": 1,
+      "route_storage_xor_key": 121
+    },
+    {
+      "registration_key": 73,
+      "route_literal": "Dj4hnXsA",
+      "request_xor_key": 42,
+      "response_xor_key": 17,
+      "st": 1124,
+      "response_flags": 1,
+      "route_storage_xor_key": 59
+    },
+    {
+      "registration_key": 74,
+      "route_literal": "Dj4hnXsA",
+      "request_xor_key": 42,
+      "response_xor_key": 17,
+      "st": 1125,
+      "response_flags": 1,
+      "route_storage_xor_key": 59
+    },
+    {
+      "registration_key": 85,
+      "route_literal": "igmn1XCf",
+      "request_xor_key": 68,
+      "response_xor_key": 58,
+      "st": 1003,
+      "response_flags": 1,
+      "route_storage_xor_key": 126
+    },
+    {
+      "registration_key": 86,
+      "route_literal": "6escSR07",
+      "request_xor_key": 47,
+      "response_xor_key": 76,
+      "st": 1004,
+      "response_flags": 1,
+      "route_storage_xor_key": 99
+    },
+    {
+      "registration_key": 87,
+      "route_literal": "ZUmTx98t",
+      "request_xor_key": 39,
+      "response_xor_key": 13,
+      "st": 1410,
+      "response_flags": 1,
+      "route_storage_xor_key": 42
+    },
+    {
+      "registration_key": 88,
+      "route_literal": "fCZLzGGZ",
+      "request_xor_key": 113,
+      "response_xor_key": 106,
+      "st": 1411,
+      "response_flags": 1,
+      "route_storage_xor_key": 27
+    },
+    {
+      "registration_key": 89,
+      "route_literal": "mAUMvmvQ",
+      "request_xor_key": 85,
+      "response_xor_key": 16,
+      "st": 1412,
+      "response_flags": 1,
+      "route_storage_xor_key": 69
+    },
+    {
+      "registration_key": 90,
+      "route_literal": "9YUxQyp0",
+      "request_xor_key": 84,
+      "response_xor_key": 125,
+      "st": 1413,
+      "response_flags": 1,
+      "route_storage_xor_key": 41
+    },
+    {
+      "registration_key": 91,
+      "route_literal": "Au2e9SrP",
+      "request_xor_key": 76,
+      "response_xor_key": 123,
+      "st": 1415,
+      "response_flags": 1,
+      "route_storage_xor_key": 55
+    },
+    {
+      "registration_key": 92,
+      "route_literal": "w4uernqj",
+      "request_xor_key": 79,
+      "response_xor_key": 51,
+      "st": 1416,
+      "response_flags": 1,
+      "route_storage_xor_key": 124
+    },
+    {
+      "registration_key": 93,
+      "route_literal": "a2Ar4Ssd",
+      "request_xor_key": 91,
+      "response_xor_key": 68,
+      "st": 1419,
+      "response_flags": 1,
+      "route_storage_xor_key": 31
+    },
+    {
+      "registration_key": 94,
+      "route_literal": "J8tFscpD",
+      "request_xor_key": 64,
+      "response_xor_key": 19,
+      "st": 1417,
+      "response_flags": 1,
+      "route_storage_xor_key": 83
+    },
+    {
+      "registration_key": 95,
+      "route_literal": "pQ2F8aGM",
+      "request_xor_key": 18,
+      "response_xor_key": 10,
+      "st": 1417,
+      "response_flags": 1,
+      "route_storage_xor_key": 24
+    },
+    {
+      "registration_key": 96,
+      "route_literal": "gWQm8bKS",
+      "request_xor_key": 52,
+      "response_xor_key": 17,
+      "st": 1417,
+      "response_flags": 1,
+      "route_storage_xor_key": 37
+    },
+    {
+      "registration_key": 97,
+      "route_literal": "cX7WuAm5",
+      "request_xor_key": 58,
+      "response_xor_key": 50,
+      "st": 1417,
+      "response_flags": 1,
+      "route_storage_xor_key": 8
+    },
+    {
+      "registration_key": 98,
+      "route_literal": "XL1FmueE",
+      "request_xor_key": 3,
+      "response_xor_key": 85,
+      "st": 1802,
+      "response_flags": 1,
+      "route_storage_xor_key": 86
+    },
+    {
+      "registration_key": 99,
+      "route_literal": "XL1FmueE",
+      "request_xor_key": 3,
+      "response_xor_key": 85,
+      "st": 1803,
+      "response_flags": 1,
+      "route_storage_xor_key": 86
+    },
+    {
+      "registration_key": 100,
+      "route_literal": "pB4uC3Fc",
+      "request_xor_key": 81,
+      "response_xor_key": 98,
+      "st": 1802,
+      "response_flags": 1,
+      "route_storage_xor_key": 51
+    },
+    {
+      "registration_key": 101,
+      "route_literal": "pB4uC3Fc",
+      "request_xor_key": 81,
+      "response_xor_key": 98,
+      "st": 1803,
+      "response_flags": 1,
+      "route_storage_xor_key": 51
+    },
+    {
+      "registration_key": 102,
+      "route_literal": "fC5fSdxP",
+      "request_xor_key": 86,
+      "response_xor_key": 18,
+      "st": 9900,
+      "response_flags": 1,
+      "route_storage_xor_key": 68
+    },
+    {
+      "registration_key": 103,
+      "route_literal": "rc4Xe3yb",
+      "request_xor_key": 79,
+      "response_xor_key": 68,
+      "st": 9901,
+      "response_flags": 1,
+      "route_storage_xor_key": 11
+    },
+    {
+      "registration_key": 104,
+      "route_literal": "BNoSjMKL",
+      "request_xor_key": 93,
+      "response_xor_key": 31,
+      "st": 1405,
+      "response_flags": 1,
+      "route_storage_xor_key": 66
+    },
+    {
+      "registration_key": 105,
+      "route_literal": "BNoSjMKL",
+      "request_xor_key": 93,
+      "response_xor_key": 31,
+      "st": 1406,
+      "response_flags": 1,
+      "route_storage_xor_key": 66
+    },
+    {
+      "registration_key": 107,
+      "route_literal": "BNoSjMKL",
+      "request_xor_key": 93,
+      "response_xor_key": 31,
+      "st": 1414,
+      "response_flags": 1,
+      "route_storage_xor_key": 66
+    },
+    {
+      "registration_key": 109,
+      "route_literal": "BNoSjMKL",
+      "request_xor_key": 93,
+      "response_xor_key": 31,
+      "st": 1422,
+      "response_flags": 1,
+      "route_storage_xor_key": 66
+    },
+    {
+      "registration_key": 110,
+      "route_literal": "BNoSjMKL",
+      "request_xor_key": 93,
+      "response_xor_key": 31,
+      "st": 1423,
+      "response_flags": 1,
+      "route_storage_xor_key": 66
+    },
+    {
+      "registration_key": 111,
+      "route_literal": "BNoSjMKL",
+      "request_xor_key": 93,
+      "response_xor_key": 31,
+      "st": 1424,
+      "response_flags": 1,
+      "route_storage_xor_key": 66
+    },
+    {
+      "registration_key": 112,
+      "route_literal": "BNoSjMKL",
+      "request_xor_key": 93,
+      "response_xor_key": 31,
+      "st": 1425,
+      "response_flags": 1,
+      "route_storage_xor_key": 66
+    },
+    {
+      "registration_key": 113,
+      "route_literal": "BNoSjMKL",
+      "request_xor_key": 93,
+      "response_xor_key": 31,
+      "st": 1426,
+      "response_flags": 1,
+      "route_storage_xor_key": 66
+    },
+    {
+      "registration_key": 106,
+      "route_literal": "FzQzl3G8",
+      "request_xor_key": 19,
+      "response_xor_key": 68,
+      "st": 1409,
+      "response_flags": 1,
+      "route_storage_xor_key": 87
+    },
+    {
+      "registration_key": 108,
+      "route_literal": "Nc3RTbni",
+      "request_xor_key": 34,
+      "response_xor_key": 20,
+      "st": 1418,
+      "response_flags": 1,
+      "route_storage_xor_key": 54
+    },
+    {
+      "registration_key": 67,
+      "route_literal": "Tj7A5DqG",
+      "request_xor_key": 51,
+      "response_xor_key": 19,
+      "st": 2204,
+      "response_flags": 1,
+      "route_storage_xor_key": 32
+    },
+    {
+      "registration_key": 66,
+      "route_literal": "aE7DRVtp",
+      "request_xor_key": 48,
+      "response_xor_key": 83,
+      "st": 2203,
+      "response_flags": 1,
+      "route_storage_xor_key": 99
+    },
+    {
+      "registration_key": 68,
+      "route_literal": "r2Dy3LCH",
+      "request_xor_key": 25,
+      "response_xor_key": 2,
+      "st": 2202,
+      "response_flags": 1,
+      "route_storage_xor_key": 27
+    },
+    {
+      "registration_key": 65,
+      "route_literal": "s7ZvAte9",
+      "request_xor_key": 67,
+      "response_xor_key": 81,
+      "st": 2200,
+      "response_flags": 1,
+      "route_storage_xor_key": 18
+    },
+    {
+      "registration_key": 69,
+      "route_literal": "pP6hx5qv",
+      "request_xor_key": 38,
+      "response_xor_key": 4,
+      "st": 2201,
+      "response_flags": 1,
+      "route_storage_xor_key": 34
+    },
+    {
+      "registration_key": 115,
+      "route_literal": "BZJ9yYdn",
+      "request_xor_key": 35,
+      "response_xor_key": 31,
+      "st": 1605,
+      "response_flags": 1,
+      "route_storage_xor_key": 60
+    },
+    {
+      "registration_key": 116,
+      "route_literal": "Y0d4Yhj1",
+      "request_xor_key": 79,
+      "response_xor_key": 3,
+      "st": 1607,
+      "response_flags": 1,
+      "route_storage_xor_key": 76
+    },
+    {
+      "registration_key": 117,
+      "route_literal": "TDb1PykD",
+      "request_xor_key": 68,
+      "response_xor_key": 63,
+      "st": 1606,
+      "response_flags": 1,
+      "route_storage_xor_key": 123
+    },
+    {
+      "registration_key": 118,
+      "route_literal": "bnz8xWXB",
+      "request_xor_key": 58,
+      "response_xor_key": 16,
+      "st": 1110,
+      "response_flags": 1,
+      "route_storage_xor_key": 42
+    },
+    {
+      "registration_key": 119,
+      "route_literal": "yHKFgU21",
+      "request_xor_key": 67,
+      "response_xor_key": 93,
+      "st": 1111,
+      "response_flags": 1,
+      "route_storage_xor_key": 30
+    },
+    {
+      "registration_key": 120,
+      "route_literal": "CCemYRy9",
+      "request_xor_key": 42,
+      "response_xor_key": 12,
+      "st": 1112,
+      "response_flags": 1,
+      "route_storage_xor_key": 38
+    },
+    {
+      "registration_key": 121,
+      "route_literal": "Sbt3PjuF",
+      "request_xor_key": 36,
+      "response_xor_key": 33,
+      "st": 1117,
+      "response_flags": 1,
+      "route_storage_xor_key": 5
+    },
+    {
+      "registration_key": 114,
+      "route_literal": "qX5kSDt2",
+      "request_xor_key": 84,
+      "response_xor_key": 58,
+      "st": 3013,
+      "response_flags": 1,
+      "route_storage_xor_key": 110
+    },
+    {
+      "registration_key": 122,
+      "route_literal": "rEphfdmU",
+      "request_xor_key": 45,
+      "response_xor_key": 114,
+      "st": 1113,
+      "response_flags": 1,
+      "route_storage_xor_key": 95
+    },
+    {
+      "registration_key": 123,
+      "route_literal": "FzbHBYXx",
+      "request_xor_key": 72,
+      "response_xor_key": 61,
+      "st": 1114,
+      "response_flags": 1,
+      "route_storage_xor_key": 117
+    },
+    {
+      "registration_key": 124,
+      "route_literal": "MxQbeSKk",
+      "request_xor_key": 91,
+      "response_xor_key": 115,
+      "st": 1115,
+      "response_flags": 1,
+      "route_storage_xor_key": 40
+    },
+    {
+      "registration_key": 125,
+      "route_literal": "tRMyGAZr",
+      "request_xor_key": 26,
+      "response_xor_key": 49,
+      "st": 1116,
+      "response_flags": 1,
+      "route_storage_xor_key": 43
+    },
+    {
+      "registration_key": 126,
+      "route_literal": "c9LvZMPA",
+      "request_xor_key": 45,
+      "response_xor_key": 66,
+      "st": 1120,
+      "response_flags": 1,
+      "route_storage_xor_key": 111
+    },
+    {
+      "registration_key": 127,
+      "route_literal": "A2emhHNv",
+      "request_xor_key": 37,
+      "response_xor_key": 97,
+      "st": 1121,
+      "response_flags": 1,
+      "route_storage_xor_key": 68
+    },
+    {
+      "registration_key": 128,
+      "route_literal": "wB9rKz6i",
+      "request_xor_key": 55,
+      "response_xor_key": 36,
+      "st": 1122,
+      "response_flags": 1,
+      "route_storage_xor_key": 19
+    },
+    {
+      "registration_key": 129,
+      "route_literal": "kG4fPanh",
+      "request_xor_key": 94,
+      "response_xor_key": 19,
+      "st": 6,
+      "response_flags": 1,
+      "route_storage_xor_key": 77
+    },
+    {
+      "registration_key": 130,
+      "route_literal": "d4YRCAQa",
+      "request_xor_key": 49,
+      "response_xor_key": 20,
+      "st": 3016,
+      "response_flags": 1,
+      "route_storage_xor_key": 37
+    },
+    {
+      "registration_key": 131,
+      "route_literal": "Vp3nCs62",
+      "request_xor_key": 18,
+      "response_xor_key": 49,
+      "st": 7,
+      "response_flags": 1,
+      "route_storage_xor_key": 35
+    },
+    {
+      "registration_key": 55,
+      "route_literal": "e8ZY4qFB",
+      "request_xor_key": 65,
+      "response_xor_key": 43,
+      "st": 3029,
+      "response_flags": 1,
+      "route_storage_xor_key": 106
+    },
+    {
+      "registration_key": 56,
+      "route_literal": "Z3j74G5L",
+      "request_xor_key": 50,
+      "response_xor_key": 16,
+      "st": 3030,
+      "response_flags": 1,
+      "route_storage_xor_key": 34
+    },
+    {
+      "registration_key": 57,
+      "route_literal": "aQ3xMsLw",
+      "request_xor_key": 106,
+      "response_xor_key": 51,
+      "st": 3031,
+      "response_flags": 1,
+      "route_storage_xor_key": 89
+    },
+    {
+      "registration_key": 132,
+      "route_literal": "N8xTgiYR",
+      "request_xor_key": 67,
+      "response_xor_key": 28,
+      "st": 1420,
+      "response_flags": 1,
+      "route_storage_xor_key": 95
+    },
+    {
+      "registration_key": 133,
+      "route_literal": "wJ8G5Mib",
+      "request_xor_key": 33,
+      "response_xor_key": 22,
+      "st": 1421,
+      "response_flags": 1,
+      "route_storage_xor_key": 55
+    },
+    {
+      "registration_key": 134,
+      "route_literal": "i9QtSxMD",
+      "request_xor_key": 1,
+      "response_xor_key": 64,
+      "st": 3032,
+      "response_flags": 1,
+      "route_storage_xor_key": 65
+    },
+    {
+      "registration_key": 135,
+      "route_literal": "v7BiXGPu",
+      "request_xor_key": 82,
+      "response_xor_key": 51,
+      "st": 3033,
+      "response_flags": 1,
+      "route_storage_xor_key": 97
+    },
+    {
+      "registration_key": 136,
+      "route_literal": "vXxtvTnU",
+      "request_xor_key": 27,
+      "response_xor_key": 66,
+      "st": 3034,
+      "response_flags": 1,
+      "route_storage_xor_key": 89
+    },
+    {
+      "registration_key": 137,
+      "route_literal": "v9srnwq3",
+      "request_xor_key": 83,
+      "response_xor_key": 50,
+      "st": 3035,
+      "response_flags": 1,
+      "route_storage_xor_key": 97
+    },
+    {
+      "registration_key": 138,
+      "route_literal": "m3AwvhTr",
+      "request_xor_key": 92,
+      "response_xor_key": 68,
+      "st": 3036,
+      "response_flags": 1,
+      "route_storage_xor_key": 24
+    },
+    {
+      "registration_key": 146,
+      "route_literal": "Pp8JnRQx",
+      "request_xor_key": 92,
+      "response_xor_key": 68,
+      "st": 3046,
+      "response_flags": 1,
+      "route_storage_xor_key": 24
+    },
+    {
+      "registration_key": 139,
+      "route_literal": "rV75xKyR",
+      "request_xor_key": 33,
+      "response_xor_key": 88,
+      "st": 3037,
+      "response_flags": 1,
+      "route_storage_xor_key": 121
+    },
+    {
+      "registration_key": 140,
+      "route_literal": "fS3aZsRC",
+      "request_xor_key": 23,
+      "response_xor_key": 62,
+      "st": 9902,
+      "response_flags": 2,
+      "route_storage_xor_key": 41
+    },
+    {
+      "registration_key": 144,
+      "route_literal": "Qx2eM7WH",
+      "request_xor_key": 58,
+      "response_xor_key": 31,
+      "st": 3044,
+      "response_flags": 1,
+      "route_storage_xor_key": 37
+    },
+    {
+      "registration_key": 145,
+      "route_literal": "Yc3nEG9Z",
+      "request_xor_key": 38,
+      "response_xor_key": 74,
+      "st": 3045,
+      "response_flags": 1,
+      "route_storage_xor_key": 108
+    },
+    {
+      "registration_key": 148,
+      "route_literal": "Ai1kRSKm",
+      "request_xor_key": 36,
+      "response_xor_key": 125,
+      "st": 3048,
+      "response_flags": 1,
+      "route_storage_xor_key": 89
+    },
+    {
+      "registration_key": 152,
+      "route_literal": "oURzZuhx",
+      "request_xor_key": 77,
+      "response_xor_key": 65,
+      "st": 3049,
+      "response_flags": 1,
+      "route_storage_xor_key": 12
+    },
+    {
+      "registration_key": 153,
+      "route_literal": "esbZIRJw",
+      "request_xor_key": 125,
+      "response_xor_key": 76,
+      "st": 3050,
+      "response_flags": 1,
+      "route_storage_xor_key": 49
+    },
+    {
+      "registration_key": 149,
+      "route_literal": "EtemMXnC",
+      "request_xor_key": 18,
+      "response_xor_key": 52,
+      "st": 3051,
+      "response_flags": 1,
+      "route_storage_xor_key": 38
+    },
+    {
+      "registration_key": 150,
+      "route_literal": "WuVXcNik",
+      "request_xor_key": 35,
+      "response_xor_key": 69,
+      "st": 3052,
+      "response_flags": 1,
+      "route_storage_xor_key": 102
+    },
+    {
+      "registration_key": 151,
+      "route_literal": "CyATfmvQ",
+      "request_xor_key": 52,
+      "response_xor_key": 86,
+      "st": 3053,
+      "response_flags": 1,
+      "route_storage_xor_key": 98
+    },
+    {
+      "registration_key": 156,
+      "route_literal": "Bf3yWrmX",
+      "request_xor_key": 69,
+      "response_xor_key": 103,
+      "st": 3054,
+      "response_flags": 1,
+      "route_storage_xor_key": 34
+    },
+    {
+      "registration_key": 157,
+      "route_literal": "sz6TTW5P",
+      "request_xor_key": 116,
+      "response_xor_key": 99,
+      "st": 1310,
+      "response_flags": 1,
+      "route_storage_xor_key": 23
+    },
+    {
+      "registration_key": 158,
+      "route_literal": "R7VTVNP1",
+      "request_xor_key": 119,
+      "response_xor_key": 24,
+      "st": 3055,
+      "response_flags": 1,
+      "route_storage_xor_key": 111
+    },
+    {
+      "registration_key": 159,
+      "route_literal": "88moL15f",
+      "request_xor_key": 20,
+      "response_xor_key": 87,
+      "st": 3056,
+      "response_flags": 1,
+      "route_storage_xor_key": 67
+    }
+  ],
+  "source_path_base": "workspace"
+}

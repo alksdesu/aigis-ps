@@ -1,0 +1,12 @@
+{
+  "drop_basis_points": 10000,
+  "experience_percent": 100,
+  "gold_percent": 100,
+  "first_three_star_crystals": 1,
+  "collection_unit_level": 1,
+  "charisma_recovery_seconds": 180,
+  "refill_on_rank_up": true,
+  "exit_replay_window_seconds": 5,
+  "gold_per_event": 100,
+  "max_gold_events": 1000
+}
